@@ -8,6 +8,8 @@ import { EnumerationMemberDetailRoute } from './routes/EnumerationMemberDetailRo
 import { NotFoundRoute } from './routes/NotFoundRoute';
 import { PlaceholderRoute } from './routes/PlaceholderRoute';
 import { GeneratorRoute } from './routes/GeneratorRoute';
+import { WorkspaceRoute } from './routes/WorkspaceRoute';
+import { ExportRoute } from './routes/ExportRoute';
 
 const router = createBrowserRouter(
   [
@@ -22,26 +24,8 @@ const router = createBrowserRouter(
         { path: 'Enumeration/:id/:memberId', element: <EnumerationMemberDetailRoute /> },
         { path: 'Property/:id', element: <PropertyDetailRoute /> },
         { path: 'generator', element: <GeneratorRoute /> },
-        {
-          path: 'workspace',
-          element: (
-            <PlaceholderRoute
-              title="Workspace"
-              phase="Phase 6"
-              description="Compose multiple entities into a page bundle. Cross-entity @id refs, drag-to-reorder, pre-built combo templates. Coming in Phase 6."
-            />
-          ),
-        },
-        {
-          path: 'export',
-          element: (
-            <PlaceholderRoute
-              title="Export"
-              phase="Phase 6"
-              description="Download a ZIP with combined JSON-LD, per-entity files, an inline-snippet HTML, canonical references, and a validation report. Coming in Phase 6."
-            />
-          ),
-        },
+        { path: 'workspace', element: <WorkspaceRoute /> },
+        { path: 'export', element: <ExportRoute /> },
         {
           path: '_review',
           element: (

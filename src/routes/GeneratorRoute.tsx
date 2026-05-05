@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
+import { Save } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Select } from '@/components/ui/select';
 import { Badge } from '@/components/ui/badge';
@@ -11,10 +12,13 @@ import { validateFormState } from '@/lib/jsonld-validate';
 import { requiredFor, recommendedFor } from '@/lib/google-rich-results';
 import { bareName, toSchemaId } from '@/lib/utils';
 import { pathForTerm } from '@/lib/routing';
+import { addEntity, useHydrate, useWorkspace, selectedBundle } from '@/lib/workspace-store';
 import type { FormState } from '@/lib/jsonld-build';
 import type { SchemaType } from '@/types/schema-org';
 
 export function GeneratorRoute() {
+  useHydrate();
+  const ws = useWorkspace();
   const dataset = useDataset();
   const [searchParams, setSearchParams] = useSearchParams();
   const requested = searchParams.get('type');
@@ -24,6 +28,15 @@ export function GeneratorRoute() {
     rootTypeId: initialId,
     entries: {},
   }));
+  const [savedToast, setSavedToast] = useState<string | null>(null);
+  const bundle = selectedBundle(ws);
+
+  async function saveToWorkspace() {
+    if (!bundle) return;
+    await addEntity(bundle.id, state);
+    setSavedToast(`Saved to bundle "${bundle.name}"`);
+    setTimeout(() => setSavedToast(null), 2200);
+  }
 
   const types = useMemo(() => {
     return dataset.byKind.Type.map((id) => dataset.termsById[id])
@@ -74,8 +87,23 @@ export function GeneratorRoute() {
           <Button variant="outline" size="sm" onClick={() => setState((s) => ({ ...s, entries: {} }))}>
             Clear fields
           </Button>
+          <Button
+            variant="accent"
+            size="sm"
+            onClick={() => void saveToWorkspace()}
+            disabled={!bundle}
+            title={bundle ? undefined : 'Open Workspace to create a bundle first'}
+          >
+            <Save className="mr-1 h-3 w-3" />
+            Save to Workspace
+          </Button>
         </div>
       </header>
+      {savedToast && (
+        <div className="mb-4 rounded-md border border-zinc-300 bg-zinc-50 px-3 py-2 text-xs text-zinc-700 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200">
+          {savedToast}
+        </div>
+      )}
 
       <div className="grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
         <section>
