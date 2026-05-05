@@ -21,15 +21,10 @@ export function FormFromType({ type, state, onChange }: FormFromTypeProps) {
     onChange({ ...state, entries: { ...state.entries, [propName]: value } });
   }
 
-  const hasAnnotated = groups.required.length > 0 || groups.recommended.length > 0;
-  const advancedTitle = hasAnnotated
-    ? `Advanced (${groups.advanced.length} more)`
-    : `All properties (${groups.advanced.length})`;
-
   return (
     <div className="space-y-6">
       {groups.required.length > 0 && (
-        <Section title="Required" defaultOpen>
+        <Section title={`Required (${groups.required.length})`} defaultOpen>
           {groups.required.map((propId) => (
             <FormProperty
               key={propId}
@@ -42,22 +37,8 @@ export function FormFromType({ type, state, onChange }: FormFromTypeProps) {
           ))}
         </Section>
       )}
-      {groups.recommended.length > 0 && (
-        <Section title="Recommended" defaultOpen>
-          {groups.recommended.map((propId) => (
-            <FormProperty
-              key={propId}
-              propId={propId}
-              status="recommended"
-              dataset={dataset}
-              state={state}
-              setField={setField}
-            />
-          ))}
-        </Section>
-      )}
-      <Section title={advancedTitle} defaultOpen>
-        {groups.advanced.map((propId) => (
+      <Section title={`Optional (${groups.optional.length})`} defaultOpen={groups.required.length === 0}>
+        {groups.optional.map((propId) => (
           <FormProperty
             key={propId}
             propId={propId}
@@ -85,8 +66,6 @@ function FormProperty({
   setField: (name: string, val: FieldValue) => void;
 }) {
   const term = dataset.termsById[propId];
-  // External-only inherited properties (e.g. Thing.name) aren't in our 163-set.
-  // Surface them as plain text fields so users can still author them.
   const propName = bareName(propId);
   if (!term || term.kind !== 'Property') {
     const property: SchemaProperty = {

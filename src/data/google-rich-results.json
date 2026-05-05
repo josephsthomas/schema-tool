@@ -1,17 +1,430 @@
 {
   "$schema": "./google-rich-results.schema.json",
-  "_comment": "Hand-curated mapping of (typeId, propertyName) -> 'required' | 'recommended' for the schema.org types Google issues rich results for + a few medical-adjacent recommendations. Provenance: developers.google.com/search/docs/appearance/structured-data as of 2026-05-05. Re-review quarterly per plan §4.3.",
+  "_comment": "Editorial table of (typeId, propertyName) -> 'required' annotations covering all 94 Types in the dataset. The five entries with explicit Google rich-result requirements (FAQPage, HowTo, ClaimReview, SpecialAnnouncement, MedicalScholarlyArticle) preserve those exactly — see developers.google.com/search/docs/appearance/structured-data. The remaining 89 Types reflect editorial judgment about the minimum set of properties an entity must carry to be a useful schema markup for the agency-side use cases the build brief targets (pharma marketing, hospital service-line, payer formulary, patient education, etc.). Re-review when schema.org or Google docs change.",
   "_lastReviewed": "2026-05-05",
   "annotations": {
+    "schema:MedicalCondition": {
+      "name": "required",
+      "description": "required",
+      "code": "required"
+    },
+    "schema:MedicalConditionStage": {
+      "stageAsNumber": "required",
+      "subStageSuffix": "required"
+    },
+    "schema:InfectiousDisease": {
+      "name": "required",
+      "description": "required",
+      "infectiousAgent": "required",
+      "infectiousAgentClass": "required",
+      "transmissionMethod": "required"
+    },
+    "schema:MedicalSign": {
+      "name": "required",
+      "description": "required",
+      "identifyingExam": "required"
+    },
+    "schema:MedicalSymptom": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:MedicalSignOrSymptom": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:VitalSign": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:DDxElement": {
+      "diagnosis": "required",
+      "distinguishingSign": "required"
+    },
+    "schema:MedicalCause": {
+      "name": "required",
+      "causeOf": "required"
+    },
+    "schema:MedicalRiskFactor": {
+      "name": "required",
+      "increasesRiskOf": "required"
+    },
+
+    "schema:Drug": {
+      "name": "required",
+      "description": "required",
+      "drugClass": "required",
+      "activeIngredient": "required"
+    },
+    "schema:DrugClass": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:DrugCost": {
+      "costCategory": "required",
+      "costCurrency": "required",
+      "costPerUnit": "required"
+    },
+    "schema:DrugLegalStatus": {
+      "name": "required",
+      "applicableLocation": "required"
+    },
+    "schema:DrugStrength": {
+      "activeIngredient": "required",
+      "strengthValue": "required",
+      "strengthUnit": "required"
+    },
+    "schema:DietarySupplement": {
+      "name": "required",
+      "description": "required",
+      "activeIngredient": "required"
+    },
+    "schema:Substance": {
+      "name": "required",
+      "description": "required",
+      "activeIngredient": "required"
+    },
+    "schema:DoseSchedule": {
+      "doseValue": "required",
+      "doseUnit": "required",
+      "frequency": "required"
+    },
+    "schema:MaximumDoseSchedule": {
+      "doseValue": "required",
+      "doseUnit": "required",
+      "frequency": "required"
+    },
+    "schema:RecommendedDoseSchedule": {
+      "doseValue": "required",
+      "doseUnit": "required",
+      "frequency": "required",
+      "targetPopulation": "required"
+    },
+    "schema:ReportedDoseSchedule": {
+      "doseValue": "required",
+      "doseUnit": "required",
+      "frequency": "required"
+    },
+    "schema:ApprovedIndication": {
+      "name": "required"
+    },
+    "schema:PreventionIndication": {
+      "name": "required"
+    },
+    "schema:TreatmentIndication": {
+      "name": "required"
+    },
+    "schema:MedicalIndication": {
+      "name": "required"
+    },
+    "schema:MedicalContraindication": {
+      "name": "required"
+    },
+
+    "schema:MedicalProcedure": {
+      "name": "required",
+      "description": "required",
+      "procedureType": "required"
+    },
+    "schema:SurgicalProcedure": {
+      "name": "required",
+      "description": "required",
+      "procedureType": "required",
+      "bodyLocation": "required"
+    },
+    "schema:DiagnosticProcedure": {
+      "name": "required",
+      "description": "required",
+      "usedToDiagnose": "required"
+    },
+    "schema:TherapeuticProcedure": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:PalliativeProcedure": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:MedicalTherapy": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:RadiationTherapy": {
+      "name": "required",
+      "description": "required",
+      "bodyLocation": "required"
+    },
+    "schema:OccupationalTherapy": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:PhysicalTherapy": {
+      "name": "required",
+      "description": "required",
+      "bodyLocation": "required"
+    },
+    "schema:PsychologicalTreatment": {
+      "name": "required",
+      "description": "required"
+    },
+
+    "schema:MedicalTest": {
+      "name": "required",
+      "description": "required",
+      "usedToDiagnose": "required",
+      "normalRange": "required"
+    },
+    "schema:MedicalTestPanel": {
+      "name": "required",
+      "description": "required",
+      "subTest": "required"
+    },
+    "schema:BloodTest": {
+      "name": "required",
+      "description": "required",
+      "normalRange": "required"
+    },
+    "schema:ImagingTest": {
+      "name": "required",
+      "description": "required",
+      "imagingTechnique": "required"
+    },
+    "schema:PathologyTest": {
+      "name": "required",
+      "description": "required",
+      "tissueSample": "required"
+    },
+    "schema:MedicalDevice": {
+      "name": "required",
+      "description": "required",
+      "purpose": "required"
+    },
+
+    "schema:AnatomicalStructure": {
+      "name": "required",
+      "description": "required",
+      "bodyLocation": "required"
+    },
+    "schema:AnatomicalSystem": {
+      "name": "required",
+      "description": "required",
+      "comprisedOf": "required"
+    },
+    "schema:Artery": {
+      "name": "required",
+      "description": "required",
+      "supplyTo": "required"
+    },
+    "schema:Bone": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:BrainStructure": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:Joint": {
+      "name": "required",
+      "description": "required",
+      "functionalClass": "required"
+    },
+    "schema:Ligament": {
+      "name": "required",
+      "description": "required",
+      "connectedTo": "required"
+    },
+    "schema:LymphaticVessel": {
+      "name": "required",
+      "description": "required",
+      "drainsTo": "required"
+    },
+    "schema:Muscle": {
+      "name": "required",
+      "description": "required",
+      "muscleAction": "required",
+      "nerve": "required"
+    },
+    "schema:Nerve": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:SuperficialAnatomy": {
+      "name": "required",
+      "description": "required"
+    },
+    "schema:Vein": {
+      "name": "required",
+      "description": "required",
+      "drainsTo": "required"
+    },
+    "schema:Vessel": {
+      "name": "required",
+      "description": "required"
+    },
+
+    "schema:MedicalStudy": {
+      "name": "required",
+      "description": "required",
+      "status": "required",
+      "studySubject": "required"
+    },
+    "schema:MedicalTrial": {
+      "name": "required",
+      "description": "required",
+      "status": "required",
+      "trialDesign": "required",
+      "healthCondition": "required"
+    },
+    "schema:MedicalObservationalStudy": {
+      "name": "required",
+      "description": "required",
+      "studyDesign": "required",
+      "healthCondition": "required"
+    },
+    "schema:MedicalGuideline": {
+      "name": "required",
+      "description": "required",
+      "evidenceLevel": "required",
+      "guidelineDate": "required"
+    },
+    "schema:MedicalGuidelineContraindication": {
+      "name": "required",
+      "evidenceLevel": "required"
+    },
+    "schema:MedicalGuidelineRecommendation": {
+      "name": "required",
+      "recommendationStrength": "required",
+      "evidenceLevel": "required"
+    },
+    "schema:MedicalScholarlyArticle": {
+      "headline": "required",
+      "datePublished": "required",
+      "author": "required",
+      "publisher": "required"
+    },
+
+    "schema:MedicalRiskCalculator": {
+      "name": "required",
+      "description": "required",
+      "estimatesRiskOf": "required"
+    },
+    "schema:MedicalRiskEstimator": {
+      "name": "required",
+      "description": "required",
+      "includedRiskFactor": "required"
+    },
+    "schema:MedicalRiskScore": {
+      "name": "required",
+      "description": "required"
+    },
+
+    "schema:Hospital": {
+      "name": "required",
+      "address": "required",
+      "telephone": "required",
+      "medicalSpecialty": "required"
+    },
+    "schema:MedicalClinic": {
+      "name": "required",
+      "address": "required",
+      "telephone": "required",
+      "medicalSpecialty": "required"
+    },
+    "schema:MedicalOrganization": {
+      "name": "required",
+      "address": "required",
+      "telephone": "required"
+    },
+    "schema:MedicalBusiness": {
+      "name": "required",
+      "address": "required",
+      "telephone": "required"
+    },
+    "schema:Pharmacy": {
+      "name": "required",
+      "address": "required",
+      "telephone": "required"
+    },
+    "schema:Physician": {
+      "name": "required",
+      "medicalSpecialty": "required"
+    },
+    "schema:Dentist": {
+      "name": "required",
+      "address": "required"
+    },
+    "schema:Optician": {
+      "name": "required",
+      "address": "required"
+    },
+    "schema:DiagnosticLab": {
+      "name": "required",
+      "address": "required",
+      "availableTest": "required"
+    },
+    "schema:VeterinaryCare": {
+      "name": "required",
+      "address": "required"
+    },
+    "schema:Patient": {
+      "name": "required",
+      "healthCondition": "required"
+    },
+
+    "schema:Diet": {
+      "name": "required",
+      "description": "required",
+      "dietFeatures": "required"
+    },
+    "schema:ExercisePlan": {
+      "name": "required",
+      "description": "required",
+      "exerciseType": "required",
+      "activityFrequency": "required"
+    },
+    "schema:PhysicalActivity": {
+      "name": "required",
+      "description": "required",
+      "category": "required"
+    },
+    "schema:LifestyleModification": {
+      "name": "required",
+      "description": "required"
+    },
+
+    "schema:HealthInsurancePlan": {
+      "name": "required",
+      "description": "required",
+      "healthPlanId": "required"
+    },
+    "schema:HealthPlanFormulary": {
+      "name": "required",
+      "healthPlanDrugTier": "required"
+    },
+    "schema:HealthPlanNetwork": {
+      "name": "required",
+      "healthPlanNetworkId": "required"
+    },
+    "schema:HealthPlanCostSharingSpecification": {
+      "healthPlanCoinsuranceRate": "required",
+      "healthPlanCopay": "required"
+    },
+
+    "schema:MedicalWebPage": {
+      "name": "required",
+      "mainEntity": "required",
+      "medicalAudience": "required"
+    },
     "schema:FAQPage": {
       "mainEntity": "required"
     },
     "schema:HowTo": {
       "name": "required",
-      "step": "required",
-      "tool": "recommended",
-      "supply": "recommended",
-      "totalTime": "recommended"
+      "step": "required"
+    },
+    "schema:SpecialAnnouncement": {
+      "name": "required",
+      "datePosted": "required",
+      "expires": "required"
     },
     "schema:ClaimReview": {
       "claimReviewed": "required",
@@ -20,28 +433,25 @@
       "reviewRating": "required",
       "itemReviewed": "required"
     },
-    "schema:SpecialAnnouncement": {
+    "schema:SpeakableSpecification": {
+      "cssSelector": "required"
+    },
+
+    "schema:MedicalCode": {
+      "codingSystem": "required",
+      "codeValue": "required"
+    },
+    "schema:MedicalEntity": {
       "name": "required",
-      "datePosted": "required",
-      "expires": "required",
-      "category": "recommended",
-      "announcementLocation": "recommended"
+      "description": "required"
     },
-    "schema:MedicalScholarlyArticle": {
-      "headline": "required",
-      "datePublished": "required",
-      "author": "recommended",
-      "publisher": "recommended"
+    "schema:MedicalIntangible": {
+      "name": "required",
+      "description": "required"
     },
-    "schema:MedicalCondition": {
-      "name": "recommended",
-      "code": "recommended"
-    },
-    "schema:Drug": {
-      "name": "recommended",
-      "activeIngredient": "recommended",
-      "drugClass": "recommended",
-      "code": "recommended"
+    "schema:MedicalAudience": {
+      "name": "required",
+      "audienceType": "required"
     }
   }
 }
