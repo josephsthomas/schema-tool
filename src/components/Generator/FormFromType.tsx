@@ -21,6 +21,11 @@ export function FormFromType({ type, state, onChange }: FormFromTypeProps) {
     onChange({ ...state, entries: { ...state.entries, [propName]: value } });
   }
 
+  const hasAnnotated = groups.required.length > 0 || groups.recommended.length > 0;
+  const advancedTitle = hasAnnotated
+    ? `Advanced (${groups.advanced.length} more)`
+    : `All properties (${groups.advanced.length})`;
+
   return (
     <div className="space-y-6">
       {groups.required.length > 0 && (
@@ -51,7 +56,7 @@ export function FormFromType({ type, state, onChange }: FormFromTypeProps) {
           ))}
         </Section>
       )}
-      <Section title={`Advanced (${groups.advanced.length} properties)`}>
+      <Section title={advancedTitle} defaultOpen>
         {groups.advanced.map((propId) => (
           <FormProperty
             key={propId}
