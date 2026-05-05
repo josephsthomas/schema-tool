@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use InfectiousAgentClass on an InfectiousDisease to declare the class of pathogen responsible — virus, bacteria, fungus, protozoa, multicellular parasite, or prion. Attach it via the `infectiousAgentClass` property so the disease entry exposes the etiologic class alongside the named pathogen on `infectiousAgent`.",
+  "whenNotToUse": "Don't use InfectiousAgentClass to name a specific organism — that goes on `infectiousAgent` (e.g., \"SARS-CoV-2\"). Don't use it for non-infectious conditions, vector species, or environmental hazards; this enumeration is restricted to the six classes of transmissible biological agents.",
+  "whoItsFor": "Public health agencies, hospital infection-prevention teams, travel-medicine publishers, and consumer health editors who maintain infectious-disease landing pages and want a clean facet for filtering by pathogen class.",
+  "seoNotes": "Pathogen-class facets are a strong filter axis for AI assistants triaging symptom-to-pathogen questions. Pair with `infectiousAgent` for the named organism and `transmissionMethod` so the agent class, the organism, and the route are all machine-readable.",
+  "commonCombos": ["schema:InfectiousDisease", "schema:MedicalCondition", "schema:MedicalSpecialty", "schema:PreventionIndication"]
+}

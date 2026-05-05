@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug or DietarySupplement to describe the molecular or physiological pathway the agent acts through. Keep the text concise and focused on the proximate mechanism rather than downstream clinical effects.",
+  "whenNotToUse": "Do not use for therapeutic indications or pharmacokinetics; use indication or clinicalPharmacology respectively.",
+  "commonCombos": ["schema:Drug", "schema:DietarySupplement"]
+}

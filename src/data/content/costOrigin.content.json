@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use costOrigin on DrugCost as a Text field naming the source of the price datum — 'Medicare Part B 2025', 'NADAC weekly file', 'manufacturer list price'. This is the provenance breadcrumb that lets consumers judge whether the number is current and applicable to them.",
+  "whenNotToUse": "Don't use costOrigin to encode the jurisdiction (use applicableLocation) or the pricing tier (use costCategory). Keep it focused on dataset or publisher attribution.",
+  "commonCombos": ["schema:DrugCost"]
+}

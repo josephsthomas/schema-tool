@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use infectiousAgentClass on an InfectiousDisease to declare the pathogen category — viral, bacterial, fungal, parasitic, prion, or protozoan. Pair with infectiousAgent to name the specific organism (e.g., influenza A virus, MRSA).",
+  "whenNotToUse": "Don't use infectiousAgentClass on conditions that aren't transmissible infections — autoimmune, metabolic, or genetic conditions belong on MedicalCondition without this property. Don't repeat the class as a free-text description; the InfectiousAgentClass enumeration values are the canonical machine-readable label.",
+  "commonCombos": ["schema:InfectiousDisease"]
+}

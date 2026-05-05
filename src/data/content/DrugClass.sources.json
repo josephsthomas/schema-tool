@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Ibuprofen is in a class of medications called NSAIDs (nonsteroidal anti-inflammatory drugs)."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.drug.name",
+      "value": "Ibuprofen",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    }
+  ]
+}

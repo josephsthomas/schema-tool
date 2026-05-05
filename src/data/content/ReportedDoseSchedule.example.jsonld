@@ -1,0 +1,15 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/druginfo/meds/a682159.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+//
+// The schedule below mirrors the OTC pain-or-fever instructions on the
+// MedlinePlus ibuprofen page, used here to illustrate a self-administered
+// real-world dosing pattern rather than a clinician-prescribed schedule.
+{
+  "@context": "https://schema.org",
+  "@type": "ReportedDoseSchedule",
+  "name": "Ibuprofen self-administered schedule for pain or fever",
+  "frequency": "every 4 to 6 hours as needed",
+  "targetPopulation": "Adults and children older than 12 years of age"
+}

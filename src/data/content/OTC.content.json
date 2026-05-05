@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use OTC when the drug is sold over the counter and a consumer can purchase it without a prescription. If the same active ingredient is also sold in a prescription strength or formulation, model that as a separate Drug entry with its own prescriptionStatus."
+}

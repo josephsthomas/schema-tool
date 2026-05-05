@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Muscle to identify the AnatomicalStructure where its distal tendon attaches (the moving point). Reference a coded anatomical node so the relationship is traversable from either end.",
+  "whenNotToUse": "Do not use for the fixed proximal attachment; use the corresponding origin-style relationship on the muscle. Do not use for innervation or vascular supply.",
+  "commonCombos": ["schema:Muscle"]
+}

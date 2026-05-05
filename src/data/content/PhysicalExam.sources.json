@@ -1,0 +1,34 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/002274.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "During a physical examination, a health care provider checks your body to determine if you do or do not have a physical problem."
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/002274.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Inspection (looking at the body), Palpation (feeling the body with fingers or hands), Auscultation (listening to sounds, usually with a stethoscope), Percussion (producing sounds, usually by tapping on specific areas of the body)"
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Abdominal physical examination",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002274.htm"]
+    },
+    {
+      "jsonPath": "$.procedureType.name",
+      "value": "Abdomen",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002274.htm"]
+    },
+    {
+      "jsonPath": "$.howPerformed",
+      "value": "Inspection, palpation, auscultation, and percussion of the abdomen by a health care provider.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002274.htm"]
+    }
+  ]
+}

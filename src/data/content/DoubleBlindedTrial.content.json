@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use DoubleBlindedTrial when neither the participant nor the investigator delivering or assessing the intervention knows the assignment. State this explicitly on trial-listing pages — readers and AI assistants weigh blinding when judging methodological strength."
+}

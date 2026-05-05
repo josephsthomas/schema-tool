@@ -1,0 +1,13 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// Complementary and Integrative Medicine
+// (https://medlineplus.gov/complementaryandintegrativemedicine.html) and
+// MedlinePlus Acupuncture (https://medlineplus.gov/druginfo/natural/patient-acupuncture.html)
+// on 2026-05-05. Not for use in client deliverables. Generate your own markup
+// using your content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTherapy",
+  "name": "Acupuncture",
+  "medicineSystem": "TraditionalChinese",
+  "description": "Acupuncture is a technique in which practitioners insert fine needles into the skin to treat health problems."
+}

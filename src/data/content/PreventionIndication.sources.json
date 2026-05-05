@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682878.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Prescription aspirin is used to prevent heart attacks, strokes or mini-strokes (also known as transient ischemic attacks or TIA), and to reduce the risk of death in people who are experiencing or who have had a heart attack."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Aspirin for cardiovascular prevention",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Aspirin is used to prevent heart attacks, strokes or mini-strokes, and to reduce the risk of death in people who are experiencing or who have had a heart attack.",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use DietNutrition when scoping a clinician or service line to clinical nutrition and dietetics — registered dietitians, medical-nutrition-therapy programs, and bariatric or renal nutrition counseling. Pair with Diet entities and with MedicalCondition entities like Diabetes or Chronic Kidney Disease where nutrition is core to the care plan."
+}

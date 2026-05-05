@@ -1,0 +1,17 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/carpaltunnelsyndrome.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The median nerve runs from your lower arm through the carpal tunnel and into your hand. It provides feeling to your thumb and first three fingers. It also helps you move your thumb."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Median nerve", "sourceUrls": ["https://medlineplus.gov/carpaltunnelsyndrome.html"] },
+    { "jsonPath": "$.bodyLocation", "value": "Runs from your lower arm through the carpal tunnel and into your hand.", "sourceUrls": ["https://medlineplus.gov/carpaltunnelsyndrome.html"] },
+    { "jsonPath": "$.function", "value": "Provides feeling to your thumb and first three fingers. It also helps you move your thumb.", "sourceUrls": ["https://medlineplus.gov/carpaltunnelsyndrome.html"] },
+    { "jsonPath": "$.relatedCondition.name", "value": "Carpal tunnel syndrome", "sourceUrls": ["https://medlineplus.gov/carpaltunnelsyndrome.html"] }
+  ]
+}

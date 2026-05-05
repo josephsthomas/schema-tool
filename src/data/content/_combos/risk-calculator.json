@@ -1,0 +1,32 @@
+{
+  "id": "risk-calculator",
+  "label": "Risk calculator page",
+  "description": "Interactive risk-tool page (e.g., ASCVD 10-year risk). Wraps the calculator, the score it produces, the risk factors it inputs, and the condition it estimates.",
+  "entities": [
+    {
+      "type": "MedicalWebPage",
+      "defaultLabel": "Page wrapper",
+      "parentRef": null
+    },
+    {
+      "type": "MedicalRiskCalculator",
+      "defaultLabel": "Calculator",
+      "parentRef": "MedicalWebPage.mainEntity"
+    },
+    {
+      "type": "MedicalRiskScore",
+      "defaultLabel": "Output score",
+      "parentRef": "MedicalRiskCalculator.estimatesRiskOf"
+    },
+    {
+      "type": "MedicalRiskFactor",
+      "defaultLabel": "Input risk factor",
+      "parentRef": "MedicalRiskCalculator.includedRiskFactor"
+    },
+    {
+      "type": "MedicalCondition",
+      "defaultLabel": "Target condition",
+      "parentRef": "MedicalRiskCalculator.estimatesRiskOf"
+    }
+  ]
+}

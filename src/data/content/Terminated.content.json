@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Terminated when a trial has stopped early and will not resume. Pair with a description of the termination reason so the public-facing record matches the registry of record without requiring a separate click-through."
+}

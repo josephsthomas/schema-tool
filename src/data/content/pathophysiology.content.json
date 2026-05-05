@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalCondition or PhysicalActivity to describe the mechanistic chain of biochemical, cellular, and physiologic changes that produce the disease state or activity effect. Best for HCP-facing reference content where mechanism matters.",
+  "whenNotToUse": "Do not use for clinical signs and symptoms (use signOrSymptom) or for what causes the condition (use cause).",
+  "commonCombos": ["schema:MedicalCondition", "schema:PhysicalActivity"]
+}

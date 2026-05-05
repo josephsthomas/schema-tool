@@ -1,0 +1,24 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Ibuprofen comes as a tablet, chewable tablet, suspension (liquid), and drops (concentrated liquid) to take by mouth. It is also available as a nonprescription tablet for use in adults."
+    },
+    {
+      "url": "https://medlineplus.gov/medicareprescriptiondrugcoverage.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Medicare prescription drug coverage helps pay for the drugs you need. Each plan can vary in cost and the specific drugs covered."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.drugUnit", "value": "Tablet (200 mg)", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
+    { "jsonPath": "$.costPerUnit", "value": "0.05", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
+    { "jsonPath": "$.costCurrency", "value": "USD", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
+    { "jsonPath": "$.costCategory", "value": "Retail", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
+    { "jsonPath": "$.applicableLocation.name", "value": "United States", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] }
+  ]
+}

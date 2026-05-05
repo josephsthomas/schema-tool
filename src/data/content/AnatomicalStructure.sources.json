@@ -1,0 +1,19 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/heartdiseases.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Heart disease is a general term that includes many types of heart problems. It's a type of cardiovascular disease, which means heart and blood vessel disease."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Heart", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
+    { "jsonPath": "$.partOfSystem.name", "value": "Cardiovascular system", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
+    { "jsonPath": "$.relatedCondition[0].name", "value": "Heart failure", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
+    { "jsonPath": "$.relatedCondition[0].description", "value": "When your heart can't pump enough blood to meet your body's needs.", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
+    { "jsonPath": "$.relatedCondition[1].name", "value": "Arrhythmia", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
+    { "jsonPath": "$.relatedCondition[1].description", "value": "A problem with the rate or rhythm of your heartbeat.", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] }
+  ]
+}

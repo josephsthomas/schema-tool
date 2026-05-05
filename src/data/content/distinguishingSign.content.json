@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use distinguishingSign on a DDxElement to attach the MedicalSignOrSymptom that separates this alternate diagnosis from the primary. Pair it with the diagnosis property on the same DDxElement so consumers see both sides of the rule-out.",
+  "whenNotToUse": "Don't use distinguishingSign on a MedicalCondition's signOrSymptom slot — that's for general presentation, not differential logic.",
+  "commonCombos": ["schema:DDxElement"]
+}

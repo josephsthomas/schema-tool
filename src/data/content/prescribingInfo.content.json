@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to link to the official prescribing information document (USPI, SmPC, monograph). Lets HCPs and assistants jump from the entity to the regulatory source of truth.",
+  "whenNotToUse": "Do not use for marketing pages or non-regulatory summaries — use sameAs or url for those instead.",
+  "commonCombos": ["schema:Drug"]
+}

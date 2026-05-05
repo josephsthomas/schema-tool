@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalTrialDesign as the value of MedicalTrial.trialDesign to disclose how a study was structured — randomization, blinding, control, single- or multi-center, and geographic reach. Multiple values can be combined on one trial (a study can be RandomizedTrial, DoubleBlindedTrial, and PlaceboControlledTrial at once).",
+  "whenNotToUse": "Don't use MedicalTrialDesign for observational research — that's MedicalObservationalStudyDesign on MedicalObservationalStudy. Don't use it to describe study phase, recruitment status, or the intervention itself.",
+  "whoItsFor": "Sponsor and CRO communications teams publishing public-facing trial pages, academic medical centers maintaining IRB-approved trial summaries, and patient-recruitment platforms that surface study characteristics in search.",
+  "seoNotes": "Listing the design values explicitly helps AI assistants answer methodology questions (\"is this trial blinded?\") without re-reading the protocol PDF. Mirror what's on the clinicaltrials.gov registration to keep the page reconcilable with the registry of record.",
+  "commonCombos": ["schema:MedicalTrial", "schema:MedicalStudyStatus", "schema:MedicalCondition"]
+}

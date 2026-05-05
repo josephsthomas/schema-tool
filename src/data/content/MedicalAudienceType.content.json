@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalAudienceType on a MedicalAudience to declare whether the page targets practicing clinicians or medical researchers — the two role-based categories schema.org defines. Attach the parent MedicalAudience via the audience property on MedicalWebPage or any MedicalEntity to give crawlers and AI assistants a clean reading-level and regulatory-context signal.",
+  "whenNotToUse": "Don't use MedicalAudienceType for patient or caregiver content; the schema enum only enumerates Clinician and MedicalResearcher. For patient-facing material, use a MedicalAudience with audienceType set to a free-text patient role or pair with PeopleAudience. Don't conflate audience role with reading level — those are independent attributes.",
+  "whoItsFor": "Health-system editorial teams running parallel HCP and consumer sites, pharma medical-affairs publishers separating prescriber-facing from researcher-facing content, and CROs publishing protocol summaries for investigators.",
+  "seoNotes": "Marking HCP-only pages with Clinician helps Google distinguish gated professional content from consumer pages on the same condition, which reduces ad-policy friction and improves answer-engine grounding. Pair with noindex or login-gating where regulations require it.",
+  "commonCombos": ["schema:MedicalAudience", "schema:MedicalWebPage", "schema:MedicalScholarlyArticle", "schema:MedicalGuideline"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use secondaryPrevention on MedicalCondition to capture therapies, drug classes, or lifestyle modifications used to prevent recurrence after an initial episode has been treated. Distinct from primaryPrevention, which targets first-onset prevention in at-risk populations.",
+  "whenNotToUse": "Don't use this for ongoing maintenance therapy of an active condition — that's a treatment, not prevention. Population-level screening programs belong on the test or guideline, not here.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

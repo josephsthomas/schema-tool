@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalDevice to describe how the device is set up, used, or installed in narrative form. Useful for IFU-derived patient or HCP guidance pages.",
+  "whenNotToUse": "Do not use for the surgical procedure itself — model that as a MedicalProcedure entity. Do not duplicate preOp or postOp content here.",
+  "commonCombos": ["schema:MedicalDevice"]
+}

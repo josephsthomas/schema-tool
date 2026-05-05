@@ -1,0 +1,17 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/druginfo/meds/a696005.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+//
+// Note: MedlinePlus describes metformin as a prescription medication for type 2
+// diabetes; it does not publish dispensing prices. The costPerUnit field below
+// is left as a placeholder for your own verified price input.
+{
+  "@context": "https://schema.org",
+  "@type": "DrugCost",
+  "name": "Metformin tablet cost entry",
+  "applicableLocation": "US",
+  "costCategory": "Retail",
+  "drugUnit": "Tablet",
+  "costCurrency": "USD"
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Physician to declare admitting or staff privileges at a Hospital. Repeat the property when the clinician holds privileges across multiple facilities.",
+  "whenNotToUse": "Do not use for a clinic where the physician practices outpatient care; use worksFor or memberOf for employment and group membership.",
+  "commonCombos": ["schema:Physician"]
+}

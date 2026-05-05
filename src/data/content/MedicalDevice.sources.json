@@ -1,0 +1,38 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/007482.htm",
+      "publisher": "NIH MedlinePlus Medical Encyclopedia",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Your health care provider may ask you to keep track of your blood pressure at home. To do this, you will need to get a home blood pressure monitor. Digital monitors have a cuff that wraps around your arm. The screen will show a digital readout of your systolic and diastolic blood pressure. A digital blood pressure monitor will not be as accurate if your body is moving when you are using it. Also, an irregular heart rate will make the reading less accurate."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Home Blood Pressure Monitor",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A home blood pressure monitor is a device used to keep track of your blood pressure at home. Digital monitors feature a cuff that wraps around your arm with either manual or automatic inflation, and a screen that shows a digital readout of your systolic and diastolic blood pressure.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+    },
+    {
+      "jsonPath": "$.purpose.name",
+      "value": "Tracking blood pressure at home",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+    },
+    {
+      "jsonPath": "$.indication.name",
+      "value": "Patients whose health care provider has asked them to keep track of their blood pressure at home",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+    },
+    {
+      "jsonPath": "$.contraindication.name",
+      "value": "A digital blood pressure monitor will not be as accurate if your body is moving when you are using it. An irregular heart rate will make the reading less accurate.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+    }
+  ]
+}

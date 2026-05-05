@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an ImagingTest to declare the modality (MRI, CT, ultrasound, etc.) via the MedicalImagingTechnique enumeration. Pick the most specific enumerated value the modality supports.",
+  "whenNotToUse": "Do not use for the body region imaged or contrast protocol; use bodyLocation and a procedure description instead.",
+  "commonCombos": ["schema:ImagingTest"]
+}

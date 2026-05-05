@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug, DrugStrength, or Substance to record the upper safe intake as a MaximumDoseSchedule, including the target population, frequency, and unit. Repeat per population when limits differ by age, weight, or condition.",
+  "whenNotToUse": "Do not use for therapeutic dose ranges; use doseSchedule or recommendedIntake for normal dosing guidance.",
+  "commonCombos": ["schema:DrugStrength", "schema:Drug", "schema:Substance"]
+}

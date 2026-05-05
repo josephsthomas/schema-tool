@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalEvidenceLevel on a MedicalGuideline (or its recommendation) to declare the strength of evidence behind a clinical recommendation — A for multiple RCTs or meta-analyses, B for a single RCT or nonrandomized study, C for expert consensus or standard-of-care. Pair it with evidenceOrigin so a reader can trace the rating back to the originating society's grading system (ACC/AHA, USPSTF, GRADE, etc.).",
+  "whenNotToUse": "Don't use MedicalEvidenceLevel to rate the quality of a single study — that belongs on the study record itself via study design enumerations. Don't substitute a society-specific grade (e.g., USPSTF Grade B) for a schema.org level without mapping; the schema enum has only three values and will lose nuance if shoehorned.",
+  "whoItsFor": "Specialty-society publishing teams, clinical-decision-support vendors, and health-system editors who maintain guideline summaries and need a schema-level evidence flag that LLMs and search engines can reason over.",
+  "seoNotes": "Evidence levels signal authority — Google's medical-content quality systems and AI assistants treat A-rated recommendations as more citable. Display the schema value alongside the human-readable society grade so readers see both.",
+  "commonCombos": ["schema:MedicalGuideline", "schema:MedicalGuidelineRecommendation", "schema:MedicalCondition", "schema:MedicalEnumeration"]
+}

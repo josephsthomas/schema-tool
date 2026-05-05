@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use algorithm on MedicalRiskScore to describe the calculation behind the score — input variables, weighting, and the output transformation. Text value; if the formula is mathematical, render it readably (e.g., 'Sum of points: age (1), sex (1), …') rather than embedding LaTeX.",
+  "whenNotToUse": "Don't use algorithm to list the cohort the score was derived in — that's estimatesRiskOf or description context. For the citation behind the algorithm, use citation on the parent rather than embedding it inside this Text field.",
+  "commonCombos": ["schema:MedicalRiskScore"]
+}

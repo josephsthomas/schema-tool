@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use contraindication on MedicalTherapy or MedicalDevice for situations in which the intervention should not be used — pregnancy, renal failure, concurrent MAOI use. Prefer a MedicalContraindication node over plain Text when you can structure it, since downstream consumers can filter on it.",
+  "whenNotToUse": "Don't use contraindication for cautions about lifestyle interactions on a Drug — use alcoholWarning, pregnancyWarning, or breastfeedingWarning. Don't use it for adverse outcomes that have already occurred; those are adverseOutcome.",
+  "commonCombos": ["schema:MedicalTherapy", "schema:MedicalDevice"]
+}

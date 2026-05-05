@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use tributary on Vein to name the larger venous structure that the vein drains into. Repeat the property when a vein has multiple downstream confluences — useful for portal system anatomy.",
+  "whenNotToUse": "Don't use this for arterial flow; that's the inverse direction and belongs on supplyTo. Avoid using it for capillary beds or microvasculature that aren't named structures.",
+  "commonCombos": ["schema:Vein"]
+}

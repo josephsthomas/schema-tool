@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use BrainStructure for any page about a named region of the brain — hippocampus, cerebellum, basal ganglia, amygdala. It is the right type for neuroanatomy reference articles and for the anatomical anchor on neurological-disease pages where a specific region is implicated.",
+  "whenNotToUse": "Don't use BrainStructure for the central nervous system as a whole (use AnatomicalSystem), for cranial nerves (use Nerve), or for a brain tumor or stroke (those are MedicalCondition). Don't use it as the parent for a non-CNS structure that happens to sit in the head.",
+  "whoItsFor": "Neurology and neurosurgery practice editors, academic medical-center patient-education teams, behavioral-health publishers, and reference editors building neuroanatomy hubs.",
+  "seoNotes": "BrainStructure pages anchor the entity graph for cognitive, psychiatric, and neurological topics. Pair them with relatedCondition on the structure and with associatedAnatomy on the disease page so LLM assistants can navigate both directions.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:MedicalCondition", "schema:Nerve"]
+}

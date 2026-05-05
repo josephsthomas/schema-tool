@@ -1,0 +1,19 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/measles/data-research/index.html",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A total of 2,288 confirmed measles cases were reported in the United States. There were 48 outbreaks reported in 2025, and 90% of confirmed cases (2,065 of 2,288) were outbreak-associated. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "2025 U.S. Measles Outbreak Update", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] },
+    { "jsonPath": "$.text", "value": "A total of 2,288 confirmed measles cases were reported in the United States during 2025, with 48 outbreaks reported and 90% of confirmed cases (2,065 of 2,288) being outbreak-associated. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine.", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] },
+    { "jsonPath": "$.announcementLocation.name", "value": "U.S. Centers for Disease Control and Prevention", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] },
+    { "jsonPath": "$.announcementLocation.url", "value": "https://www.cdc.gov/", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] },
+    { "jsonPath": "$.diseasePreventionInfo.url", "value": "https://www.cdc.gov/measles/data-research/index.html", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] },
+    { "jsonPath": "$.diseasePreventionInfo.name", "value": "Measles Cases and Outbreaks", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use signOrSymptom on MedicalCondition to list the observable signs and patient-reported symptoms that present with the condition. Each entry should be a MedicalSignOrSymptom reference so SNOMED or ICD codes can attach via its own properties.",
+  "whenNotToUse": "Don't use this for diagnostic test results — those belong on the test via signDetected. Avoid combining multiple findings into one freeform string.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

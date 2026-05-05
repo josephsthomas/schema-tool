@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use HealthPlanFormulary to describe the prescription drug coverage attached to a HealthInsurancePlan — the list of covered medicines, their tier placement, and any mail-order option. It's the right type for a plan's drug-list page or formulary lookup landing page.",
+  "whenNotToUse": "Don't use HealthPlanFormulary to describe a single drug — that's a Drug or DrugClass. Don't use it for the cost math of any one benefit; pair it with HealthPlanCostSharingSpecification when you need copay or coinsurance details per tier.",
+  "whoItsFor": "Pharmacy benefit managers, payer formulary publishers, Medicare Part D plan pages, and broker tools that surface drug coverage to members.",
+  "seoNotes": "HealthPlanFormulary is referenced from a parent HealthInsurancePlan via includesHealthPlanFormulary. There is no dedicated Google rich result; the value is in giving crawlers a structured handle on the drug list so it can flow into plan-comparison tooling.",
+  "commonCombos": ["schema:HealthInsurancePlan", "schema:HealthPlanCostSharingSpecification", "schema:Drug"]
+}

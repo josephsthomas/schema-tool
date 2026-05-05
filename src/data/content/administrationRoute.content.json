@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use administrationRoute on Drug to declare how the drug enters the body — oral, intravenous, topical, intramuscular, subcutaneous, inhalation. Value is Text; pick a single canonical term per route and reuse it across the catalog so consumers can group products consistently.",
+  "whenNotToUse": "Don't use administrationRoute to describe the device used to deliver the drug — that belongs on a related MedicalDevice. For multi-route products, repeat the property rather than packing routes into one comma-separated string.",
+  "commonCombos": ["schema:Drug"]
+}

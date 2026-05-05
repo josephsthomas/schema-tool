@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use HealthPlanCostSharingSpecification to describe a single cost-sharing rule attached to a benefit — the deductible, copay, or coinsurance a member pays for a defined service or drug tier. It's the right type for plan benefit pages where each cost-sharing element needs its own structured node.",
+  "whenNotToUse": "Don't use HealthPlanCostSharingSpecification to describe an entire plan; that's HealthInsurancePlan. Don't use it for a list price or wholesale drug cost; that's DrugCost.",
+  "whoItsFor": "Payer benefit publishers, plan-comparison tools, Medicare and marketplace plan finders, and broker portals that surface deductibles and copays at the benefit level.",
+  "seoNotes": "HealthPlanCostSharingSpecification is referenced from a parent HealthPlanFormulary or HealthPlanNetwork via healthPlanCostSharing. There is no dedicated Google rich result; the value is in machine-readable cost disclosure for plan-comparison tooling.",
+  "commonCombos": ["schema:HealthInsurancePlan", "schema:HealthPlanFormulary", "schema:HealthPlanNetwork"]
+}

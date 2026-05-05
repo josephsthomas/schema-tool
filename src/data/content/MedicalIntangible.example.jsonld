@@ -1,0 +1,16 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/diabetestype2.html) and NLM MeSH
+// (https://meshb.nlm.nih.gov/record/ui?name=International+Classification+of+Diseases)
+// on 2026-05-05.
+// MedicalIntangible is the abstract parent for non-physical clinical concepts.
+// This example multi-types as both MedicalIntangible and MedicalCode so the
+// abstract relationship is visible to downstream consumers.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": ["MedicalIntangible", "MedicalCode"],
+  "name": "Type 2 Diabetes Mellitus without complications",
+  "codingSystem": "ICD-10-CM",
+  "codeValue": "E11.9"
+}

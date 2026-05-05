@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use significance on SuperficialAnatomy to explain the clinical or diagnostic relevance of the surface feature — for example, what changes in appearance signal underlying pathology. Keep the value concise and clinically focused.",
+  "whenNotToUse": "Don't use this as a general description field for the structure itself — that belongs in description. Avoid restating anatomical location, which goes in relatedAnatomy.",
+  "commonCombos": ["schema:SuperficialAnatomy"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use diet on an ExerciseAction to reference the Diet node followed during that activity instance. Value must be a Diet entity, allowing the eating pattern to be reused across actions and plans.",
+  "whenNotToUse": "Don't use diet on an ExercisePlan to describe the broader nutritional pairing — use exerciseRelatedDiet. For a Drug's food restrictions, use foodWarning.",
+  "commonCombos": ["schema:ExerciseAction"]
+}

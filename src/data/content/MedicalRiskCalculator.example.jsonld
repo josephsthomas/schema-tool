@@ -1,0 +1,15 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/heart-disease/risk-factors/index.html and
+//  https://www.cdc.gov/cholesterol/about/index.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalRiskCalculator",
+  "name": "Cardiovascular Disease Risk Calculator",
+  "description": "Interactive calculator that combines key risk factors for heart disease — including high blood pressure, high cholesterol, and smoking — to produce an estimate of cardiovascular risk.",
+  "estimatesRiskOf": {
+    "@type": "MedicalCondition",
+    "name": "Heart Disease"
+  }
+}

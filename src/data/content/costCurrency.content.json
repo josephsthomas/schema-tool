@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use costCurrency on DrugCost with the ISO 4217 three-letter code — 'USD', 'EUR', 'GBP'. Always pair it with costPerUnit; a price without a currency is a hazard for any consumer that auto-formats it.",
+  "whenNotToUse": "Don't use symbols ('$', '€') or country names — the property requires a three-letter currency code. For multi-currency listings, create a separate DrugCost node per currency rather than overloading one node.",
+  "commonCombos": ["schema:DrugCost"]
+}

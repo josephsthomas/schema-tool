@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use foodWarning on a Drug to flag food or beverage interactions a patient must avoid or time around the dose — grapefruit, dairy, alcohol, tyramine-rich foods. The Text should name the food and the action required.",
+  "whenNotToUse": "Don't use foodWarning for drug-drug interactions — use interactingDrug. For pregnancy or pediatric warnings, use the dedicated DrugPregnancyCategory and audience properties.",
+  "commonCombos": ["schema:Drug"]
+}

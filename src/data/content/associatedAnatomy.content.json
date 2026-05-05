@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use associatedAnatomy on MedicalCondition or PhysicalActivity to link to the anatomy involved — an organ (AnatomicalStructure), a system (AnatomicalSystem), or a body region (SuperficialAnatomy). Pick the most specific level you can support with a real referenceable node.",
+  "whenNotToUse": "Don't use associatedAnatomy for procedures — those use bodyLocation. Don't pile on every tangentially related structure; one or two anchors per condition keep the entity graph crisp and avoid diluting relevance signals.",
+  "commonCombos": ["schema:PhysicalActivity", "schema:MedicalCondition"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DoseSchedule as the parent type when you need to describe how a drug, supplement, or therapy is dosed without committing to either a recommended, maximum, or reported subtype. It captures targetPopulation, doseUnit, doseValue, and frequency in a single structured block referenced from a Drug or MedicalTherapy.",
+  "whenNotToUse": "Don't use DoseSchedule when you specifically mean an upper bound — use MaximumDoseSchedule. Don't use it for a label-derived starting dose — use RecommendedDoseSchedule. Don't use it for self-reported real-world dosing — use ReportedDoseSchedule.",
+  "whoItsFor": "Drug-information editors, clinical decision-support content teams, and patient-education writers presenting dose data alongside indication and strength.",
+  "seoNotes": "DoseSchedule is consumed via Drug.doseSchedule. Google does not currently issue a dedicated rich result; the structured value is in cleanly separating dose magnitude, unit, and frequency for downstream consumers.",
+  "commonCombos": ["schema:Drug", "schema:DrugStrength", "schema:MedicalTherapy"]
+}

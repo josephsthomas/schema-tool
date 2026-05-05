@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use clinicalPharmacology on Drug to capture absorption, distribution, metabolism, and excretion in a single Text block. Aim for one paragraph per ADME phase so the field stays readable and stays parseable for assistants summarizing the drug.",
+  "whenNotToUse": "Don't use clinicalPharmacology for the mechanism of action — that's mechanismOfAction. Don't put dose recommendations or interaction warnings here; they have dedicated properties (doseSchedule, interactingDrug, contraindication) and consumers expect them there.",
+  "commonCombos": ["schema:Drug"]
+}

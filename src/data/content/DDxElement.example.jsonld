@@ -1,0 +1,22 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/chestpain.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "DDxElement",
+  "diagnosis": [
+    { "@type": "MedicalCondition", "name": "Heart attack" },
+    { "@type": "MedicalCondition", "name": "Angina" },
+    { "@type": "MedicalCondition", "name": "Costochondritis" },
+    { "@type": "MedicalCondition", "name": "Pneumonia" },
+    { "@type": "MedicalCondition", "name": "Pulmonary embolism" },
+    { "@type": "MedicalCondition", "name": "Heartburn" },
+    { "@type": "MedicalCondition", "name": "Panic attacks" }
+  ],
+  "distinguishingSign": {
+    "@type": "MedicalSymptom",
+    "name": "Chest pain",
+    "description": "Chest pain does not always mean that you are having a heart attack."
+  }
+}

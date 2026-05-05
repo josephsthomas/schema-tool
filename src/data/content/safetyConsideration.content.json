@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use safetyConsideration on DietarySupplement to surface interaction risks, contraindicated populations, or known toxicity thresholds for the product. Keep each consideration to a single concern; repeat the property for multiple distinct warnings.",
+  "whenNotToUse": "Don't use this for marketing disclaimers or generic 'consult your physician' boilerplate — surface those in description. Drug-specific FDA black-box content belongs on Drug.warning instead.",
+  "commonCombos": ["schema:DietarySupplement"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalRiskCalculator to mark up an interactive tool that combines clinical inputs to produce a numeric risk estimate — for example, a cardiovascular ASCVD calculator that takes age, blood pressure, cholesterol values, smoking status, and diabetes status. It is the right type when the page hosts the calculator itself, not just an article that mentions one.",
+  "whenNotToUse": "Do not use MedicalRiskCalculator for static educational pages that describe a risk score without computing it — use MedicalRiskScore instead. Do not use it for general symptom checkers or triage chatbots that do not produce a quantitative risk estimate of a defined condition.",
+  "whoItsFor": "Cardiology service-line marketers, population-health teams, and digital product owners building patient-facing or clinician-facing risk tools that need to be discoverable as calculators rather than as articles.",
+  "seoNotes": "Risk calculators are high-intent destinations that draw both patients and clinicians from search. Marking the page as MedicalRiskCalculator with an explicit estimatesRiskOf reference to the target MedicalCondition gives LLM-driven assistants a clean way to surface the tool when a user asks how to estimate their risk of a specific disease.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalRiskScore", "schema:MedicalRiskFactor"]
+}

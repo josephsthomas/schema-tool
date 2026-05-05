@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Vessel as the generic parent type when a page describes a tubular conduit that carries fluid in the body but is not specifically an artery, vein, or lymphatic vessel — capillaries, microvasculature explainers, and overview content that crosses sub-types. It is the right type for general blood-vessel reference pages.",
+  "whenNotToUse": "Don't use Vessel when a more specific subtype applies — use Artery, Vein, or LymphaticVessel. Don't apply it to a vascular system overview (use AnatomicalSystem) or to vascular disease (use MedicalCondition).",
+  "whoItsFor": "Vascular-medicine and cardiology editors building 101-style overview content, patient-education editors covering circulation basics, and reference publishers who need a stable parent type for sub-type pages.",
+  "seoNotes": "Vessel is mostly useful as a graph anchor — pages should link to the vascular AnatomicalSystem and to specific Artery, Vein, and LymphaticVessel subtypes. Google does not issue a dedicated rich result for Vessel.",
+  "commonCombos": ["schema:Artery", "schema:Vein", "schema:AnatomicalSystem"]
+}

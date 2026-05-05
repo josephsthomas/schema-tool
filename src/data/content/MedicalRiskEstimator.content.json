@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalRiskEstimator for a tool that screens people for risk of a condition using a small number of self-reported inputs — a prediabetes risk test that asks about age, weight, family history, and gestational-diabetes history is a clean fit. The type lets you list each input with includedRiskFactor.",
+  "whenNotToUse": "Do not use MedicalRiskEstimator for full clinical calculators that depend on lab values or clinician-entered measurements — that is closer to MedicalRiskCalculator. Do not use it for symptom-only triage tools that do not estimate the probability of a specific condition.",
+  "whoItsFor": "Diabetes-prevention program operators, primary-care service-line marketers, and public-health editors publishing self-screening tools as part of awareness or outreach campaigns.",
+  "seoNotes": "Self-screening tests are highly searched and pull traffic from broad informational queries into a single conversion-ready destination. MedicalRiskEstimator with includedRiskFactor entries gives LLM-based assistants a structured way to recognize the tool as a prediabetes screener rather than a generic article on diabetes.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalRiskFactor", "schema:MedicalRiskScore"]
+}

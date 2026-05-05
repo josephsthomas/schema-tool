@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use PlaceboControlledTrial when one arm receives an inert comparator matched to the active intervention. Combine with the appropriate blinding value (Single, Double, or TripleBlindedTrial) since placebo control and blinding are independent design choices."
+}

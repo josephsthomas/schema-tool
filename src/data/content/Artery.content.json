@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Artery for any page that centers on a named arterial vessel — aorta, carotid, coronary, femoral, etc. It is the right type for vascular-anatomy reference entries and for the anatomical anchor on disease pages about arterial conditions.",
+  "whenNotToUse": "Don't use Artery for veins (use Vein), lymphatic vessels (use LymphaticVessel), or generic blood-vessel content (use Vessel). Don't apply it to a procedure that operates on an artery — that's MedicalProcedure with the artery referenced via bodyLocation or associatedAnatomy.",
+  "whoItsFor": "Cardiovascular service-line marketers, vascular-surgery practice editors, interventional-radiology content teams, and patient-education editors building explainer pages for arterial disease.",
+  "seoNotes": "Artery pages benefit from explicit partOfSystem (cardiovascular) and supplyTo wiring so LLM-based health assistants can traverse from a vessel to the organs it perfuses. Google does not issue a dedicated rich result for Artery; the value is graph completeness.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:MedicalCondition", "schema:Vessel"]
+}

@@ -1,0 +1,24 @@
+// Reference example — built from public data sourced from NIH MedlinePlus (https://medlineplus.gov/ency/article/003886.htm) on 2026-05-05. Not for use in client deliverables.
+{
+  "@context": "https://schema.org",
+  "@type": "DiagnosticProcedure",
+  "name": "Colonoscopy",
+  "description": "A colonoscopy is an exam that views the inside of the colon (large intestine) and rectum.",
+  "procedureType": {
+    "@type": "MedicalProcedureType",
+    "name": "Diagnostic"
+  },
+  "bodyLocation": "Colon and rectum",
+  "usesDevice": {
+    "@type": "MedicalDevice",
+    "name": "Colonoscope",
+    "description": "The colonoscope has a small camera attached to a flexible tube that can reach the entire length of the colon."
+  },
+  "preparation": "Your bowel needs to be completely empty and clean for the exam. You need to drink plenty of clear liquids for 1 to 3 days before the test.",
+  "howPerformed": "The scope is gently inserted through the anus. It is carefully moved into the lowest part of the large intestine.",
+  "followup": "You should be able to return to your regular activities the next day. Avoid driving, operating machinery, drinking alcohol, and making important decisions for at least 24 hours.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Abdominal pain, changes in bowel movements, or weight loss; blood in the stool, or black, tarry stools"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/patientrights.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "As a patient, you have certain rights. Some are guaranteed by federal law, such as the right to get a copy of your medical records and the right to keep them private and secure. There are also state laws that protect patients. Many hospitals have patient advocates who can help you if you have problems. Examples of important patient rights include: Being treated with respect; Protection from discrimination in medical care; Authority to decline treatment; Right to informed consent."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.description", "value": "A person receiving care who has certain rights, some guaranteed by federal law, such as the right to get a copy of their medical records and the right to keep them private and secure, alongside protections including being treated with respect, protection from discrimination, the authority to decline treatment, and the right to informed consent.", "sourceUrls": ["https://medlineplus.gov/patientrights.html"] }
+  ]
+}

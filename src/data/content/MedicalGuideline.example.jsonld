@@ -1,0 +1,21 @@
+// Reference example — built from CDC's public Adult Immunization Schedule
+// (https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html) accessed 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalGuideline",
+  "name": "Adult Immunization Schedule by Age",
+  "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html",
+  "guidelineDate": "2025-07-02",
+  "evidenceOrigin": "Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention",
+  "guidelineSubject": {
+    "@type": "MedicalEntity",
+    "name": "Routine vaccination of adults aged 19 years and older in the United States"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov"
+  }
+}

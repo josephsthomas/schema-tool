@@ -1,0 +1,17 @@
+// Reference example — built from public data sourced from National Cancer Institute (https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam) on 2026-05-05. Not for use in client deliverables.
+{
+  "@context": "https://schema.org",
+  "@type": "RadiationTherapy",
+  "name": "External beam radiation therapy",
+  "description": "External beam radiation therapy comes from a machine that aims radiation at your cancer.",
+  "howPerformed": "You will either lie down on a treatment table or sit in a special chair. You will get radiation for 1 to 5 minutes.",
+  "doseSchedule": {
+    "@type": "DoseSchedule",
+    "frequency": "Most people have external beam radiation therapy once a day, five days a week, Monday through Friday."
+  },
+  "preparation": "Before starting, you will have a 1- to 2-hour meeting with your doctor or nurse including physical exam and discussion of benefits and side effects. A simulation session involves marking treatment areas with tattoos or ink dots.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "External beam radiation therapy is used to treat many types of cancer."
+  }
+}

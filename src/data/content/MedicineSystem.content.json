@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicineSystem on a MedicalTherapy, MedicalProcedure, or DietarySupplement to declare the system of medical practice the intervention belongs to — Western conventional, Ayurvedic, Traditional Chinese, homeopathic, chiropractic, or osteopathic. Attach it via the `medicineSystem` property whenever a page mixes conventional and complementary content and the system of origin should be machine-readable.",
+  "whenNotToUse": "Don't use MedicineSystem to express a clinician's licensure or specialty — that belongs on MedicalSpecialty or the practitioner profile. Don't use it as a quality or safety signal; the value names the tradition, not whether the intervention is regulated or evidence-based.",
+  "whoItsFor": "Integrative-medicine programs, naturopathic and chiropractic clinics, NIH-aligned consumer health publishers, and pharmacy or supplement retailers separating conventional and complementary content for editorial and regulatory clarity.",
+  "seoNotes": "MedicineSystem is a strong disambiguator for AI assistants reasoning about therapy provenance — homeopathic and conventional remedies for the same symptom should be distinguishable in markup. Pair with `MedicalCondition` and an explicit `audience` so the system label is read alongside the indication and reader.",
+  "commonCombos": ["schema:MedicalTherapy", "schema:MedicalProcedure", "schema:DietarySupplement", "schema:MedicalCondition"]
+}

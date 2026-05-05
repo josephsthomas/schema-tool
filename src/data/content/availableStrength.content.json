@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use availableStrength on Drug to attach one or more DrugStrength nodes describing the dose forms the product ships in — 25 mg, 50 mg, 100 mg tablets. Repeat the property per strength rather than concatenating them so each can carry its own availableIn and maximumIntake.",
+  "whenNotToUse": "Don't use availableStrength for the recommended therapeutic dose to a patient — that's doseSchedule. Don't put the unit (mg, mL) in plain Text; structure it as DrugStrength with strengthValue and strengthUnit so tooling can compare across products.",
+  "commonCombos": ["schema:Drug"]
+}

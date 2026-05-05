@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use comprisedOf on AnatomicalSystem to enumerate the AnatomicalStructure or sub-AnatomicalSystem nodes the system contains — the cardiovascular system comprised of the heart and the vessels. Reference real nodes so an LLM can traverse from a system page down to its constituent organs.",
+  "whenNotToUse": "Don't use comprisedOf for functional collaborators across systems — those belong in description. For an organ being part of a system, use partOfSystem on the structure rather than re-stating the relationship from the system side every time.",
+  "commonCombos": ["schema:AnatomicalSystem"]
+}

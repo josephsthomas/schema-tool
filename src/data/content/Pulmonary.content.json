@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Pulmonary when scoping a Physician or service line to pulmonology — COPD, asthma, interstitial lung disease, sleep medicine, and pulmonary critical care. Pair with MedicalCondition entities like Asthma or COPD and with MedicalTest entities for spirometry and bronchoscopy."
+}

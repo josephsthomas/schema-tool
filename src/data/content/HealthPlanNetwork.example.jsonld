@@ -1,0 +1,15 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/managedcare.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+//
+// Note: MedlinePlus describes managed care plans as having contracts with
+// providers and facilities; the providers under contract make up the plan's
+// network. healthPlanNetworkId and tier values are plan-specific and should be
+// filled in from your own verified plan documents.
+{
+  "@context": "https://schema.org",
+  "@type": "HealthPlanNetwork",
+  "name": "Managed care provider network",
+  "description": "Managed care plans are a type of health insurance. They have contracts with health care providers and medical facilities to provide care for members at reduced costs. These providers make up the plan's network."
+}

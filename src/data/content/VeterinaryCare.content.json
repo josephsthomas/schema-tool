@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use VeterinaryCare for a veterinary practice where regular visits keep pets and families healthy through vaccines, deworming, flea and tick control, and household-specific advice from a veterinarian. It is the right type for clinics that provide ongoing preventive animal care.",
+  "whenNotToUse": "Don't use VeterinaryCare for human-only health facilities (use Hospital or MedicalClinic) or for an animal-shelter adoption page that doesn't describe clinical services. Don't use it for the broader public-health agency that veterinarians collaborate with — that's MedicalOrganization.",
+  "whoItsFor": "Independent veterinary practice owners and chain veterinary brands building location pages, and One Health communicators describing the role of veterinarians in preventing zoonotic disease.",
+  "seoNotes": "VeterinaryCare inherits LocalBusiness, so address and openingHours drive local results. Populating availableService with vaccines, deworming, and parasite control aligns with the search intent behind 'vet near me' and assistant queries like 'where can I take my pet for shots'.",
+  "commonCombos": ["schema:LocalBusiness", "schema:MedicalProcedure", "schema:MedicalOrganization"]
+}

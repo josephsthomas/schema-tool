@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use to bind a MedicalCondition to the audience, study population, or patient it characterizes. Reference a coded MedicalCondition node rather than free text so downstream tools can reason about the condition.",
+  "whenNotToUse": "Do not use on a MedicalEntity to describe what the entity treats; use indication or diagnosticOf for that direction of relationship.",
+  "commonCombos": ["schema:PeopleAudience", "schema:MedicalStudy", "schema:Patient"]
+}

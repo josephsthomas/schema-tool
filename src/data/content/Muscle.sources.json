@@ -1,0 +1,18 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/muscledisorders.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Your muscles help you move and help your body work. Muscle disorders can cause weakness, pain or even paralysis. Causes of muscle disorders include... Genetic disorders, such as muscular dystrophy... Inflammation, such as myositis."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Skeletal muscle", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
+    { "jsonPath": "$.function", "value": "Your muscles help you move and help your body work.", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
+    { "jsonPath": "$.relatedCondition[0].name", "value": "Muscular dystrophy", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
+    { "jsonPath": "$.relatedCondition[1].name", "value": "Myositis", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
+    { "jsonPath": "$.relatedCondition[1].description", "value": "Inflammation of the muscles.", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] }
+  ]
+}

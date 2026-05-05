@@ -1,0 +1,21 @@
+// Reference example — built from CDC's public General Best Practice Guidelines for Immunization
+// (https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html) accessed 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalGuidelineContraindication",
+  "name": "Live vaccines contraindicated in severely immunocompromised persons",
+  "url": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html",
+  "guidelineDate": "2024-07-25",
+  "evidenceOrigin": "CDC General Best Practice Guidelines for Immunization (ACIP)",
+  "guidelineSubject": {
+    "@type": "MedicalEntity",
+    "name": "Severely immunocompromised persons should not receive live vaccines"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov"
+  }
+}

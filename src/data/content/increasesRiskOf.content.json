@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalRiskFactor to point to the MedicalEntity (condition, complication, event) whose risk the factor raises. Reference a coded condition node rather than free text so the relationship is machine-resolvable.",
+  "whenNotToUse": "Do not use to express protective effects or unrelated associations; model those on the condition with separate cause or contraindication relationships.",
+  "commonCombos": ["schema:MedicalRiskFactor"]
+}

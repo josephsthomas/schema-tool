@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use CardiovascularExam for the cardiac and vascular portion of a physical — heart sounds, murmurs, JVD, peripheral pulses, and edema check. Pair with MedicalCondition entities like Heart Failure or Aortic Stenosis when documenting an exam-driven encounter."
+}

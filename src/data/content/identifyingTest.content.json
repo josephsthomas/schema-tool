@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalSign to link the MedicalTest (lab, imaging, pathology) used to confirm the sign. Repeat for each test that meaningfully establishes the finding.",
+  "whenNotToUse": "Do not use for bedside maneuvers; use identifyingExam. Do not use to express test results or thresholds, which belong on the test or its result.",
+  "commonCombos": ["schema:MedicalSign"]
+}

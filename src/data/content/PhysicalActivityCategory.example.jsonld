@@ -1,0 +1,17 @@
+// Reference example — built from public data sourced from CDC Physical Activity
+// Basics (https://www.cdc.gov/physical-activity-basics/about/index.html) on
+// 2026-05-05. Not for use in client deliverables. Generate your own markup
+// using your content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "ExercisePlan",
+  "name": "Adult aerobic activity plan",
+  "activityType": "AerobicActivity",
+  "description": "Adults need at least 150 minutes a week of moderate-intensity aerobic physical activity.",
+  "exerciseType": "Aerobic",
+  "intensity": "Moderate",
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedMinAge": 18
+  }
+}

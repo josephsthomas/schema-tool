@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an ExercisePlan to specify rest between sets or sessions, as a QuantitativeValue or short text. Important for hypertrophy, strength, and HIIT plans where rest interval is part of the dose.",
+  "whenNotToUse": "Do not use for overall recovery days between training sessions — express that with activityFrequency.",
+  "commonCombos": ["schema:ExercisePlan"]
+}

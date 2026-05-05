@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Anesthesia when scoping a Physician, Hospital, or service line to anesthesiology — perioperative care, regional and general anesthesia, sedation, and acute pain management. Pair with surgical MedicalProcedure entities and OR-team Physician records when documenting peri-op service lines."
+}

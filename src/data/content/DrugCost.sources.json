@@ -1,0 +1,38 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Metformin comes as a liquid, a tablet, and an extended-release (long-acting) tablet to take by mouth."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Metformin tablet cost entry",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.applicableLocation",
+      "value": "US",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.costCategory",
+      "value": "Retail",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.drugUnit",
+      "value": "Tablet",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.costCurrency",
+      "value": "USD",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    }
+  ]
+}

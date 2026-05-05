@@ -1,0 +1,28 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/vitamind.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The two forms of vitamin D in supplements are D2 and D3. It helps your body absorb calcium. Calcium is one of the main building blocks of bone."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Vitamin D3",
+      "sourceUrls": ["https://medlineplus.gov/vitamind.html"]
+    },
+    {
+      "jsonPath": "$.activeIngredient",
+      "value": "Vitamin D3",
+      "sourceUrls": ["https://medlineplus.gov/vitamind.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Vitamin D supplement form. Vitamin D helps the body absorb calcium, one of the main building blocks of bone.",
+      "sourceUrls": ["https://medlineplus.gov/vitamind.html"]
+    }
+  ]
+}

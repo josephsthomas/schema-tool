@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to link to alternates, same-class drugs, or commonly co-prescribed drugs. Powers cross-sells, switch-therapy guidance, and assistant follow-up suggestions.",
+  "whenNotToUse": "Do not use for known interactions (use interactingDrug) or for the parent drug class (use drugClass).",
+  "commonCombos": ["schema:Drug"]
+}

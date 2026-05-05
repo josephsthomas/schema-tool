@@ -1,0 +1,22 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/pacemakersandimplantabledefibrillators.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "An implantable cardioverter defibrillator (ICD) is a small electronic device installed in the chest to prevent sudden death from cardiac arrest due to life-threatening abnormally fast heart rhythms (arrhythmias)."
+    },
+    {
+      "url": "https://medlineplus.gov/medicaldevicesafety.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Medical devices range from simple tongue depressors and bedpans to complex programmable pacemakers and laser surgical devices. They include diagnostic devices such as MRI machines and therapeutic devices such as infusion pumps."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Implantable cardioverter defibrillator (ICD)", "sourceUrls": ["https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"] },
+    { "jsonPath": "$.purpose", "value": "Therapeutic", "sourceUrls": ["https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"] },
+    { "jsonPath": "$.indication.name", "value": "Prevention of sudden cardiac death in patients with life-threatening arrhythmias", "sourceUrls": ["https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"] }
+  ]
+}

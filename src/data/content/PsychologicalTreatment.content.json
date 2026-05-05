@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use PsychologicalTreatment for mental-health interventions delivered by a psychologist, therapist, or counselor — CBT for depression or anxiety, exposure therapy for PTSD, family therapy, group therapy. Behavioral-health service lines, therapist-bio pages, and mental-health condition pages explaining treatment options all anchor here.",
+  "whenNotToUse": "Don't use PsychologicalTreatment for psychiatric medication management — that belongs under Drug administration framed as TherapeuticProcedure. Don't use it for general MedicalTherapy that isn't psychological in nature. For broad therapy explainers spanning modalities, MedicalTherapy can be the parent.",
+  "whoItsFor": "Behavioral health practices, psychology and psychiatry groups, depression and anxiety treatment programs, and condition pages explaining therapy options.",
+  "seoNotes": "PsychologicalTreatment markup paired with the relevant MedicalCondition supports both classic SEO (depression treatment near me) and LLM grounding for treatment-option questions. Be specific about modality (CBT, DBT, EMDR) in name and description so disambiguation downstream is clean.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Physician", "schema:MedicalGuideline", "schema:FAQPage"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use transmissionMethod on InfectiousDisease to describe how the pathogen spreads — direct contact, airborne droplet, fecal-oral, vector-borne with the named vector. Repeat the property when multiple routes are clinically relevant.",
+  "whenNotToUse": "Don't use this for incubation period or infectivity window — those are temporal characteristics that belong elsewhere. Avoid combining route and prevention measures into one string.",
+  "commonCombos": ["schema:InfectiousDisease"]
+}

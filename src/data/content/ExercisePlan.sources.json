@@ -1,0 +1,58 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/physical-activity-basics/guidelines/adults.html",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "150 minutes of moderate-intensity physical activity a week ... or 75 minutes of vigorous-intensity ... and 2 days of muscle-strengthening activity each week."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "CDC physical activity guidelines for adults",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Federal guideline-based weekly activity plan combining moderate-intensity aerobic activity with muscle-strengthening activity targeting all major muscle groups.",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.exerciseType",
+      "value": "Aerobic activity and muscle-strengthening activity",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.activityDuration",
+      "value": "150 minutes of moderate-intensity physical activity a week, or 75 minutes of vigorous-intensity activity, or an equivalent combination of both",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.activityFrequency",
+      "value": "Aerobic activity can be distributed as 30 minutes a day, 5 days a week; muscle-strengthening activity at least 2 days a week",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.additionalVariable",
+      "value": "Muscle-strengthening activity should target all major muscle groups: legs, hips, back, abdomen, chest, shoulders, and arms",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.workload",
+      "value": "Moderate-intensity examples include brisk walking; vigorous-intensity examples include jogging or running",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.restPeriods",
+      "value": "Aerobic minutes can be broken up into smaller chunks of time across the week",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    },
+    {
+      "jsonPath": "$.recognizingAuthority.name",
+      "value": "U.S. Centers for Disease Control and Prevention",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/guidelines/adults.html"]
+    }
+  ]
+}

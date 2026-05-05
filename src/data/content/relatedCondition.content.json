@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an AnatomicalSystem, SuperficialAnatomy, or AnatomicalStructure to link to MedicalCondition entries that affect that anatomy. Makes anatomy pages discoverable from disease pages and vice versa.",
+  "whenNotToUse": "Do not use to point at therapies or procedures — use relatedTherapy for therapy crosslinks.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:SuperficialAnatomy", "schema:AnatomicalStructure"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use ClaimReview when the page is a fact-check article: a publisher evaluates a specific public claim, assigns a rating (true, false, mostly false, etc.), and shows the reasoning. The claim must be a discrete statement, not a topic or category.",
+  "whenNotToUse": "Don't use ClaimReview for general explainer or myth-busting articles that don't review a specific claim, and don't apply it to your own marketing claims. Only the publisher of the fact check — not the publisher of the original claim — should be set as author.",
+  "whoItsFor": "Health-misinformation desks at public-health agencies, fact-checking newsrooms covering medical claims, and health-system communications teams responding to viral health rumors with sourced corrections.",
+  "seoNotes": "Per Google's fact-check structured data guidance, ClaimReview is the only fact-check rich result Google supports and requires claimReviewed (under 75 characters), reviewRating, and url. Tie itemReviewed to a CreativeWork or Claim and keep author as the fact-checking organization, not the claim's originator.",
+  "commonCombos": ["schema:Claim", "schema:Rating", "schema:Organization"]
+}

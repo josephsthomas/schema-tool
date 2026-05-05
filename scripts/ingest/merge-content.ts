@@ -96,6 +96,32 @@ export async function mergeContent(opts: MergeContentOptions): Promise<MergeCont
     byTerm.set(bare, bucket);
   }
 
+  // Properties live in src/data/content/properties/<propName>.content.json
+  // because macOS APFS is case-insensitive — putting a lowercase property
+  // sidecar at the top level would collide with a PascalCase Type sidecar
+  // (e.g., diet vs Diet, drug vs Drug). The subdirectory keeps property
+  // sidecars isolated from Type sidecars. Properties never ship example
+  // JSON-LD or sources (per brief §3.4 they inherit from parent Types),
+  // so we only scan for .content.json here.
+  const propertiesDir = path.join(contentDir, 'properties');
+  let propertyEntries: Dirent[] = [];
+  try {
+    propertyEntries = await readdir(propertiesDir, { withFileTypes: true });
+  } catch {
+    // Optional directory — silently skip if absent.
+  }
+  for (const dirent of propertyEntries) {
+    if (!dirent.isFile()) continue;
+    const name = dirent.name;
+    if (name.startsWith('.')) continue;
+    const m = /^(.+?)\.content\.json$/.exec(name);
+    if (!m) continue;
+    const bare = m[1];
+    const bucket = byTerm.get(bare) ?? {};
+    bucket.content = path.join(propertiesDir, name);
+    byTerm.set(bare, bucket);
+  }
+
   const out: Record<string, ContentEntry> = {};
   const warnings: string[] = [];
   const termsWithDraft: string[] = [];

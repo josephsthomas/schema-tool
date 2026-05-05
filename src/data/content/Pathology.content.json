@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Pathology when scoping a Physician or department to anatomic and clinical pathology — surgical pathology, cytopathology, hematopathology, and lab-medicine direction. Pair with DiagnosticLab and with MedicalCondition entities where pathology drives diagnosis; use LaboratoryScience for the broader lab-tech and clinical-lab discipline."
+}

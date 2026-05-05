@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a DietarySupplement to express the recommended daily or per-occasion intake for a defined population using RecommendedDoseSchedule. Useful for nutrition labels, clinical-supplement pages, and consumer-product detail.",
+  "whenNotToUse": "Do not use for prescription-drug dosing — that belongs on doseSchedule with the appropriate Drug-side schedule type.",
+  "commonCombos": ["schema:DietarySupplement"]
+}

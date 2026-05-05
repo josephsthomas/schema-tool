@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use study on any MedicalEntity to link to a MedicalStudy or MedicalTrial that investigated it — useful for connecting a drug, device, or condition to its evidence base. Each linked study should carry its own status, design, and outcome data on its own node.",
+  "whenNotToUse": "Don't use this to embed a literature citation or single publication — those belong on citation or via ScholarlyArticle. Avoid linking studies that merely mention the entity in passing.",
+  "commonCombos": ["schema:MedicalEntity"]
+}

@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Prescription ibuprofen is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints)."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Ibuprofen for osteoarthritis",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Ibuprofen is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints).",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    }
+  ]
+}

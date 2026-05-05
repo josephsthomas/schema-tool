@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use AnatomicalSystem for any page describing a coordinated network of organs and tissues that share a function — cardiovascular, lymphatic, nervous, endocrine, etc. It is the right type for system-level overview pages and for the parent node that individual organ pages reference via partOfSystem.",
+  "whenNotToUse": "Don't use AnatomicalSystem for an individual organ or vessel — that's AnatomicalStructure. Don't use it for a disease that affects a system; the disease is MedicalCondition with the system referenced as associatedAnatomy.",
+  "whoItsFor": "Editorial teams building system-level hub pages on patient-education sites, medical-school curriculum authors, and clinical reference publishers who need a stable parent for the constituent organ entries.",
+  "seoNotes": "AnatomicalSystem pages do not currently earn a dedicated Google rich result, but they are the connective tissue of a medical entity graph — every Drug, MedicalCondition, and MedicalProcedure that references the system gains disambiguation. Populate comprisedOf so crawlers can enumerate the constituent structures.",
+  "commonCombos": ["schema:AnatomicalStructure", "schema:MedicalCondition", "schema:MedicalProcedure"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use applicableLocation on DrugLegalStatus or DrugCost to scope the statement to a jurisdiction — a country, state, or other AdministrativeArea. Without it, a price or legal status reads as global, which it almost never is.",
+  "whenNotToUse": "Don't use applicableLocation for the patient's location of care or the pharmacy's address — those belong on the relevant MedicalBusiness or postalAddress. For drug strength availability by geography, use availableIn on DrugStrength instead.",
+  "commonCombos": ["schema:DrugLegalStatus", "schema:DrugCost"]
+}

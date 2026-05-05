@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug as a Boolean stating whether any generic equivalent exists, independent of the current entity's brand status. Set true even when the page describes the brand, as long as a generic form is on market.",
+  "whenNotToUse": "Do not use to indicate whether this specific entity is the generic version; use isProprietary for that distinction.",
+  "commonCombos": ["schema:Drug"]
+}

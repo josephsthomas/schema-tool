@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use expectedPrognosis on a MedicalCondition to summarize the anticipated clinical course — recovery timeline, expected residual deficits, survival outlook. Keep the Text value clinical and time-bounded; consumers and assistants ground 'what to expect' answers on this field.",
+  "whenNotToUse": "Don't use expectedPrognosis for the condition's natural history without intervention — use naturalProgression. For specific outcome measures from a trial, use outcome on a MedicalStudy.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

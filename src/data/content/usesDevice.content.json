@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use usesDevice on MedicalTest to identify the MedicalDevice — analyzer, imaging system, point-of-care instrument — used to perform the test. Helpful when reference ranges or sensitivity vary by platform.",
+  "whenNotToUse": "Don't use this for consumables or specimen containers. Avoid linking generic categories when a specific manufacturer-and-model device node exists.",
+  "commonCombos": ["schema:MedicalTest"]
+}

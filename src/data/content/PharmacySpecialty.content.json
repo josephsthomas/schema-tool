@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use PharmacySpecialty when scoping a pharmacy, pharmacist, or pharmacy-residency program to pharmacy practice — retail, specialty, infusion, and ambulatory-care pharmacy. Pair with Pharmacy and Drug entities; use MedicalOrganization for the pharmacy as a place and PharmacySpecialty as the discipline."
+}

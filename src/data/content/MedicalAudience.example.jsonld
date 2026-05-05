@@ -1,0 +1,12 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/pregnancy.html and
+// https://medlineplus.gov/prenatalcare.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalAudience",
+  "name": "Pregnant women",
+  "audienceType": "Patient",
+  "description": "Prenatal care is the health care you get while you are pregnant."
+}

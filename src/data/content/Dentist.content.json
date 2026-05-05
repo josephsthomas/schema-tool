@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Dentist for a general dental practitioner offering routine examinations, dental imaging, preventive-care guidance, and referrals for conditions such as gum disease, tooth decay, and orthodontic needs. It fits both the professional and the small practice when the page is centered on the named clinician.",
+  "whenNotToUse": "Don't use Dentist for the dental office building when the page is really about hours, address, and bookable visits (use MedicalBusiness with the Dentist as employee). Don't use it for an oral and maxillofacial surgeon when the page describes surgical specialty work — model that with a more specific specialty.",
+  "whoItsFor": "Dental-practice owners and their site builders, plus oral-health publishers maintaining 'find a dentist' directories and patient-education explainers about routine dental visits.",
+  "seoNotes": "Dentist markup pairs naturally with availableService entries for cleanings, exams, and imaging, plus medicalSpecialty for general dentistry. Linking the Dentist to their MedicalBusiness or affiliated Hospital strengthens local entity associations.",
+  "commonCombos": ["schema:MedicalBusiness", "schema:MedicalProcedure", "schema:MedicalSpecialty"]
+}

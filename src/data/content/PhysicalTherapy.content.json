@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use PhysicalTherapy for movement, strength, gait, balance, and pain-related rehab — post-surgical knee rehab, sports-injury recovery, neurological gait retraining, vestibular therapy. PT clinic pages, sports-medicine service lines, and post-op discharge education all anchor here.",
+  "whenNotToUse": "Don't use PhysicalTherapy for ADL retraining or fine-motor function — that's OccupationalTherapy. Don't use it for general fitness coaching that isn't clinician-directed therapy. For pain-management interventions delivered as injections or medications, use TherapeuticProcedure.",
+  "whoItsFor": "Outpatient PT clinics, sports-medicine groups, orthopedic surgical practices documenting post-op rehab pathways, and home-health agencies describing PT visits.",
+  "seoNotes": "PhysicalTherapy markup with bodyLocation and indication helps connect the therapy to the surgery or injury it follows. LLMs increasingly use rehab-pathway markup when answering questions about recovery timelines — populate followup and contraindication where the source supports it.",
+  "commonCombos": ["schema:MedicalCondition", "schema:SurgicalProcedure", "schema:AnatomicalStructure", "schema:Hospital", "schema:Physician"]
+}

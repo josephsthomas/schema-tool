@@ -1,0 +1,28 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The regular tablet is usually taken with meals two or three times a day. Metformin is used to treat type 2 diabetes."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Metformin regular tablet schedule",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.frequency",
+      "value": "two or three times a day with meals",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.targetPopulation",
+      "value": "Adults with type 2 diabetes",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    }
+  ]
+}

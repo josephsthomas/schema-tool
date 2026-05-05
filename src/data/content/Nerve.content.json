@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Nerve for any page about a named peripheral or cranial nerve — median, ulnar, sciatic, vagus, optic. It is the right type for neuroanatomy reference content and the anatomical anchor on neurology, neurosurgery, and pain-management pages.",
+  "whenNotToUse": "Don't use Nerve for the central nervous system as a whole (use AnatomicalSystem), for brain regions (use BrainStructure), or for neuropathy and neuralgia (those are MedicalCondition with the nerve referenced as associatedAnatomy).",
+  "whoItsFor": "Neurology and pain-management practice editors, hand-surgery and orthopedic teams, electrodiagnostic labs, and patient-education editors covering compression syndromes and nerve injury.",
+  "seoNotes": "Nerve pages should specify which muscles the nerve innervates and which skin regions it provides sensation to — that wiring is what lets LLM assistants answer compression-syndrome and dermatome questions accurately. Connect to the broader nervous AnatomicalSystem.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:Muscle", "schema:MedicalCondition"]
+}

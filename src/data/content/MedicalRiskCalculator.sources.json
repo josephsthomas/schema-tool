@@ -1,0 +1,37 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/heart-disease/risk-factors/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Key risk factors for heart disease include: High blood pressure, High cholesterol, Smoking"
+    },
+    {
+      "url": "https://www.cdc.gov/cholesterol/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "High cholesterol also increases your risk for heart disease and stroke, two leading causes of death in the United States."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Cardiovascular Disease Risk Calculator",
+      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Interactive calculator that combines key risk factors for heart disease — including high blood pressure, high cholesterol, and smoking — to produce an estimate of cardiovascular risk.",
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html",
+        "https://www.cdc.gov/cholesterol/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.estimatesRiskOf.name",
+      "value": "Heart Disease",
+      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+    }
+  ]
+}

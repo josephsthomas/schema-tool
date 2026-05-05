@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Infectious when scoping a Physician or service line to infectious disease — HIV, hepatitis, tuberculosis, antimicrobial stewardship, and travel medicine. Pair with InfectiousDisease MedicalCondition entities and with InfectiousAgentClass values when describing pathogen scope."
+}

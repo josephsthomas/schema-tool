@@ -1,0 +1,43 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Adult Immunization Schedule by Age (Addendum updated July 2, 2025)"
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Adult Immunization Schedule by Age",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+    },
+    {
+      "jsonPath": "$.url",
+      "value": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+    },
+    {
+      "jsonPath": "$.guidelineDate",
+      "value": "2025-07-02",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+    },
+    {
+      "jsonPath": "$.evidenceOrigin",
+      "value": "Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+    },
+    {
+      "jsonPath": "$.guidelineSubject.name",
+      "value": "Routine vaccination of adults aged 19 years and older in the United States",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+    },
+    {
+      "jsonPath": "$.publisher.name",
+      "value": "Centers for Disease Control and Prevention",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+    }
+  ]
+}

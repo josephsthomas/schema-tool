@@ -1,0 +1,48 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/flu/vaccines/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Everyone 6 months and older should get a flu vaccine every season with rare exceptions."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Routine seasonal influenza vaccination for everyone 6 months and older",
+      "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"]
+    },
+    {
+      "jsonPath": "$.url",
+      "value": "https://www.cdc.gov/flu/vaccines/index.html",
+      "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"]
+    },
+    {
+      "jsonPath": "$.guidelineDate",
+      "value": "2024-09-17",
+      "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"]
+    },
+    {
+      "jsonPath": "$.recommendationStrength",
+      "value": "Routine",
+      "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"]
+    },
+    {
+      "jsonPath": "$.evidenceOrigin",
+      "value": "Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention",
+      "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"]
+    },
+    {
+      "jsonPath": "$.guidelineSubject.name",
+      "value": "Everyone 6 months and older should get a flu vaccine every season with rare exceptions",
+      "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"]
+    },
+    {
+      "jsonPath": "$.publisher.name",
+      "value": "Centers for Disease Control and Prevention",
+      "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+// Reference example — built from public data sourced from NIH MedlinePlus (https://medlineplus.gov/ency/article/003804.htm) on 2026-05-05. Not for use in client deliverables. Generate your own markup using your content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "ImagingTest",
+  "name": "Chest X-Ray",
+  "description": "A chest x-ray is an x-ray of the chest, lungs, heart, large arteries, ribs, and diaphragm.",
+  "usesDevice": {
+    "@type": "MedicalDevice",
+    "name": "X-ray machine"
+  },
+  "usedToDiagnose": [
+    {
+      "@type": "MedicalCondition",
+      "name": "Pneumonia"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Tuberculosis"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Collapsed lung"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Lung cancer"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Heart failure"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Rib fractures"
+    }
+  ],
+  "signDetected": [
+    { "@type": "MedicalSign", "name": "Persistent cough" },
+    { "@type": "MedicalSign", "name": "Coughing up blood" },
+    { "@type": "MedicalSign", "name": "Difficulty breathing" },
+    { "@type": "MedicalSign", "name": "Chest pain" }
+  ]
+}

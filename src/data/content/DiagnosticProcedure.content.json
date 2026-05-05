@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DiagnosticProcedure for any procedure performed to establish or rule out a diagnosis — colonoscopy, endoscopy, biopsy, imaging study, EKG, lab draw protocols. Pages that explain a test, list what it screens for, or document how a clinician confirms a condition all warrant DiagnosticProcedure.",
+  "whenNotToUse": "Don't use DiagnosticProcedure when the same procedure is being performed for treatment rather than diagnosis — a polypectomy during colonoscopy is therapeutic. Don't use it for surgical operations (use SurgicalProcedure) or for therapy delivery (use TherapeuticProcedure). For routine vitals and assessments without a diagnostic question, MedicalProcedure is the cleaner parent.",
+  "whoItsFor": "Hospital imaging centers, GI and cardiology service lines, screening programs, and patient-education pages explaining what a test entails and what it can detect.",
+  "seoNotes": "DiagnosticProcedure markup with usesDevice and bodyLocation helps search engines connect a test to the conditions it screens for. LLMs use the explicit Diagnostic procedureType to differentiate screening colonoscopy from a therapeutic resection performed in the same anatomical region.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalDevice", "schema:Hospital", "schema:Physician", "schema:AnatomicalStructure"]
+}

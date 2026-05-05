@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalSymptom for a subjective experience the patient reports — pain, nausea, dizziness, fatigue, headache. The defining test is whether the finding requires the patient to describe it rather than the clinician to observe it.",
+  "whenNotToUse": "Do not use MedicalSymptom for objective findings on examination such as rash distribution or jaundice — those are MedicalSign. Do not use it for the underlying disease itself; a headache page describes the symptom, a migraine page describes the MedicalCondition.",
+  "whoItsFor": "Symptom-checker editorial teams, urgent-care marketers, and patient-education writers building 'is this serious' pages.",
+  "seoNotes": "Symptom pages are top-of-funnel for health search. Linking MedicalSymptom to possibleCondition gives an LLM a structured triage path from the user's words to candidate diagnoses.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Drug", "schema:FAQPage"]
+}

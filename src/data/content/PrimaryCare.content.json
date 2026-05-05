@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use PrimaryCare when scoping a Physician, clinic, or service line to first-contact comprehensive care — family medicine, internal medicine, and general pediatrics. Pair with MedicalClinic and with chronic-disease MedicalCondition entities like Hypertension and Type 2 Diabetes that primary care manages over time."
+}

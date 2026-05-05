@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use ResultsAvailable when summary results have been posted to the registry of record or published in a peer-reviewed venue, and the study page links to that publication or registry results section. This signals to AI answer engines that the trial is citable, not just registered."
+}

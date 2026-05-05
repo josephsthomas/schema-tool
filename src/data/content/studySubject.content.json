@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use studySubject on MedicalStudy to name the entity under investigation — a drug, device, condition, or procedure. Repeat the property when a study evaluates multiple subjects, such as a drug-versus-drug comparison.",
+  "whenNotToUse": "Don't use this for the study population; population characteristics belong elsewhere on the trial design. Avoid using it for outcomes or endpoints.",
+  "commonCombos": ["schema:MedicalStudy"]
+}

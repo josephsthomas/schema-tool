@@ -1,0 +1,37 @@
+{
+  "id": "hcp-product",
+  "label": "HCP product page",
+  "description": "HCP-facing branded medication page with prescribing details — active ingredient, mechanism, dose schedules, contraindications, and the manufacturer organization.",
+  "entities": [
+    {
+      "type": "MedicalWebPage",
+      "defaultLabel": "Page wrapper (audienceType: medical/HCP)",
+      "parentRef": null
+    },
+    {
+      "type": "Drug",
+      "defaultLabel": "Branded drug",
+      "parentRef": "MedicalWebPage.mainEntity"
+    },
+    {
+      "type": "DoseSchedule",
+      "defaultLabel": "Recommended dose",
+      "parentRef": "Drug.doseSchedule"
+    },
+    {
+      "type": "MaximumDoseSchedule",
+      "defaultLabel": "Max daily dose",
+      "parentRef": "Drug.maximumIntake"
+    },
+    {
+      "type": "MedicalContraindication",
+      "defaultLabel": "Contraindication",
+      "parentRef": "Drug.contraindication"
+    },
+    {
+      "type": "MedicalOrganization",
+      "defaultLabel": "Manufacturer",
+      "parentRef": "Drug.manufacturer"
+    }
+  ]
+}

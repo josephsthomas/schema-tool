@@ -1,0 +1,12 @@
+// Reference example — built from public data sourced from NIH MedlinePlus MRI
+// (https://medlineplus.gov/mriscans.html) on 2026-05-05. Not for use in
+// client deliverables. Generate your own markup using your content in the
+// Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "ImagingTest",
+  "name": "Brain MRI",
+  "imagingTechnique": "MRI",
+  "bodyLocation": "Brain",
+  "description": "Magnetic resonance imaging (MRI) is a medical imaging procedure that uses a large magnet, radio waves, and a computer to make detailed pictures of the inside of your body."
+}

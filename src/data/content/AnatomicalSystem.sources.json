@@ -1,0 +1,29 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/vasculardiseases.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The vascular system is your body's network of blood vessels."
+    },
+    {
+      "url": "https://medlineplus.gov/aorticaneurysm.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "An aneurysm is a bulge or 'ballooning' in the wall of an artery."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Vascular system", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.description", "value": "Your body's network of blood vessels.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.comprisedOf[0].name", "value": "Arteries", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.comprisedOf[0].description", "value": "Carry oxygen-rich blood from your heart to your tissues and organs.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.comprisedOf[1].name", "value": "Veins", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.comprisedOf[1].description", "value": "Carry the blood and waste products back to your heart.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.comprisedOf[2].name", "value": "Capillaries", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.comprisedOf[2].description", "value": "Tiny blood vessels that connect your small arteries to your small veins.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.relatedCondition.name", "value": "Aneurysm", "sourceUrls": ["https://medlineplus.gov/aorticaneurysm.html"] },
+    { "jsonPath": "$.relatedCondition.description", "value": "A bulge or ballooning in the wall of an artery.", "sourceUrls": ["https://medlineplus.gov/aorticaneurysm.html"] }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/fever.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A fever is a body temperature that is higher than normal. A normal temperature can vary from person to person, but it is usually around 98.6 °F (37 °C)."
+    },
+    {
+      "url": "https://medlineplus.gov/fever.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Fever", "sourceUrls": ["https://medlineplus.gov/fever.html"] },
+    { "jsonPath": "$.description", "value": "A fever is a body temperature that is higher than normal. A normal temperature can vary from person to person, but it is usually around 98.6 °F (37 °C). A fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection.", "sourceUrls": ["https://medlineplus.gov/fever.html"] }
+  ]
+}

@@ -1,0 +1,36 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/diabetes/prevention-type-2/index.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalRiskEstimator",
+  "name": "Prediabetes Risk Test",
+  "description": "A 1-minute prediabetes risk test that uses self-reported risk factors to flag people who should ask their doctor for a blood test to confirm prediabetes.",
+  "estimatesRiskOf": {
+    "@type": "MedicalCondition",
+    "name": "Prediabetes"
+  },
+  "includedRiskFactor": [
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "Family history of type 2 diabetes"
+    },
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "Age over 45"
+    },
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "Overweight or obesity"
+    },
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "History of gestational diabetes"
+    },
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "High blood pressure"
+    }
+  ]
+}

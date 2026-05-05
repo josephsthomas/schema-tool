@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use seriousAdverseOutcome on MedicalTherapy or MedicalDevice to flag complications that are life-threatening, require hospitalization, cause persistent disability, or are otherwise FDA-reportable. Each outcome should be a separate MedicalEntity reference so it can carry its own description and codes.",
+  "whenNotToUse": "Don't use this for mild or transient side effects — those belong in adverseOutcome. Avoid bundling multiple complications into a single freeform string.",
+  "commonCombos": ["schema:MedicalTherapy", "schema:MedicalDevice"]
+}

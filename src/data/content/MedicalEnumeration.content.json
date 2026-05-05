@@ -1,0 +1,7 @@
+{
+  "whenToUse": "MedicalEnumeration is the abstract parent for every health-vertical enumeration in schema.org — MedicalSpecialty, MedicalAudienceType, MedicalEvidenceLevel, DrugCostCategory, MedicalProcedureType, MedicalStudyStatus, and the rest. Use it as a conceptual umbrella when you are documenting the family of medical-vocabulary enums or when a property accepts any medical enum value; instantiate one of the concrete subtypes in actual page markup.",
+  "whenNotToUse": "Don't emit MedicalEnumeration directly in JSON-LD output — schema.org expects a concrete subtype value. Don't use it as a substitute for an unknown medical enum; choose the subtype that matches the property's expected range.",
+  "whoItsFor": "Schema-tooling authors, knowledge-graph integrators, and editorial-system architects who need a single conceptual handle for the medical enum family when designing CMS dropdowns or validation logic.",
+  "seoNotes": "MedicalEnumeration itself does not surface in rich results. The value of the abstraction is internal — it lets a CMS or content tool present a unified picker over all medical enums while emitting the concrete subtype required by Google and AI assistants.",
+  "commonCombos": ["schema:MedicalSpecialty", "schema:MedicalAudienceType", "schema:MedicalEvidenceLevel", "schema:MedicalProcedureType", "schema:MedicalStudyStatus"]
+}

@@ -1,0 +1,48 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.nlm.nih.gov/research/visible/visible_human.html",
+      "publisher": "National Library of Medicine",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The Visible Human Project — complete, anatomically detailed, three-dimensional representations of male and female human bodies (NLM, last reviewed December 26, 2023)."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "The Visible Human Project",
+      "sourceUrls": ["https://www.nlm.nih.gov/research/visible/visible_human.html"]
+    },
+    {
+      "jsonPath": "$.headline",
+      "value": "The Visible Human Project",
+      "sourceUrls": ["https://www.nlm.nih.gov/research/visible/visible_human.html"]
+    },
+    {
+      "jsonPath": "$.url",
+      "value": "https://www.nlm.nih.gov/research/visible/visible_human.html",
+      "sourceUrls": ["https://www.nlm.nih.gov/research/visible/visible_human.html"]
+    },
+    {
+      "jsonPath": "$.datePublished",
+      "value": "2023-12-26",
+      "sourceUrls": ["https://www.nlm.nih.gov/research/visible/visible_human.html"]
+    },
+    {
+      "jsonPath": "$.author.name",
+      "value": "Michael J. Ackerman",
+      "sourceUrls": ["https://www.nlm.nih.gov/research/visible/visible_human.html"]
+    },
+    {
+      "jsonPath": "$.publisher.name",
+      "value": "National Library of Medicine",
+      "sourceUrls": ["https://www.nlm.nih.gov/research/visible/visible_human.html"]
+    },
+    {
+      "jsonPath": "$.about.name",
+      "value": "Three-dimensional anatomical representations of male and female human bodies created through cross-sectional imaging",
+      "sourceUrls": ["https://www.nlm.nih.gov/research/visible/visible_human.html"]
+    }
+  ]
+}

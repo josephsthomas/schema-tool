@@ -1,0 +1,18 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/001074.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "An ACL injury is the over-stretching or tearing of the anterior cruciate ligament (ACL) in the knee. The ACL is in the middle of the knee. It prevents the shin bone from sliding out in front of the thigh bone."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Anterior cruciate ligament (ACL)", "sourceUrls": ["https://medlineplus.gov/ency/article/001074.htm"] },
+    { "jsonPath": "$.bodyLocation", "value": "In the middle of the knee.", "sourceUrls": ["https://medlineplus.gov/ency/article/001074.htm"] },
+    { "jsonPath": "$.function", "value": "Prevent the shin bone from sliding out in front of the thigh bone.", "sourceUrls": ["https://medlineplus.gov/ency/article/001074.htm"] },
+    { "jsonPath": "$.relatedCondition.name", "value": "ACL injury", "sourceUrls": ["https://medlineplus.gov/ency/article/001074.htm"] },
+    { "jsonPath": "$.relatedCondition.description", "value": "Over-stretching or tearing of the anterior cruciate ligament (ACL) in the knee.", "sourceUrls": ["https://medlineplus.gov/ency/article/001074.htm"] }
+  ]
+}

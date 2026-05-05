@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use MusculoskeletalExam for the MSK portion of a physical — joint inspection, range of motion, strength testing, and provocative maneuvers. Pair with MedicalCondition entities like Osteoarthritis or Rotator Cuff Tear and with Joint or Bone anatomical entities."
+}

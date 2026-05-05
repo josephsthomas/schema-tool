@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalDevice for any therapeutic, diagnostic, monitoring, or assistive device — implants (pacemakers, stents, joint replacements), durable medical equipment (CPAP, infusion pumps, glucose meters), home monitors (blood pressure, pulse oximeter), and surgical instruments. Apply it on product pages, manufacturer catalog entries, and patient-education pages explaining a device.",
+  "whenNotToUse": "Don't use MedicalDevice for medications or biologics — those are Drug or DietarySupplement. Don't use it for the procedure that implants or uses the device; that's SurgicalProcedure or MedicalProcedure with the device referenced as a value. Don't use it for a clinic, lab, or hospital — those are MedicalBusiness subtypes.",
+  "whoItsFor": "Device manufacturer marketing teams shipping product detail pages, hospital and DME-supplier service pages, and patient-education editors explaining how to use a home device.",
+  "seoNotes": "Set indication and purpose explicitly — these are the properties health-assistant LLMs use to ground \"what does a pacemaker do\" and \"who needs a CPAP.\" Add manufacturer (with Organization) and contraindication where defensible. Google does not currently issue a dedicated rich result for MedicalDevice; the value is entity grounding for AI search and clean disambiguation between device classes (manual vs. digital, wrist vs. arm).",
+  "commonCombos": ["schema:Organization", "schema:MedicalCondition", "schema:MedicalProcedure", "schema:MedicalContraindication", "schema:MedicalAudience", "schema:HowTo"]
+}

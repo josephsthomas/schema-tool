@@ -1,0 +1,27 @@
+// Reference example — built from public registration metadata at ClinicalTrials.gov
+// (https://clinicaltrials.gov/study/NCT04368728) accessed 2026-05-05.
+// Registration metadata only — no results or efficacy claims.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTrial",
+  "name": "A Phase 1/2/3, Placebo-Controlled, Randomized, Observer-Blind, Dose-Finding Study to Evaluate the Safety, Tolerability, Immunogenicity, and Efficacy of SARS-CoV-2 RNA Vaccine Candidates Against COVID-19 in Healthy Individuals",
+  "identifier": "NCT04368728",
+  "status": "Completed",
+  "trialDesign": ["RandomizedTrial", "PlaceboControlledTrial", "DoubleBlindedTrial"],
+  "healthCondition": [
+    {
+      "@type": "MedicalCondition",
+      "name": "SARS-CoV-2 Infection"
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "COVID-19"
+    }
+  ],
+  "sponsor": {
+    "@type": "Organization",
+    "name": "BioNTech SE"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DrugClass to mark up a pharmacologic class hub page — the canonical entity that groups individual drugs by mechanism of action or therapeutic category, such as NSAIDs, biguanides, or salicylates. It pairs naturally with Drug entries that reference it via drugClass, letting search engines disambiguate the class as a distinct concept from any single member drug.",
+  "whenNotToUse": "Don't use DrugClass for an individual drug page — use Drug. Don't use it for a non-pharmacologic grouping like a brand family or a manufacturer formulary section. Don't use it for dietary supplement categories — use DietarySupplement on the member entries.",
+  "whoItsFor": "Medical editors building drug-class landing pages for consumer health portals, formulary curators at health systems and payers, and pharmacology educators publishing reference content.",
+  "seoNotes": "DrugClass is most valuable as the target of a Drug.drugClass property — the cross-link is what carries entity weight. Google does not currently issue a dedicated rich result for DrugClass; the value is structured-data clarity for medical knowledge graphs.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:WebPage"]
+}

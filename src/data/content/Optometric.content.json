@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Optometric when scoping an optometrist, vision-care practice, or refraction-based service to eye exams and corrective lenses. Pair with MedicalBusiness rather than Physician for OD-led practices, and reserve ophthalmologic medical and surgical eye care for an Ophthalmology service line."
+}

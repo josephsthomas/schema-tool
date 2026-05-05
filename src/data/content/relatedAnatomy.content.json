@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a SuperficialAnatomy entry to link to the deeper systems or structures it overlies or relates to. Helps tie surface-anatomy reference content to the underlying anatomy it represents.",
+  "whenNotToUse": "Do not use on AnatomicalStructure or AnatomicalSystem entries — they have their own associatedAnatomy and partOfSystem relations.",
+  "commonCombos": ["schema:SuperficialAnatomy"]
+}

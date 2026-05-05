@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use alcoholWarning on Drug for a single-paragraph caution about combining the drug with alcohol — sedation amplification, hepatotoxicity risk, disulfiram-like reactions. Keep it self-contained Text so it can render verbatim in a label or product page.",
+  "whenNotToUse": "Don't use alcoholWarning for general contraindications unrelated to alcohol — use contraindication. For pregnancy or breastfeeding cautions, use pregnancyWarning or breastfeedingWarning so consumers can surface the right label per cohort.",
+  "commonCombos": ["schema:Drug"]
+}

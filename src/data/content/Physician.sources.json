@@ -1,0 +1,20 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/001939.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A primary care provider (PCP) is a health care practitioner who sees people that have common medical problems. This person is most often a doctor. However, a PCP may be a physician assistant or a nurse practitioner. Your PCP is your main health care provider in non-emergency situations."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.description", "value": "A health care practitioner who sees people that have common medical problems, serving as the patient's main health care provider in non-emergency situations.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
+    { "jsonPath": "$.availableService[0].name", "value": "Preventive care", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
+    { "jsonPath": "$.availableService[0].description", "value": "Delivering preventive care and promoting healthy lifestyle choices.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
+    { "jsonPath": "$.availableService[1].name", "value": "Diagnosis and treatment of routine medical conditions", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
+    { "jsonPath": "$.availableService[1].description", "value": "Diagnosing and treating routine medical conditions, and evaluating the severity of health concerns.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
+    { "jsonPath": "$.availableService[2].name", "value": "Specialist referral", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
+    { "jsonPath": "$.availableService[2].description", "value": "Referring patients to specialists when medical or surgical expertise is needed.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] }
+  ]
+}

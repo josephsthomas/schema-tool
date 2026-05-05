@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalProcedure to describe what the patient must do before the procedure — fasting, medication holds, bowel prep, transport plans. Drives patient-education and pre-visit instruction pages.",
+  "whenNotToUse": "Do not use for clinician-side procedural setup or for device-specific workup; use preOp on a MedicalDevice for the latter.",
+  "commonCombos": ["schema:MedicalProcedure"]
+}

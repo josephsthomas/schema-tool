@@ -1,0 +1,32 @@
+{
+  "id": "consumer-product",
+  "label": "Consumer product page",
+  "description": "Consumer-facing OTC or branded medication page. Lighter on prescribing detail, heavier on indications, FAQ, and consumer-relevant warnings.",
+  "entities": [
+    {
+      "type": "MedicalWebPage",
+      "defaultLabel": "Page wrapper (audienceType: patient)",
+      "parentRef": null
+    },
+    {
+      "type": "Drug",
+      "defaultLabel": "OTC or branded drug",
+      "parentRef": "MedicalWebPage.mainEntity"
+    },
+    {
+      "type": "MedicalIndication",
+      "defaultLabel": "Approved indication",
+      "parentRef": "Drug.indication"
+    },
+    {
+      "type": "MedicalContraindication",
+      "defaultLabel": "Consumer-facing warning",
+      "parentRef": "Drug.contraindication"
+    },
+    {
+      "type": "FAQPage",
+      "defaultLabel": "Common questions",
+      "parentRef": null
+    }
+  ]
+}

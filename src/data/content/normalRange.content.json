@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalTest to express the reference interval for a healthy adult population, with units and any qualifiers needed to interpret a result. Pair with signDetected for abnormal-result interpretation guidance.",
+  "whenNotToUse": "Do not use for population-specific cutoffs that vary by age or sex without also documenting that context — split into multiple values or use MedicalEnumeration.",
+  "commonCombos": ["schema:MedicalTest"]
+}

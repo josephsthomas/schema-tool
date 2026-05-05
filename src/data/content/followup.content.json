@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use followup on a MedicalProcedure to describe post-procedure care expected of the patient or care team — wound checks, imaging intervals, return-visit timing. The Text should be specific enough that a patient knows what to schedule.",
+  "whenNotToUse": "Don't use followup to describe the procedure itself — use howPerformed. For long-term surveillance protocols rather than immediate aftercare, model as a separate MedicalGuideline.",
+  "commonCombos": ["schema:MedicalProcedure"]
+}

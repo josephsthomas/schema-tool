@@ -1,0 +1,32 @@
+{
+  "id": "patient-education-explainer",
+  "label": "Patient education explainer",
+  "description": "Plain-language explainer page about a condition or procedure for patients. Anchored to a MedicalCondition with audience, FAQ, and lifestyle supporting content.",
+  "entities": [
+    {
+      "type": "MedicalWebPage",
+      "defaultLabel": "Page wrapper (audienceType: patient)",
+      "parentRef": null
+    },
+    {
+      "type": "MedicalCondition",
+      "defaultLabel": "Topic condition",
+      "parentRef": "MedicalWebPage.mainEntity"
+    },
+    {
+      "type": "MedicalAudience",
+      "defaultLabel": "Audience scope",
+      "parentRef": "MedicalWebPage.medicalAudience"
+    },
+    {
+      "type": "FAQPage",
+      "defaultLabel": "Plain-language Q&A",
+      "parentRef": null
+    },
+    {
+      "type": "LifestyleModification",
+      "defaultLabel": "Self-management",
+      "parentRef": "MedicalCondition.possibleTreatment"
+    }
+  ]
+}

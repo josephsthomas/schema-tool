@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalProcedure as the parent type for any clinical procedure that doesn't fit a more specific subtype, or when a single page describes a procedure category that spans surgical, diagnostic, and therapeutic uses. Vital-sign measurements, screening exams, and routine clinical assessments all fit here when the more specific subtypes overshoot.",
+  "whenNotToUse": "Don't use MedicalProcedure when a subtype is clearly correct: SurgicalProcedure for operations, DiagnosticProcedure for tests that establish a diagnosis, TherapeuticProcedure for treatments, RadiationTherapy for radiation, PhysicalTherapy or OccupationalTherapy for rehab. The subtypes carry stronger crawler signals — reach for the parent only when the subject genuinely sits above any one bucket.",
+  "whoItsFor": "Primary care practices documenting in-clinic procedures, patient-education sites explaining routine assessments, and health-system pages that list services across multiple departments without committing to a single specialty.",
+  "seoNotes": "MedicalProcedure entries with bodyLocation, preparation, and howPerformed can power FAQ-style answers for common patient questions. LLMs use the procedureType property to disambiguate when a procedure name is ambiguous across categories — populate it whenever the subtype isn't already encoded in @type.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Physician", "schema:Hospital", "schema:AnatomicalStructure", "schema:FAQPage"]
+}

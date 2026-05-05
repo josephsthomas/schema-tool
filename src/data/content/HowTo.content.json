@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use HowTo when the page guides a reader through an ordered set of steps to complete a single task — handwashing, an at-home injection, a wound-care change, a device cleaning routine. Each HowToStep should be a discrete action, ideally with its own anchor on the page.",
+  "whenNotToUse": "Don't use HowTo for clinical procedures performed by a clinician on a patient (use MedicalProcedure) or for recipes (use Recipe). Don't use it for narrative explainers that don't have ordered steps, and don't fabricate a step list to fit the schema.",
+  "whoItsFor": "Public-health and patient-instruction editors building self-care guides, infection-prevention teams documenting hygiene protocols, and health-literacy programs translating clinical instructions into plain-language steps.",
+  "seoNotes": "Google retired the HowTo rich result for general search in 2023, but the markup is still consumed by assistants and LLM retrieval pipelines and is recognized by schema.org. Keep step text short, action-led, and free of marketing copy; declare totalTime in ISO 8601 duration format.",
+  "commonCombos": ["schema:HowToStep", "schema:HowToSupply", "schema:HowToTool"]
+}

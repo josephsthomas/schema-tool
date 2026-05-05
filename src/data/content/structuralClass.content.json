@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use structuralClass on Joint to capture the structural classification — fibrous, cartilaginous, or synovial — that describes how the bones connect. Pair with functionalClass when also documenting movement type.",
+  "whenNotToUse": "Don't conflate this with functional joint classifications like synarthrosis or diarthrosis; those describe motion, not structure. Avoid arbitrary descriptive text; stick to recognized anatomical classes.",
+  "commonCombos": ["schema:Joint"]
+}

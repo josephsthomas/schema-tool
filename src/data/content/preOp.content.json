@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalDevice to describe preoperative workup, eligibility testing, anticoagulation holds, and patient prep required before implantation or use. Pair with postOp for the matched recovery picture.",
+  "whenNotToUse": "Do not use for routine patient prep unrelated to a specific device — use preparation on the relevant MedicalProcedure.",
+  "commonCombos": ["schema:MedicalDevice"]
+}

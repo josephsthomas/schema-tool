@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use warning on Drug to surface FDA black-box warnings, serious precautions, or boxed safety statements verbatim from the approved label. Use a URL when linking to the official label PDF; use Text when quoting the warning directly.",
+  "whenNotToUse": "Don't paraphrase or summarize regulatory language — quote it precisely or link to the source. Avoid using this for routine adverse-effect listings; those belong on adverseOutcome.",
+  "commonCombos": ["schema:Drug"]
+}

@@ -1,0 +1,25 @@
+// Reference example — built from public registration metadata at ClinicalTrials.gov
+// (https://clinicaltrials.gov/study/NCT00005121) accessed 2026-05-05.
+// Registration metadata only — no results or efficacy claims.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalObservationalStudy",
+  "name": "Framingham Heart Study",
+  "identifier": "NCT00005121",
+  "status": "Completed",
+  "studyDesign": "Observational",
+  "healthCondition": [
+    { "@type": "MedicalCondition", "name": "Cardiovascular Diseases" },
+    { "@type": "MedicalCondition", "name": "Heart Disease" },
+    { "@type": "MedicalCondition", "name": "Coronary Disease" },
+    { "@type": "MedicalCondition", "name": "Stroke" },
+    { "@type": "MedicalCondition", "name": "Hypertension" },
+    { "@type": "MedicalCondition", "name": "Atherosclerosis" }
+  ],
+  "sponsor": {
+    "@type": "Organization",
+    "name": "National Heart, Lung, and Blood Institute (NHLBI)"
+  }
+}

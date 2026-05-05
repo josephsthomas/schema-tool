@@ -1,0 +1,68 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://clinicaltrials.gov/study/NCT00005121",
+      "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Framingham Heart Study; Study Type: Observational; Lead Sponsor: National Heart, Lung, and Blood Institute (NHLBI)"
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Framingham Heart Study",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.identifier",
+      "value": "NCT00005121",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.status",
+      "value": "Completed",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.studyDesign",
+      "value": "Observational",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.healthCondition[0].name",
+      "value": "Cardiovascular Diseases",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.healthCondition[1].name",
+      "value": "Heart Disease",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.healthCondition[2].name",
+      "value": "Coronary Disease",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.healthCondition[3].name",
+      "value": "Stroke",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.healthCondition[4].name",
+      "value": "Hypertension",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.healthCondition[5].name",
+      "value": "Atherosclerosis",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    },
+    {
+      "jsonPath": "$.sponsor.name",
+      "value": "National Heart, Lung, and Blood Institute (NHLBI)",
+      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+    }
+  ]
+}

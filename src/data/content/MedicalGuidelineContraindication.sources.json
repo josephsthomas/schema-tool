@@ -1,0 +1,43 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Severely immunocompromised persons should not receive live vaccines"
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Live vaccines contraindicated in severely immunocompromised persons",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html"]
+    },
+    {
+      "jsonPath": "$.url",
+      "value": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html"]
+    },
+    {
+      "jsonPath": "$.guidelineDate",
+      "value": "2024-07-25",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html"]
+    },
+    {
+      "jsonPath": "$.evidenceOrigin",
+      "value": "CDC General Best Practice Guidelines for Immunization (ACIP)",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html"]
+    },
+    {
+      "jsonPath": "$.guidelineSubject.name",
+      "value": "Severely immunocompromised persons should not receive live vaccines",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html"]
+    },
+    {
+      "jsonPath": "$.publisher.name",
+      "value": "Centers for Disease Control and Prevention",
+      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-best-practices/contraindications-precautions.html"]
+    }
+  ]
+}

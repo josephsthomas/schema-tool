@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalCondition to flag unfavorable downstream events that can develop from the primary condition (e.g. diabetic retinopathy as a complication of diabetes). Supports patient-education risk framing and HCP differential thinking.",
+  "whenNotToUse": "Do not use for the original symptoms of the condition itself — those belong on signOrSymptom.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

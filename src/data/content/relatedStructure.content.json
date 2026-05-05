@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an AnatomicalSystem to point at structures that work with the system but are not formally part of it. Useful for capturing functional adjacency without distorting partOf graphs.",
+  "whenNotToUse": "Do not use for components that are part of the system — use comprisedOf or its inverse partOfSystem.",
+  "commonCombos": ["schema:AnatomicalSystem"]
+}

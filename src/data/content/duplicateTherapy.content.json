@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use duplicateTherapy on a MedicalTherapy to flag another therapy that overlaps in mechanism or class, where coadministration would double-count the same effect. The value is another MedicalTherapy node, not free text.",
+  "whenNotToUse": "Don't use duplicateTherapy for drug-drug interactions of different mechanisms — those belong on Drug interactions. For substitutes considered equivalent, use seriousAdverseOutcome modeling at the prescription layer instead.",
+  "commonCombos": ["schema:MedicalTherapy"]
+}

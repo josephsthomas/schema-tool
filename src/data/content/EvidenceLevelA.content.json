@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use EvidenceLevelA when the recommendation is supported by multiple randomized clinical trials or meta-analyses pooling RCT data — the strongest tier in the schema.org three-step grading. Reserve it for guideline statements where the originating society has explicitly graded the evidence as A or has cited at least two independent RCTs."
+}

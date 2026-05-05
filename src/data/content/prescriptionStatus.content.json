@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to flag whether it is OTC, prescription-only, or scheduled, using DrugPrescriptionStatus values where possible. Critical for formulary, e-commerce, and consumer-safety filtering.",
+  "whenNotToUse": "Do not use for legal-status nuances like FDA approval phase — use legalStatus or DrugLegalStatus for that.",
+  "commonCombos": ["schema:Drug"]
+}

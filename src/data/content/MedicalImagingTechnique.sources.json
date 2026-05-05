@@ -1,0 +1,39 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/mriscans.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Magnetic resonance imaging (MRI) is a medical imaging procedure that uses a large magnet, radio waves, and a computer to make detailed pictures of the inside of your body."
+    },
+    {
+      "url": "https://medlineplus.gov/diagnosticimaging.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Diagnostic imaging lets doctors look inside your body for clues about a medical condition."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Brain MRI",
+      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+    },
+    {
+      "jsonPath": "$.imagingTechnique",
+      "value": "MRI",
+      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+    },
+    {
+      "jsonPath": "$.bodyLocation",
+      "value": "Brain",
+      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Magnetic resonance imaging (MRI) is a medical imaging procedure that uses a large magnet, radio waves, and a computer to make detailed pictures of the inside of your body.",
+      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+    }
+  ]
+}

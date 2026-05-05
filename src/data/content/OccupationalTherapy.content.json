@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use OccupationalTherapy for interventions that help patients regain or develop the ability to perform daily living activities — post-stroke ADL training, hand therapy after injury, sensory integration for pediatric patients, fine-motor and cognitive retraining. OT clinic pages, rehab service lines, and discharge-planning resources all warrant this type.",
+  "whenNotToUse": "Don't use OccupationalTherapy for movement, strength, or gait rehab focused on impairments rather than functional tasks — that's PhysicalTherapy. Don't use it for cognitive or mental-health treatment delivered by a psychologist — that's PsychologicalTreatment. The two rehab types frequently coexist on a single rehab program page; mark each discretely.",
+  "whoItsFor": "Inpatient and outpatient rehab services, stroke recovery programs, hand-therapy clinics, pediatric developmental services, and home-health agencies describing OT visits.",
+  "seoNotes": "OccupationalTherapy is often searched alongside specific conditions (post-stroke OT, pediatric OT). Populating indication and bodyLocation along with relatedMedicalCondition gives both crawlers and LLMs a clean way to surface OT for the right patient cohort.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Hospital", "schema:Physician", "schema:AnatomicalStructure", "schema:PhysicalTherapy"]
+}

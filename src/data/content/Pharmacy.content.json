@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Pharmacy for a community retail pharmacy that dispenses prescription and over-the-counter medicines and where pharmacists are available to clarify medication label instructions and usage guidance for patients.",
+  "whenNotToUse": "Don't use Pharmacy for the manufacturer of a drug (model the medicine as Drug with a separate Organization manufacturer), for a hospital department that internally compounds medicines (model that as a Hospital subentity), or for the FDA approval listing itself.",
+  "whoItsFor": "Retail pharmacy chains and independent pharmacies building location pages, and patient-education publishers describing where to fill prescriptions and how to ask a pharmacist about medications.",
+  "seoNotes": "Pharmacy pages live on the LocalBusiness side of the graph, so address, openingHours, and telephone carry the most local-search weight. Add availableService entries for vaccinations, prescription fills, and consultations so assistants can answer 'does this pharmacy do X'.",
+  "commonCombos": ["schema:Drug", "schema:LocalBusiness", "schema:MedicalOrganization"]
+}

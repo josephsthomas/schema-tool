@@ -1,0 +1,15 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/ency/patientinstructions/000879.htm) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+//
+// Note: MedlinePlus defines a deductible as a set amount of money a member must
+// pay before insurance starts paying. Specific dollar amounts, coinsurance
+// rates, copay options, and pharmacy categories are plan-specific and should
+// be filled in from your own verified plan documents.
+{
+  "@context": "https://schema.org",
+  "@type": "HealthPlanCostSharingSpecification",
+  "name": "Plan deductible",
+  "description": "A set amount of money you have to pay before your insurance starts to pay."
+}

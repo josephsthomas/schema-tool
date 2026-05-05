@@ -1,0 +1,25 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/007473.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Angioplasty is a procedure to open narrowed or blocked blood vessels that supply blood to the heart. A flexible tube called a catheter is placed into a blood vessel in the upper thigh (groin) or arm. A stent is a small, metal mesh tube that opens up inside the coronary artery."
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/003931.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Noninvasive procedures do not involve tools that break the skin or physically enter the body. Examples include x-rays, ultrasound, and electrocardiogram (ECG)."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Coronary angioplasty with stent placement", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
+    { "jsonPath": "$.alternateName[0]", "value": "Percutaneous coronary intervention", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
+    { "jsonPath": "$.alternateName[1]", "value": "PCI", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
+    { "jsonPath": "$.procedureType", "value": "PercutaneousProcedure", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
+    { "jsonPath": "$.bodyLocation", "value": "Coronary arteries", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
+    { "jsonPath": "$.howPerformed", "value": "A thin catheter is threaded through a small puncture in the radial or femoral artery to the blocked coronary segment, where a balloon is inflated and a stent deployed.", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] }
+  ]
+}

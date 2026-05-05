@@ -1,0 +1,20 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/vasculardiseases.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Your vascular system is your body's network of blood vessels. Common problems include... atherosclerosis (plaque buildup)... vasculitis (blood vessel inflammation)."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Blood vessel", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.description", "value": "Your body's network of blood vessels is called the vascular system.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.partOfSystem.name", "value": "Vascular system", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.relatedCondition[0].name", "value": "Atherosclerosis", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.relatedCondition[0].description", "value": "Plaque buildup.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.relatedCondition[1].name", "value": "Vasculitis", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
+    { "jsonPath": "$.relatedCondition[1].description", "value": "Blood vessel inflammation.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] }
+  ]
+}

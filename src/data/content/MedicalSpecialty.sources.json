@@ -1,0 +1,28 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/heartdiseases.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "cardiologist (a doctor who specializes in heart diseases)"
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Example Cardiology Practice",
+      "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"]
+    },
+    {
+      "jsonPath": "$.medicalSpecialty.name",
+      "value": "Cardiovascular medicine",
+      "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"]
+    },
+    {
+      "jsonPath": "$.availableService.name",
+      "value": "Cardiology consultation",
+      "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"]
+    }
+  ]
+}

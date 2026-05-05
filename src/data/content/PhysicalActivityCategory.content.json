@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use PhysicalActivityCategory on an ExercisePlan or PhysicalActivity to classify the physiologic mode of movement — aerobic, anaerobic, balance, flexibility, strength training, leisure-time, or occupational. Attach it as the `activityType` value when an exercise prescription or wellness program needs a machine-readable mode signal aligned to the CDC physical activity framework.",
+  "whenNotToUse": "Don't use PhysicalActivityCategory to express dose (frequency, intensity, time) — those belong on properties like `repetitions`, `intensity`, and `exerciseCourse`. Don't use it for sport names or branded class formats; those are free-text values on `name` or `additionalType`.",
+  "whoItsFor": "Wellness publishers, employer health platforms, cardiac and pulmonary rehab programs, and physical-therapy practices that publish structured exercise plans and want category facets that align with public-health guidance.",
+  "seoNotes": "Category values give search and assistant systems a clean axis for filtering exercise content by physiologic intent. Pair with `MedicalCondition` indications and `MedicalContraindication` so the activity's category can be matched to the user's clinical context.",
+  "commonCombos": ["schema:ExercisePlan", "schema:PhysicalActivity", "schema:MedicalCondition", "schema:HowTo"]
+}

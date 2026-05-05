@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use SpecialAnnouncement for time-bounded public-health notices — outbreak alerts, facility closures, vaccination-clinic activations, emergency-room diversions. The type was introduced for COVID-era communication and remains the right wrapper for any urgent, dated health update tied to a location.",
+  "whenNotToUse": "Don't use SpecialAnnouncement for evergreen content (a standing FAQ or condition page is not an announcement) and don't use it for marketing promotions. Don't omit datePosted or expires — without those, the announcement can't be triaged by retrieval systems.",
+  "whoItsFor": "Public-health communications teams at CDC, state and local health departments, and health-system marketing-communications teams who need to publish time-sensitive outbreak or operational notices.",
+  "seoNotes": "SpecialAnnouncement is consumed by Google, Bing, and several public-health aggregators; populate datePosted and expires in ISO 8601 and tie announcementLocation to a CivicStructure or Place. Use category to point to the canonical CDC or WHO topic URL so the announcement clusters with related guidance.",
+  "commonCombos": ["schema:Place", "schema:GovernmentOrganization", "schema:WebContent"]
+}

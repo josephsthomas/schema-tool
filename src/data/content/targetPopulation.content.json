@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use targetPopulation on DoseSchedule or DietarySupplement to describe the patient cohort the dose or product is intended for — pediatric, geriatric, pregnant, renal-impaired. Be specific enough that a clinician can match a patient to the correct schedule.",
+  "whenNotToUse": "Don't use this for indications or diagnoses; those go on indication or healthCondition. Avoid vague qualifiers like 'adults' when a regulatory population definition exists.",
+  "commonCombos": ["schema:DoseSchedule", "schema:DietarySupplement"]
+}

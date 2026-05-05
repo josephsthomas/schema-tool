@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a LymphaticVessel to point at the downstream Vessel it drains into (its efferent destination). Pair with originatesFrom to make the lymphatic graph traversable in both directions.",
+  "whenNotToUse": "Do not use for arterial branching or for venous tributary relationships — those use vessel-specific anatomical relations.",
+  "commonCombos": ["schema:LymphaticVessel"]
+}

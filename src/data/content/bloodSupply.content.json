@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use bloodSupply on Muscle to point at the Vessel (almost always an Artery) that perfuses it — the brachial artery supplying the biceps brachii. Reference a real Vessel node so vascular and musculoskeletal pages interlink in the entity graph.",
+  "whenNotToUse": "Don't use bloodSupply for venous drainage — schema.org has no dedicated property, so describe venous return in the muscle's description. For named arterial branches as a tree, use arterialBranch on the parent Artery instead.",
+  "commonCombos": ["schema:Muscle"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use activeIngredient on Drug, Substance, or DietarySupplement to name the chemical or biologic compound responsible for the pharmacologic effect. Value is plain Text — use the INN or USAN where one exists, not a brand or trade name.",
+  "whenNotToUse": "Don't use activeIngredient for excipients, fillers, or coatings — those aren't covered by a dedicated schema.org property and belong in long-form description. For combination products, repeat the property once per component rather than concatenating into a single string.",
+  "commonCombos": ["schema:Drug", "schema:Substance", "schema:DietarySupplement"]
+}

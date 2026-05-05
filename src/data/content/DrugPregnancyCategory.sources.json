@@ -1,0 +1,17 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682878.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Isotretinoin must not be taken by patients who are pregnant or who may become pregnant during the time of treatment. Isotretinoin causes severe birth defects in babies whose mothers took the medication during pregnancy."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Isotretinoin", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"] },
+    { "jsonPath": "$.nonProprietaryName", "value": "isotretinoin", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"] },
+    { "jsonPath": "$.pregnancyCategory", "value": "FDAcategoryX", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"] },
+    { "jsonPath": "$.pregnancyWarning", "value": "Isotretinoin must not be used by patients who are pregnant or who may become pregnant during therapy. There is a high risk that isotretinoin will cause severe birth defects or death of the unborn baby.", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"] }
+  ]
+}

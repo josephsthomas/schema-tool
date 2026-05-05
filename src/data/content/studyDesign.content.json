@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use studyDesign on MedicalObservationalStudy to specify the design pattern — cohort, case-control, cross-sectional, registry — using the MedicalObservationalStudyDesign enumeration. This is how downstream consumers know whether causal claims are appropriate.",
+  "whenNotToUse": "Don't use this for interventional trials; those use trialDesign on MedicalTrial. Avoid freeform descriptions when an enumerated value applies.",
+  "commonCombos": ["schema:MedicalObservationalStudy"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug or DietarySupplement as a Boolean: true when the name on this entity is a brand or trade name, false when it is the generic or non-proprietary name. Pair with nonProprietaryName to make both names discoverable.",
+  "whenNotToUse": "Do not use to express market exclusivity or patent status; those belong on legalStatus or separate regulatory metadata.",
+  "commonCombos": ["schema:DietarySupplement", "schema:Drug"]
+}

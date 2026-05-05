@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalRiskScore for the named, citeable score itself — for example a page that defines the ASCVD 10-year cardiovascular risk score, the inputs that feed it, and the population it is intended for. The type lets you carry the numeric value, its valueReference scale, and the suggestedAge range for whom the score is designed.",
+  "whenNotToUse": "Do not use MedicalRiskScore for the calculator interface that produces the score — that is MedicalRiskCalculator. Do not use it for general lab results or vital sign readings that are not framed as a defined, named risk score.",
+  "whoItsFor": "Cardiology editors, evidence-based medicine reference sites, and CME teams maintaining authoritative pages that define risk scores cited in clinical guidance.",
+  "seoNotes": "Named risk scores are anchor entities in clinical content — they are searched by name and cited across guidelines. Marking the page as MedicalRiskScore with explicit valueReference and estimatesRiskOf gives LLM-driven assistants a single canonical entity to attribute when summarizing what a score is and which condition it estimates.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalRiskCalculator", "schema:MedicalRiskFactor"]
+}

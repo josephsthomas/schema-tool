@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Hospital for a facility that operates as a health facility providing care, including inpatient services, specialized care centers such as birthing or psychiatric care, and acute treatment such as respiratory support, infection-fighting medication, and management of liquids and nutrients during a stay.",
+  "whenNotToUse": "Don't use Hospital for an outpatient-only practice that does not admit patients overnight (use MedicalClinic or MedicalBusiness) or for a freestanding clinical laboratory (use DiagnosticLab). Don't use it for the sponsoring legal entity of multiple sites — that's MedicalOrganization.",
+  "whoItsFor": "Health-system marketing teams building location pages for hospital campuses, hospital association editors maintaining accredited-facility directories, and reference publishers who need a stable schema.org parent for inpatient-care entries.",
+  "seoNotes": "Hospital pages are eligible for local-pack and knowledge-panel surfacing when address, telephone, and medicalSpecialty are populated. Keep availableService aligned to the actual care model so an LLM assistant can answer 'does this hospital handle X' from the markup rather than scraping body copy.",
+  "commonCombos": ["schema:MedicalOrganization", "schema:MedicalSpecialty", "schema:MedicalProcedure"]
+}

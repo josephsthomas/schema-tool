@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use biomechnicalClass on Joint (note schema.org's misspelling — keep it verbatim) to classify the joint by its mechanical behavior — hinge, ball-and-socket, pivot, saddle, plane, condyloid. Pick a single canonical term per joint and reuse it.",
+  "whenNotToUse": "Don't use biomechnicalClass for the structural classification (fibrous, cartilaginous, synovial) — those describe tissue, not motion. Put structural detail in description and reserve this property for the functional motion class.",
+  "commonCombos": ["schema:Joint"]
+}

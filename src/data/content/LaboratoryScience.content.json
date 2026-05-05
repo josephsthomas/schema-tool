@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use LaboratoryScience when scoping a clinician or facility to clinical-laboratory work — chemistry, hematology, microbiology, immunology, and molecular diagnostics. Pair with DiagnosticLab and MedicalTest entities; use Pathology for the physician-led discipline that interprets tissue and cellular material."
+}

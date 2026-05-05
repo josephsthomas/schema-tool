@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalGuideline to point at the MedicalEntity (condition, treatment, test, drug) the recommendation addresses. One guideline may have multiple subjects when scope spans related entities.",
+  "whenNotToUse": "Do not use for the population or audience the guideline targets; use recognizingAuthority for issuer and pair the guideline with healthCondition or relevantSpecialty on the affected entity.",
+  "commonCombos": ["schema:MedicalGuideline"]
+}

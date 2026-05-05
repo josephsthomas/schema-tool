@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Nerve to enumerate the muscles it controls, building the motor side of the innervation graph. Pair with Muscle.nerve so motor lookups resolve from either direction.",
+  "whenNotToUse": "Do not use for sensory dermatomes or autonomic targets — those belong on different relations.",
+  "commonCombos": ["schema:Nerve"]
+}

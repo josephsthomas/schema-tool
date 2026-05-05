@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an ExercisePlan to express how many times an exercise is repeated per set, as a Number or QuantitativeValue. Pair with restPeriods and activityFrequency to fully describe the prescription.",
+  "whenNotToUse": "Do not use for total session count over a program (that's a higher-level frequency) or for time-under-tension prescriptions where duration is the variable.",
+  "commonCombos": ["schema:ExercisePlan"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalProcedureType on a MedicalProcedure (or its subtypes) to declare the access route — Noninvasive when the procedure does not breach the skin or a body cavity, Percutaneous when access is achieved by needle-puncture of the skin (catheterization, biopsy, stent delivery). Attach via the procedureType property so the markup distinguishes a coronary angiogram from open bypass surgery.",
+  "whenNotToUse": "Don't use MedicalProcedureType to encode the clinical intent of the procedure (diagnostic vs. therapeutic) — that is a separate axis. Don't try to fit open surgical procedures into this enum; schema.org's two values do not cover open surgery, so leave procedureType absent and rely on the SurgicalProcedure subtype instead.",
+  "whoItsFor": "Hospital service-line editors publishing procedure pages, interventional cardiology and radiology departments differentiating their catheter-based offerings from open-surgical alternatives, and patient-education writers comparing procedure options.",
+  "seoNotes": "AI assistants answering 'is this surgery?' questions rely on procedureType plus the parent type. Marking a stent placement as PercutaneousProcedure on a MedicalProcedure record helps assistants explain that it is not open surgery without parsing prose.",
+  "commonCombos": ["schema:MedicalProcedure", "schema:DiagnosticProcedure", "schema:TherapeuticProcedure", "schema:MedicalDevice"]
+}

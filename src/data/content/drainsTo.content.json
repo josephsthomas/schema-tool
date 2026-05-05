@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use drainsTo on a Vein to point to the next Vessel in the venous return path. The value should be a Vessel reference so the graph can be traversed proximally toward the heart.",
+  "whenNotToUse": "Don't use drainsTo on an Artery — arteries supply rather than drain; use the inverse perfusion modeling on the source artery instead. For lymphatic drainage, model the lymphatic vessel separately.",
+  "commonCombos": ["schema:Vein"]
+}

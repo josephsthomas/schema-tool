@@ -1,0 +1,14 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalCause",
+  "name": "Cigarette smoking",
+  "causeOf": {
+    "@type": "MedicalCondition",
+    "name": "Lung cancer",
+    "description": "Cigarette smoking or secondhand smoke exposure cause nearly 9 out of 10 lung cancer deaths. People who smoke increase their risk of developing lung cancer by about 25 times that of people who don't smoke."
+  }
+}

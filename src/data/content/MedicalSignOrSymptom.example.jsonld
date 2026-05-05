@@ -1,0 +1,10 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/fever.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalSignOrSymptom",
+  "name": "Fever",
+  "description": "A fever is a body temperature that is higher than normal. A normal temperature can vary from person to person. A fever is not a disease. It is a sign that your body is trying to fight an illness or infection."
+}

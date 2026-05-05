@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use availableIn on DrugStrength to scope a strength to the AdministrativeArea where it's marketed — a 75 mg tablet sold in the EU but not the US. Always reference an AdministrativeArea node rather than free-text country names.",
+  "whenNotToUse": "Don't use availableIn for legal status (use applicableLocation on DrugLegalStatus) or for the drug's overall market footprint at the Drug level. Strength-by-strength geography is the only use case here.",
+  "commonCombos": ["schema:DrugStrength"]
+}

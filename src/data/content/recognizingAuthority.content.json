@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalEntity to point to the regulatory or accrediting body that recognizes the entity (FDA, EMA, Joint Commission). Adds verifiable provenance for drugs, devices, and care organizations.",
+  "whenNotToUse": "Do not use for publishers of guidelines (use publisher on the guideline) or for hospital ownership relationships.",
+  "commonCombos": ["schema:MedicalEntity"]
+}

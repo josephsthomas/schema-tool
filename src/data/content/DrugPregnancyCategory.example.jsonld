@@ -1,0 +1,12 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/druginfo/meds/a682878.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "Drug",
+  "name": "Isotretinoin",
+  "nonProprietaryName": "isotretinoin",
+  "pregnancyCategory": "FDAcategoryX",
+  "pregnancyWarning": "Isotretinoin must not be used by patients who are pregnant or who may become pregnant during therapy. There is a high risk that isotretinoin will cause severe birth defects or death of the unborn baby."
+}

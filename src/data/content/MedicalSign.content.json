@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalSign for an objective finding a clinician can observe or measure — jaundice, clubbing, Murphy's sign, a heart murmur. Signs are what the examiner sees; symptoms are what the patient reports.",
+  "whenNotToUse": "Do not use MedicalSign for patient-reported experiences like pain or nausea — those are MedicalSymptom. Do not use it for measured vitals such as blood pressure or pulse — those are VitalSign, a more specific subtype.",
+  "whoItsFor": "Clinical-reference editors, medical-school content teams, and patient-education writers explaining what a clinician will look for during an exam.",
+  "seoNotes": "Linking MedicalSign to its possibleCondition gives retrieval systems a clean answer to 'what disease causes yellow skin and eyes.' Without that link, the sign floats free of the conditions that produce it.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalTest", "schema:Physician"]
+}

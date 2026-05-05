@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use exerciseType on an ExercisePlan or ExerciseAction to label the modality — strength training, aerobic, flexibility, balance, HIIT. The value is Text; repeat the property if a session blends modalities rather than concatenating into one label.",
+  "whenNotToUse": "Don't use exerciseType to record duration or intensity — use activityDuration or intensity. For the equipment used, use exercisePlan or related instrument properties.",
+  "commonCombos": ["schema:ExercisePlan", "schema:ExerciseAction"]
+}

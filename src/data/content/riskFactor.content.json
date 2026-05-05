@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalCondition to enumerate modifiable and non-modifiable factors that raise risk (smoking, family history, obesity). Anchors prevention-focused content and risk-calculator pages.",
+  "whenNotToUse": "Do not use for direct causes (use cause) or for downstream complications (use possibleComplication).",
+  "commonCombos": ["schema:MedicalCondition"]
+}

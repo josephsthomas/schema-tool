@@ -1,0 +1,24 @@
+// Reference example — built from public data sourced from NIH NLM MeSH
+// (https://meshb.nlm.nih.gov/record/ui?ui=D006624) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "BrainStructure",
+  "name": "Hippocampus",
+  "description": "A curved elevation of gray matter extending the entire length of the floor of the temporal horn of the lateral ventricle.",
+  "subStructure": [
+    {
+      "@type": "BrainStructure",
+      "name": "Hippocampus proper"
+    },
+    {
+      "@type": "BrainStructure",
+      "name": "Subiculum"
+    },
+    {
+      "@type": "BrainStructure",
+      "name": "Dentate gyrus"
+    }
+  ]
+}

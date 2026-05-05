@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Observational as the umbrella value when the study is non-interventional but doesn't fit a more specific design like CohortStudy or CrossSectional. Prefer the more specific child value when one applies — Observational is a fallback, not a default."
+}

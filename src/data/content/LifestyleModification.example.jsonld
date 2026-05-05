@@ -1,0 +1,27 @@
+// Reference example — built from public data sourced from CDC Tips From
+// Former Smokers / Quit Smoking
+// (https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html) and
+// NIH MedlinePlus Quitting Smoking (https://medlineplus.gov/quittingsmoking.html)
+// on 2026-05-05. Not for use in client deliverables. Generate your own markup
+// using your content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "LifestyleModification",
+  "name": "Smoking cessation",
+  "description": "Quitting smoking addresses nicotine addiction and its health consequences. Recommended approaches include counseling, FDA-approved nicotine replacement products (patch, lozenge, gum, nasal spray, oral inhaler), prescription medications (varenicline and bupropion SR), and behavioral support such as creating a quit plan and using quitlines.",
+  "indication": [
+    {
+      "@type": "MedicalIndication",
+      "name": "Reducing risk for heart disease, cancer, lung disease, COPD, diabetes, stroke, and pregnancy complications, as documented in CDC condition-specific resources"
+    },
+    {
+      "@type": "MedicalIndication",
+      "name": "Tobacco use, identified by MedlinePlus as the most common preventable cause of death"
+    }
+  ],
+  "recognizingAuthority": {
+    "@type": "Organization",
+    "name": "U.S. Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/001097.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The superior vena cava is the second largest vein in the human body. It moves blood from the upper parts of the body to the heart."
+    },
+    {
+      "url": "https://medlineplus.gov/vasculardiseases.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The vascular system is your body's network of blood vessels."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Superior vena cava", "sourceUrls": ["https://medlineplus.gov/ency/article/001097.htm"] },
+    { "jsonPath": "$.description", "value": "The second largest vein in the human body.", "sourceUrls": ["https://medlineplus.gov/ency/article/001097.htm"] },
+    { "jsonPath": "$.function", "value": "Moves blood from the upper parts of the body to the heart.", "sourceUrls": ["https://medlineplus.gov/ency/article/001097.htm"] },
+    { "jsonPath": "$.partOfSystem.name", "value": "Vascular system", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] }
+  ]
+}

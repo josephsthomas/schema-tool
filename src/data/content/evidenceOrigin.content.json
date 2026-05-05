@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use evidenceOrigin on a MedicalGuideline to describe the methodology behind the evidence — randomized controlled trial, meta-analysis, expert consensus, observational cohort. Pair with evidenceLevel so consumers see both source and strength.",
+  "whenNotToUse": "Don't use evidenceOrigin for the publication or guideline body — that's citation on the parent entity. For the date the guideline was issued, use guidelineDate.",
+  "commonCombos": ["schema:MedicalGuideline"]
+}

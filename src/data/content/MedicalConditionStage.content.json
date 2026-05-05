@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalConditionStage when a page describes one specific stage of a staged disease — most often cancer staging pages built around AJCC or NCI taxonomies. It pairs with a parent MedicalCondition entity and lets you mark up the stage number, sub-stage, and the criteria that define it.",
+  "whenNotToUse": "Do not use MedicalConditionStage for the disease overview itself — that is MedicalCondition. Do not use it for severity scales that are not formal stages (Glasgow Coma, NIH Stroke Scale) and do not use it for risk stratification scores like CHA2DS2-VASc.",
+  "whoItsFor": "Oncology service-line marketers, NCI-funded cancer center editors, and medical-affairs teams writing patient-education pages keyed to a specific stage of disease.",
+  "seoNotes": "Stage-specific pages are how patients search after a biopsy result. Marking the page with MedicalConditionStage and stageAsNumber, plus a back-reference to the parent MedicalCondition, gives LLM-based health assistants a clean entity to cite when a user asks about one stage in isolation.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalTest", "schema:MedicalProcedure"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use SuperficialAnatomy for surface-of-the-body landmarks visible or palpable from outside — skin regions, anatomical surface markings, the palm of the hand, the antecubital fossa. It is the right type for dermatology reference, examination-technique pages, and skin-and-surface anatomy explainers.",
+  "whenNotToUse": "Don't use SuperficialAnatomy for organs beneath the surface (use AnatomicalStructure) or for skin diseases (use MedicalCondition). Don't use it as the parent for a tattoo, scar, or cosmetic procedure — those have their own MedicalProcedure entries.",
+  "whoItsFor": "Dermatology practice editors, physical-exam education content teams, skin-cancer screening publishers, and patient-education editors covering wound care and surface findings.",
+  "seoNotes": "SuperficialAnatomy entries are uncommonly marked up on the open web, so well-formed entries punch above their weight as disambiguators for LLM-based assistants. Pair with the relevant skin-condition MedicalCondition pages via associatedAnatomy.",
+  "commonCombos": ["schema:AnatomicalStructure", "schema:MedicalCondition", "schema:MedicalProcedure"]
+}

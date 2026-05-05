@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to express prose-level cautions, contraindications, or trimester-specific guidance for use in pregnancy. Pair with pregnancyCategory for the regulatory classification.",
+  "whenNotToUse": "Do not use for lactation guidance — that belongs on a separate breastfeeding warning property if available, or in narrative content.",
+  "commonCombos": ["schema:Drug"]
+}

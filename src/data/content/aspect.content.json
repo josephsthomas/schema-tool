@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use aspect on MedicalWebPage to declare the clinical lens of the page — 'diagnosis', 'treatment', 'prevention', 'symptoms', 'pathophysiology'. Pick from a small controlled vocabulary so a hub of pages about one condition can be filtered cleanly by user intent.",
+  "whenNotToUse": "Don't use aspect when the page covers a condition end-to-end — leave it unset or use a generic value rather than inventing one. For the underlying condition itself, use about pointing to a MedicalCondition rather than encoding the topic in aspect.",
+  "commonCombos": ["schema:MedicalWebPage"]
+}

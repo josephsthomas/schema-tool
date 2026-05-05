@@ -1,0 +1,18 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/overthecountermedicines.html and
+// https://medlineplus.gov/medicines.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "Pharmacy",
+  "name": "Community Retail Pharmacy",
+  "description": "A pharmacy where pharmacists are available to clarify medication label instructions and usage guidance, and where prescription and over-the-counter medicines regulated by the Food and Drug Administration are obtained.",
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Pharmacist consultation on medication instructions",
+      "description": "If you don't understand the instructions, ask your pharmacist or health care provider."
+    }
+  ]
+}

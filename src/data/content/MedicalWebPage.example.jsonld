@@ -1,0 +1,26 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/diabetestype2.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Type 2 Diabetes",
+  "url": "https://medlineplus.gov/diabetestype2.html",
+  "lastReviewed": "2026-05-05",
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Patient"
+  },
+  "aspect": "Symptoms, Diagnosis, Treatment",
+  "about": {
+    "@type": "MedicalCondition",
+    "name": "Type 2 Diabetes",
+    "description": "Type 2 diabetes is a disease in which your blood glucose, or blood sugar, levels are too high.",
+    "signOrSymptom": [
+      { "@type": "MedicalSymptom", "name": "Increased thirst and urination" },
+      { "@type": "MedicalSymptom", "name": "Blurred vision" },
+      { "@type": "MedicalSymptom", "name": "Slow-healing sores" }
+    ]
+  }
+}

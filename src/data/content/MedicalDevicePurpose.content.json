@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalDevicePurpose on a MedicalDevice to declare whether the device is intended to diagnose a condition or to treat one. Attach via the purpose property so a reader (or a knowledge graph) can separate imaging hardware, lab analyzers, and monitoring sensors from infusion pumps, implants, and surgical instruments.",
+  "whenNotToUse": "Don't use MedicalDevicePurpose for software-as-a-medical-device classification (Class I/II/III) — that maps to a regulatory classification, not the schema enum. Don't use it on consumer wellness products that lack an FDA medical-device clearance; non-medical devices belong on Product, not MedicalDevice.",
+  "whoItsFor": "Medical-device manufacturers publishing product detail pages, hospital procurement catalogs, and clinical-engineering inventories that need a coarse machine-readable purpose alongside the device's regulatory classification.",
+  "seoNotes": "Diagnostic vs. Therapeutic is the most useful first-pass filter for AI assistants answering device questions. Pair the purpose with a precise device name and FDA 510(k) or PMA reference where available so the markup grounds against a regulated record.",
+  "commonCombos": ["schema:MedicalDevice", "schema:MedicalContraindication", "schema:MedicalProcedure", "schema:Drug"]
+}

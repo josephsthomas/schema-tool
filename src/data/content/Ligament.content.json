@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Ligament for any page about a named band of fibrous connective tissue that joins bone to bone — ACL, PCL, MCL, deltoid ligament. It is the right type for orthopedic and sports-medicine content where the ligament itself is the subject.",
+  "whenNotToUse": "Don't use Ligament for tendons (which connect muscle to bone) or for the joint as a whole (use Joint). Don't use it for a sprain, tear, or rupture — that's MedicalCondition with the ligament referenced as associatedAnatomy.",
+  "whoItsFor": "Sports-medicine and orthopedic-surgery practice editors, athletic-training and rehab content teams, and patient-education editors describing ligament injury, reconstruction, and recovery.",
+  "seoNotes": "Ligament pages benefit from bodyLocation pinning (which joint, between which bones) so LLM assistants can resolve mentions like ACL into a specific anatomic entity. Pair with the relevant Joint via partOfSystem-equivalent navigation.",
+  "commonCombos": ["schema:Joint", "schema:Bone", "schema:MedicalCondition"]
+}

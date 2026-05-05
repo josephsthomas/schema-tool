@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use CaseSeries when the study tracks a defined group of patients with a known shared exposure or treatment, without a comparison arm. Mark this explicitly so readers don't conflate case-series description with controlled-trial evidence when judging strength of conclusions."
+}

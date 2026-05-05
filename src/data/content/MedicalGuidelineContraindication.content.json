@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalGuidelineContraindication when the page or content fragment is a clinical statement that a treatment, drug, or procedure should be avoided in a defined patient population. It's the right type for vaccine and drug contraindication tables, society-issued do-not-do lists, and the contraindication callouts on CDC, NCI, and DailyMed pages.",
+  "whenNotToUse": "Don't use it for soft cautions or precautions that don't rise to a contraindication — those are better described as MedicalGuidelineRecommendation with appropriate language, or as a generic MedicalContraindication on a Drug or MedicalProcedure record. Don't use it for product-label warnings on a Drug page when the label text is the right primary surface.",
+  "whoItsFor": "Specialty societies and federal agencies publishing safety-critical guidance, payer and pharmacy-benefit teams encoding do-not-use rules, and clinical-decision-support vendors building alerting on top of guideline data.",
+  "seoNotes": "Set evidenceLevel and evidenceOrigin so downstream consumers can weigh authority. The type itself signals to AI-assisted search that the content is a hard restriction, not a preference — important when summarizing safety information. No dedicated Google rich result; the markup pays off in entity disambiguation and grounding.",
+  "commonCombos": ["schema:Drug", "schema:MedicalProcedure", "schema:MedicalCondition", "schema:Organization"]
+}

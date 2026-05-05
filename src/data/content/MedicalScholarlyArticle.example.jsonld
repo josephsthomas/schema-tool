@@ -1,0 +1,25 @@
+// Reference example — built from the NLM-hosted Visible Human Project page
+// (https://www.nlm.nih.gov/research/visible/visible_human.html) accessed 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalScholarlyArticle",
+  "name": "The Visible Human Project",
+  "headline": "The Visible Human Project",
+  "url": "https://www.nlm.nih.gov/research/visible/visible_human.html",
+  "datePublished": "2023-12-26",
+  "author": {
+    "@type": "Person",
+    "name": "Michael J. Ackerman"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "National Library of Medicine",
+    "url": "https://www.nlm.nih.gov"
+  },
+  "about": {
+    "@type": "MedicalEntity",
+    "name": "Three-dimensional anatomical representations of male and female human bodies created through cross-sectional imaging"
+  }
+}

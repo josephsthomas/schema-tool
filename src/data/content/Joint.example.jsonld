@@ -1,0 +1,23 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/kneeinjuriesanddisorders.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "Joint",
+  "name": "Knee joint",
+  "description": "Made up of bone, cartilage, ligaments and fluid.",
+  "functionalClass": "Muscles and tendons help the knee joint move.",
+  "relatedCondition": [
+    {
+      "@type": "MedicalCondition",
+      "name": "Osteoarthritis of the knee",
+      "description": "The cartilage in the knee gradually wears away, causing pain and swelling."
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "ACL injury",
+      "description": "You usually injure your ACL by a sudden twisting motion."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/skinconditions.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Your skin is your body's largest organ. It covers the entire outside of your body. It... Holds body fluids in, which helps prevent you from getting dehydrated. Keeps out harmful germs, which helps prevent infections. Helps you feel things like heat, cold, and pain. Helps control your body temperature. Makes vitamin D when the sun shines on it."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Skin", "sourceUrls": ["https://medlineplus.gov/skinconditions.html"] },
+    { "jsonPath": "$.description", "value": "Your skin is your body's largest organ. It covers the entire outside of your body.", "sourceUrls": ["https://medlineplus.gov/skinconditions.html"] },
+    { "jsonPath": "$.associatedPathophysiology", "value": "Holds body fluids in, which helps prevent you from getting dehydrated. Keeps out harmful germs, which helps prevent infections. Helps you feel things like heat, cold, and pain. Helps control your body temperature. Makes vitamin D when the sun shines on it.", "sourceUrls": ["https://medlineplus.gov/skinconditions.html"] }
+  ]
+}

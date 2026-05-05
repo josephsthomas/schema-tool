@@ -1,0 +1,51 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/clean-hands/about/index.html) on 2026-05-05.
+// Property semantics follow schema.org/HowTo; Google retired its HowTo
+// rich-result documentation in 2023, so this example is for assistant and
+// LLM-retrieval surfaces rather than a Google rich result.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to wash your hands",
+  "description": "Five-step handwashing procedure from the U.S. Centers for Disease Control and Prevention.",
+  "totalTime": "PT40S",
+  "supply": [
+    { "@type": "HowToSupply", "name": "Clean, running water (warm or cold)" },
+    { "@type": "HowToSupply", "name": "Soap" },
+    { "@type": "HowToSupply", "name": "Clean towel or air dryer" }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Wet",
+      "text": "Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Lather",
+      "text": "Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Scrub",
+      "text": "Scrub your hands for at least 20 seconds."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Rinse",
+      "text": "Rinse your hands well under clean, running water."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Dry",
+      "text": "Dry your hands using a clean towel or an air dryer."
+    }
+  ]
+}

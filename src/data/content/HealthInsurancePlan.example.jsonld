@@ -1,0 +1,14 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/medicare.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+//
+// Note: This example describes Medicare itself as a federal health insurance
+// program. healthPlanId is left as a placeholder because MedlinePlus does not
+// assign machine-readable plan identifiers to the program overview.
+{
+  "@context": "https://schema.org",
+  "@type": "HealthInsurancePlan",
+  "name": "Medicare",
+  "description": "Medicare is the U.S. government's health insurance program for people age 65 or older. Some people under age 65 can qualify for Medicare, too. They include those with disabilities, permanent kidney failure, or amyotrophic lateral sclerosis. Medicare helps with the cost of health care. It does not cover all medical expenses or the cost of most long-term care."
+}

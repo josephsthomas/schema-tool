@@ -1,0 +1,31 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://meshb.nlm.nih.gov/record/ui?ui=D005269",
+      "publisher": "NIH NLM MeSH",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "The longest and largest bone of the skeleton, it is situated between the hip and the knee."
+    },
+    {
+      "url": "https://medlineplus.gov/hipinjuriesanddisorders.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Hip dysplasia — where the ball at the end of the femur is loose in the hip socket."
+    },
+    {
+      "url": "https://medlineplus.gov/bonediseases.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Your bones help you move, give you shape and support your body."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Femur", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D005269"] },
+    { "jsonPath": "$.description", "value": "The longest and largest bone of the skeleton.", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D005269"] },
+    { "jsonPath": "$.bodyLocation", "value": "Situated between the hip and the knee.", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D005269"] },
+    { "jsonPath": "$.function", "value": "Bones help you move, give you shape and support your body.", "sourceUrls": ["https://medlineplus.gov/bonediseases.html"] },
+    { "jsonPath": "$.relatedCondition.name", "value": "Hip dysplasia", "sourceUrls": ["https://medlineplus.gov/hipinjuriesanddisorders.html"] },
+    { "jsonPath": "$.relatedCondition.description", "value": "A condition where the ball at the end of the femur is loose in the hip socket.", "sourceUrls": ["https://medlineplus.gov/hipinjuriesanddisorders.html"] }
+  ]
+}

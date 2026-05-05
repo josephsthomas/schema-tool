@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalObservationalStudy for non-interventional human-subjects research — cohort studies, case-control studies, cross-sectional surveys, and longitudinal registries where investigators observe rather than assign treatment. It's the right type for population-health registry pages, epidemiology cohort landing pages, and academic medical center pages describing observational protocols.",
+  "whenNotToUse": "Don't use it when investigators assign an intervention — that's MedicalTrial. Don't use it for systematic reviews or meta-analyses — those are MedicalScholarlyArticle subtypes. Skip it for non-human research and for purely administrative claims-database analyses unless the page describes a formal observational protocol with a registered design.",
+  "whoItsFor": "Public-health agencies and academic epidemiology programs publishing cohort-study pages, registry operators describing long-running surveillance studies, and AMC research offices listing observational protocols.",
+  "seoNotes": "Set studyDesign on the record to disambiguate from interventional research, and mark up sponsor, healthCondition, and studyLocation. The schema.org type itself signals to LLMs and search systems that the page is non-interventional, which improves grounding for queries about cohort, registry, and surveillance studies. No dedicated Google rich result currently.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Organization", "schema:Place", "schema:MedicalScholarlyArticle", "schema:Dataset"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalDevice to describe postoperative care after implantation or use — recovery timeline, follow-up imaging, activity restrictions. Pair with preOp to give a full periprocedural picture.",
+  "whenNotToUse": "Do not use for general procedural recovery unrelated to a specific device — that belongs on the relevant MedicalProcedure or aftercare property.",
+  "commonCombos": ["schema:MedicalDevice"]
+}

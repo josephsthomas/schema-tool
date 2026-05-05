@@ -1,0 +1,18 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// Exercise and Physical Fitness (https://medlineplus.gov/exerciseandphysicalfitness.html)
+// and Exercise for Older Adults (https://medlineplus.gov/exerciseforseniors.html)
+// on 2026-05-05. Not for use in client deliverables. Generate your own markup
+// using your content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "PhysicalActivity",
+  "name": "Walking",
+  "description": "Walking is an aerobic activity. Brisk walking is identified as an example of endurance, or aerobic, activity.",
+  "category": "Aerobic exercise (also referred to as cardio)",
+  "pathophysiology": "Aerobic exercises such as walking increase breathing and heart rate and keep the heart, lungs, and circulatory system healthy.",
+  "recognizingAuthority": {
+    "@type": "Organization",
+    "name": "U.S. National Library of Medicine",
+    "url": "https://www.nlm.nih.gov"
+  }
+}

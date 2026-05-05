@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use availableService on Hospital, MedicalClinic, or Physician to enumerate the procedures, tests, and therapies the provider offers. Each value should reference a real MedicalProcedure, MedicalTest, or MedicalTherapy node so service-line pages and provider profiles can interlink.",
+  "whenNotToUse": "Don't use availableService for medical specialties of the staff — use medicalSpecialty for that. Don't list every CPT code as a separate service; group at the patient-recognizable level (e.g., 'colonoscopy', not each variant code).",
+  "commonCombos": ["schema:Hospital", "schema:MedicalClinic", "schema:Physician"]
+}

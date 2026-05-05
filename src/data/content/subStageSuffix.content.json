@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use subStageSuffix on MedicalConditionStage to record the letter qualifier — 'a', 'b', 'c' — that refines the numeric stage. Combined with stageAsNumber it produces a complete designation like 'IIIa'.",
+  "whenNotToUse": "Don't include the numeric stage here; that's stageAsNumber. Avoid using it for grade or risk modifiers that aren't part of the staging nomenclature.",
+  "commonCombos": ["schema:MedicalConditionStage"]
+}

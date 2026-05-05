@@ -1,0 +1,32 @@
+{
+  "id": "disease-state",
+  "label": "Disease state page",
+  "description": "Patient-education or HCP-facing page about a single condition. The MedicalWebPage wraps a MedicalCondition with linked treatments, audience scoping, and supporting FAQ.",
+  "entities": [
+    {
+      "type": "MedicalWebPage",
+      "defaultLabel": "Page wrapper",
+      "parentRef": null
+    },
+    {
+      "type": "MedicalCondition",
+      "defaultLabel": "Primary condition",
+      "parentRef": "MedicalWebPage.mainEntity"
+    },
+    {
+      "type": "Drug",
+      "defaultLabel": "Treatment option",
+      "parentRef": "MedicalCondition.possibleTreatment"
+    },
+    {
+      "type": "MedicalAudience",
+      "defaultLabel": "Intended audience",
+      "parentRef": "MedicalWebPage.medicalAudience"
+    },
+    {
+      "type": "FAQPage",
+      "defaultLabel": "FAQ supplement",
+      "parentRef": null
+    }
+  ]
+}

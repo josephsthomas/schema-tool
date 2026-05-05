@@ -1,0 +1,16 @@
+// Reference example — built from public data sourced from ClinicalTrials.gov
+// (https://clinicaltrials.gov/study/NCT04368728) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTrial",
+  "name": "Study to Describe the Safety, Tolerability, Immunogenicity, and Efficacy of RNA Vaccine Candidates Against COVID-19 in Healthy Individuals",
+  "identifier": "NCT04368728",
+  "studySubject": {
+    "@type": "MedicalCondition",
+    "name": "COVID-19"
+  },
+  "status": "Completed",
+  "trialDesign": "RandomizedTrial"
+}

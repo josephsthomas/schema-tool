@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DrugLegalStatus to mark up the regulatory standing of a medication — prescription-only, over-the-counter, or controlled-substance schedule. Attach it to a Drug via legalStatus when the page needs to disclose how the product is dispensed under US or other national rules.",
+  "whenNotToUse": "Don't use DrugLegalStatus for non-regulatory labels like FDA black-box warnings — those belong in drugWarning. Don't use it for clinical-trial investigational status; that is a study attribute, not a marketed-product attribute.",
+  "whoItsFor": "Regulatory-affairs editors at pharma manufacturers, formulary content teams, and patient-education writers explaining why a product requires a prescription.",
+  "seoNotes": "DrugLegalStatus is interpreted as a sub-property of Drug.legalStatus. Google does not currently issue a dedicated rich result, but the field aids medical knowledge-graph alignment with DailyMed labelling.",
+  "commonCombos": ["schema:Drug", "schema:DrugPrescriptionStatus", "schema:MedicalEnumeration"]
+}

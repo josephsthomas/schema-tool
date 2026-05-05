@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use drugUnit on a Drug or DrugCost to describe the dispensable unit — '5 mg tablet', '100 mg/mL vial'. The string captures both formulation and per-unit strength so cost and supply data align.",
+  "whenNotToUse": "Don't use drugUnit to express a per-dose schedule — that's DoseSchedule with doseValue and doseUnit. For pure formulation without strength, use dosageForm.",
+  "commonCombos": ["schema:Drug", "schema:DrugCost"]
+}

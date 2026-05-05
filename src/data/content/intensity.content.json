@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an ExercisePlan to express training load as a QuantitativeValue (e.g., METs, %VO2max, RPE) or descriptive text when no numeric metric applies. Prefer QuantitativeValue with explicit unit so the plan is comparable across programs.",
+  "whenNotToUse": "Do not use for duration, frequency, or repetitions; those have dedicated properties on ExercisePlan.",
+  "commonCombos": ["schema:ExercisePlan"]
+}

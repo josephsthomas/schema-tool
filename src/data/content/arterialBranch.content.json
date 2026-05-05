@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use arterialBranch on Artery to enumerate the named branches that arise from the parent vessel — the celiac trunk's left gastric, splenic, and common hepatic branches. Each value should reference an AnatomicalStructure (an Artery node) so the vascular tree stays navigable.",
+  "whenNotToUse": "Don't use arterialBranch for the vessel a branch arises from — that direction belongs on the child via partOfSystem or a description note. For vessels supplying a specific organ or muscle, use bloodSupply on the target structure instead.",
+  "commonCombos": ["schema:Artery"]
+}

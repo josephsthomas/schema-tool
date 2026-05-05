@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use FDAcategoryA on a Drug.pregnancyCategory only when the legacy FDA letter category was assigned and still appears in source labeling — adequate, well-controlled studies in pregnant patients did not show fetal risk in the first trimester. Acknowledge in adjacent copy that the FDA replaced letter categories with the PLLR narrative format in 2015."
+}

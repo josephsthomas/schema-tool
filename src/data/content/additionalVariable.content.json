@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use additionalVariable on ExercisePlan for prescription details that don't fit duration, frequency, intensity, or repetitions — load progressions, rest intervals between sets, RPE targets, tempo cues. Free Text, but keep each variable to one short sentence so it stays parseable.",
+  "whenNotToUse": "Don't use additionalVariable for the core dose-response fields that already have dedicated properties (intensity, repetitions, workload). If the value is structured numeric data, model it as a separate QuantitativeValue rather than burying it here.",
+  "commonCombos": ["schema:ExercisePlan"]
+}

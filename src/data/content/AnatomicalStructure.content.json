@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use AnatomicalStructure for any individual anatomic part — an organ, bone, vessel, or tissue — that exists at a defined body location. It is the canonical parent type for organ pages, anatomy reference articles, and patient-education explainers that center on a single structure rather than a system.",
+  "whenNotToUse": "Don't use AnatomicalStructure when the page is really about a system of cooperating structures (use AnatomicalSystem) or about a region of the body surface visible from outside (use SuperficialAnatomy). Don't use it for a disease that affects an organ — that's MedicalCondition with the organ referenced via associatedAnatomy.",
+  "whoItsFor": "Health-system patient-education editors building organ explainer pages, medical-school content teams documenting gross anatomy, and clinical reference publishers who need a stable schema.org parent for organ-, bone-, and tissue-level entries.",
+  "seoNotes": "AnatomicalStructure rarely earns a dedicated rich result, but it anchors the entity graph so MedicalCondition and MedicalProcedure pages can point back via associatedAnatomy. Keep partOfSystem populated — it lets LLM assistants traverse from a single organ up to its containing system.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:MedicalCondition", "schema:MedicalProcedure"]
+}

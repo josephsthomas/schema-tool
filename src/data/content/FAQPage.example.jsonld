@@ -1,0 +1,39 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/flu/vaccines/keyfacts.html and
+// https://www.cdc.gov/flu/vaccines/index.html), with property semantics from
+// Google's FAQPage structured data guidance
+// (https://developers.google.com/search/docs/appearance/structured-data/faqpage),
+// retrieved on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "name": "Influenza Vaccine FAQ",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who should get a flu vaccine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Everyone 6 months and older in the United States, with rare exception, should get a flu vaccine every season."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a flu vaccine give me the flu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A flu vaccine cannot give you flu illness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How effective is the flu vaccine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "During seasons when flu vaccine viruses are similar to circulating flu viruses, flu vaccine has been shown to reduce the risk of having to go to the doctor with flu by 40% to 60%."
+      }
+    }
+  ]
+}

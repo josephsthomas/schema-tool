@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MaximumDoseSchedule to mark an upper bound on dosing — the not-to-exceed quantity per day, per single dose, or per duration. It's the right type for label warnings, OTC packaging directions, and clinical safety boundaries.",
+  "whenNotToUse": "Don't use MaximumDoseSchedule for a typical or starting dose — use RecommendedDoseSchedule. Don't use it for what patients actually take in the real world — use ReportedDoseSchedule. Don't use it as a generic dosing wrapper if the page doesn't articulate a ceiling.",
+  "whoItsFor": "Patient-safety editors, OTC-label authors, and clinical-content teams responsible for surfacing toxicity ceilings.",
+  "seoNotes": "MaximumDoseSchedule is consumed via Drug.maximumIntake. Google does not currently issue a dedicated rich result; the structured value is in surfacing safety ceilings to medical knowledge-graph consumers.",
+  "commonCombos": ["schema:Drug", "schema:MedicalContraindication", "schema:DrugStrength"]
+}

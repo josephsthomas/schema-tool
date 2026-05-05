@@ -1,0 +1,19 @@
+// Reference example — built from public data sourced from NIH MedlinePlus Medical Encyclopedia (https://medlineplus.gov/ency/article/007482.htm) on 2026-05-05. Not for use in client deliverables. Generate your own markup using your content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalDevice",
+  "name": "Home Blood Pressure Monitor",
+  "description": "A home blood pressure monitor is a device used to keep track of your blood pressure at home. Digital monitors feature a cuff that wraps around your arm with either manual or automatic inflation, and a screen that shows a digital readout of your systolic and diastolic blood pressure.",
+  "purpose": {
+    "@type": "MedicalEntity",
+    "name": "Tracking blood pressure at home"
+  },
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Patients whose health care provider has asked them to keep track of their blood pressure at home"
+  },
+  "contraindication": {
+    "@type": "MedicalContraindication",
+    "name": "A digital blood pressure monitor will not be as accurate if your body is moving when you are using it. An irregular heart rate will make the reading less accurate."
+  }
+}

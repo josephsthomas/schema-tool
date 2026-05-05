@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use codingSystem on MedicalCode to name the vocabulary the codeValue belongs to — 'ICD-10', 'ICD-10-CM', 'SNOMED CT', 'RxNorm', 'LOINC'. Pick a single canonical spelling per system and reuse it; consumers group codes by exact-match string.",
+  "whenNotToUse": "Don't use codingSystem to point at the version (ICD-10 vs ICD-10-CM is fine, but '2023 release' isn't) — version belongs in description if needed. Don't include the code value here; keep that on codeValue so the pair stays parseable.",
+  "commonCombos": ["schema:MedicalCode"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use trialDesign on MedicalTrial to specify the interventional design — randomized, double-blind, placebo-controlled, crossover — using the MedicalTrialDesign enumeration. Combining multiple enumerated values is the right pattern for trials with several design features.",
+  "whenNotToUse": "Don't use this for observational studies; those use studyDesign on MedicalObservationalStudy. Avoid freeform Text when an enumerated value covers the design.",
+  "commonCombos": ["schema:MedicalTrial"]
+}

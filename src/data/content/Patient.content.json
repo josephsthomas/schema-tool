@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Patient for the person receiving care in a clinical scenario — including their right to a copy of their medical records, the right to keep them private and secure, the right to be treated with respect, the right to decline treatment, and the right to give and withdraw informed consent.",
+  "whenNotToUse": "Don't use Patient for a generic Person who is not in a clinical role, for the practitioner caring for the patient (use Physician, Dentist, etc.), or for the disease itself (use MedicalCondition). Don't use it as the holder of a Drug or treatment — link via MedicalCondition.drug or relevant property.",
+  "whoItsFor": "Clinical-content teams writing case scenarios and care-pathway examples, plus health-literacy publishers explaining patient rights, informed consent, and how to advocate inside the health system.",
+  "seoNotes": "Patient instances usually appear inside structured clinical scenarios rather than standalone pages, so name should be anonymized (e.g., 'Adult Patient') and the value comes from linking healthCondition, diagnosis, and drug. That graph is what an assistant traverses to summarize a case.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Drug", "schema:Physician"]
+}

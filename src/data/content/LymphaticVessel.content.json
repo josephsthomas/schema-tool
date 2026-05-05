@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use LymphaticVessel for any page that centers on a named lymphatic conduit — thoracic duct, right lymphatic duct, afferent and efferent lymphatic vessels. It is the right type for lymphatic-anatomy reference content and the anatomical anchor on oncology and lymphedema pages.",
+  "whenNotToUse": "Don't use LymphaticVessel for lymph nodes (those are AnatomicalStructure) or for the lymphatic system as a whole (use AnatomicalSystem). Don't apply it to lymphedema or lymphoma — those are MedicalCondition.",
+  "whoItsFor": "Oncology service-line editors, vascular- and lymphatic-surgery teams, lymphedema-clinic content owners, and patient-education editors covering lymphatic disorders.",
+  "seoNotes": "LymphaticVessel pages are sparse on the open web — well-marked entries become disproportionately useful disambiguators for LLM-based health assistants. Connect to the lymphatic AnatomicalSystem via partOfSystem and to drained regions via runsTo or relevant bodyLocation prose.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:Vessel", "schema:MedicalCondition"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use breastfeedingWarning on Drug for a self-contained Text caution about lactation safety — milk transfer, infant exposure, alternative therapies. Write it so it can render alone on a label or product detail without surrounding context.",
+  "whenNotToUse": "Don't use breastfeedingWarning for pregnancy guidance — that's pregnancyWarning, and the two carry different evidence bases. For general contraindications unrelated to lactation, use contraindication.",
+  "commonCombos": ["schema:Drug"]
+}

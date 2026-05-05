@@ -1,0 +1,20 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/kneeinjuriesanddisorders.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Your knee joint is made up of bone, cartilage, ligaments and fluid. Muscles and tendons help the knee joint move."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Knee joint", "sourceUrls": ["https://medlineplus.gov/kneeinjuriesanddisorders.html"] },
+    { "jsonPath": "$.description", "value": "Made up of bone, cartilage, ligaments and fluid.", "sourceUrls": ["https://medlineplus.gov/kneeinjuriesanddisorders.html"] },
+    { "jsonPath": "$.functionalClass", "value": "Muscles and tendons help the knee joint move.", "sourceUrls": ["https://medlineplus.gov/kneeinjuriesanddisorders.html"] },
+    { "jsonPath": "$.relatedCondition[0].name", "value": "Osteoarthritis of the knee", "sourceUrls": ["https://medlineplus.gov/kneeinjuriesanddisorders.html"] },
+    { "jsonPath": "$.relatedCondition[0].description", "value": "The cartilage in the knee gradually wears away, causing pain and swelling.", "sourceUrls": ["https://medlineplus.gov/kneeinjuriesanddisorders.html"] },
+    { "jsonPath": "$.relatedCondition[1].name", "value": "ACL injury", "sourceUrls": ["https://medlineplus.gov/kneeinjuriesanddisorders.html"] },
+    { "jsonPath": "$.relatedCondition[1].description", "value": "You usually injure your ACL by a sudden twisting motion.", "sourceUrls": ["https://medlineplus.gov/kneeinjuriesanddisorders.html"] }
+  ]
+}

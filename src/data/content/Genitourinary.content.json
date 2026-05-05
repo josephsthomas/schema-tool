@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Genitourinary for GU exam — external genital inspection, pelvic or prostate exam, and CVA-tenderness assessment. Pair with MedicalCondition entities like UTI, BPH, or Pelvic Inflammatory Disease and follow chaperone and consent workflows in the encounter markup."
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalSign to link the PhysicalExam maneuver that elicits or detects the sign. Reference a discrete PhysicalExam node so the maneuver itself can carry its own description and sources.",
+  "whenNotToUse": "Do not use for laboratory or imaging workups; use identifyingTest with a MedicalTest subtype.",
+  "commonCombos": ["schema:MedicalSign"]
+}

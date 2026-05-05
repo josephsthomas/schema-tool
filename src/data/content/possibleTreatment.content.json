@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalCondition or MedicalSignOrSymptom to point at therapies, drugs, drug classes, or lifestyle modifications used to manage it. The cleanest way to wire condition pages to their therapy options for entity-graph and assistant lookups.",
+  "whenNotToUse": "Do not use for preventative interventions before disease onset — use primaryPrevention. Do not list contraindicated treatments here.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalSignOrSymptom"]
+}

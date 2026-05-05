@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use branch on Nerve to enumerate the named branches that arise from the nerve trunk — median nerve giving off the anterior interosseous and recurrent branches. Each value should reference an AnatomicalStructure, ideally a Nerve node, so the neuroanatomy tree stays traversable.",
+  "whenNotToUse": "Don't confuse this with arterialBranch — keep this property for nerves only. For organizational subdivisions of an Organization, schema.org uses BranchOf at a different scope; this property is anatomical only.",
+  "commonCombos": ["schema:Nerve"]
+}

@@ -1,0 +1,28 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Adults and children older than 12 years of age may usually take nonprescription ibuprofen every 4 to 6 hours as needed for pain or fever, but should not take more than 6 doses in 24 hours."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Ibuprofen OTC adult maximum daily frequency",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.frequency",
+      "value": "Not more than 6 doses in 24 hours",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.targetPopulation",
+      "value": "Adults and children older than 12 years of age",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    }
+  ]
+}

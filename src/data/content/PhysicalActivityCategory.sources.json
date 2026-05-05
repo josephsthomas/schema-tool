@@ -1,0 +1,49 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/physical-activity-basics/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Adults need at least 150 minutes a week of moderate-intensity aerobic physical activity."
+    },
+    {
+      "url": "https://www.cdc.gov/physical-activity-basics/adults/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Do muscle-strengthening activities on 2 or more days a week that work all major muscle groups."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Adult aerobic activity plan",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+    },
+    {
+      "jsonPath": "$.activityType",
+      "value": "AerobicActivity",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Adults need at least 150 minutes a week of moderate-intensity aerobic physical activity.",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+    },
+    {
+      "jsonPath": "$.exerciseType",
+      "value": "Aerobic",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+    },
+    {
+      "jsonPath": "$.intensity",
+      "value": "Moderate",
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+    },
+    {
+      "jsonPath": "$.audience.suggestedMinAge",
+      "value": 18,
+      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/adults/index.html"]
+    }
+  ]
+}

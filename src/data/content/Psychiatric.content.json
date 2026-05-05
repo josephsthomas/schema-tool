@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Psychiatric when scoping a Physician or service line to psychiatry — mood disorders, anxiety, psychotic disorders, addiction, and consult-liaison psychiatry. Pair with MentalHealth-relevant MedicalCondition entities and reserve psychotherapy-only practices for a Psychology or counseling-organization markup pattern."
+}

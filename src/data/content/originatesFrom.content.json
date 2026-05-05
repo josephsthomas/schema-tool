@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a LymphaticVessel to point to the upstream Vessel it drains from (its afferent source). Forms the inflow side of the lymphatic graph; pair with runsTo for the outflow.",
+  "whenNotToUse": "Do not use for arterial or venous origin on non-lymphatic vessels — those belong on Artery or Vein with their own anatomical relations.",
+  "commonCombos": ["schema:LymphaticVessel"]
+}

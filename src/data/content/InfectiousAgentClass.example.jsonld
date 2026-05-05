@@ -1,0 +1,12 @@
+// Reference example — built from public data sourced from CDC About Influenza
+// (https://www.cdc.gov/flu/about/index.html) on 2026-05-05. Not for use in
+// client deliverables. Generate your own markup using your content in the
+// Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "InfectiousDisease",
+  "name": "Seasonal influenza",
+  "infectiousAgent": "Influenza virus",
+  "infectiousAgentClass": "Virus",
+  "transmissionMethod": "Spread mainly by droplets made when people with flu cough, sneeze, or talk."
+}

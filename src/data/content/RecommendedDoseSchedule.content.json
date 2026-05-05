@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use RecommendedDoseSchedule for a label-derived starting or maintenance dose — the dose a clinician is expected to begin with for a given indication and population. It's the right type when the page reflects FDA labelling, professional-society guidance, or DailyMed dosing instructions.",
+  "whenNotToUse": "Don't use RecommendedDoseSchedule for a not-to-exceed value — use MaximumDoseSchedule. Don't use it for self-reported dosing patterns from real-world data — use ReportedDoseSchedule. Don't use it as a generic dose container if the page doesn't actually represent a recommendation.",
+  "whoItsFor": "HCP-facing prescribing-information editors, formulary content teams, and patient-education writers translating label dosing into plain language.",
+  "seoNotes": "RecommendedDoseSchedule is consumed via Drug.doseSchedule. Google does not currently issue a dedicated rich result; structured separation of recommended vs. maximum vs. reported dosing supports clinical knowledge-graph alignment.",
+  "commonCombos": ["schema:Drug", "schema:TreatmentIndication", "schema:DrugStrength"]
+}

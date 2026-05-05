@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use PlasticSurgery when scoping a Physician or service line to plastic and reconstructive surgery — cosmetic, reconstructive, hand, craniofacial, and burn reconstruction. Pair with MedicalProcedure entities for specific reconstructive operations and keep cosmetic-only med-spa work distinct from board-certified plastic surgery."
+}

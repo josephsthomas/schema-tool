@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to point at the canonical prescribing information or product label as a URL. Prefer the regulator-hosted document (FDA DailyMed, EMA SmPC) over secondary republications.",
+  "whenNotToUse": "Do not use for marketing pages or general drug monographs; use sameAs or url for those.",
+  "commonCombos": ["schema:Drug"]
+}

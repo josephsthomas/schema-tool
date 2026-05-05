@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use CommunityHealth when scoping an organization or clinician to population-level health work tied to a specific geography — FQHCs, community-health centers, county outreach programs, and mobile clinics. Pair with MedicalOrganization or GovernmentOrganization rather than a single specialist Physician."
+}

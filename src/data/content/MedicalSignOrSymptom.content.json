@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalSignOrSymptom when the finding straddles both categories — fever is the canonical case, since the patient feels feverish and the clinician measures the temperature. Pick this parent type only when neither MedicalSign nor MedicalSymptom is a clean fit.",
+  "whenNotToUse": "Do not default to MedicalSignOrSymptom out of indecision. If the patient is the source of the report, use MedicalSymptom; if the clinician is the source, use MedicalSign or VitalSign.",
+  "whoItsFor": "Editorial leads who maintain the symptom taxonomy on a health portal and need a parent bucket for findings that legitimately cross the sign/symptom line.",
+  "seoNotes": "Use MedicalSignOrSymptom sparingly. Search retrieval prefers the more specific subtype when it applies, so reserve this parent for genuinely ambiguous findings.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalTest", "schema:FAQPage"]
+}

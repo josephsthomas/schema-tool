@@ -1,0 +1,59 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/diabetes/prevention-type-2/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Take the 1-minute prediabetes risk test. If your score shows you have a high risk of prediabetes, visit your doctor for a simple blood test to confirm your result."
+    },
+    {
+      "url": "https://www.cdc.gov/diabetes/prevention-type-2/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Anyone can develop prediabetes at any age, but you may have a higher risk if you: Have a family history of type 2 diabetes. Are over age 45. Have overweight or obesity. Had gestational diabetes (diabetes when pregnant). Have high blood pressure."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Prediabetes Risk Test",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A 1-minute prediabetes risk test that uses self-reported risk factors to flag people who should ask their doctor for a blood test to confirm prediabetes.",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    },
+    {
+      "jsonPath": "$.estimatesRiskOf.name",
+      "value": "Prediabetes",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    },
+    {
+      "jsonPath": "$.includedRiskFactor[0].name",
+      "value": "Family history of type 2 diabetes",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    },
+    {
+      "jsonPath": "$.includedRiskFactor[1].name",
+      "value": "Age over 45",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    },
+    {
+      "jsonPath": "$.includedRiskFactor[2].name",
+      "value": "Overweight or obesity",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    },
+    {
+      "jsonPath": "$.includedRiskFactor[3].name",
+      "value": "History of gestational diabetes",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    },
+    {
+      "jsonPath": "$.includedRiskFactor[4].name",
+      "value": "High blood pressure",
+      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+    }
+  ]
+}

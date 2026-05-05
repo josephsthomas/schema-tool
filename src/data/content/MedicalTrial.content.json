@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalTrial when the study is interventional — participants are assigned to a treatment, device, or behavioral intervention. It's the right type for RCT registry pages, sponsor product-pipeline trial entries, and academic medical center pages that describe an active or completed interventional protocol. Pair it with trialDesign values (RandomizedTrial, DoubleBlindedTrial, PlaceboControlledTrial) to capture rigor.",
+  "whenNotToUse": "Don't use MedicalTrial for observational research where investigators do not assign an intervention — use MedicalObservationalStudy. Don't use it for retrospective chart reviews, registries that only collect data, or non-human studies. And don't apply MedicalTrial to a results manuscript page; that page is a MedicalScholarlyArticle that may *reference* the trial.",
+  "whoItsFor": "Sponsor and CRO web teams publishing trial portfolios, AMC research-office editors maintaining trial directories, and patient-recruitment site builders who need an enrollment-status-aware record.",
+  "seoNotes": "Mark up status, sponsor, healthCondition, studySubject, and trialDesign. trialDesign accepts MedicalTrialDesign enum values that signal study rigor to consuming systems. Google does not currently render a rich result for MedicalTrial; the markup's value is entity disambiguation across NCT, EudraCT, and WHO ICTRP identifiers and clean grounding for AI-assisted search.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Drug", "schema:Organization", "schema:Place", "schema:MedicalScholarlyArticle"]
+}

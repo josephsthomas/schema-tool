@@ -1,0 +1,29 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/heart-disease/risk-factors/index.html and
+//  https://www.cdc.gov/cholesterol/about/index.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalRiskScore",
+  "name": "ASCVD 10-Year Risk Score",
+  "description": "A named cardiovascular risk score that combines key risk factors for heart disease — high blood pressure, high cholesterol, and smoking — to express a person's 10-year risk of heart disease and stroke.",
+  "estimatesRiskOf": {
+    "@type": "MedicalCondition",
+    "name": "Atherosclerotic Cardiovascular Disease"
+  },
+  "includedRiskFactor": [
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "High blood pressure"
+    },
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "High cholesterol"
+    },
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "Smoking"
+    }
+  ]
+}

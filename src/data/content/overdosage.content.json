@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to describe signs, symptoms, and management of overdose, including supportive care and antidote where applicable. Critical for HCP prescribing pages and poison-control reference content.",
+  "whenNotToUse": "Do not use for routine adverse effects at therapeutic doses — those belong on adverseOutcome or seriousAdverseOutcome.",
+  "commonCombos": ["schema:Drug"]
+}

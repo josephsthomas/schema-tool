@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use availableTest on DiagnosticLab to enumerate the panels and assays the lab performs. Each entry should reference a MedicalTest node — a BloodTest, ImagingTest, or PathologyTest — so the catalog interlinks with the test's normalRange and usedToDiagnose pages.",
+  "whenNotToUse": "Don't use availableTest for tests merely sent out to a reference lab; reserve it for what the facility actually runs in-house, otherwise the directory misleads patients. For service offerings beyond testing, use availableService on the parent provider type.",
+  "commonCombos": ["schema:DiagnosticLab"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalCondition to point at therapies, vaccines, or behaviors used to stop the condition from occurring in a never-affected population. Pair with secondaryPrevention for relapse-prevention guidance.",
+  "whenNotToUse": "Do not use for treatment of established disease (use possibleTreatment) or for screening (use identifyingTest).",
+  "commonCombos": ["schema:MedicalCondition"]
+}

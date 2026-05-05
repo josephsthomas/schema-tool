@@ -1,0 +1,38 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/anxiety.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Cognitive behavioral therapy (CBT), which teaches you different ways of thinking and behaving."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Cognitive behavioral therapy",
+      "sourceUrls": ["https://medlineplus.gov/anxiety.html"]
+    },
+    {
+      "jsonPath": "$.alternateName",
+      "value": "CBT",
+      "sourceUrls": ["https://medlineplus.gov/anxiety.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Cognitive behavioral therapy (CBT), which teaches you different ways of thinking and behaving.",
+      "sourceUrls": ["https://medlineplus.gov/anxiety.html"]
+    },
+    {
+      "jsonPath": "$.howPerformed",
+      "value": "Helps change reactions to fear and anxiety triggers; may include exposure therapy where the patient confronts feared situations.",
+      "sourceUrls": ["https://medlineplus.gov/anxiety.html"]
+    },
+    {
+      "jsonPath": "$.indication.name",
+      "value": "Anxiety disorders",
+      "sourceUrls": ["https://medlineplus.gov/anxiety.html"]
+    }
+  ]
+}

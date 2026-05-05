@@ -1,0 +1,63 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/003886.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A colonoscopy is an exam that views the inside of the colon (large intestine) and rectum."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Colonoscopy",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A colonoscopy is an exam that views the inside of the colon (large intestine) and rectum.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.procedureType.name",
+      "value": "Diagnostic",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.bodyLocation",
+      "value": "Colon and rectum",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.usesDevice.name",
+      "value": "Colonoscope",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.usesDevice.description",
+      "value": "The colonoscope has a small camera attached to a flexible tube that can reach the entire length of the colon.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.preparation",
+      "value": "Bowel must be empty and clean; drink clear liquids 1 to 3 days before the test.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.howPerformed",
+      "value": "The scope is gently inserted through the anus. It is carefully moved into the lowest part of the large intestine.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.followup",
+      "value": "Return to regular activities next day; avoid driving, machinery, alcohol, important decisions for at least 24 hours.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    },
+    {
+      "jsonPath": "$.indication.name",
+      "value": "Abdominal pain, changes in bowel movements, weight loss, blood in stool",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003886.htm"]
+    }
+  ]
+}

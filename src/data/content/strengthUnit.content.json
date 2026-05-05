@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use strengthUnit on DrugStrength to record the unit of measure — 'mg', 'mcg', 'IU', 'mg/mL' — that pairs with strengthValue. Keep it consistent with regulatory labeling so dose comparisons remain unambiguous.",
+  "whenNotToUse": "Don't combine value and unit into a single Text field; the two properties are split intentionally for machine readability. Avoid abbreviating in ways that drift from FDA label conventions.",
+  "commonCombos": ["schema:DrugStrength"]
+}

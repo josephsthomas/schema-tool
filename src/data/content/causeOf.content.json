@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use causeOf on MedicalCause as the inverse of cause — point at the MedicalEntity (a MedicalCondition, MedicalSignOrSymptom, or complication) that this cause produces. This makes etiology pages discoverable from both directions.",
+  "whenNotToUse": "Don't use causeOf to enumerate every downstream sequela the cause might trigger; keep it to the direct, well-attested outcomes so the graph stays trustworthy. For looser association, use a description field on the parent.",
+  "commonCombos": ["schema:MedicalCause"]
+}

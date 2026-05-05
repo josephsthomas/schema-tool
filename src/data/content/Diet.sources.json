@@ -1,0 +1,73 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/dashdiet.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "DASH stands for Dietary Approaches to Stop Hypertension. It is an eating plan that is based on research studies sponsored by the National Heart, Lung, and Blood Institute (NHLBI)."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "DASH eating plan",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.alternateName",
+      "value": "Dietary Approaches to Stop Hypertension",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "An eating plan based on research studies sponsored by the National Heart, Lung, and Blood Institute (NHLBI), designed to address high blood pressure and improve cholesterol levels.",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.dietFeatures[0]",
+      "value": "Emphasizes vegetables, fruits, and whole grains",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.dietFeatures[1]",
+      "value": "Includes fat-free or low-fat dairy products",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.dietFeatures[2]",
+      "value": "Includes fish, poultry, beans, and nuts",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.dietFeatures[3]",
+      "value": "Uses vegetable oils",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.dietFeatures[4]",
+      "value": "Limits foods high in saturated fat such as fatty meats and full-fat dairy",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.dietFeatures[5]",
+      "value": "Limits tropical oils including coconut, palm kernel, and palm",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.dietFeatures[6]",
+      "value": "Limits sugar-sweetened beverages and sweets",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.expertConsiderations",
+      "value": "The plan works best alongside maintaining a healthy weight, exercising, and avoiding smoking.",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    },
+    {
+      "jsonPath": "$.recognizingAuthority.name",
+      "value": "National Heart, Lung, and Blood Institute",
+      "sourceUrls": ["https://medlineplus.gov/dashdiet.html"]
+    }
+  ]
+}

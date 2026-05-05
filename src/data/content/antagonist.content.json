@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use antagonist on Muscle to point at the Muscle whose action opposes the subject muscle at a given joint — biceps brachii antagonized by triceps brachii during elbow extension. Reference a Muscle node so users can navigate the agonist/antagonist pair.",
+  "whenNotToUse": "Don't use antagonist for receptor pharmacology — that's a separate domain and isn't modeled here. For synergists or stabilizers around the same joint, neither has a dedicated property; describe them in the muscle's description rather than overloading antagonist.",
+  "commonCombos": ["schema:Muscle"]
+}

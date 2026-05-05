@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use code on any MedicalEntity to attach a MedicalCode node carrying the controlled-vocabulary identifier — ICD-10, SNOMED CT, RxNorm, LOINC, CPT. Repeat the property for each system you can map to so consumers can pick whichever ontology they index against.",
+  "whenNotToUse": "Don't use code for internal product SKUs or proprietary identifiers — use identifier with a PropertyValue for those. Don't put the codingSystem name in the same string as the value; structure them as separate fields on the MedicalCode node.",
+  "commonCombos": ["schema:MedicalEntity"]
+}

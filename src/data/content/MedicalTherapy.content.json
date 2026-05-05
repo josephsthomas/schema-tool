@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalTherapy as the parent type for therapeutic interventions that don't fit a more specific subtype — talk therapy, behavioral therapy, lifestyle-based interventions. It's the right anchor when a service line spans several therapy modalities and you don't want to fragment them across siblings.",
+  "whenNotToUse": "Don't use MedicalTherapy when a subtype is clearly correct: PsychologicalTreatment for mental-health interventions, PhysicalTherapy for movement rehab, OccupationalTherapy for ADL retraining, RadiationTherapy for radiation. Don't use it for procedures performed in a single clinical encounter — those are TherapeuticProcedure.",
+  "whoItsFor": "Behavioral health practices, mental-health programs, integrative-medicine clinics, and any service-line page describing a therapy approach that spans modalities.",
+  "seoNotes": "MedicalTherapy works well for evergreen explainer pages on a therapy framework like CBT. Pair with relatedMedicalCondition or indication so search engines can connect the therapy to the problems it addresses.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Physician", "schema:MedicalGuideline", "schema:FAQPage"]
+}

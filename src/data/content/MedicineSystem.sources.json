@@ -1,0 +1,34 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/natural/patient-acupuncture.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Acupuncture is a technique in which practitioners insert fine needles into the skin to treat health problems."
+    },
+    {
+      "url": "https://medlineplus.gov/complementaryandintegrativemedicine.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Complementary and integrative medicine includes a wide range of practices and treatments that are not part of standard medical care."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Acupuncture",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/natural/patient-acupuncture.html"]
+    },
+    {
+      "jsonPath": "$.medicineSystem",
+      "value": "TraditionalChinese",
+      "sourceUrls": ["https://medlineplus.gov/complementaryandintegrativemedicine.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Acupuncture is a technique in which practitioners insert fine needles into the skin to treat health problems.",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/natural/patient-acupuncture.html"]
+    }
+  ]
+}

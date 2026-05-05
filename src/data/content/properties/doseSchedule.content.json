@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use doseSchedule on a Drug or TherapeuticProcedure to attach the DoseSchedule node carrying doseValue, doseUnit, and frequency. The value must be a DoseSchedule entity so consumers can reason over the structured fields rather than parsing prose.",
+  "whenNotToUse": "Don't put dosing prose into doseSchedule — author the DoseSchedule node and link it. For a single recommended adult dose without scheduling complexity, still wrap it in a DoseSchedule for consistency.",
+  "commonCombos": ["schema:TherapeuticProcedure", "schema:Drug"]
+}

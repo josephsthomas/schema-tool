@@ -1,0 +1,16 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/headache.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalSymptom",
+  "name": "Headache",
+  "description": "Headache is the most common form of pain.",
+  "possibleCondition": [
+    { "@type": "MedicalCondition", "name": "Tension headache" },
+    { "@type": "MedicalCondition", "name": "Migraine" },
+    { "@type": "MedicalCondition", "name": "Cluster headache" },
+    { "@type": "MedicalCondition", "name": "Sinus headache" }
+  ]
+}

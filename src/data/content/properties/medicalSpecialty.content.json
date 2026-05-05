@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Physician, MedicalClinic, or MedicalOrganization to declare clinical specialties via the MedicalSpecialty enumeration. Repeat for each specialty practiced rather than concatenating into one string.",
+  "whenNotToUse": "Do not use for non-clinical departments or general business categories; use department or knowsAbout for those.",
+  "commonCombos": ["schema:MedicalClinic", "schema:Physician", "schema:MedicalOrganization"]
+}

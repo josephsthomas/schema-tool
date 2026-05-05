@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use functionalClass on a Joint to describe the degree of mobility — synarthrosis, amphiarthrosis, diarthrosis. Either reference a MedicalEntity enumeration node or use Text; pick one convention and apply it across the joint catalog.",
+  "whenNotToUse": "Don't use functionalClass to describe structural classification (fibrous, cartilaginous, synovial) — that's a separate axis. For range-of-motion measurements, model as observations on the structure.",
+  "commonCombos": ["schema:Joint"]
+}

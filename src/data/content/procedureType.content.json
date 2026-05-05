@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalProcedure to classify it as Surgical, Noninvasive, Percutaneous, Diagnostic, or Therapeutic via MedicalProcedureType. Drives faceting in service-line directories and procedure-finder UIs.",
+  "whenNotToUse": "Do not use for the body part involved (use bodyLocation) or for the indication (use indication).",
+  "commonCombos": ["schema:MedicalProcedure"]
+}

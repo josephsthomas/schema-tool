@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use FDAnotEvaluated when the drug carried no FDA pregnancy letter category — for example because it predates the system or was approved after the 2015 PLLR transition. Carry the value openly rather than leaving the field blank so readers don't infer a category that was never assigned."
+}

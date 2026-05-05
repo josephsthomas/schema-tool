@@ -1,0 +1,34 @@
+// Reference example — built from public registration metadata at ClinicalTrials.gov
+// (https://clinicaltrials.gov/study/NCT03021993) accessed 2026-05-05.
+// Registration metadata only — no results or efficacy claims.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalStudy",
+  "name": "Phase II Trial of Nivolumab, an Anti-PD-1 Monoclonal Antibody, as a Novel Neoadjuvant Pre-Surgical Therapy for Locally Advanced Oral Cavity Cancer",
+  "identifier": "NCT03021993",
+  "status": "Completed",
+  "studySubject": {
+    "@type": "Drug",
+    "name": "Nivolumab"
+  },
+  "healthCondition": {
+    "@type": "MedicalCondition",
+    "name": "Oral Cavity Squamous Cell Carcinoma"
+  },
+  "sponsor": {
+    "@type": "Organization",
+    "name": "Medical University of South Carolina"
+  },
+  "studyLocation": {
+    "@type": "Place",
+    "name": "Medical University of South Carolina",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Charleston",
+      "addressRegion": "South Carolina",
+      "addressCountry": "US"
+    }
+  }
+}

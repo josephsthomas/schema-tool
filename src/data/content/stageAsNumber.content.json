@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use stageAsNumber on MedicalConditionStage to record the numeric stage value — 1, 2, 3, 4 — independent of any substage letter. Keep the value as a plain Number so it sorts and filters correctly.",
+  "whenNotToUse": "Don't encode Roman numerals or substage letters here; use subStageSuffix for letters like 'a' or 'b'. Avoid using it for non-numeric staging schemes.",
+  "commonCombos": ["schema:MedicalConditionStage"]
+}

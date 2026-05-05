@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Genetic when scoping a Physician, counselor, or program to medical genetics and genomics — hereditary cancer panels, prenatal counseling, and inborn errors of metabolism. Pair with MedicalCondition entities tied to inherited disease and with MedicalTest entities for genetic panels."
+}

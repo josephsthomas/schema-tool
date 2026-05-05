@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use to describe the untreated trajectory of a condition, including expected stages, complications, and outcomes absent intervention. Helpful for prognostic content and patient-facing decision aids.",
+  "whenNotToUse": "Do not use for treated outcomes or therapy efficacy; use possibleTreatment or expectedPrognosis instead.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

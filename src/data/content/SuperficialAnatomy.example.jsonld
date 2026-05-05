@@ -1,0 +1,11 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/skinconditions.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "SuperficialAnatomy",
+  "name": "Skin",
+  "description": "Your skin is your body's largest organ. It covers the entire outside of your body.",
+  "associatedPathophysiology": "Holds body fluids in, which helps prevent you from getting dehydrated. Keeps out harmful germs, which helps prevent infections. Helps you feel things like heat, cold, and pain. Helps control your body temperature. Makes vitamin D when the sun shines on it."
+}

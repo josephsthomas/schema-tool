@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use typicalTest on MedicalCondition to point at MedicalTest nodes that are part of the standard diagnostic workup. Order the values from initial screening through confirmatory testing when sequence matters.",
+  "whenNotToUse": "Don't use this for tests used only in research or specialist referral pathways. Avoid duplicating signDetected content; this property is about the test, not what it finds.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalContraindication to mark a clinical situation in which a drug or therapy should not be used — aspirin in children with a viral illness due to Reye's syndrome risk, NSAIDs in late pregnancy, metformin in significant renal impairment. It's the right type for boxed warnings, contraindication labelling, and patient-safety call-outs.",
+  "whenNotToUse": "Don't use MedicalContraindication for general adverse effects without a population-specific prohibition — those are warnings, not contraindications. Don't use it for relative cautions where the drug may still be used with monitoring; reserve it for situations the label flags as do-not-use.",
+  "whoItsFor": "Patient-safety editors, regulatory and pharmacovigilance writers, and clinical-content teams building decision-support layers.",
+  "seoNotes": "MedicalContraindication is consumed via Drug.contraindication or MedicalTherapy.contraindication. Google does not currently issue a dedicated rich result; the value is in surfacing safety boundaries to medical knowledge graphs.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:Patient"]
+}

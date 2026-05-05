@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DrugCost to mark up a discrete cost data point for a medication — wholesale acquisition cost, formulary tier price, retail dispensing cost, or patient out-of-pocket figure. It's the right type when a Drug page needs to expose a specific price tied to a strength, currency, and cost type.",
+  "whenNotToUse": "Don't use DrugCost for an entire price list or formulary table without per-drug context — wrap each entry in its own DrugCost. Don't use it for a free-text price disclaimer; it expects structured fields like costPerUnit, costCurrency, and drugUnit.",
+  "whoItsFor": "Pharmacy benefit editors publishing formulary tiers, transparent-pricing platforms, and consumer drug-price comparison sites.",
+  "seoNotes": "DrugCost appears as a property of a parent Drug via cost. Google does not surface a dedicated rich result for DrugCost; its value is in machine-readable price disclosure and feeding downstream price-comparison tools.",
+  "commonCombos": ["schema:Drug", "schema:DrugStrength", "schema:Offer"]
+}

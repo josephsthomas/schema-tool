@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/healthtopics.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "MedlinePlus brings together authoritative information from NLM, the National Institutes of Health (NIH), and other government and professional organizations. Health topics include consumer-oriented summaries and links to clinician resources."
+    },
+    {
+      "url": "https://www.nlm.nih.gov/medlineplus/about.html",
+      "publisher": "NIH National Library of Medicine",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "MedlinePlus is the National Library of Medicine's web site for patients, families, and friends. The site separates consumer-facing content from professional-oriented resources such as PubMed and clinical practice guidelines aimed at health care providers."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Heart Failure: Updated Management Recommendations", "sourceUrls": ["https://medlineplus.gov/healthtopics.html"] },
+    { "jsonPath": "$.audience.audienceType", "value": "Clinician", "sourceUrls": ["https://www.nlm.nih.gov/medlineplus/about.html"] },
+    { "jsonPath": "$.audience.name", "value": "Practicing cardiologists and primary-care physicians", "sourceUrls": ["https://www.nlm.nih.gov/medlineplus/about.html"] },
+    { "jsonPath": "$.about.name", "value": "Heart failure", "sourceUrls": ["https://medlineplus.gov/healthtopics.html"] }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/lymphaticdiseases.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Lymph vessels - vessels that carry lymph throughout your body. The lymphatic system clears away infection and keeps your body fluids in balance. Sometimes the lymphatic system doesn't work right. Fluid builds in your tissues and causes swelling, called lymphedema."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Lymph vessel", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
+    { "jsonPath": "$.description", "value": "Vessels that carry lymph throughout your body.", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
+    { "jsonPath": "$.partOfSystem.name", "value": "Lymphatic system", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
+    { "jsonPath": "$.relatedCondition.name", "value": "Lymphedema", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
+    { "jsonPath": "$.relatedCondition.description", "value": "Fluid builds in your tissues and causes swelling, called lymphedema.", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] }
+  ]
+}

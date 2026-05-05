@@ -1,0 +1,18 @@
+// Reference example — built from public data sourced from NIH MedlinePlus (https://medlineplus.gov/ency/article/007208.htm) on 2026-05-05. Not for use in client deliverables.
+{
+  "@context": "https://schema.org",
+  "@type": "PhysicalTherapy",
+  "name": "ACL reconstruction rehabilitation",
+  "description": "Physical therapy program following ACL reconstruction surgery. The anterior cruciate ligament (ACL) connects your shin bone (tibia) to your thigh bone (femur).",
+  "bodyLocation": "Knee",
+  "howPerformed": "You will need to follow a rehabilitation program for 4 to 6 months.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Knee that gives way or feels unstable during daily activities; inability to return to sports or other activities."
+  },
+  "followup": "A full return to activities and sports will often take 4 to 6 months. Sports that involve quick changes in direction, such as soccer, basketball, and football, may require up to 9 to 12 months of rehabilitation.",
+  "contraindication": {
+    "@type": "MedicalContraindication",
+    "name": "Patients may need to wear a knee brace for the first 1 to 6 weeks, limiting certain activities."
+  }
+}

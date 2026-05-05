@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DDxElement to mark up one entry inside a differential-diagnosis list — each candidate condition that explains a presenting symptom belongs in its own DDxElement, paired with the distinguishing factors that move it up or down the list.",
+  "whenNotToUse": "Do not use DDxElement as a standalone disease entity — it is meaningful only inside a differential. Do not use it for confirmed diagnoses; once the workup is done, switch to MedicalCondition.",
+  "whoItsFor": "Clinical-decision-support editors, point-of-care reference publishers, and medical-education content teams building chief-complaint pages.",
+  "seoNotes": "Marking up the differential as DDxElement entries with explicit distinguishingFact values gives an LLM the structure to compare candidate diagnoses rather than treat them as a flat list.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalSignOrSymptom", "schema:MedicalTest"]
+}

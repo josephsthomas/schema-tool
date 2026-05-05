@@ -1,0 +1,14 @@
+// Reference example — built from public data sourced from NIH MedlinePlus (https://medlineplus.gov/ency/article/007490.htm) on 2026-05-05. Not for use in client deliverables.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "Blood pressure measurement",
+  "description": "Blood pressure is a measurement of the force on the walls of your arteries as your heart pumps blood through your body.",
+  "bodyLocation": "Upper arm",
+  "preparation": "Empty your bladder beforehand. Rest for at least 5 minutes, 10 minutes is better, before blood pressure is taken.",
+  "howPerformed": "You or your provider will wrap the blood pressure cuff snugly around your upper arm. The cuff will be inflated quickly. The reading when the sound of blood pulsing is first heard is recorded as the systolic pressure; the point at which the sound stops is recorded as the diastolic pressure.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Detection of high blood pressure"
+  }
+}

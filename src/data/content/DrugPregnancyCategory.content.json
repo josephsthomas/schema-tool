@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DrugPregnancyCategory on a Drug to record a legacy FDA pregnancy letter category (A, B, C, D, X, or NotEvaluated) when a drug's labeling still carries that designation in legacy reference text. The enumeration mirrors the historical FDA letter system as captured in older labeling and patient education content.",
+  "whenNotToUse": "Don't treat this as the current FDA standard. The FDA replaced letter categories with the Pregnancy and Lactation Labeling Rule (PLLR) narrative format in 2015, and post-2015 labeling carries narrative pregnancy, lactation, and reproductive-potential subsections instead. Don't apply DrugPregnancyCategory to drugs whose labeling has been converted to PLLR narrative format.",
+  "whoItsFor": "Drug-information publishers and pharmacy reference editors maintaining legacy monograph content, plus product-information teams reconciling older monographs against current DailyMed labels.",
+  "seoNotes": "AI answer engines still receive questions like \"is X a Category C drug?\"; carrying the legacy value where it appears in source labeling preserves answer fidelity, but pair it with a note linking to the current PLLR narrative on DailyMed so users land on the authoritative current label.",
+  "commonCombos": ["schema:Drug", "schema:DrugPrescriptionStatus", "schema:MedicalCondition"]
+}

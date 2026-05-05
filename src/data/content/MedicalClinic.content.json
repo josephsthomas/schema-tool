@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalClinic for a community-based outpatient setting where patients are treated without an overnight stay. It fits free and charitable clinics, school-based health centers, and outpatient care centers that sit alongside hospitals in the broader health-facility map.",
+  "whenNotToUse": "Don't use MedicalClinic for a facility that admits patients for inpatient care (use Hospital) or for a single-practitioner private practice operating as a business entity (use MedicalBusiness). Don't use it for a clinical laboratory that only runs tests on samples (use DiagnosticLab).",
+  "whoItsFor": "Community health center editors maintaining clinic directories, public health communicators publishing free-clinic finders, and health-system content teams describing outpatient sites distinct from their inpatient hospitals.",
+  "seoNotes": "Clinic pages benefit from clear medicalSpecialty and availableService entries so search and assistant surfaces can match user queries like 'free clinic near me' or 'walk-in clinic for X'. Pair with the parent MedicalOrganization when the clinic belongs to a larger system.",
+  "commonCombos": ["schema:MedicalOrganization", "schema:Hospital", "schema:MedicalSpecialty"]
+}

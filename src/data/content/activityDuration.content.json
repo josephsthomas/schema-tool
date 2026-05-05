@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use activityDuration on ExercisePlan to express how long a single session lasts. Prefer Duration in ISO 8601 form (PT30M) over QuantitativeValue when you only need a single magnitude — reserve QuantitativeValue for ranges with min/max.",
+  "whenNotToUse": "Don't use activityDuration for total program length across weeks — that's a separate concept and belongs in description or a custom property. For session cadence per week, use activityFrequency.",
+  "commonCombos": ["schema:ExercisePlan"]
+}

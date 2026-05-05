@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalSpecialty values to scope a Physician, Hospital, MedicalClinic, or MedicalOrganization to a clinical area — Cardiovascular, Oncologic, Pediatric, Surgical, and so on. The enumeration's 42 members cover the major medical specialties; pick the most specific value that matches your provider's actual scope of practice.",
+  "whenNotToUse": "Don't use MedicalSpecialty for sub-specialties below the enumeration's granularity (e.g., \"interventional cardiology\" or \"pediatric cardiology\") — use a free-text description for that level of detail. Don't apply MedicalSpecialty to a procedure or condition entity directly; it scopes the practitioner or organization, not the clinical content.",
+  "whoItsFor": "Health-system marketers building service-line landing pages, provider-directory editors at payer sites, and physician-bio writers at hospital systems and group practices. Pharma medical-affairs teams use MedicalSpecialty to target HCP-facing content to specific specialist audiences.",
+  "seoNotes": "MedicalSpecialty enums sharpen entity disambiguation for LLM-based health assistants and surface providers in specialty-specific directory queries. They are a stronger signal for \"cardiologist near me\" or \"pediatric oncologist accepting new patients\" than free-text department labels alone.",
+  "commonCombos": ["schema:Physician", "schema:Hospital", "schema:MedicalClinic", "schema:MedicalOrganization", "schema:MedicalProcedure"]
+}

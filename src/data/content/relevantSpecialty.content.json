@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on any MedicalEntity to flag the MedicalSpecialty that owns or most-often handles it (e.g. cardiology for atrial fibrillation). Drives faceting in find-a-doctor, content hubs, and assistant routing.",
+  "whenNotToUse": "Do not use for hospital departments or service lines — those belong on the Hospital or MedicalOrganization side as departments.",
+  "commonCombos": ["schema:MedicalEntity"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "formulary-entry",
+  "label": "Formulary entry",
+  "description": "Payer or health-system formulary listing for a single drug — class, cost-sharing, legal status, and tier all wired together.",
+  "entities": [
+    {
+      "type": "HealthPlanFormulary",
+      "defaultLabel": "Formulary",
+      "parentRef": null
+    },
+    {
+      "type": "Drug",
+      "defaultLabel": "Listed drug",
+      "parentRef": "HealthPlanFormulary.healthPlanDrugTier"
+    },
+    {
+      "type": "DrugClass",
+      "defaultLabel": "Drug class",
+      "parentRef": "Drug.drugClass"
+    },
+    {
+      "type": "DrugCost",
+      "defaultLabel": "Member cost",
+      "parentRef": "Drug.cost"
+    },
+    {
+      "type": "DrugLegalStatus",
+      "defaultLabel": "Legal status",
+      "parentRef": "Drug.legalStatus"
+    }
+  ]
+}

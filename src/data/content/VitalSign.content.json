@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use VitalSign for the four core measurements clinicians take at every encounter — blood pressure, heart rate, respiratory rate, and temperature. It is the right type for patient-education pages explaining what a measurement is and how it is taken.",
+  "whenNotToUse": "Do not use VitalSign for body composition, lab values, or imaging findings — those are MedicalTest results. Do not use it for derived scores like BMI or shock index.",
+  "whoItsFor": "Health-system patient-portal editors, home-monitoring device marketers, and primary-care educators.",
+  "seoNotes": "Vital-sign pages are highly cited by virtual-care assistants because the patient is often holding a measurement and asking what it means. Pair VitalSign markup with FAQPage answering threshold questions.",
+  "commonCombos": ["schema:MedicalTest", "schema:MedicalCondition", "schema:FAQPage"]
+}

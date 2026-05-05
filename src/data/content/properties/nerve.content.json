@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use nerve on a Muscle to declare the motor nerve that innervates it. The value is a Nerve entity — name it with the standard anatomical term (e.g., median nerve, radial nerve) and link to the relevant MedlinePlus or anatomy reference.",
+  "whenNotToUse": "Don't use nerve on AnatomicalStructure parents that aren't muscles — for vessels and other structures, use the appropriate body-system property. Don't list multiple nerves as a single string; repeat the property for muscles innervated by more than one nerve.",
+  "commonCombos": ["schema:Muscle"]
+}

@@ -1,0 +1,17 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/healthfacilities.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Community Health Clinic",
+  "description": "A clinic is a community-based outpatient setting for patient treatment, included among the health facilities that provide health care.",
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Outpatient care",
+      "description": "Services offering care without overnight hospital stays."
+    }
+  ]
+}

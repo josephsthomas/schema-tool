@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use bodyLocation on AnatomicalStructure or MedicalProcedure as a Text descriptor of where the entity sits or operates — 'right upper quadrant', 'cervical spine C5-C6'. Plain text, written in clinical shorthand patients can also parse.",
+  "whenNotToUse": "Don't use bodyLocation when you can reference a structured AnatomicalStructure — for procedures, prefer linking via a MedicalProcedure-specific anatomy property when one exists. For conditions, use associatedAnatomy with a real node, not free text.",
+  "commonCombos": ["schema:AnatomicalStructure", "schema:MedicalProcedure"]
+}

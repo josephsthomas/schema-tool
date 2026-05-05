@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/patientinstructions/000879.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A set amount of money you have to pay before your insurance starts to pay."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Plan deductible",
+      "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000879.htm"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A set amount of money you have to pay before your insurance starts to pay.",
+      "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000879.htm"]
+    }
+  ]
+}

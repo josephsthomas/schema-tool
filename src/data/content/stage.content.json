@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use stage on MedicalCondition to attach a MedicalConditionStage node carrying the staging system, numeric stage, and any substage suffix. Keep the staging system explicit (TNM, FIGO, Ann Arbor) on the stage node itself.",
+  "whenNotToUse": "Don't use this for severity grading scales like NYHA or GOLD — those are functional classifications, not anatomic stages, and belong in description or a custom extension. Avoid free-text stage values inline; always reference a MedicalConditionStage.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

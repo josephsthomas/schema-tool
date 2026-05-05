@@ -1,0 +1,48 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "publisher": "National Cancer Institute",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Chemotherapy (also called chemo) is a type of cancer treatment that uses drugs to kill cancer cells."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Chemotherapy infusion",
+      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Chemotherapy (also called chemo) is a type of cancer treatment that uses drugs to kill cancer cells.",
+      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"]
+    },
+    {
+      "jsonPath": "$.procedureType.name",
+      "value": "Therapeutic",
+      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"]
+    },
+    {
+      "jsonPath": "$.howPerformed",
+      "value": "Chemotherapy is most often given with an IV, through a thin needle that is placed in a vein on your hand or lower arm.",
+      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"]
+    },
+    {
+      "jsonPath": "$.indication.name",
+      "value": "Chemotherapy can be used to cure cancer, lessen the chance it will return, or stop or slow its growth.",
+      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"]
+    },
+    {
+      "jsonPath": "$.followup",
+      "value": "Doctor visits to assess how you feel, perform a physical exam, and order medical tests and scans.",
+      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"]
+    },
+    {
+      "jsonPath": "$.adverseOutcome.name",
+      "value": "Mouth sores, nausea, and hair loss",
+      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"]
+    }
+  ]
+}

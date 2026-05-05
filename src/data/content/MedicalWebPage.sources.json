@@ -1,0 +1,20 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/diabetestype2.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Type 2 diabetes is a disease in which your blood glucose, or blood sugar, levels are too high."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Type 2 Diabetes", "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"] },
+    { "jsonPath": "$.url", "value": "https://medlineplus.gov/diabetestype2.html", "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"] },
+    { "jsonPath": "$.about.name", "value": "Type 2 Diabetes", "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"] },
+    { "jsonPath": "$.about.description", "value": "Type 2 diabetes is a disease in which your blood glucose, or blood sugar, levels are too high.", "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"] },
+    { "jsonPath": "$.about.signOrSymptom[0].name", "value": "Increased thirst and urination", "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"] },
+    { "jsonPath": "$.about.signOrSymptom[1].name", "value": "Blurred vision", "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"] },
+    { "jsonPath": "$.about.signOrSymptom[2].name", "value": "Slow-healing sores", "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"] }
+  ]
+}

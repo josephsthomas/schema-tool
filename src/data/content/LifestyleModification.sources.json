@@ -1,0 +1,50 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Quitlines provide free coaching over the phone to help you quit smoking ... FDA-approved medications include nicotine replacement products (patch, lozenge, gum, nasal spray, oral inhaler), varenicline and bupropion SR ... Preparation is key to quitting successfully, and making a quit plan is the first step."
+    },
+    {
+      "url": "https://medlineplus.gov/quittingsmoking.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Tobacco use is the most common preventable cause of death ... a mixture of counseling and quit-smoking medicine has been shown to be the best method."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Smoking cessation",
+      "sourceUrls": [
+        "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html",
+        "https://medlineplus.gov/quittingsmoking.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Quitting smoking addresses nicotine addiction and its health consequences. Recommended approaches include counseling, FDA-approved nicotine replacement products (patch, lozenge, gum, nasal spray, oral inhaler), prescription medications (varenicline and bupropion SR), and behavioral support such as creating a quit plan and using quitlines.",
+      "sourceUrls": [
+        "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html",
+        "https://medlineplus.gov/quittingsmoking.html"
+      ]
+    },
+    {
+      "jsonPath": "$.indication[0].name",
+      "value": "Reducing risk for heart disease, cancer, lung disease, COPD, diabetes, stroke, and pregnancy complications, as documented in CDC condition-specific resources",
+      "sourceUrls": ["https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html"]
+    },
+    {
+      "jsonPath": "$.indication[1].name",
+      "value": "Tobacco use, identified by MedlinePlus as the most common preventable cause of death",
+      "sourceUrls": ["https://medlineplus.gov/quittingsmoking.html"]
+    },
+    {
+      "jsonPath": "$.recognizingAuthority.name",
+      "value": "U.S. Centers for Disease Control and Prevention",
+      "sourceUrls": ["https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html"]
+    }
+  ]
+}

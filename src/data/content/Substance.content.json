@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Substance as a generic chemical or biological entity reference — caffeine, ethanol, melatonin, naloxone — when the page describes the substance itself rather than a marketed Drug or DietarySupplement product. It's the right type for substance encyclopedia entries and ingredient profile pages.",
+  "whenNotToUse": "Don't use Substance for a marketed prescription or OTC product — use Drug. Don't use it for a finished supplement product — use DietarySupplement. Don't use it for a food ingredient context where Recipe markup is more appropriate.",
+  "whoItsFor": "Reference-content editors at health portals, toxicology and pharmacology educators, and ingredient-database publishers.",
+  "seoNotes": "Substance is the parent for Drug and DietarySupplement. Google does not currently issue a dedicated rich result; the value is in entity disambiguation for substance-level knowledge-graph nodes.",
+  "commonCombos": ["schema:Drug", "schema:DietarySupplement", "schema:DefinedTerm"]
+}

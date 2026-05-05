@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use InfectiousDisease for any condition caused by a transmissible pathogen — viral, bacterial, fungal, or parasitic. It is the right type for influenza, COVID-19, tuberculosis, malaria, and HIV pages where transmission route and infectious agent are the editorial spine.",
+  "whenNotToUse": "Do not use InfectiousDisease for non-communicable conditions even when inflammation is involved (autoimmune disease, rheumatoid arthritis). Do not use it for syndromes whose infectious etiology is contested or unconfirmed — fall back to MedicalCondition.",
+  "whoItsFor": "Public-health communicators, hospital infection-prevention editors, and travel-medicine teams writing pathogen-specific patient pages.",
+  "seoNotes": "Populating infectiousAgent and transmissionMethod on InfectiousDisease lets retrieval systems answer paired questions ('what causes flu' and 'how does it spread') from one entity. Pair with FAQPage for season-specific guidance.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:FAQPage"]
+}

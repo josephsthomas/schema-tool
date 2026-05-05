@@ -1,0 +1,15 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/medicare.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+//
+// Note: MedlinePlus describes Medicare Part D as prescription drug coverage
+// that helps pay for some medicines. Drug-tier values, mail-order availability,
+// and per-tier cost sharing are plan-specific and should be filled in from your
+// own verified plan documents.
+{
+  "@context": "https://schema.org",
+  "@type": "HealthPlanFormulary",
+  "name": "Medicare Part D drug coverage",
+  "description": "Part D is prescription drug coverage. It helps pay for some medicines."
+}

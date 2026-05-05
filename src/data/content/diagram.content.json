@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use diagram on an AnatomicalStructure to attach a labeled illustration that clarifies internal layout or relationships among components. The value should be an ImageObject with caption and contentUrl, not a bare URL string.",
+  "whenNotToUse": "Don't use diagram for a generic photograph of the structure — use image. For non-anatomy schematics like care pathways, attach an ImageObject via image on the parent entity instead.",
+  "commonCombos": ["schema:AnatomicalStructure"]
+}

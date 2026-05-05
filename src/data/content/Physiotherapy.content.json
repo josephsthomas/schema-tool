@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Physiotherapy when scoping a clinician or service line to physical therapy — orthopedic PT, neuro rehab, vestibular therapy, and post-op rehabilitation. Pair with MedicalCondition entities like Low Back Pain or Stroke and with MedicalProcedure entities for therapeutic exercise and manual therapy."
+}

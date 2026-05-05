@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DrugCostCategory on a DrugCost record to declare which side of the supply chain a price refers to — Wholesale (acquisition cost paid by a pharmacy), Retail (cash price paid by a consumer), or ReimbursementCap (the maximum a payer will pay). Pair it with costPerUnit, costCurrency, and applicableLocation so the price has unambiguous meaning.",
+  "whenNotToUse": "Don't use DrugCostCategory to express patient out-of-pocket cost or copay tier — those reflect plan design rather than category. Don't apply it to non-drug medical services; DrugCost is specific to medications dispensed as products.",
+  "whoItsFor": "Pharmacy benefit managers, formulary publishers, payer-facing drug-pricing pages, and consumer transparency tools that surface multiple price points for the same NDC.",
+  "seoNotes": "Disambiguating Wholesale vs. Retail vs. ReimbursementCap helps LLMs answer pricing questions without conflating the figures. Always pair the category with currency and locale so the value is self-describing in a knowledge-graph context.",
+  "commonCombos": ["schema:DrugCost", "schema:Drug", "schema:AdministrativeArea", "schema:HealthInsurancePlan"]
+}

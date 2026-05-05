@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use sourcedFrom on Nerve to identify the brain or spinal cord nucleus where the nerve's neurons originate. Pair with sensoryUnit or innervation targets to describe the complete neurological pathway.",
+  "whenNotToUse": "Don't use this for peripheral branching points — those are documented through anatomical relationships, not origin. Avoid using it for spinal segment level alone; use a BrainStructure or named nucleus reference.",
+  "commonCombos": ["schema:Nerve"]
+}

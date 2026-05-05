@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use drugClass on a Drug to attach the DrugClass it belongs to — statins, NSAIDs, ACE inhibitors. The value must be a DrugClass entity so consumers can navigate from the branded drug up to its class hub.",
+  "whenNotToUse": "Don't pack the class name into a Drug's category field — use drugClass for the structured link. For mechanism descriptions, use mechanismOfAction.",
+  "commonCombos": ["schema:Drug"]
+}

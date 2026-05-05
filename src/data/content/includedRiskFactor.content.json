@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalRiskEstimator (score, calculator, model) to enumerate each MedicalRiskFactor it ingests. Repeat for every input variable so consumers can match patient data to the estimator's requirements.",
+  "whenNotToUse": "Do not use for the outcome the estimator predicts; use estimatesRiskOf for the predicted condition or event.",
+  "commonCombos": ["schema:MedicalRiskEstimator"]
+}

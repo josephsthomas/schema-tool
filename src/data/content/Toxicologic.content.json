@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Toxicologic when scoping a clinician or service to medical toxicology — overdose, poisoning, envenomation, and occupational or environmental exposure. Pair with PoisonControl-style MedicalOrganization entities and with MedicalCondition entities like Acetaminophen Toxicity or Lead Poisoning."
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use subTest on MedicalTestPanel to enumerate the individual assays bundled into the panel — for example, the ten or so analytes in a comprehensive metabolic panel. Each subTest should reference a discrete MedicalTest node so reference ranges and units carry through.",
+  "whenNotToUse": "Don't use this for reflex tests that fire conditionally based on a primary result — model those as separate orderable tests. Avoid listing the same analyte under multiple panels without distinct test nodes.",
+  "commonCombos": ["schema:MedicalTestPanel"]
+}

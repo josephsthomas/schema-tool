@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use subStructure on AnatomicalStructure to enumerate the component parts that comprise the structure — for example, naming the four chambers as subStructures of the heart. The relationship is mereological, so each subStructure should itself be an AnatomicalStructure.",
+  "whenNotToUse": "Don't use this to link adjacent or connected structures; that relationship belongs on connectedTo or relatedTo. Avoid mixing functional subdivisions with anatomical components.",
+  "commonCombos": ["schema:AnatomicalStructure"]
+}

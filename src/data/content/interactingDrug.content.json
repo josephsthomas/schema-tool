@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to reference another Drug with a clinically relevant interaction. Repeat the property for each interacting agent and rely on coded Drug nodes so interaction graphs can be queried.",
+  "whenNotToUse": "Do not use for food, supplement, or condition interactions; model those with appropriate properties or narrative on contraindication.",
+  "commonCombos": ["schema:Drug"]
+}

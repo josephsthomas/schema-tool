@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use ApprovedIndication for an FDA-cleared (or other regulator-approved) use of a medication or device — the labelled indication a manufacturer can promote. It's the right subtype when a Drug page documents the on-label use that appears in DailyMed or in approved patient information.",
+  "whenNotToUse": "Don't use ApprovedIndication for off-label uses. Don't use it for primary prevention contexts — use PreventionIndication. Don't use it for the active treatment intent if you specifically need to mark it as treatment — use TreatmentIndication.",
+  "whoItsFor": "Regulatory-affairs writers, medical-affairs editors at pharma manufacturers, and consumer health publishers translating approved labelling.",
+  "seoNotes": "ApprovedIndication is consumed via Drug.indication. Google does not currently issue a dedicated rich result; the value is in clearly delineating regulator-approved use from off-label or investigational claims.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:DrugLegalStatus"]
+}

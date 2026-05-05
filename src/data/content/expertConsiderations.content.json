@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use expertConsiderations on a Diet to capture clinician guardrails — populations who should consult before adopting, monitoring needs, contraindications. The value is Text; repeat for distinct considerations rather than packing everything into one paragraph.",
+  "whenNotToUse": "Don't use expertConsiderations for the food-group rules of the plan — use dietFeatures. For a Drug's clinical advisories, use warning or contraindication.",
+  "commonCombos": ["schema:Diet"]
+}

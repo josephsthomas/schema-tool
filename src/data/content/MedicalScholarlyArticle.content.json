@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalScholarlyArticle for peer-reviewed and scholarly health-sciences articles — journal manuscripts, NLM Bookshelf chapters, society-published clinical reviews, and structured monographs. It's the right type for any page where the *page itself* is the article. Pair it with author, datePublished, publisher, and about (the medical entity the article is about).",
+  "whenNotToUse": "Don't use it for blog posts, magazine-style health journalism, or marketing white papers — those are Article or BlogPosting. Don't use it for the registry record of a study (that's MedicalStudy or MedicalTrial). And don't use it for an institutional landing page that merely links to articles; the article type belongs on the article surface itself.",
+  "whoItsFor": "Society and university press web teams, NLM Bookshelf and PubMed Central editors, and AMC research-communication groups publishing open-access scholarly content on the public web.",
+  "seoNotes": "MedicalScholarlyArticle inherits ScholarlyArticle, so Google's article rich-result signals (headline, datePublished, author, publisher) still apply. The medical-specific value is the about property — link it to a MedicalEntity (condition, drug, procedure) so AI-assisted search can ground citations cleanly. Always include datePublished; recency is a major weighting signal for medical content.",
+  "commonCombos": ["schema:MedicalEntity", "schema:Person", "schema:Organization", "schema:MedicalCondition", "schema:Drug"]
+}

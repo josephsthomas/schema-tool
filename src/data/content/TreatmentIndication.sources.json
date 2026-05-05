@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Metformin is used to treat type 2 diabetes (condition in which the body does not use insulin normally and, therefore, cannot control the amount of sugar in the blood)."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Metformin for type 2 diabetes",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Metformin is used to treat type 2 diabetes, a condition in which the body does not use insulin normally and cannot control the amount of sugar in the blood.",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    }
+  ]
+}

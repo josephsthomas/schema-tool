@@ -1,0 +1,11 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/vitamind.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "DietarySupplement",
+  "name": "Vitamin D3",
+  "activeIngredient": "Vitamin D3",
+  "description": "Vitamin D supplement form. Vitamin D helps the body absorb calcium, one of the main building blocks of bone."
+}

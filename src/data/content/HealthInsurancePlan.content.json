@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use HealthInsurancePlan to mark up a specific health insurance product — a Medicare plan, a marketplace plan, or an employer-sponsored offering — when a page describes the plan's identity, scope, formulary, and provider network. It's the right anchor for plan-comparison pages and member-facing benefit summaries.",
+  "whenNotToUse": "Don't use HealthInsurancePlan for a single benefit element like a copay or a covered drug — those belong on HealthPlanCostSharingSpecification or HealthPlanFormulary. Don't use it as a generic Offer for non-health insurance products; it expects health-specific properties such as healthPlanId and includesHealthPlanFormulary.",
+  "whoItsFor": "Payer marketing teams, broker comparison tools, Medicare plan finders, and employer benefits portals publishing structured plan descriptions.",
+  "seoNotes": "HealthInsurancePlan does not have a dedicated Google rich result, but it gives crawlers a clean handle on plan identity and is the parent that ties HealthPlanFormulary and HealthPlanNetwork together for downstream tooling.",
+  "commonCombos": ["schema:HealthPlanFormulary", "schema:HealthPlanNetwork", "schema:HealthPlanCostSharingSpecification"]
+}

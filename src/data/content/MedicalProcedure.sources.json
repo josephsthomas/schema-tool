@@ -1,0 +1,43 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/007490.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Blood pressure is a measurement of the force on the walls of your arteries as your heart pumps blood through your body."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Blood pressure measurement",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007490.htm"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Blood pressure is a measurement of the force on the walls of your arteries as your heart pumps blood through your body.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007490.htm"]
+    },
+    {
+      "jsonPath": "$.bodyLocation",
+      "value": "Upper arm",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007490.htm"]
+    },
+    {
+      "jsonPath": "$.preparation",
+      "value": "Empty your bladder beforehand. Rest for at least 5 minutes, 10 minutes is better, before blood pressure is taken.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007490.htm"]
+    },
+    {
+      "jsonPath": "$.howPerformed",
+      "value": "Cuff inflated on upper arm; systolic recorded when pulsing sound first heard, diastolic when sound stops.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007490.htm"]
+    },
+    {
+      "jsonPath": "$.indication.name",
+      "value": "Detection of high blood pressure",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007490.htm"]
+    }
+  ]
+}

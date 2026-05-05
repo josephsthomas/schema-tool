@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use epidemiology on a MedicalCondition or PhysicalActivity to describe the demographics and risk profile of the affected population — age bands, sex distribution, geographic prevalence. The value is Text; keep it tight enough to summarize without restating the full population study.",
+  "whenNotToUse": "Don't use epidemiology to describe transmission mechanisms — use transmissionMethod on InfectiousDisease. For risk factors specific to one trigger, use riskFactor.",
+  "commonCombos": ["schema:MedicalCondition", "schema:PhysicalActivity"]
+}

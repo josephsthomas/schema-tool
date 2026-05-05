@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug or DietarySupplement to record the brand or trade name given by the originator. Pair with nonProprietaryName so search and assistants can resolve brand-to-generic mappings cleanly.",
+  "whenNotToUse": "Do not use for the generic name (use nonProprietaryName) or for arbitrary marketing slogans.",
+  "commonCombos": ["schema:Drug", "schema:DietarySupplement"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use FAQPage when the page is a list of questions and authoritative answers authored by the site itself — a vaccine FAQ, a procedure prep FAQ, a billing FAQ. Each question must have exactly one acceptedAnswer and the content must not be user-submitted.",
+  "whenNotToUse": "Don't use FAQPage for forums or Q&A pages where multiple users can answer (use QAPage instead), and don't wrap a single question-and-answer block in FAQPage. Don't use it for marketing copy styled as questions when the answers don't actually answer the question.",
+  "whoItsFor": "Public-health communicators publishing vaccine and disease FAQs, health-system editors maintaining patient-instruction Q&A, and SEO teams structuring high-intent question content for retrieval.",
+  "seoNotes": "Per Google's structured data guidance, FAQPage requires mainEntity as an array of Question with acceptedAnswer; Google has restricted FAQ rich results to authoritative government and health sites, but the markup remains valuable for LLM retrieval and assistant surfaces. Keep questions verbatim to user phrasing.",
+  "commonCombos": ["schema:Question", "schema:Answer", "schema:MedicalWebPage"]
+}

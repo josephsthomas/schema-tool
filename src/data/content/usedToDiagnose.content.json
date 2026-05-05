@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use usedToDiagnose on MedicalTest to point at the MedicalCondition the test confirms or rules out. The inverse of typicalTest, this lives on the test node and supports test-first navigation.",
+  "whenNotToUse": "Don't use this for screening tests with no specific diagnostic target. Avoid listing every condition the test might incidentally surface; restrict to its accepted diagnostic indications.",
+  "commonCombos": ["schema:MedicalTest"]
+}

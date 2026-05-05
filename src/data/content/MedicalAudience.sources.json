@@ -1,0 +1,37 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/prenatalcare.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Prenatal care is the health care you get while you are pregnant."
+    },
+    {
+      "url": "https://medlineplus.gov/pregnancy.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "During prenatal care visits your provider checks your health and carefully monitors your pregnancy until you deliver a healthy baby."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Pregnant women",
+      "sourceUrls": [
+        "https://medlineplus.gov/prenatalcare.html",
+        "https://medlineplus.gov/pregnancy.html"
+      ]
+    },
+    {
+      "jsonPath": "$.audienceType",
+      "value": "Patient",
+      "sourceUrls": ["https://medlineplus.gov/prenatalcare.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Prenatal care is the health care you get while you are pregnant.",
+      "sourceUrls": ["https://medlineplus.gov/prenatalcare.html"]
+    }
+  ]
+}

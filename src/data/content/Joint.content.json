@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Joint for any page that centers on a named articulation between bones — knee, hip, shoulder, elbow, TMJ. It is the right type for joint-anatomy reference articles and the anatomical anchor on orthopedic, sports-medicine, and rheumatology content.",
+  "whenNotToUse": "Don't use Joint for the bones themselves (use Bone), the connective tissue that binds them (use Ligament), or the muscles that move them (use Muscle). Don't apply it to arthritis or injury — those are MedicalCondition with the joint referenced as associatedAnatomy.",
+  "whoItsFor": "Orthopedic and sports-medicine practice editors, joint-replacement service-line marketers, rheumatology content teams, and rehab clinics publishing post-op and recovery content.",
+  "seoNotes": "Joint pages should connect to their constituent bones and ligaments via subStructure so LLM-based assistants can answer compositional questions. The schema does not currently issue a dedicated rich result for Joint; populate relatedCondition to support disease-side traversal.",
+  "commonCombos": ["schema:Bone", "schema:Ligament", "schema:MedicalCondition"]
+}

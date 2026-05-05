@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use exerciseRelatedDiet on an ExerciseAction when the activity instance pairs with a specific eating pattern — pre-workout fueling, post-event recovery nutrition. The value is a Diet reference, distinct from the action's instrument-level diet.",
+  "whenNotToUse": "Don't use exerciseRelatedDiet on an ExercisePlan for the recommended ongoing nutrition pairing — model that as a separate Diet linked from the broader regimen. For a single meal, use Recipe.",
+  "commonCombos": ["schema:ExerciseAction"]
+}

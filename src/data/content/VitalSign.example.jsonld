@@ -1,0 +1,11 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/vitalsigns.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "VitalSign",
+  "name": "Blood Pressure",
+  "description": "Blood pressure measures the force of your blood pushing against the walls of your arteries. Your blood pressure has two numbers. The first number is the pressure when your heart beats and is pumping the blood. The second is from when your heart is at rest, between beats.",
+  "normalRange": "A normal blood pressure reading for adults is lower than 120/80 and higher than 90/60."
+}

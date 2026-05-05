@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DrugPrescriptionStatus on Drug.prescriptionStatus to declare whether a medication is prescription-only or available over the counter. It's the simplest two-state signal that helps a search engine or assistant tell a user whether they need a clinician visit before purchasing.",
+  "whenNotToUse": "Don't use it to encode pharmacy stocking, controlled-substance schedule, or behind-the-counter status — those are separate concepts. A single product sold in both Rx and OTC strengths needs separate Drug entries, one per status.",
+  "whoItsFor": "Retail pharmacy chains, drug-information publishers, and patient-education sites that need to disambiguate consumer access at the SKU or monograph level.",
+  "seoNotes": "Status carries directly into AI answers about \"do I need a prescription for X?\" — keep it accurate against the current DailyMed label. If the same active ingredient sells in both forms, model them as distinct Drug nodes so the status field stays unambiguous.",
+  "commonCombos": ["schema:Drug", "schema:DrugStrength", "schema:DrugClass"]
+}

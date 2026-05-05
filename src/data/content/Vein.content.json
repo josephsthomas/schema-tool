@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Vein for any page about a named venous vessel — superior vena cava, inferior vena cava, jugular, saphenous, portal vein. It is the right type for venous-anatomy reference content and the anatomical anchor on phlebology, vascular-surgery, and hematology pages.",
+  "whenNotToUse": "Don't use Vein for arteries (use Artery), capillaries (use Vessel), or lymphatic vessels (use LymphaticVessel). Don't apply it to varicose veins, DVT, or thrombosis — those are MedicalCondition with the vein referenced as associatedAnatomy.",
+  "whoItsFor": "Vascular-surgery and phlebology practice editors, vein-clinic marketers, IR and IV-access content teams, and patient-education editors covering DVT, varicose veins, and venous insufficiency.",
+  "seoNotes": "Vein pages benefit from explicit drainage relationships — which regions the vein drains and which larger vessel it empties into — so LLM-based assistants can answer anatomic-trace questions. Connect to the cardiovascular AnatomicalSystem via partOfSystem.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:Vessel", "schema:MedicalCondition"]
+}

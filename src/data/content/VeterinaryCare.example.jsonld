@@ -1,0 +1,23 @@
+// Reference example — built from public data sourced from CDC Healthy Pets
+// (https://www.cdc.gov/healthy-pets/about/index.html and
+// https://www.cdc.gov/one-health/about/index.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "VeterinaryCare",
+  "name": "Community Veterinary Practice",
+  "description": "A veterinary practice where regular visits help keep pets and families healthy, and where veterinarians serve as partners in human, animal, and environmental health.",
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Pet vaccinations",
+      "description": "Keep up with your pet's vaccines, deworming, and flea and tick control."
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Veterinary consultation",
+      "description": "Talk to a veterinarian to determine the best pet for your household and how to keep your pet healthy."
+    }
+  ]
+}

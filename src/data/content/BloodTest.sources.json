@@ -1,0 +1,73 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/lab-tests/complete-blood-count-cbc/",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A complete blood count, or CBC, is a group of blood tests that measure the number and size of the different cells in your blood. It is also used to monitor a condition or treatment that may affect your blood cell counts such as infections, anemia, immune system disorders, and blood cancers."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Complete Blood Count (CBC)",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A complete blood count, or CBC, is a group of blood tests that measure the number and size of the different cells in your blood.",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[0].name",
+      "value": "Anemia",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[1].name",
+      "value": "Blood cancers",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[2].name",
+      "value": "Immune system disorders",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[3].name",
+      "value": "Infections",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.subTest[0].name",
+      "value": "Red blood cell count",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.subTest[1].name",
+      "value": "White blood cell count",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.subTest[2].name",
+      "value": "Platelet count",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.subTest[3].name",
+      "value": "Hemoglobin",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.subTest[4].name",
+      "value": "Hematocrit",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    },
+    {
+      "jsonPath": "$.subTest[5].name",
+      "value": "Mean corpuscular volume (MCV)",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/complete-blood-count-cbc/"]
+    }
+  ]
+}

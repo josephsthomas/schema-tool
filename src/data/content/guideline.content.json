@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Attach to a MedicalEntity to link an associated MedicalGuideline (recommendation, contraindication, or similar). Use when the entity is governed by or referenced in a formally published guideline rather than a single study or claim.",
+  "whenNotToUse": "Do not use for general citations or evidence-level metadata; use citation or evidenceOrigin for those, and study to attach a discrete trial or cohort.",
+  "commonCombos": ["schema:MedicalEntity"]
+}

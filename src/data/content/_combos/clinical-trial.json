@@ -1,0 +1,32 @@
+{
+  "id": "clinical-trial",
+  "label": "Clinical trial recruitment page",
+  "description": "Trial enrollment page wrapping a MedicalTrial with its target condition, sponsor, and patient audience. Use registration metadata only — never report results.",
+  "entities": [
+    {
+      "type": "MedicalWebPage",
+      "defaultLabel": "Page wrapper",
+      "parentRef": null
+    },
+    {
+      "type": "MedicalTrial",
+      "defaultLabel": "Trial",
+      "parentRef": "MedicalWebPage.mainEntity"
+    },
+    {
+      "type": "MedicalCondition",
+      "defaultLabel": "Studied condition",
+      "parentRef": "MedicalTrial.healthCondition"
+    },
+    {
+      "type": "MedicalOrganization",
+      "defaultLabel": "Sponsor",
+      "parentRef": "MedicalTrial.sponsor"
+    },
+    {
+      "type": "MedicalAudience",
+      "defaultLabel": "Eligible audience",
+      "parentRef": "MedicalWebPage.medicalAudience"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalOrganization as the canonical parent for any entity that delivers or coordinates health care — hospitals, clinics, outpatient centers, specialized care centers, and the systems that operate them. It is the right type for the legal organization layer above an individual building or location.",
+  "whenNotToUse": "Don't use MedicalOrganization for a single inpatient facility (use Hospital), an outpatient site (use MedicalClinic), a retail pharmacy (use Pharmacy), or a clinical lab (use DiagnosticLab). Don't use it for a private medical practice operating as a small business — that's MedicalBusiness.",
+  "whoItsFor": "Health-system marketing leads who need a parent entity that ties together hospitals, clinics, and specialty centers, and reference publishers documenting accreditation bodies, comparison tools, and provider directories.",
+  "seoNotes": "MedicalOrganization is the entity that knowledge graphs prefer to anchor a brand to. Populate name, sameAs, and medicalSpecialty consistently across all child Hospital and MedicalClinic locations so search systems recognize them as one organization with many sites.",
+  "commonCombos": ["schema:Hospital", "schema:MedicalClinic", "schema:Physician"]
+}

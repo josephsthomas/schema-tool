@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Rheumatologic when scoping a Physician or service line to rheumatology — autoimmune, inflammatory-joint, and connective-tissue disease. Pair with MedicalCondition entities like Rheumatoid Arthritis, Lupus, or Psoriatic Arthritis, and with MedicalTest entities for autoantibody panels."
+}

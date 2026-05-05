@@ -1,0 +1,20 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://clinicaltrials.gov/study/NCT04368728",
+      "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Allocation: Randomized. Intervention Model: Parallel Assignment. Masking: Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor). Primary Purpose: Prevention. Number of locations: 152."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Study to Describe the Safety, Tolerability, Immunogenicity, and Efficacy of RNA Vaccine Candidates Against COVID-19 in Healthy Individuals", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
+    { "jsonPath": "$.identifier", "value": "NCT04368728", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
+    { "jsonPath": "$.trialDesign[0]", "value": "RandomizedTrial", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
+    { "jsonPath": "$.trialDesign[1]", "value": "PlaceboControlledTrial", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
+    { "jsonPath": "$.trialDesign[2]", "value": "DoubleBlindedTrial", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
+    { "jsonPath": "$.trialDesign[3]", "value": "MultiCenterTrial", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
+    { "jsonPath": "$.status", "value": "Completed", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Dermatologic as the adjective-style scope value when an entity practices or relates to dermatology but you want the qualifier rather than the noun specialty. For most provider-directory and service-line markup, prefer Dermatology; use Dermatologic only when matching legacy data that carries the adjective form."
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use connectedTo on AnatomicalStructure for the named structures that meet the subject — bones articulating at a joint, muscles attaching to a tendon, vessels anastomosing with another. Reference AnatomicalStructure nodes so the connection graph stays bidirectional.",
+  "whenNotToUse": "Don't use connectedTo for containment (use partOfSystem) or for the vessel that supplies a muscle (use bloodSupply). Reserve this property for direct anatomic adjacency, not functional or vascular relationships.",
+  "commonCombos": ["schema:AnatomicalStructure"]
+}

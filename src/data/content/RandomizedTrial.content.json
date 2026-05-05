@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use RandomizedTrial when participants were assigned to study arms by a random allocation procedure. This is the single most-asked methodology question on a trial page, so surface it on every randomized study record."
+}

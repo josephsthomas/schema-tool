@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use evidenceLevel on a MedicalGuideline to attach the MedicalEvidenceLevel enumeration value that grades the underlying evidence. Use the enumeration tokens (EvidenceLevelA, B, or C) so consumers can map to standard grading.",
+  "whenNotToUse": "Don't put a free-text grade in evidenceLevel — that breaks consumer parsing. For the source of evidence (RCT, consensus), use evidenceOrigin.",
+  "commonCombos": ["schema:MedicalGuideline"]
+}

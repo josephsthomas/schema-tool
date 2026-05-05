@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Cardiovascular when scoping a Physician, Hospital, or service line to heart and vascular care — interventional cardiology, electrophysiology, vascular surgery, and heart-failure programs. Pair with cardiac MedicalCondition entities like Myocardial Infarction or Atrial Fibrillation, and with cardiac MedicalTest entities for echo, stress, and cath."
+}

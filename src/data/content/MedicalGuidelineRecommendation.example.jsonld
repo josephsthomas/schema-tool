@@ -1,0 +1,22 @@
+// Reference example — built from CDC's public seasonal influenza vaccination guidance
+// (https://www.cdc.gov/flu/vaccines/index.html) accessed 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalGuidelineRecommendation",
+  "name": "Routine seasonal influenza vaccination for everyone 6 months and older",
+  "url": "https://www.cdc.gov/flu/vaccines/index.html",
+  "guidelineDate": "2024-09-17",
+  "recommendationStrength": "Routine",
+  "evidenceOrigin": "Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention",
+  "guidelineSubject": {
+    "@type": "MedicalEntity",
+    "name": "Everyone 6 months and older should get a flu vaccine every season with rare exceptions"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov"
+  }
+}

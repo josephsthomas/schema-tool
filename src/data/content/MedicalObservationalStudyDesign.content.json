@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalObservationalStudyDesign as the value of MedicalObservationalStudy.studyDesign to disclose the observational structure — cohort, case series, cross-sectional, longitudinal, or registry-based. Use it for any non-interventional research where investigators observe rather than assign treatment.",
+  "whenNotToUse": "Don't use MedicalObservationalStudyDesign for interventional trials — those need MedicalTrialDesign on MedicalTrial. Don't use it for systematic reviews or meta-analyses, which are not primary observational studies.",
+  "whoItsFor": "Epidemiology and public-health research groups, registry operators, and academic medical centers that publish public-facing summaries of long-running observational research.",
+  "seoNotes": "Spelling out the observational design helps AI answer engines distinguish a cohort study from a randomized trial when summarizing evidence — material when a reader is judging strength of evidence. Pair with healthCondition so the entity graph links study to condition studied.",
+  "commonCombos": ["schema:MedicalObservationalStudy", "schema:MedicalCondition", "schema:MedicalStudyStatus"]
+}

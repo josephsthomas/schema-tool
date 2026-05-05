@@ -1,0 +1,27 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/factcheck",
+      "publisher": "Google Search Central",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A short summary of the claim being evaluated. Try to keep this less than 75 characters to minimize wrapping when displayed on a mobile device."
+    },
+    {
+      "url": "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A flu vaccine cannot give you flu illness."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.claimReviewed", "value": "The flu vaccine can give you the flu.", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/keyfacts.html", "https://developers.google.com/search/docs/appearance/structured-data/factcheck"] },
+    { "jsonPath": "$.datePublished", "value": "2026-05-05", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/factcheck"] },
+    { "jsonPath": "$.reviewRating.alternateName", "value": "False", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/keyfacts.html"] },
+    { "jsonPath": "$.reviewRating.ratingValue", "value": 1, "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/factcheck"] },
+    { "jsonPath": "$.reviewRating.bestRating", "value": 5, "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/factcheck"] },
+    { "jsonPath": "$.reviewRating.worstRating", "value": 1, "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/factcheck"] },
+    { "jsonPath": "$.author.name", "value": "Example Health Fact-Check Desk", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/factcheck"] },
+    { "jsonPath": "$.itemReviewed.datePublished", "value": "2026-04-01", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/factcheck"] }
+  ]
+}

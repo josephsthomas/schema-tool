@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use to record the generic (USAN/INN) name of a Drug or DietarySupplement so consumers and assistants can map brand names to the underlying active ingredient. Essential for disambiguation across formularies and search.",
+  "whenNotToUse": "Do not use for brand or trade names — use proprietaryName or alternateName for those.",
+  "commonCombos": ["schema:Drug", "schema:DietarySupplement"]
+}

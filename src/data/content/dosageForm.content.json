@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use dosageForm on a Drug to record the physical formulation a patient receives — tablet, capsule, oral suspension, transdermal patch, IV solution. The value is a short Text string; if multiple forms are marketed, repeat the property rather than comma-joining.",
+  "whenNotToUse": "Don't use dosageForm to express strength like '500 mg' — that belongs on DrugStrength. For administration route as a separate axis, use administrationRoute.",
+  "commonCombos": ["schema:Drug"]
+}

@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Surgical when scoping a Physician or service line to general surgery and broader operative care — abdominal, endocrine, breast, and acute-care surgery. Pair with MedicalProcedure entities for specific operations and reserve subspecialty surgical scopes (cardiothoracic, plastic, orthopedic) for their dedicated specialty values."
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use exercisePlan on an ExerciseAction to reference the ExercisePlan that scripts the activity — sets, reps, intervals. The value must be an ExercisePlan entity so the structured plan can be reused across action instances.",
+  "whenNotToUse": "Don't use exercisePlan to record a single-instance workout description — author an ExercisePlan even for one-off prescribed routines. For nutritional pairing, use exerciseRelatedDiet, not exercisePlan.",
+  "commonCombos": ["schema:ExerciseAction"]
+}

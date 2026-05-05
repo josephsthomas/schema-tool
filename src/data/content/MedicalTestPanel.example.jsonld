@@ -1,0 +1,29 @@
+// Reference example — built from public data sourced from NIH MedlinePlus (https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/) on 2026-05-05. Not for use in client deliverables. Generate your own markup using your content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTestPanel",
+  "name": "Comprehensive Metabolic Panel (CMP)",
+  "description": "A comprehensive metabolic panel (CMP) is a routine blood test that measures 14 different substances in a sample of your blood.",
+  "subTest": [
+    { "@type": "MedicalTest", "name": "Glucose" },
+    { "@type": "MedicalTest", "name": "Calcium" },
+    { "@type": "MedicalTest", "name": "Sodium" },
+    { "@type": "MedicalTest", "name": "Potassium" },
+    { "@type": "MedicalTest", "name": "Bicarbonate" },
+    { "@type": "MedicalTest", "name": "Chloride" },
+    { "@type": "MedicalTest", "name": "Albumin" },
+    { "@type": "MedicalTest", "name": "Total protein" },
+    { "@type": "MedicalTest", "name": "Alkaline phosphatase (ALP)" },
+    { "@type": "MedicalTest", "name": "Alanine aminotransferase (ALT)" },
+    { "@type": "MedicalTest", "name": "Aspartate aminotransferase (AST)" },
+    { "@type": "MedicalTest", "name": "Bilirubin" },
+    { "@type": "MedicalTest", "name": "Blood urea nitrogen (BUN)" },
+    { "@type": "MedicalTest", "name": "Creatinine" }
+  ],
+  "usedToDiagnose": [
+    {
+      "@type": "MedicalCondition",
+      "name": "Diabetes"
+    }
+  ]
+}

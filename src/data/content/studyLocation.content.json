@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use studyLocation on MedicalStudy to point at the AdministrativeArea — country, state, or city — where the study was conducted. Multi-site studies should repeat the property once per site rather than listing locations in a single string.",
+  "whenNotToUse": "Don't use this for the sponsor's headquarters or coordinating center if those differ from where data was collected. Avoid Place or specific address values; the range is AdministrativeArea.",
+  "commonCombos": ["schema:MedicalStudy"]
+}

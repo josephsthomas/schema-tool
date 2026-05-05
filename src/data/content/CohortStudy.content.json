@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use CohortStudy for a longitudinal observational design that follows a defined group over time, often comparing participants exposed to a factor against those who are not. Combine with Longitudinal where the protocol specifies repeated follow-up of the same individuals."
+}

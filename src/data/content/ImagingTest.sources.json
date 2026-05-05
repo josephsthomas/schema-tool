@@ -1,0 +1,78 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/003804.htm",
+      "publisher": "NIH MedlinePlus Medical Encyclopedia",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A chest x-ray is an x-ray of the chest, lungs, heart, large arteries, ribs, and diaphragm. You stand in front of the x-ray machine."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Chest X-Ray",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A chest x-ray is an x-ray of the chest, lungs, heart, large arteries, ribs, and diaphragm.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.usesDevice.name",
+      "value": "X-ray machine",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[0].name",
+      "value": "Pneumonia",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[1].name",
+      "value": "Tuberculosis",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[2].name",
+      "value": "Collapsed lung",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[3].name",
+      "value": "Lung cancer",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[4].name",
+      "value": "Heart failure",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[5].name",
+      "value": "Rib fractures",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.signDetected[0].name",
+      "value": "Persistent cough",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.signDetected[1].name",
+      "value": "Coughing up blood",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.signDetected[2].name",
+      "value": "Difficulty breathing",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    },
+    {
+      "jsonPath": "$.signDetected[3].name",
+      "value": "Chest pain",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/003804.htm"]
+    }
+  ]
+}

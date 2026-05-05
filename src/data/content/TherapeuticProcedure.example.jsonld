@@ -1,0 +1,21 @@
+// Reference example — built from public data sourced from National Cancer Institute (https://www.cancer.gov/about-cancer/treatment/types/chemotherapy) on 2026-05-05. Not for use in client deliverables.
+{
+  "@context": "https://schema.org",
+  "@type": "TherapeuticProcedure",
+  "name": "Chemotherapy infusion",
+  "description": "Chemotherapy (also called chemo) is a type of cancer treatment that uses drugs to kill cancer cells.",
+  "procedureType": {
+    "@type": "MedicalProcedureType",
+    "name": "Therapeutic"
+  },
+  "howPerformed": "Chemotherapy is most often given with an IV, through a thin needle that is placed in a vein on your hand or lower arm.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Chemotherapy can be used to cure cancer, lessen the chance it will return, or stop or slow its growth."
+  },
+  "followup": "You will see your doctor often. During these visits, they will ask you how you feel, do a physical exam, and order medical tests and scans.",
+  "adverseOutcome": {
+    "@type": "MedicalEntity",
+    "name": "Mouth sores, nausea, and hair loss"
+  }
+}

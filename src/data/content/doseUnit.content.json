@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use doseUnit on a DoseSchedule to record the unit of measure for the dose — mg, mL, IU, mcg/kg. Keep the unit string aligned with the doseValue you publish so consumers can render '500 mg' from the pair.",
+  "whenNotToUse": "Don't bake the unit into doseValue as a string — keep them separate so calculators and assistants can reason over the number.",
+  "commonCombos": ["schema:DoseSchedule"]
+}

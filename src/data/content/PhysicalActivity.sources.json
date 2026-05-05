@@ -1,0 +1,50 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/exerciseandphysicalfitness.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Aerobic exercises such as walking, running, or swimming are sometimes referred to as cardio. These exercises increase your breathing and heart rate. They keep your heart, lungs, and circulatory system healthy and improve your overall fitness."
+    },
+    {
+      "url": "https://medlineplus.gov/exerciseforseniors.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Brisk walking or jogging, dancing, swimming, and biking are examples of endurance, or aerobic, activities."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Walking",
+      "sourceUrls": [
+        "https://medlineplus.gov/exerciseandphysicalfitness.html",
+        "https://medlineplus.gov/exerciseforseniors.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Walking is an aerobic activity. Brisk walking is identified as an example of endurance, or aerobic, activity.",
+      "sourceUrls": [
+        "https://medlineplus.gov/exerciseandphysicalfitness.html",
+        "https://medlineplus.gov/exerciseforseniors.html"
+      ]
+    },
+    {
+      "jsonPath": "$.category",
+      "value": "Aerobic exercise (also referred to as cardio)",
+      "sourceUrls": ["https://medlineplus.gov/exerciseandphysicalfitness.html"]
+    },
+    {
+      "jsonPath": "$.pathophysiology",
+      "value": "Aerobic exercises such as walking increase breathing and heart rate and keep the heart, lungs, and circulatory system healthy.",
+      "sourceUrls": ["https://medlineplus.gov/exerciseandphysicalfitness.html"]
+    },
+    {
+      "jsonPath": "$.recognizingAuthority.name",
+      "value": "U.S. National Library of Medicine",
+      "sourceUrls": ["https://medlineplus.gov/exerciseandphysicalfitness.html"]
+    }
+  ]
+}

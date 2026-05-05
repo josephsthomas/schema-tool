@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalGuideline to record the date the recommendation was issued or last revised. Provide an ISO 8601 Date so consumers can assess currency relative to evolving evidence.",
+  "whenNotToUse": "Do not use for the publication date of a containing article or webpage; use datePublished or dateModified on the document instead.",
+  "commonCombos": ["schema:MedicalGuideline"]
+}

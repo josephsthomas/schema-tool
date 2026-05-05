@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use RadiationTherapy for any radiation-based cancer treatment — external beam, brachytherapy, stereotactic radiosurgery. Radiation oncology service-line pages, treatment-planning explainers, and procedure-detail pages all anchor here.",
+  "whenNotToUse": "Don't use RadiationTherapy for diagnostic imaging that uses radiation — CT and X-ray are DiagnosticProcedure. Don't use it for radiopharmaceutical drug administration alone — that's a Drug or TherapeuticProcedure depending on framing. For a multi-modality cancer regimen page, use MedicalTherapy or list each modality discretely.",
+  "whoItsFor": "Radiation oncology departments, cancer center service lines, and patient-education pages explaining a specific radiation modality and what to expect during treatment.",
+  "seoNotes": "RadiationTherapy markup with bodyLocation, doseSchedule, and the targeted MedicalCondition gives crawlers a structured handle on cancer-specific treatment pages. LLMs frequently differentiate radiation modalities, so include the device or technique name in the description when relevant.",
+  "commonCombos": ["schema:MedicalCondition", "schema:DoseSchedule", "schema:Hospital", "schema:Physician", "schema:AnatomicalStructure"]
+}

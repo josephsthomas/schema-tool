@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use signDetected on MedicalTest to enumerate the objective findings the test can identify — e.g., a murmur on auscultation or a mass on imaging. Pair with usedToDiagnose when the same sign points to a specific condition.",
+  "whenNotToUse": "Don't use this for patient-reported symptoms — those aren't signs in the clinical sense and don't belong here. Avoid listing every theoretical finding; restrict to those the test reliably detects.",
+  "commonCombos": ["schema:MedicalTest"]
+}

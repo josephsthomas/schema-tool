@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Longitudinal when the study follows the same individuals across repeated measurement waves over an extended period. Pair with CohortStudy or Registry when both apply — the values describe complementary aspects of the same design."
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug to set the regulatory pregnancy category (e.g. former FDA letters A-X or current narrative classification). Important for prescribing pages and safety filtering in clinical tools.",
+  "whenNotToUse": "Do not use for narrative pregnancy guidance or warnings — use pregnancyWarning for prose. Do not use on non-Drug entities.",
+  "commonCombos": ["schema:Drug"]
+}

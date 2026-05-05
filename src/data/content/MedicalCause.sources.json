@@ -1,0 +1,22 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Cigarette smoking or secondhand smoke exposure cause nearly 9 out of 10 lung cancer deaths."
+    },
+    {
+      "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "People who smoke increase their risk of developing lung cancer by about 25 times that of people who don't smoke."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Cigarette smoking", "sourceUrls": ["https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"] },
+    { "jsonPath": "$.causeOf.name", "value": "Lung cancer", "sourceUrls": ["https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"] },
+    { "jsonPath": "$.causeOf.description", "value": "Cigarette smoking or secondhand smoke exposure cause nearly 9 out of 10 lung cancer deaths. People who smoke increase their risk of developing lung cancer by about 25 times that of people who don't smoke.", "sourceUrls": ["https://www.cdc.gov/tobacco/about/cigarettes-and-cancer.html"] }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use endorsers on a Diet to credit the Organizations or Persons whose authority backs the eating pattern — society guidelines, expert panels, named clinicians. Each value should be a fully-typed Organization or Person reference so consumers can verify the endorsement.",
+  "whenNotToUse": "Don't use endorsers to list authors of an article — use author on the Article. For a guideline's issuing body, use guidelineSubject or recognizingAuthority on the relevant entity.",
+  "commonCombos": ["schema:Diet"]
+}

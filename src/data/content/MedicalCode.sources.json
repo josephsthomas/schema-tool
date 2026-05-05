@@ -1,0 +1,43 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/diabetestype2.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Type 2 diabetes is a disease in which your blood glucose, or blood sugar, levels are too high."
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/icd/icd-10-cm/index.html",
+      "publisher": "CDC National Center for Health Statistics",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "ICD-10-CM (the International Classification of Diseases, Tenth Revision, Clinical Modification) is a standardized system used to code diseases and medical conditions (morbidity) data."
+    },
+    {
+      "url": "https://meshb.nlm.nih.gov/record/ui?ui=D003924",
+      "publisher": "NLM MeSH",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Diabetes Mellitus, Type 2 — A subclass of DIABETES MELLITUS that is not INSULIN-responsive or dependent (NIDDM)."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Type 2 Diabetes Mellitus without complications",
+      "sourceUrls": [
+        "https://medlineplus.gov/diabetestype2.html",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D003924"
+      ]
+    },
+    {
+      "jsonPath": "$.codingSystem",
+      "value": "ICD-10-CM",
+      "sourceUrls": ["https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"]
+    },
+    {
+      "jsonPath": "$.codeValue",
+      "value": "E11.9",
+      "sourceUrls": ["https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"]
+    }
+  ]
+}

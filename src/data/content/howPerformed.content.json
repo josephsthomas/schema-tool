@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalProcedure to describe the technique, approach, or steps performed. Keep the text patient- or clinician-readable depending on the document audience and avoid embedding dosing or device specs that belong on dedicated properties.",
+  "whenNotToUse": "Do not use for preparation steps before the procedure (use preparation) or expected post-procedure care (use followup).",
+  "commonCombos": ["schema:MedicalProcedure"]
+}

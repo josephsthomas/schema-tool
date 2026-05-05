@@ -1,0 +1,48 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/007208.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "You will need to follow a rehabilitation program for 4 to 6 months."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "ACL reconstruction rehabilitation",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007208.htm"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Physical therapy program after ACL reconstruction; the ACL connects the shin bone (tibia) to the thigh bone (femur).",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007208.htm"]
+    },
+    {
+      "jsonPath": "$.bodyLocation",
+      "value": "Knee",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007208.htm"]
+    },
+    {
+      "jsonPath": "$.howPerformed",
+      "value": "You will need to follow a rehabilitation program for 4 to 6 months.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007208.htm"]
+    },
+    {
+      "jsonPath": "$.indication.name",
+      "value": "Knee that gives way or feels unstable during daily activities; inability to return to sports or other activities.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007208.htm"]
+    },
+    {
+      "jsonPath": "$.followup",
+      "value": "Full return to activities and sports often takes 4 to 6 months; quick-direction sports may require 9 to 12 months.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007208.htm"]
+    },
+    {
+      "jsonPath": "$.contraindication.name",
+      "value": "Patients may need to wear a knee brace for the first 1 to 6 weeks, limiting certain activities.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/007208.htm"]
+    }
+  ]
+}

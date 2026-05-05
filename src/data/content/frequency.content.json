@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use frequency on a DoseSchedule to record how often the dose is taken — 'twice daily', 'every 8 hours', 'weekly'. Keep the Text short and consistent across products so consumers can normalize to a count-per-day for downstream rendering.",
+  "whenNotToUse": "Don't use frequency for the dose amount — that's doseValue. For the duration the regimen runs, model with the DoseSchedule's start and end dates rather than embedding into frequency.",
+  "commonCombos": ["schema:DoseSchedule"]
+}

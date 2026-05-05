@@ -1,0 +1,19 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://clinicaltrials.gov/study/NCT00005133",
+      "publisher": "ClinicalTrials.gov (U.S. National Library of Medicine)",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Framingham Heart Study (FHS). Study Type: Observational. Observational Study Model: Cohort. Time Perspective: Prospective. NCT Number: NCT00005133. Conditions: Cardiovascular Diseases."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Framingham Heart Study", "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005133"] },
+    { "jsonPath": "$.identifier", "value": "NCT00005133", "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005133"] },
+    { "jsonPath": "$.studyDesign[0]", "value": "CohortStudy", "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005133"] },
+    { "jsonPath": "$.studyDesign[1]", "value": "Longitudinal", "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005133"] },
+    { "jsonPath": "$.healthCondition.name", "value": "Cardiovascular Diseases", "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005133"] },
+    { "jsonPath": "$.status", "value": "Recruiting", "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005133"] }
+  ]
+}

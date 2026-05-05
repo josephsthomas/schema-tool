@@ -1,0 +1,24 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm",
+      "publisher": "U.S. Centers for Disease Control and Prevention (MMWR)",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain — United States, 2022. Recommendations are categorized as Category A (applies to all persons in a specified group) or Category B (individual decision making). Evidence type is rated 1 (randomized clinical trials or overwhelming evidence from observational studies) through 4 (clinical experience and observations)."
+    },
+    {
+      "url": "https://www.cdc.gov/acip/index.html",
+      "publisher": "U.S. Centers for Disease Control and Prevention (ACIP)",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "ACIP uses the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate the certainty of evidence and the strength of recommendations."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Use nonpharmacologic and nonopioid pharmacologic therapies as first-line treatment for subacute and chronic pain", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
+    { "jsonPath": "$.guidelineSubject.name", "value": "Chronic pain", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
+    { "jsonPath": "$.evidenceLevel", "value": "EvidenceLevelA", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
+    { "jsonPath": "$.evidenceOrigin", "value": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain — United States, 2022", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
+    { "jsonPath": "$.recommendationStrength", "value": "Recommendation Category A", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] }
+  ]
+}

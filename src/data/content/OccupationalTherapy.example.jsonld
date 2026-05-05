@@ -1,0 +1,12 @@
+// Reference example — built from public data sourced from NIH MedlinePlus (https://medlineplus.gov/strokerehabilitation.html) on 2026-05-05. Not for use in client deliverables.
+{
+  "@context": "https://schema.org",
+  "@type": "OccupationalTherapy",
+  "name": "Post-stroke occupational therapy",
+  "description": "Stroke rehabilitation is a program for people who have had a stroke. Occupational therapy helps improve your ability to perform daily living skills such as eating, drinking, bathing, and dressing.",
+  "howPerformed": "Therapists work with patients on daily living skills including eating, drinking, bathing, and dressing.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Stroke rehabilitation can help you relearn skills you lost because of the damage."
+  }
+}

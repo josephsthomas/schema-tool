@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use clincalPharmacology on Drug only if you must mirror an existing dataset that uses schema.org's misspelled property name. New work should prefer the correctly spelled clinicalPharmacology — schema.org keeps both for legacy compatibility.",
+  "whenNotToUse": "Don't introduce clincalPharmacology in greenfield catalogs; the misspelling causes parser confusion and downstream tooling drift. Migrate to clinicalPharmacology and treat this property as deprecated-by-spelling.",
+  "commonCombos": ["schema:Drug"]
+}

@@ -1,0 +1,35 @@
+// Reference example — fact-check structure follows Google's ClaimReview
+// guidance (https://developers.google.com/search/docs/appearance/structured-data/factcheck);
+// the underlying claim subject (flu vaccine causing the flu) is reviewed
+// against CDC's published guidance
+// (https://www.cdc.gov/flu/vaccines/keyfacts.html), retrieved on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "ClaimReview",
+  "url": "https://example.org/fact-check/flu-vaccine-causes-flu",
+  "claimReviewed": "The flu vaccine can give you the flu.",
+  "datePublished": "2026-05-05",
+  "author": {
+    "@type": "Organization",
+    "name": "Example Health Fact-Check Desk",
+    "url": "https://example.org/"
+  },
+  "itemReviewed": {
+    "@type": "Claim",
+    "appearance": "https://example.org/social-post-archive/12345",
+    "datePublished": "2026-04-01",
+    "author": {
+      "@type": "Person",
+      "name": "Anonymous social media user"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": 1,
+    "bestRating": 5,
+    "worstRating": 1,
+    "alternateName": "False"
+  }
+}

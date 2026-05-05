@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Bone for any page about a named bone of the skeleton — femur, humerus, vertebra, mandible. It is the canonical type for skeletal-anatomy reference pages and for the bodyLocation anchor on orthopedic procedure and fracture content.",
+  "whenNotToUse": "Don't use Bone for a joint where two bones meet (use Joint), for the connective tissue that binds bones (use Ligament), or for the skeletal system as a whole (use AnatomicalSystem). Don't apply it to a fracture or bone disease — that's MedicalCondition.",
+  "whoItsFor": "Orthopedic-practice content teams, sports-medicine editors, radiology reference publishers, and patient-education editors describing fractures, replacements, and skeletal disorders.",
+  "seoNotes": "Bone pages strengthen the entity graph for orthopedic procedures and fracture content via bodyLocation. Connect each bone to the broader Skeletal system via partOfSystem so an LLM can answer questions like which bones make up a joint.",
+  "commonCombos": ["schema:Joint", "schema:Ligament", "schema:MedicalCondition"]
+}

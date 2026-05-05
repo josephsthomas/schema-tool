@@ -1,0 +1,10 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/patientrights.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "Patient",
+  "name": "Adult Patient",
+  "description": "A person receiving care who has certain rights, some guaranteed by federal law, such as the right to get a copy of their medical records and the right to keep them private and secure, alongside protections including being treated with respect, protection from discrimination, the authority to decline treatment, and the right to informed consent."
+}

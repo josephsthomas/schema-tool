@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use tissueSample on PathologyTest to specify the specimen type required — biopsy, cytology, resection, fine-needle aspirate. State the source tissue when relevant so collection and handling instructions are unambiguous.",
+  "whenNotToUse": "Don't use this for blood or fluid specimens — those belong on the appropriate fluid-test properties. Avoid combining specimen type with collection method in a single string.",
+  "commonCombos": ["schema:PathologyTest"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use PathologyTest for any tissue, cell, or non-blood specimen test interpreted by a pathologist — surgical biopsies, needle biopsies, Pap smears, frozen sections, cytology, fine-needle aspirations, and immunohistochemistry. The defining frame is that a clinician collects a specimen and a pathology lab analyzes it microscopically or molecularly.",
+  "whenNotToUse": "Don't use PathologyTest for blood-specimen labs — even if the lab uses microscopy, BloodTest is the correct subtype. Don't use it for imaging studies; ImagingTest is the right choice for radiology. Don't use PathologyTest on the cancer or organ-disease page that *mentions* a biopsy — that page remains MedicalCondition with the biopsy referenced as a value.",
+  "whoItsFor": "Pathology-lab and reference-lab editors, oncology service lines describing biopsy workflows, and women's-health and primary-care content teams covering screening tests like Pap smears.",
+  "seoNotes": "Pair PathologyTest with usedToDiagnose values for the specific cancers or conditions the test screens for, and surface the collection device under usesDevice (speculum, biopsy needle, brush). This is the property structure health-assistant LLMs use to ground \"what does a Pap smear test for\" and \"what is a biopsy.\" No dedicated Google rich result; the value is precise entity grounding.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalDevice", "schema:MedicalProcedure", "schema:MedicalAudience", "schema:FAQPage"]
+}

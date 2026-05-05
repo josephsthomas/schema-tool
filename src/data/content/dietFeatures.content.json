@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use dietFeatures on a Diet to enumerate the food-group rules, macro emphases, and behavioral guardrails that define the pattern. Repeat the property for each distinct rule rather than concatenating into one string — each value should be a short Text descriptor.",
+  "whenNotToUse": "Don't use dietFeatures for nutrient totals of a single meal — use NutritionInformation on a Recipe. For expert advice or caveats about the plan, use expertConsiderations.",
+  "commonCombos": ["schema:Diet"]
+}

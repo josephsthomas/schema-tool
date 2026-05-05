@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use PrescriptionOnly when the drug requires a valid prescription from an authorized prescriber for legal dispensing. Reflect the current DailyMed label — status changes (Rx-to-OTC switches) need a same-release update so consumer pages don't misdirect users."
+}

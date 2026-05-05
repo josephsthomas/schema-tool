@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalWebPage when the page is itself a medical reference page — a patient-education explainer, condition overview, or clinical topic page — and you want to declare its medical aspect (symptoms, treatment, prevention) and intended audience (patient or clinician). It is the right parent type for branded health-system landing pages on a single condition.",
+  "whenNotToUse": "Don't use MedicalWebPage for a generic marketing page that mentions a condition in passing, for a single FAQ block (use FAQPage), or for a step-by-step procedure (use HowTo). Don't use it as a substitute for the underlying clinical entity — model the disease with MedicalCondition and reference it via about.",
+  "whoItsFor": "Health-system content teams publishing condition libraries, patient-education editors at academic medical centers, and clinical publishers who need to declare the audience and aspect of a reference page.",
+  "seoNotes": "MedicalWebPage signals to search and LLM assistants that the page is medically scoped, with a defined audience and aspect — combine medicalAudience=Patient with aspect values like 'Symptoms' or 'Treatment' so retrieval surfaces the right slice. Pair lastReviewed and reviewedBy to demonstrate clinical oversight.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Physician", "schema:MedicalAudience"]
+}

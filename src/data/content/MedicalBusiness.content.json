@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalBusiness for a private medical practice operating as a business entity — a family medicine office, a dental practice, an optician shop, or a veterinary clinic — where the entity is both a place that provides health care and a commercial business with hours, address, and bookable services.",
+  "whenNotToUse": "Don't use MedicalBusiness for a hospital or community clinic operated by a health system (use Hospital, MedicalClinic, or MedicalOrganization). Don't use it for the licensed individual practitioner — use Physician, Dentist, Optician, or the appropriate Person subtype.",
+  "whoItsFor": "Independent medical practice owners and the agencies that build their websites, plus directory publishers that list family doctors, dentists, opticians, and similar small-practice businesses.",
+  "seoNotes": "MedicalBusiness inherits LocalBusiness so address, telephone, openingHours, and acceptedPaymentMethod all carry weight in local results. Pair the business with its primary practitioner via employee or staff so an LLM can answer 'who works there'.",
+  "commonCombos": ["schema:Physician", "schema:Dentist", "schema:LocalBusiness"]
+}

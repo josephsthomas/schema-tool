@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use TherapeuticProcedure for non-surgical treatments delivered by a clinician — chemotherapy infusion, IV antibiotic administration, joint injection, dialysis. Pages describing infusion services, oncology day-hospital workflows, or nurse-administered treatments fit here.",
+  "whenNotToUse": "Don't use TherapeuticProcedure for surgical operations (SurgicalProcedure), radiation delivery (RadiationTherapy), or rehabilitative care (PhysicalTherapy, OccupationalTherapy). For diagnostic-only work, use DiagnosticProcedure. Drug objects themselves are Drug, not TherapeuticProcedure — the procedure is the act of administering the drug.",
+  "whoItsFor": "Infusion centers, oncology service lines, dialysis programs, and any clinic page describing how a treatment is delivered, dosed, and monitored.",
+  "seoNotes": "TherapeuticProcedure markup that links the drug, doseSchedule, and adverseOutcome fields gives both crawlers and LLMs a complete picture of the treatment workflow. Pair with the relevant MedicalCondition the procedure treats to strengthen topical clusters.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:DoseSchedule", "schema:Hospital", "schema:Physician"]
+}

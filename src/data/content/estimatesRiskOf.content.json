@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use estimatesRiskOf on a MedicalRiskEstimator to point to the MedicalEntity whose probability the calculator predicts — the condition, complication, or adverse event. The value must be the target entity, not a description of the score itself.",
+  "whenNotToUse": "Don't use estimatesRiskOf for the inputs feeding the calculator — those go on relevantSpecialty or as separate riskFactor values on the target condition.",
+  "commonCombos": ["schema:MedicalRiskEstimator"]
+}

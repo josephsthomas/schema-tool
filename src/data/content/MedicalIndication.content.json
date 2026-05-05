@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalIndication as the parent type when you can't commit to ApprovedIndication, TreatmentIndication, or PreventionIndication — for example a general clinical-context note that pairs a drug with a condition without making a regulatory or treatment-versus-prevention claim. It's also useful as the abstract anchor when subclasses are not yet decided.",
+  "whenNotToUse": "Don't use MedicalIndication when a more specific subtype fits — prefer TreatmentIndication, PreventionIndication, or ApprovedIndication for clarity. Don't use it for contraindications — use MedicalContraindication.",
+  "whoItsFor": "Medical-content editors authoring drug-condition cross-references and knowledge-graph curators stitching together provisional indication relationships.",
+  "seoNotes": "MedicalIndication is consumed via Drug.indication. Subclassing into ApprovedIndication, TreatmentIndication, or PreventionIndication carries more semantic value when the relationship is well-defined.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:MedicalTherapy"]
+}

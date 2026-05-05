@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/caffeine.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Caffeine is a bitter substance that occurs naturally in more than 60 plants. Caffeine stimulates your central nervous system, which can make you feel more awake."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Caffeine",
+      "sourceUrls": ["https://medlineplus.gov/caffeine.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A bitter substance that occurs naturally in more than 60 plants. Stimulates the central nervous system and is found in coffee beans, tea leaves, kola nuts, and cacao pods.",
+      "sourceUrls": ["https://medlineplus.gov/caffeine.html"]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use PreventionIndication when the medical use is to prevent a condition rather than treat one — aspirin for cardiovascular prevention, statins for primary prevention of atherosclerotic events, vaccines for infectious-disease prevention. It's the right subtype when the page is structured around risk reduction.",
+  "whenNotToUse": "Don't use PreventionIndication when the page describes active treatment of an established condition — use TreatmentIndication. Don't use it for symptom relief; use ApprovedIndication or TreatmentIndication. Don't use it for screening protocols; those belong under MedicalTest.",
+  "whoItsFor": "Public-health editors, preventive-medicine content teams, and patient-education writers covering risk-reduction interventions.",
+  "seoNotes": "PreventionIndication is consumed via Drug.indication. Google does not currently issue a dedicated rich result; the value is in distinguishing risk-reduction claims from acute-treatment claims for medical knowledge graphs.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:MedicalRiskFactor"]
+}

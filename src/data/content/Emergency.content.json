@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Emergency when scoping a Physician, emergency department, or urgent service line to acute-care evaluation of trauma and sudden illness. Pair with EmergencyService and Hospital entities for ED landing pages, and keep urgent-care (sub-acute walk-in) markup distinct from true emergency care."
+}

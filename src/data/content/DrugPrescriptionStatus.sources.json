@@ -1,0 +1,17 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Nonprescription ibuprofen is used to reduce fever and to relieve mild pain from headaches, muscle aches, arthritis, menstrual periods, the common cold, toothaches, and backaches. Prescription ibuprofen is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis and rheumatoid arthritis."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Ibuprofen", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
+    { "jsonPath": "$.nonProprietaryName", "value": "ibuprofen", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
+    { "jsonPath": "$.prescriptionStatus", "value": "OTC", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
+    { "jsonPath": "$.description", "value": "Nonprescription ibuprofen is used to reduce fever and to relieve mild pain from headaches, muscle aches, arthritis, menstrual periods, the common cold, toothaches, and backaches.", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] }
+  ]
+}

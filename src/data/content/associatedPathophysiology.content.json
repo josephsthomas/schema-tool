@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use associatedPathophysiology on AnatomicalStructure, AnatomicalSystem, or SuperficialAnatomy to describe the disease mechanisms relevant to that anatomy — what goes wrong when the structure fails. Single Text block, written for clinical readers but free of citations (those go on the parent).",
+  "whenNotToUse": "Don't use associatedPathophysiology to enumerate specific diseases — link those as MedicalCondition entities via the condition's associatedAnatomy back-reference. Keep this property focused on mechanism, not catalog.",
+  "commonCombos": ["schema:AnatomicalSystem", "schema:SuperficialAnatomy", "schema:AnatomicalStructure"]
+}

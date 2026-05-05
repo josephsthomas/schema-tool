@@ -1,0 +1,24 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/healthy-pets/about/index.html",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Regular veterinary visits are essential to keeping your pet and family healthy. Keep up with your pet's vaccines, deworming, and flea and tick control. Talk to a veterinarian to determine the best pet for your household. Talk to a veterinarian about how to keep your pet healthy."
+    },
+    {
+      "url": "https://www.cdc.gov/one-health/about/index.html",
+      "publisher": "U.S. Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "disease detectives, laboratorians, physicians, and veterinarians"
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.description", "value": "A veterinary practice where regular visits help keep pets and families healthy, and where veterinarians serve as partners in human, animal, and environmental health.", "sourceUrls": ["https://www.cdc.gov/healthy-pets/about/index.html", "https://www.cdc.gov/one-health/about/index.html"] },
+    { "jsonPath": "$.availableService[0].name", "value": "Pet vaccinations", "sourceUrls": ["https://www.cdc.gov/healthy-pets/about/index.html"] },
+    { "jsonPath": "$.availableService[0].description", "value": "Keep up with your pet's vaccines, deworming, and flea and tick control.", "sourceUrls": ["https://www.cdc.gov/healthy-pets/about/index.html"] },
+    { "jsonPath": "$.availableService[1].name", "value": "Veterinary consultation", "sourceUrls": ["https://www.cdc.gov/healthy-pets/about/index.html"] },
+    { "jsonPath": "$.availableService[1].description", "value": "Talk to a veterinarian to determine the best pet for your household and how to keep your pet healthy.", "sourceUrls": ["https://www.cdc.gov/healthy-pets/about/index.html"] }
+  ]
+}

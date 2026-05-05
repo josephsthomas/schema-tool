@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use costCategory on DrugCost with a DrugCostCategory enum — wholesale, retail, reimbursement-cap — so price points across products are comparable on the same basis. Without it, a costPerUnit number is ambiguous between manufacturer and pharmacy-counter pricing.",
+  "whenNotToUse": "Don't use costCategory for the payer or insurance plan — that belongs in costOrigin or a related context field. Don't invent ad-hoc category strings; stick to the DrugCostCategory enumeration.",
+  "commonCombos": ["schema:DrugCost"]
+}

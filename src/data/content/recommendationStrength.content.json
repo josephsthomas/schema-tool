@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalGuidelineRecommendation to express the strength tier (Class I, IIa, IIb, III; or Strong/Conditional). Lets readers and assistants weigh recommendations consistently across guideline bodies.",
+  "whenNotToUse": "Do not use for evidence quality — that belongs on evidenceLevel via MedicalEvidenceLevel.",
+  "commonCombos": ["schema:MedicalGuidelineRecommendation"]
+}

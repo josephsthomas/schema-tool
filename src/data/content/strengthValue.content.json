@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use strengthValue on DrugStrength to record the numeric quantity of the active ingredient per unit dose, paired with strengthUnit. Use the exact value from the approved label so it can be matched against formulary databases.",
+  "whenNotToUse": "Don't include the unit string here; that goes in strengthUnit. Avoid using this for total package contents — it describes the strength per dose unit.",
+  "commonCombos": ["schema:DrugStrength"]
+}

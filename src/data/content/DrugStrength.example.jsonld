@@ -1,0 +1,13 @@
+// Reference example — built from public data sourced from NIH DailyMed
+// (https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metformin+500+mg)
+// on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "DrugStrength",
+  "name": "Metformin 500 mg tablet",
+  "activeIngredient": "Metformin",
+  "strengthValue": 500,
+  "strengthUnit": "mg"
+}

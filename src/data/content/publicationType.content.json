@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalScholarlyArticle to declare the NLM MeSH publication type — Review, Meta-Analysis, Randomized Controlled Trial, Case Reports. Lets evidence pyramids and citation tools sort articles by study design.",
+  "whenNotToUse": "Do not use for the topic of the article (use about) or for the journal it appears in (use isPartOf).",
+  "commonCombos": ["schema:MedicalScholarlyArticle"]
+}

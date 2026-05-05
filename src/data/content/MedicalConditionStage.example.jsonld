@@ -1,0 +1,16 @@
+// Reference example — built from public data sourced from NCI
+// (https://www.cancer.gov/types/breast/stages) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalConditionStage",
+  "name": "Stage III Breast Cancer",
+  "stageAsNumber": 3,
+  "subStageSuffix": "A, B, C",
+  "description": "In stage III breast cancer, the cancer is found in the lymph nodes close to the breast, the skin of the breast, or the chest wall.",
+  "subjectOf": {
+    "@type": "MedicalCondition",
+    "name": "Breast Cancer"
+  }
+}

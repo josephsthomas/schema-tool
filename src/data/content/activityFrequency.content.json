@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use activityFrequency on ExercisePlan to express how often a session repeats — '3 times per week', 'daily'. QuantitativeValue with unitText is preferred when you can express it numerically, falling back to Text for natural-language cadence.",
+  "whenNotToUse": "Don't conflate frequency with duration of a single session — that's activityDuration. Don't use this for one-off events; ExercisePlan implies repetition, and a single workout belongs on ExerciseAction instead.",
+  "commonCombos": ["schema:ExercisePlan"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use adverseOutcome on TherapeuticProcedure or MedicalDevice to link to a MedicalEntity representing a known complication or side effect. The value should be a referenceable MedicalEntity (often MedicalCondition or MedicalSignOrSymptom), not a free-text description.",
+  "whenNotToUse": "Don't use adverseOutcome for drug side effects — Drug uses seriousAdverseOutcome and adverseOutcome differently in practice; check the parent type. For warnings tied to lifestyle interactions (alcohol, pregnancy), use the dedicated warning properties on Drug.",
+  "commonCombos": ["schema:MedicalDevice", "schema:TherapeuticProcedure"]
+}

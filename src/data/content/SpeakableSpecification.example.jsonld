@@ -1,0 +1,20 @@
+// Reference example — speakable property usage follows Google's
+// structured data guidance
+// (https://developers.google.com/search/docs/appearance/structured-data/speakable);
+// the underlying CDC alert content is sourced from
+// https://www.cdc.gov/measles/data-research/index.html, retrieved on
+// 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "SpecialAnnouncement",
+  "name": "2025 U.S. Measles Outbreak Update",
+  "datePosted": "2026-01-15",
+  "expires": "2026-12-31",
+  "text": "A total of 2,288 confirmed measles cases were reported in the United States during 2025. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine.",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".announcement-headline", ".announcement-summary"]
+  }
+}

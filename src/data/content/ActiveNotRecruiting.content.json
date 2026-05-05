@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use ActiveNotRecruiting when a study is still active — participants are being followed and data is being collected — but enrollment of new participants has closed. Set this on MedicalStudy.status the same day the registry record flips off recruiting so trial-listing pages don't keep generating inbound enrollment inquiries."
+}

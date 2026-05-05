@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Renal when scoping a Physician or service line to nephrology — chronic kidney disease, dialysis, transplant nephrology, and electrolyte disorders. Pair with MedicalCondition entities like Chronic Kidney Disease or End-Stage Renal Disease and with MedicalProcedure entities for hemodialysis and peritoneal dialysis."
+}

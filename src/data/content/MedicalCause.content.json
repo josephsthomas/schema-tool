@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalCause to mark up an established causal agent for a disease — the entity that produces the condition, not merely an entity that raises probability. Tobacco smoke as a cause of lung cancer fits, as do specific pathogens for infectious diseases.",
+  "whenNotToUse": "Do not use MedicalCause for factors that only elevate risk — those belong in MedicalRiskFactor. Do not use it for triggers of acute episodes within an existing chronic disease (asthma triggers); those are usually documented as risk or aggravating factors.",
+  "whoItsFor": "Public-health writers, oncology editors, and tobacco-cessation campaign teams whose pages explain how a specific exposure produces a specific disease.",
+  "seoNotes": "Pair MedicalCause with the diseased causedBy property on MedicalCondition. The bidirectional link is what lets a retrieval system answer both 'what causes lung cancer' and 'what does smoking cause' from the same data.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalRiskFactor", "schema:MedicalGuideline"]
+}

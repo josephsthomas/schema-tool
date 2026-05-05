@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalRiskFactor for an exposure or trait that raises the probability of a disease without being the proximate cause — smoking and cardiovascular disease, sedentary lifestyle and type 2 diabetes, family history and breast cancer. Pair every risk factor with the condition whose risk it modifies.",
+  "whenNotToUse": "Do not use MedicalRiskFactor when the exposure is the established cause — use MedicalCause. Do not use it for protective factors or interventions that lower risk; those fit better as Drug, MedicalProcedure, or MedicalTherapy entries.",
+  "whoItsFor": "Preventive-medicine editors, payer wellness-program writers, and primary-care patient-education teams.",
+  "seoNotes": "Connecting MedicalRiskFactor to the increasesRiskOf condition gives an assistant a clean answer to 'what raises my risk of heart disease.' Without that link the page becomes a generic lifestyle article.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalCause", "schema:PreventionIndication"]
+}

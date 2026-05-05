@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Diet to summarize physiologic risks the plan may carry (electrolyte derangement on very-low-carb, nutrient gaps on restrictive elimination diets). Balances physiologicalBenefits for honest decision-aid content.",
+  "whenNotToUse": "Do not use for adverse reactions to a single food allergen and do not use on Drug or DietarySupplement entries.",
+  "commonCombos": ["schema:Diet"]
+}

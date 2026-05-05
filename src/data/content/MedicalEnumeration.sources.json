@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/cardiacrehabilitation.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Cardiac rehabilitation (rehab) is a medically supervised program to help people who have had a heart attack, heart failure, heart valve surgery, coronary artery bypass grafting, or percutaneous coronary intervention. The program includes exercise training, education on heart-healthy living, and counseling to reduce stress."
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "publisher": "Google Search Central",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Structured data is a standardized format for providing information about a page and classifying the page content. Schema.org provides a shared vocabulary, and Google uses concrete subtypes — not abstract parent classes — when interpreting markup."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Cardiac Rehabilitation Program Overview", "sourceUrls": ["https://medlineplus.gov/cardiacrehabilitation.html"] },
+    { "jsonPath": "$.specialty.name", "value": "Cardiovascular", "sourceUrls": ["https://medlineplus.gov/cardiacrehabilitation.html"] },
+    { "jsonPath": "$.specialty.additionalType", "value": "https://schema.org/MedicalEnumeration", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"] },
+    { "jsonPath": "$.about.name", "value": "Coronary artery disease", "sourceUrls": ["https://medlineplus.gov/cardiacrehabilitation.html"] }
+  ]
+}

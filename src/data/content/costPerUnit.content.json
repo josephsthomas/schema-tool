@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use costPerUnit on DrugCost as a Number when you have an exact price, QualitativeValue when you only have a band ('low', 'moderate', 'high'), or Text when the source publishes a formatted string. Always pair with costCurrency and costCategory so the unit is unambiguous.",
+  "whenNotToUse": "Don't use costPerUnit for total prescription cost — this is per-unit (per tablet, per mL, per dose) by definition. Don't bundle currency into the number; keep them on separate fields.",
+  "commonCombos": ["schema:DrugCost"]
+}

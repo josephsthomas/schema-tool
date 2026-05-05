@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use differentialDiagnosis on a MedicalCondition to enumerate the alternate diagnoses a clinician should rule out. Each value must be a DDxElement, which lets you pair the alternate diagnosis with its distinguishingSign — flat strings break the workup logic.",
+  "whenNotToUse": "Don't use differentialDiagnosis to record the patient's confirmed diagnosis — use diagnosis on the Patient. For comorbid conditions present alongside the primary, model them as separate MedicalCondition entries.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

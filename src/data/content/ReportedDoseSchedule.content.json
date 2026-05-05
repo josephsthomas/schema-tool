@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use ReportedDoseSchedule when documenting real-world dosing — what patients actually take, derived from self-report, claims data, or chart review — rather than a label recommendation. It's the right type for pharmacovigilance summaries and adherence research write-ups.",
+  "whenNotToUse": "Don't use ReportedDoseSchedule for the official label recommendation — use RecommendedDoseSchedule. Don't use it for upper bounds — use MaximumDoseSchedule. Don't use it to surface trial-protocol dosing; that belongs in clinical-study markup.",
+  "whoItsFor": "Real-world-evidence editors, pharmacoepidemiology content teams, and consumer-research publishers reporting how a medicine is used in practice.",
+  "seoNotes": "ReportedDoseSchedule sits alongside Recommended and Maximum subtypes under DoseSchedule. Google does not currently issue a dedicated rich result; the value is in transparent labeling of dose source as observed rather than recommended.",
+  "commonCombos": ["schema:Drug", "schema:MedicalObservationalStudy", "schema:DoseSchedule"]
+}

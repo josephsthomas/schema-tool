@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use doseValue on a DoseSchedule to record the numeric dose. Prefer Number for fixed values; switch to QualitativeValue when the dose is described as a range or graded category.",
+  "whenNotToUse": "Don't pack the unit into doseValue — use doseUnit. Don't use it to express frequency like 'twice daily' — that's frequency.",
+  "commonCombos": ["schema:DoseSchedule"]
+}

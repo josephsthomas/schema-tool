@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalStudyStatus on a MedicalStudy or MedicalTrial to express where a study sits in its lifecycle — recruiting, active, completed, suspended, or withdrawn. Pair it with a clinicaltrials.gov NCT identifier so the lifecycle value can be reconciled against the registry of record.",
+  "whenNotToUse": "Don't use MedicalStudyStatus to describe drug approval status, publication status of a paper, or the editorial status of a guideline. For an individual participant's enrollment, use a different property — this enumeration describes the study, not a person.",
+  "whoItsFor": "Academic medical centers, contract research organizations, and pharma communications teams who maintain trial-listing pages and need a machine-readable lifecycle signal that aligns with what clinicaltrials.gov publishes.",
+  "seoNotes": "Search engines and AI assistants surface trial pages partly on freshness — keeping status accurate (Recruiting vs. Completed) reduces the chance a closed study is offered to a user looking to enroll. Update the value in the same release that updates the registry record.",
+  "commonCombos": ["schema:MedicalTrial", "schema:MedicalStudy", "schema:MedicalCondition"]
+}

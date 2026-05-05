@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalGuidelineRecommendation when the page or fragment recommends an action — screen, vaccinate, prescribe, refer — for a defined population. It's the canonical type for USPSTF, ACIP, and specialty-society recommendation pages and for the recommendation callouts inside larger guideline documents. Always include recommendationStrength so consumers can grade the recommendation.",
+  "whenNotToUse": "Don't use it when the statement is a hard prohibition — that's MedicalGuidelineContraindication. Don't use it for narrative review content that describes options without endorsing one. And don't use it for product-marketing pages that imply but don't formally issue a clinical recommendation.",
+  "whoItsFor": "Federal agencies and specialty societies publishing recommendation statements, payer medical-policy editors translating recommendations onto member-facing pages, and clinical-decision-support vendors needing structured recommendation anchors with strength grading.",
+  "seoNotes": "Mark up recommendationStrength (often a string like \"Strong\", \"Routine\", or a USPSTF letter grade), evidenceLevel, evidenceOrigin, and guidelineDate. Strength and currency are the two signals AI-assisted search uses to weigh competing recommendations, so always populate both. No dedicated Google rich result.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Drug", "schema:MedicalProcedure", "schema:Organization", "schema:MedicalAudience"]
+}

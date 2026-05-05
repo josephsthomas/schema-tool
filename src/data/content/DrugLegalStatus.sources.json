@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Follow the directions on your prescription label carefully, and ask your doctor or pharmacist to explain any part you do not understand."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Prescription only",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    },
+    {
+      "jsonPath": "$.applicableLocation.name",
+      "value": "United States",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+    }
+  ]
+}

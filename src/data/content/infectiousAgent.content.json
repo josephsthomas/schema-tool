@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an InfectiousDisease to name the specific organism (e.g., Mycobacterium tuberculosis, SARS-CoV-2). Provide the formal binomial or recognized strain identifier as text.",
+  "whenNotToUse": "Do not use for the broad organism class; use infectiousAgentClass for the bacteria/virus/prion category.",
+  "commonCombos": ["schema:InfectiousDisease"]
+}

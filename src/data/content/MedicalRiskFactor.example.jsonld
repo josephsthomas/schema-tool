@@ -1,0 +1,14 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalRiskFactor",
+  "name": "Cigarette smoking",
+  "increasesRiskOf": {
+    "@type": "MedicalCondition",
+    "name": "Cardiovascular disease",
+    "description": "Smoking is a major cause of CVD, causing one in every four deaths from CVD. Smoking increases the risk for coronary heart disease by 2 to 4 times. Even people who smoke fewer than five cigarettes a day can have early signs of cardiovascular disease."
+  }
+}

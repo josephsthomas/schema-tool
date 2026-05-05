@@ -1,0 +1,20 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/choosingadoctororhealthcareservice.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Family doctors - Primary care physicians for general family health needs"
+    },
+    {
+      "url": "https://medlineplus.gov/healthoccupations.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "hospitals...nursing homes, doctors' offices, dentists' offices, outpatient clinics and laboratories."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.description", "value": "A family doctor practice — one of the health care providers patients select when choosing a doctor or health care service — operating in a doctor's office among the settings where health professionals work.", "sourceUrls": ["https://medlineplus.gov/choosingadoctororhealthcareservice.html", "https://medlineplus.gov/healthoccupations.html"] }
+  ]
+}

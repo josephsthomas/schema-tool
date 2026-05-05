@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalAudience to scope a MedicalWebPage, Drug, or other medical entity to a specific reader cohort — patients, caregivers, clinicians, or medical researchers. The audienceType should be a MedicalAudienceType enumeration value (Patient, Clinician, MedicalResearcher); audience-specific audiences such as pregnant women or pediatric patients can be expressed via name and healthCondition.",
+  "whenNotToUse": "Don't use MedicalAudience for trial-eligibility cohorts — use a PeopleAudience with healthCondition for trial-recruitment pages. Don't use it as a substitute for a primary entity type; MedicalAudience scopes pages, it doesn't replace the page or product they describe.",
+  "whoItsFor": "Health-system content teams maintaining patient-facing vs HCP-facing variants of the same condition page, pharma medical-affairs teams scoping prescribing pages to clinicians, and patient-education editors building age-, sex-, or condition-specific landing pages.",
+  "seoNotes": "MedicalAudience markup signals to LLMs and search crawlers which reader the page is written for, sharpening relevance for queries like \"diabetes information for pregnant women\" or \"prescribing info for clinicians\". Pair with audienceType so machine readers can disambiguate Patient vs Clinician variants of the same content.",
+  "commonCombos": ["schema:MedicalWebPage", "schema:Drug", "schema:MedicalCondition", "schema:HealthInsurancePlan"]
+}

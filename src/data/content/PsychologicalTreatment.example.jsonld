@@ -1,0 +1,13 @@
+// Reference example — built from public data sourced from NIH MedlinePlus (https://medlineplus.gov/depression.html) on 2026-05-05. Not for use in client deliverables.
+{
+  "@context": "https://schema.org",
+  "@type": "PsychologicalTreatment",
+  "name": "Cognitive behavioral therapy for depression",
+  "alternateName": ["CBT for depression", "Talk therapy for depression"],
+  "description": "Psychotherapy (talk therapy) under the care of a mental health provider can help you recognize and change troubling emotions, thoughts, and behaviors.",
+  "howPerformed": "This may be done one-on-one or in a group setting. It can give you and your family support, education, skills, and coping strategies.",
+  "indication": {
+    "@type": "MedicalIndication",
+    "name": "Depression"
+  }
+}

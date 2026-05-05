@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use status to flag the operational state of a MedicalStudy (recruiting, completed), a MedicalCondition (active, in remission), or a MedicalProcedure (scheduled, performed). Prefer an enumerated value from EventStatusType or MedicalStudyStatus over freeform Text when one fits.",
+  "whenNotToUse": "Don't use this to describe disease severity or trial phase — those have dedicated properties. Avoid mixing study and condition statuses on the same node.",
+  "commonCombos": ["schema:MedicalStudy", "schema:MedicalCondition", "schema:MedicalProcedure"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use supplyTo on Artery to name the AnatomicalStructure or region the artery perfuses. Repeat the property when a single artery supplies multiple distinct territories.",
+  "whenNotToUse": "Don't use this for venous drainage; that's tributary on Vein. Avoid listing collateral or anastomotic territories that aren't the primary supply.",
+  "commonCombos": ["schema:Artery"]
+}

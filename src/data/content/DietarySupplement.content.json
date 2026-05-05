@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DietarySupplement for any vitamin, mineral, herbal, or amino-acid product sold as a supplement rather than a regulated drug — vitamin D3, omega-3, melatonin, probiotics. It's the right type when a page describes a non-prescription product whose claims fall under DSHEA labelling rather than FDA new-drug review.",
+  "whenNotToUse": "Don't use DietarySupplement for prescription or OTC medications — use Drug. Don't use it for medical foods or infant formulas. Don't use it for fortified consumer foods like cereal that happen to contain added vitamins.",
+  "whoItsFor": "Supplement-brand content teams, retailer catalog editors, and consumer-health publishers writing supplement explainer pages.",
+  "seoNotes": "DietarySupplement supports activeIngredient, recommendedIntake, and safetyConsideration fields that align with FDA Supplement Facts panel structure. Google does not surface a dedicated rich result; the value is structured-data clarity for product knowledge graphs.",
+  "commonCombos": ["schema:Product", "schema:Offer", "schema:NutritionInformation"]
+}

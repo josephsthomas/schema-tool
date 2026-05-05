@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use SpeakableSpecification on news, alert, and announcement pages to flag the headline-and-summary block that is safe to read aloud on a voice assistant. The specification is a child of the speakable property on the parent CreativeWork (Article, NewsArticle, SpecialAnnouncement) and points at the page DOM via cssSelector or xpath.",
+  "whenNotToUse": "Don't use SpeakableSpecification on pages where listening to a partial extract would be misleading — long-form clinical guidance, dosing tables, or anything where context is required. Don't supply both cssSelector and xpath on the same node.",
+  "whoItsFor": "Public-health and newsroom editors preparing alert pages for Google Assistant and other voice surfaces, and accessibility teams marking the canonical spoken summary on time-sensitive announcements.",
+  "seoNotes": "Per Google's speakable structured data guidance, you must choose either cssSelector or xPath on each SpeakableSpecification — not both. Keep the selected block to the headline and a 1–2 sentence summary; voice assistants truncate, so front-load the actionable information.",
+  "commonCombos": ["schema:SpecialAnnouncement", "schema:NewsArticle", "schema:Article"]
+}

@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Withdrawn when a trial was registered but stopped before any participants were enrolled. Keep the registry record live with this status rather than removing the page so prior citations and outbound links don't 404."
+}

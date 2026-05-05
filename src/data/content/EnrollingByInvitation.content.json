@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use EnrollingByInvitation when participants are being added only from a pre-identified pool — for example a registry, a clinic panel, or a referral list — rather than the open public. The trial-listing page should make this explicit so unsolicited self-referrals don't reach the coordinator inbox."
+}

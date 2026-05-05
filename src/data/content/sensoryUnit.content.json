@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use sensoryUnit on Nerve to name the peripheral structure or anatomical region whose afferent signals the nerve carries to the central nervous system. Pair with sourcedFrom to describe the full afferent pathway from receptor to CNS origin.",
+  "whenNotToUse": "Don't use this for purely motor nerves — leave sensoryUnit unset and document innervation via the appropriate efferent properties. Avoid repurposing it for autonomic targets.",
+  "commonCombos": ["schema:Nerve"]
+}

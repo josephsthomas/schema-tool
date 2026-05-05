@@ -1,0 +1,23 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Ibuprofen is used to reduce fever and to relieve mild pain. Ibuprofen works by stopping the body's production of a substance that causes pain, fever, and inflammation."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Ibuprofen for fever",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Ibuprofen is used to reduce fever. It works by stopping the body's production of a substance that causes pain, fever, and inflammation.",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    }
+  ]
+}

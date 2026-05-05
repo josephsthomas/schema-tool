@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use ResultsNotAvailable when a study has Completed or Terminated but no summary results have been posted yet. Carry this value openly rather than dropping the status field so users and assistants can see the reporting gap."
+}

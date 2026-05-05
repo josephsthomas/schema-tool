@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Radiography when scoping a technologist, imaging center, or service line to imaging that uses ionizing radiation — plain X-ray, fluoroscopy, and CT. Pair with MedicalImagingTechnique values for specific modalities and reserve Radiology-physician interpretation work for a separate Pathology-style discipline label."
+}

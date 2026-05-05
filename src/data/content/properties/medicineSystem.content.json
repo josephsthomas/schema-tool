@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use medicineSystem to declare the system of medicine that a MedicalEntity belongs to — WesternConventional, Ayurvedic, Chiropractic, Homeopathic, Osteopathic, or TraditionalChinese. Apply it on conditions, treatments, or therapies whose definition or evidence base is system-specific.",
+  "whenNotToUse": "Don't use medicineSystem to flag general complementary content — if the entity is fully Western-conventional, the property is redundant and can be omitted. Don't combine it with efficacy claims; medicineSystem describes provenance, not effectiveness.",
+  "commonCombos": ["schema:MedicalEntity", "schema:MedicalTherapy", "schema:MedicalCondition"]
+}

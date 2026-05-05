@@ -1,0 +1,53 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/lab-tests/blood-glucose-test/",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A blood glucose test measures the glucose levels in your blood. Glucose is a type of sugar. It is your body's main source of energy. High blood glucose levels (hyperglycemia) may be a sign of prediabetes or diabetes."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Blood Glucose Test",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A blood glucose test measures the glucose levels in your blood. Glucose is a type of sugar. It is your body's main source of energy.",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[0].name",
+      "value": "Prediabetes",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[1].name",
+      "value": "Diabetes",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    },
+    {
+      "jsonPath": "$.usedToDiagnose[2].name",
+      "value": "Hypoglycemia",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    },
+    {
+      "jsonPath": "$.signDetected.name",
+      "value": "Hyperglycemia",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    },
+    {
+      "jsonPath": "$.usesDevice[0].name",
+      "value": "Blood glucose meter",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    },
+    {
+      "jsonPath": "$.usesDevice[1].name",
+      "value": "Continuous glucose monitor (CGM)",
+      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+    }
+  ]
+}

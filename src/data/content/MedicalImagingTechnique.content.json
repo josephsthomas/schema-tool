@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use MedicalImagingTechnique on an ImagingTest or DiagnosticProcedure to declare the imaging modality — CT, MRI, PET, ultrasound, or X-ray. Attach it via the `imagingTechnique` property so the test page exposes the modality alongside the body site and the indication.",
+  "whenNotToUse": "Don't use MedicalImagingTechnique for laboratory tests, endoscopic visualization, or pathology slide imaging; this enumeration is restricted to the cross-sectional and projection imaging modalities listed. Don't use it to express scanner vendor, field strength, or contrast agent — those go on free-text properties or a sub-modality field.",
+  "whoItsFor": "Radiology departments, imaging-center marketing teams, multispecialty groups publishing pre-procedure patient instructions, and consumer health publishers who maintain modality-specific explainers.",
+  "seoNotes": "Modality is a primary filter axis on imaging-services pages; values map cleanly to user queries like \"open MRI near me\" or \"low-dose CT\". Pair with the imaged body site (`bodyLocation`) and the clinical indication so the modality, region, and reason are all machine-readable.",
+  "commonCombos": ["schema:ImagingTest", "schema:DiagnosticProcedure", "schema:MedicalCondition", "schema:Hospital"]
+}

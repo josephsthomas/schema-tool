@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use SingleBlindedTrial when only one party — either the participant or the investigator — is blinded to the assignment, while the other knows. Spell out which party is blinded in description so readers don't have to infer it from context."
+}

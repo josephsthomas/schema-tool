@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a MedicalWebPage to declare the intended reader via a MedicalAudience node or MedicalAudienceType enumeration (Patient, Clinician, etc.). Repeat the property when content is written for multiple audiences.",
+  "whenNotToUse": "Do not use to describe study participants or health condition cohorts; use healthCondition on a PeopleAudience instead.",
+  "commonCombos": ["schema:MedicalWebPage"]
+}

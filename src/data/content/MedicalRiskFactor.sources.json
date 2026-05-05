@@ -1,0 +1,28 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Smoking is a major cause of CVD, causing one in every four deaths from CVD."
+    },
+    {
+      "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Smoking increases the risk for coronary heart disease by 2 to 4 times."
+    },
+    {
+      "url": "https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Even people who smoke fewer than five cigarettes a day can have early signs of cardiovascular disease."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Cigarette smoking", "sourceUrls": ["https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html"] },
+    { "jsonPath": "$.increasesRiskOf.name", "value": "Cardiovascular disease", "sourceUrls": ["https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html"] },
+    { "jsonPath": "$.increasesRiskOf.description", "value": "Smoking is a major cause of CVD, causing one in every four deaths from CVD. Smoking increases the risk for coronary heart disease by 2 to 4 times. Even people who smoke fewer than five cigarettes a day can have early signs of cardiovascular disease.", "sourceUrls": ["https://www.cdc.gov/tobacco/about/cigarettes-and-cardiovascular-disease.html"] }
+  ]
+}

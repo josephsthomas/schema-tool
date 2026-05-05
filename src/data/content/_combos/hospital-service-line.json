@@ -1,0 +1,27 @@
+{
+  "id": "hospital-service-line",
+  "label": "Hospital service-line page",
+  "description": "Service-line page describing a specialty unit (orthopedics, cardiology) with the procedures performed, conditions treated, and physicians who staff it.",
+  "entities": [
+    {
+      "type": "Hospital",
+      "defaultLabel": "Hospital",
+      "parentRef": null
+    },
+    {
+      "type": "MedicalProcedure",
+      "defaultLabel": "Procedure offered",
+      "parentRef": "Hospital.availableService"
+    },
+    {
+      "type": "MedicalCondition",
+      "defaultLabel": "Condition treated",
+      "parentRef": "Hospital.medicalSpecialty"
+    },
+    {
+      "type": "Physician",
+      "defaultLabel": "Lead physician",
+      "parentRef": "Hospital.employee"
+    }
+  ]
+}

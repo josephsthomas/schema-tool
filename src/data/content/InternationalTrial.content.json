@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use InternationalTrial when a study enrolls participants in more than one country. Combine with MultiCenterTrial when sites span multiple institutions, and list the participating-country list in description so geographic eligibility is unambiguous."
+}

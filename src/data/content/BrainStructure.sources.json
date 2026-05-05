@@ -1,0 +1,18 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://meshb.nlm.nih.gov/record/ui?ui=D006624",
+      "publisher": "NIH NLM MeSH",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A curved elevation of gray matter extending the entire length of the floor of the temporal horn of the lateral ventricle. The hippocampus, subiculum, and dentate gyrus constitute the hippocampal formation."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.name", "value": "Hippocampus", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006624"] },
+    { "jsonPath": "$.description", "value": "A curved elevation of gray matter extending the entire length of the floor of the temporal horn of the lateral ventricle.", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006624"] },
+    { "jsonPath": "$.subStructure[0].name", "value": "Hippocampus proper", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006624"] },
+    { "jsonPath": "$.subStructure[1].name", "value": "Subiculum", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006624"] },
+    { "jsonPath": "$.subStructure[2].name", "value": "Dentate gyrus", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006624"] }
+  ]
+}

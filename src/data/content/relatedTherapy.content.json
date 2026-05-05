@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a SuperficialAnatomy, AnatomicalStructure, or AnatomicalSystem to link to MedicalTherapy entries focused on that anatomy. Connects anatomy reference pages to relevant treatment hubs.",
+  "whenNotToUse": "Do not use on a MedicalCondition page — use possibleTreatment to express therapy relationships there.",
+  "commonCombos": ["schema:SuperficialAnatomy", "schema:AnatomicalStructure", "schema:AnatomicalSystem"]
+}

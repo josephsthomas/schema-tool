@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use diagnosis on a Patient or DDxElement to point to a MedicalCondition node representing the working or confirmed diagnosis. The value must be a MedicalCondition reference, not free text — pitfall is dropping the condition name into a string when downstream consumers expect a graph link.",
+  "whenNotToUse": "Don't use diagnosis to express a list of conditions ruled out — use differentialDiagnosis. For symptoms or signs that prompted the workup, use signOrSymptom on the condition itself.",
+  "commonCombos": ["schema:DDxElement", "schema:Patient"]
+}

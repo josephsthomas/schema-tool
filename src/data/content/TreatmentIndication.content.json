@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use TreatmentIndication when a drug or therapy is used to treat an established condition — metformin for type 2 diabetes, beta-blockers for hypertension, antibiotics for bacterial infection. It's the right subtype when the page describes management of an active disease state rather than prevention.",
+  "whenNotToUse": "Don't use TreatmentIndication for risk reduction in patients without the condition — use PreventionIndication. Don't use it for off-label promotional claims. Don't use it for symptom-only relief if the page does not establish an underlying treated condition.",
+  "whoItsFor": "Disease-state content editors, medical-affairs teams at pharma manufacturers, and clinical-knowledge curators.",
+  "seoNotes": "TreatmentIndication is consumed via Drug.indication. Google does not currently issue a dedicated rich result; the value is structured separation of treatment from prevention claims for clinical knowledge graphs.",
+  "commonCombos": ["schema:Drug", "schema:MedicalCondition", "schema:MedicalTherapy"]
+}

@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on an AnatomicalStructure to declare the AnatomicalSystem it belongs to (e.g. heart partOfSystem cardiovascular). Anchors the structure inside the system-level graph for navigation and entity resolution.",
+  "whenNotToUse": "Do not use for parent structures that are not full systems — use isPartOf or subStructure for nested anatomy.",
+  "commonCombos": ["schema:AnatomicalStructure"]
+}

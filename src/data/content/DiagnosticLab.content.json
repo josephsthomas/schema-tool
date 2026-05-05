@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DiagnosticLab for a clinical laboratory that analyzes samples of blood, urine, or body tissues to determine whether results fall within the normal range — supporting diagnosis, treatment planning, and monitoring of disease progression over time.",
+  "whenNotToUse": "Don't use DiagnosticLab for the test itself (use MedicalTest or its subtypes such as BloodTest, Pathology Test, or ImagingTest) or for the broader hospital that contains the lab (use Hospital). Don't use it for an at-home self-test kit manufacturer.",
+  "whoItsFor": "Reference labs and hospital-affiliated lab editors building location and capability pages, and patient-education publishers explaining what happens when a doctor 'sends a sample to the lab'.",
+  "seoNotes": "DiagnosticLab benefits from a populated availableTest list — each MedicalTest entry helps search and assistant systems answer 'does this lab run X test'. Address and hours still matter because many labs accept walk-in specimen collection.",
+  "commonCombos": ["schema:MedicalTest", "schema:BloodTest", "schema:Hospital"]
+}

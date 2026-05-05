@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Vein or LymphaticVessel to identify the body region or system whose fluid it carries away. Anchors venous and lymphatic anatomy to functional drainage territories.",
+  "whenNotToUse": "Do not use for arterial supply — those vessels feed regions and use a different relation. Do not use for upstream vessel sources (use originatesFrom on lymphatics).",
+  "commonCombos": ["schema:Vein", "schema:LymphaticVessel"]
+}

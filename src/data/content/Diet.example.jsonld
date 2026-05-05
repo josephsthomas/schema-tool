@@ -1,0 +1,26 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/dashdiet.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "Diet",
+  "name": "DASH eating plan",
+  "alternateName": "Dietary Approaches to Stop Hypertension",
+  "description": "An eating plan based on research studies sponsored by the National Heart, Lung, and Blood Institute (NHLBI), designed to address high blood pressure and improve cholesterol levels.",
+  "dietFeatures": [
+    "Emphasizes vegetables, fruits, and whole grains",
+    "Includes fat-free or low-fat dairy products",
+    "Includes fish, poultry, beans, and nuts",
+    "Uses vegetable oils",
+    "Limits foods high in saturated fat such as fatty meats and full-fat dairy",
+    "Limits tropical oils including coconut, palm kernel, and palm",
+    "Limits sugar-sweetened beverages and sweets"
+  ],
+  "expertConsiderations": "The plan works best alongside maintaining a healthy weight, exercising, and avoiding smoking.",
+  "recognizingAuthority": {
+    "@type": "Organization",
+    "name": "National Heart, Lung, and Blood Institute",
+    "url": "https://www.nhlbi.nih.gov"
+  }
+}

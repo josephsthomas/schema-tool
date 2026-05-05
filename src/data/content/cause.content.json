@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use cause on MedicalCondition to point at a MedicalCause node describing the etiology — infectious agent, genetic mutation, environmental exposure. Repeat the property for multifactorial conditions rather than packing causes into a single node.",
+  "whenNotToUse": "Don't use cause for risk factors that raise probability without being causal (use riskFactor) or for pathophysiology mechanisms (use associatedPathophysiology on the relevant anatomy). Reserve cause for established etiologic agents.",
+  "commonCombos": ["schema:MedicalCondition"]
+}

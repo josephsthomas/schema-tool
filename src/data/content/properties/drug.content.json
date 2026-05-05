@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use drug to point from a DrugClass, TherapeuticProcedure, or MedicalCondition to a specific Drug entity used in the procedure or recommended for the condition. The value must be a Drug node so dosing, mechanism, and legal status are reachable.",
+  "whenNotToUse": "Don't use drug for dietary supplements — use a DietarySupplement reference on the appropriate property. For unformulated active substances, use Substance instead of Drug.",
+  "commonCombos": ["schema:DrugClass", "schema:TherapeuticProcedure", "schema:MedicalCondition"]
+}

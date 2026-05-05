@@ -1,0 +1,16 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/refractiveerrors.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Opticians fit or adjust glasses or contact lenses based on a prescription from your eye care specialist."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.description", "value": "A vision-care provider who fits or adjusts glasses or contact lenses based on a prescription from an eye care specialist.", "sourceUrls": ["https://medlineplus.gov/refractiveerrors.html"] },
+    { "jsonPath": "$.availableService[0].name", "value": "Eyewear fitting and adjustment", "sourceUrls": ["https://medlineplus.gov/refractiveerrors.html"] },
+    { "jsonPath": "$.availableService[0].description", "value": "Fit or adjust glasses or contact lenses based on a prescription from your eye care specialist.", "sourceUrls": ["https://medlineplus.gov/refractiveerrors.html"] }
+  ]
+}

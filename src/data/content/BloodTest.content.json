@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use BloodTest as the primary type for any laboratory test performed on a blood specimen — CBC, metabolic panels (when modeled as one test rather than a panel of subtests), HbA1c, lipid measurements, hormone assays, infectious-disease serologies, and similar workups. It's the right subtype whenever the specimen is venous or capillary blood and the page is about that one test.",
+  "whenNotToUse": "Don't use BloodTest for tissue or fluid specimens — biopsies, Pap smears, urinalysis, and CSF studies belong to PathologyTest or MedicalTest. Don't use it for bundled orders that ship as a single panel with named components — MedicalTestPanel is the parent and BloodTest can appear as a subTest. Don't use BloodTest on a condition page that lists labs; mark the test as a value, not the page type.",
+  "whoItsFor": "Reference-lab and hospital editorial teams, at-home blood-test product marketers, and patient-education writers building result-explainer experiences for common blood work.",
+  "seoNotes": "BloodTest extends MedicalTest with the same property set plus a strong expectation of normalRange where defensible. Health-assistant LLMs use signDetected and usedToDiagnose to ground answers like \"what does a CBC show\" and \"what's measured in a lipid panel.\" No dedicated Google rich result; the value is precise entity disambiguation across hundreds of similarly named assays.",
+  "commonCombos": ["schema:MedicalCondition", "schema:MedicalSign", "schema:MedicalTestPanel", "schema:ReferenceRange", "schema:FAQPage"]
+}

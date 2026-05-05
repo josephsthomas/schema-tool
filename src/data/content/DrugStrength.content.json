@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use DrugStrength to mark up a single named strength of a medication — for example, metformin 500 mg tablet or amoxicillin 250 mg/5 mL suspension. It captures the active-ingredient amount and unit so the strength can be referenced from a Drug entity, a formulary listing, or a dose schedule.",
+  "whenNotToUse": "Don't use DrugStrength for the dosing instruction itself — that's DoseSchedule. Don't use it for the dosage form alone (tablet vs. capsule); pair it with the parent Drug's dosageForm property instead.",
+  "whoItsFor": "Pharma product editors, hospital formulary curators, and pharmacy data publishers normalizing strength variants for a single active ingredient.",
+  "seoNotes": "DrugStrength is consumed as part of a Drug entity. Google does not currently issue a dedicated rich result, but explicit strength markup helps disambiguate same-name variants in medical knowledge graphs.",
+  "commonCombos": ["schema:Drug", "schema:DoseSchedule", "schema:HealthInsurancePlan"]
+}

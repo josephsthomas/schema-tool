@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Physician for a licensed practitioner who serves as a primary care provider — a doctor, physician assistant, or nurse practitioner who delivers preventive care, diagnoses and treats routine medical conditions, evaluates severity, refers to specialists, and may participate in managing a patient's hospital care.",
+  "whenNotToUse": "Don't use Physician for the practice or building where the doctor works (use MedicalBusiness or MedicalClinic) or for the health system that employs them (use MedicalOrganization). Don't use it for a dentist, optician, or veterinarian — those have their own types.",
+  "whoItsFor": "Provider-directory editors and health-system content teams building 'find a doctor' pages, and reference publishers documenting primary care roles and referral pathways.",
+  "seoNotes": "Physician pages anchor 'doctor near me' style queries when paired with hospitalAffiliation, medicalSpecialty, and a clear address. Linking each Physician to their MedicalBusiness or Hospital lets assistants answer 'where does Dr. X practice'.",
+  "commonCombos": ["schema:Hospital", "schema:MedicalSpecialty", "schema:MedicalBusiness"]
+}

@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use HealthPlanNetwork to describe the contracted provider network attached to a HealthInsurancePlan — the set of clinicians and facilities a member can see at the plan's negotiated rates. It's the right type for a plan's network landing page or a tier-specific provider directory.",
+  "whenNotToUse": "Don't use HealthPlanNetwork for a single physician or hospital — those are Physician or Hospital. Don't use it to express a benefit's copay or coinsurance; couple it with HealthPlanCostSharingSpecification when you need to express in-network versus out-of-network member liability.",
+  "whoItsFor": "Payer network operations, broker comparison tools, provider-directory publishers, and member portals that surface network tier and identifier metadata.",
+  "seoNotes": "HealthPlanNetwork is referenced from a parent HealthInsurancePlan via includesHealthPlanNetwork. There is no dedicated Google rich result; the value is giving crawlers and downstream tools a structured handle on which network governs a plan's care.",
+  "commonCombos": ["schema:HealthInsurancePlan", "schema:HealthPlanCostSharingSpecification", "schema:MedicalOrganization"]
+}

@@ -1,0 +1,25 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/heartdiseases.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "AnatomicalStructure",
+  "name": "Heart",
+  "partOfSystem": {
+    "@type": "AnatomicalSystem",
+    "name": "Cardiovascular system"
+  },
+  "relatedCondition": [
+    {
+      "@type": "MedicalCondition",
+      "name": "Heart failure",
+      "description": "When your heart can't pump enough blood to meet your body's needs."
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Arrhythmia",
+      "description": "A problem with the rate or rhythm of your heartbeat."
+    }
+  ]
+}

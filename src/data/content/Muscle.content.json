@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Muscle for any page about a named skeletal muscle or muscle group — biceps brachii, quadriceps, rotator cuff. It is the right type for musculoskeletal-anatomy reference articles and the anatomical anchor on sports-medicine, rehab, and surgical content.",
+  "whenNotToUse": "Don't use Muscle for tendons that attach the muscle to bone, for the joint the muscle moves (use Joint), or for cardiac and smooth muscle of organs (those are tissue properties of the organ, not standalone Muscle entries here). Don't apply it to a strain or tear — that's MedicalCondition.",
+  "whoItsFor": "Sports-medicine practice editors, physical-therapy and athletic-training content teams, orthopedic-surgery service-lines, and patient-education editors covering muscle injury and recovery.",
+  "seoNotes": "Muscle pages support exercise, injury, and rehab queries when wired to the bones they originate and insert on and the joint they actuate. Google does not currently issue a dedicated rich result for Muscle; populate function and relatedCondition for graph value.",
+  "commonCombos": ["schema:Bone", "schema:Joint", "schema:MedicalCondition"]
+}

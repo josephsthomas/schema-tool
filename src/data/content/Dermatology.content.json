@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Dermatology when scoping a Physician, clinic, or service line to skin, hair, and nail disease — medical, surgical, and cosmetic dermatology. Pair with MedicalCondition entities like Psoriasis, Eczema, or Melanoma, and reserve Dermatologic for legacy adjective-form data."
+}

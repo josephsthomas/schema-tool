@@ -1,0 +1,20 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/dentalhealth.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Brush your teeth twice a day with a fluoride toothpaste. Clean between your teeth every day with floss or another type of between-the-teeth cleaner."
+    }
+  ],
+  "factsExtracted": [
+    { "jsonPath": "$.description", "value": "A general dentistry practitioner who provides routine examinations and evaluations, diagnostic imaging, preventive care guidance, and specialist referrals for conditions like gum disease, tooth decay, and orthodontic needs.", "sourceUrls": ["https://medlineplus.gov/dentalhealth.html"] },
+    { "jsonPath": "$.availableService[0].name", "value": "Routine dental examination", "sourceUrls": ["https://medlineplus.gov/dentalhealth.html"] },
+    { "jsonPath": "$.availableService[0].description", "value": "Routine examinations and evaluations.", "sourceUrls": ["https://medlineplus.gov/dentalhealth.html"] },
+    { "jsonPath": "$.availableService[1].name", "value": "Dental diagnostic imaging", "sourceUrls": ["https://medlineplus.gov/dentalhealth.html"] },
+    { "jsonPath": "$.availableService[1].description", "value": "Diagnostic imaging including dental x-rays and panoramic imaging.", "sourceUrls": ["https://medlineplus.gov/dentalhealth.html"] },
+    { "jsonPath": "$.availableService[2].name", "value": "Preventive dental care guidance", "sourceUrls": ["https://medlineplus.gov/dentalhealth.html"] },
+    { "jsonPath": "$.availableService[2].description", "value": "Brush teeth twice a day with a fluoride toothpaste and clean between teeth every day with floss or another type of between-the-teeth cleaner.", "sourceUrls": ["https://medlineplus.gov/dentalhealth.html"] }
+  ]
+}

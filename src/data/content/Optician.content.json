@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use Optician for a vision-care professional or shop that fits or adjusts glasses or contact lenses based on a prescription written by an eye care specialist. It is the right type when the page describes dispensing eyewear rather than diagnosing vision problems.",
+  "whenNotToUse": "Don't use Optician for an optometrist, who performs eye exams and prescribes corrective lenses (use Physician with the appropriate medicalSpecialty), or for an ophthalmologist, who treats eye diseases and performs surgery. Don't use it for the lens manufacturer.",
+  "whoItsFor": "Optical-shop owners and the agencies building their websites, plus patient-education publishers explaining the difference between opticians, optometrists, and ophthalmologists.",
+  "seoNotes": "Optician pages compete in local search for queries like 'eyeglasses near me'. Pair address and openingHours with availableService entries describing fitting and adjustment so assistants can route prescription-fulfillment intent correctly.",
+  "commonCombos": ["schema:MedicalBusiness", "schema:Physician", "schema:MedicalProcedure"]
+}

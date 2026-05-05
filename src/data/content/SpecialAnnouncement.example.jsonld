@@ -1,0 +1,23 @@
+// Reference example — built from public data sourced from CDC
+// (https://www.cdc.gov/measles/data-research/index.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "SpecialAnnouncement",
+  "name": "2025 U.S. Measles Outbreak Update",
+  "text": "A total of 2,288 confirmed measles cases were reported in the United States during 2025, with 48 outbreaks reported and 90% of confirmed cases (2,065 of 2,288) being outbreak-associated. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine.",
+  "datePosted": "2026-01-15",
+  "expires": "2026-12-31",
+  "category": "https://www.wikidata.org/wiki/Q60380",
+  "announcementLocation": {
+    "@type": "GovernmentOrganization",
+    "name": "U.S. Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov/"
+  },
+  "diseasePreventionInfo": {
+    "@type": "WebContent",
+    "url": "https://www.cdc.gov/measles/data-research/index.html",
+    "name": "Measles Cases and Outbreaks"
+  }
+}

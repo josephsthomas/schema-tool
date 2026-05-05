@@ -1,0 +1,3 @@
+{
+  "whenToUse": "Use Completed when a study has finished per its protocol — participants are no longer being followed and data collection has ended. Pair with ResultsAvailable or ResultsNotAvailable so a downstream reader can tell whether the dataset has been published."
+}

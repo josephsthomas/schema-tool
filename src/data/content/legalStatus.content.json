@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Drug, DietarySupplement, or other MedicalEntity to declare regulatory status: a DrugLegalStatus node, a MedicalEnumeration value (e.g., Rx, OTC), or text when neither fits. Prefer the structured DrugLegalStatus when scheduling or jurisdiction matters.",
+  "whenNotToUse": "Do not use for approval indications or therapeutic class; use clinicalPharmacology or category-specific properties.",
+  "commonCombos": ["schema:DietarySupplement", "schema:MedicalEntity", "schema:Drug"]
+}

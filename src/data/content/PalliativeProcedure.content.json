@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use PalliativeProcedure for interventions whose primary purpose is symptom relief and comfort during serious illness — pain management protocols, dyspnea relief, comfort care order sets. Hospice service pages, palliative-care consult services, and symptom-management pathways all warrant this type.",
+  "whenNotToUse": "Don't use PalliativeProcedure for curative interventions even when they incidentally relieve symptoms — chemotherapy given to shrink a tumor is TherapeuticProcedure, not palliative. Don't use it for general supportive care that isn't a defined procedure. If the page describes the palliative-care service as a whole rather than a specific procedure, MedicalBusiness or Service may be a better fit.",
+  "whoItsFor": "Palliative care services, hospice programs, oncology supportive-care teams, and hospital pages explaining how the palliative consult service interacts with primary teams.",
+  "seoNotes": "PalliativeProcedure is a relatively rare schema.org type, so well-formed markup gets disproportionate attention from crawlers building rare-disease and end-of-life knowledge graphs. Pair with MedicalCondition entries for the conditions whose symptoms are being addressed.",
+  "commonCombos": ["schema:MedicalCondition", "schema:Drug", "schema:Hospital", "schema:Physician", "schema:MedicalGuideline"]
+}

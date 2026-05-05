@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use on a Muscle to describe the joint movement produced (flexion, extension, rotation, etc.). Keep the text precise and anatomically grounded so it can support clinical or educational rendering.",
+  "whenNotToUse": "Do not use for innervation or attachment points; use insertion and the nerve relationship for those.",
+  "commonCombos": ["schema:Muscle"]
+}

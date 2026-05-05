@@ -1,0 +1,18 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/healthtopics.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "Heart Failure: Updated Management Recommendations",
+  "audience": {
+    "@type": "MedicalAudience",
+    "audienceType": "Clinician",
+    "name": "Practicing cardiologists and primary-care physicians"
+  },
+  "about": {
+    "@type": "MedicalCondition",
+    "name": "Heart failure"
+  }
+}

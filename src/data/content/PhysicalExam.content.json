@@ -1,0 +1,7 @@
+{
+  "whenToUse": "Use PhysicalExam values to identify which body region or system a clinical examination assesses — abdomen, lungs, neuro, skin, etc. It's the right enum for marking up an exam encounter, an exam template, or a MedicalProcedure node that documents a head-to-toe or focused physical assessment.",
+  "whenNotToUse": "Don't use PhysicalExam for diagnostic imaging (use ImagingTest or MedicalImagingTechnique) or for laboratory studies (use BloodTest or MedicalTest). Don't use it for the patient's reported symptoms — those belong on MedicalSignOrSymptom. And don't use it as a Physician's specialty; PhysicalExam describes the exam itself, not the practitioner who performs it.",
+  "whoItsFor": "Clinical-content editors, EHR template authors, medical-education writers, and SEO teams building patient-education pages on what to expect during a physical exam — head, neck, chest, abdomen, and so on.",
+  "seoNotes": "PhysicalExam enums tie a clinical encounter or patient-education page to a specific body region, which improves topical clarity for queries like 'what does an abdominal exam check' or 'what is a neuro exam.' Combine with MedicalProcedure or MedicalCondition to give LLM assistants a clean encounter-to-exam-region edge.",
+  "commonCombos": ["schema:MedicalProcedure", "schema:Patient", "schema:Physician", "schema:MedicalCondition"]
+}

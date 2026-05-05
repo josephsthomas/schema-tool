@@ -1,0 +1,39 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/flu/about/index.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Influenza (flu) is a contagious respiratory illness caused by influenza viruses that infect the nose, throat, and sometimes the lungs."
+    },
+    {
+      "url": "https://www.cdc.gov/flu/about/how-flu-spreads.html",
+      "publisher": "Centers for Disease Control and Prevention",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Flu viruses spread mainly by droplets made when people with flu cough, sneeze, or talk."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Seasonal influenza",
+      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+    },
+    {
+      "jsonPath": "$.infectiousAgent",
+      "value": "Influenza virus",
+      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+    },
+    {
+      "jsonPath": "$.infectiousAgentClass",
+      "value": "Virus",
+      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+    },
+    {
+      "jsonPath": "$.transmissionMethod",
+      "value": "Spread mainly by droplets made when people with flu cough, sneeze, or talk.",
+      "sourceUrls": ["https://www.cdc.gov/flu/about/how-flu-spreads.html"]
+    }
+  ]
+}

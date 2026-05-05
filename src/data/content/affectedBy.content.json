@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use affectedBy on MedicalTest to link to Drug entities that interfere with the test's accuracy — assays where biotin causes false readings, metabolites that confound a urine screen. Value must be a Drug reference, ideally one you also publish so the link resolves.",
+  "whenNotToUse": "Don't use affectedBy for non-drug interference (timing, fasting state, recent exercise) — that belongs in the test's description or normalRange context. Don't list general drug-drug interactions here; those live on Drug via interactingDrug.",
+  "commonCombos": ["schema:MedicalTest"]
+}

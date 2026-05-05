@@ -1,0 +1,5 @@
+{
+  "whenToUse": "Use workload on ExercisePlan to quantify physiologic output — METs, watts, kcal/hour — using Energy or QuantitativeValue so unit and value travel together. Pair with intensity when both effort level and absolute output matter.",
+  "whenNotToUse": "Don't use this for duration or repetition counts; those have dedicated properties. Avoid freeform strings; the structured QuantitativeValue keeps comparison and filtering possible.",
+  "commonCombos": ["schema:ExercisePlan"]
+}
