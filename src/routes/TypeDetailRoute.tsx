@@ -130,12 +130,9 @@ export function TypeDetailRoute() {
       />
 
       <section className="mt-12 flex flex-wrap items-center gap-3 border-t border-zinc-200 pt-8 dark:border-zinc-800">
-        <Button variant="accent" disabled>
-          Generate this type
-          <span className="ml-2 font-mono text-[10px] uppercase tracking-wider opacity-80">
-            Phase 5
-          </span>
-        </Button>
+        <Link to={`/generator?type=${bareName(term.id)}`}>
+          <Button variant="accent">Generate this type</Button>
+        </Link>
         <a
           href={term.iri}
           target="_blank"

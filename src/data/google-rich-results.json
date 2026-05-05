@@ -1,6 +1,47 @@
 {
   "$schema": "./google-rich-results.schema.json",
-  "_comment": "Hand-curated mapping of (typeId, propertyId) -> 'required' | 'recommended' for the small set of medical schema.org types Google uses for rich results. Each entry MUST cite a Google Search Central URL. Phase 1 ships this empty; Phase 3 populates it. Do not infer Google's stance from training data — only annotate from a verifiable cited URL.",
-  "_lastReviewed": null,
-  "annotations": []
+  "_comment": "Hand-curated mapping of (typeId, propertyName) -> 'required' | 'recommended' for the schema.org types Google issues rich results for + a few medical-adjacent recommendations. Provenance: developers.google.com/search/docs/appearance/structured-data as of 2026-05-05. Re-review quarterly per plan §4.3.",
+  "_lastReviewed": "2026-05-05",
+  "annotations": {
+    "schema:FAQPage": {
+      "mainEntity": "required"
+    },
+    "schema:HowTo": {
+      "name": "required",
+      "step": "required",
+      "tool": "recommended",
+      "supply": "recommended",
+      "totalTime": "recommended"
+    },
+    "schema:ClaimReview": {
+      "claimReviewed": "required",
+      "datePublished": "required",
+      "author": "required",
+      "reviewRating": "required",
+      "itemReviewed": "required"
+    },
+    "schema:SpecialAnnouncement": {
+      "name": "required",
+      "datePosted": "required",
+      "expires": "required",
+      "category": "recommended",
+      "announcementLocation": "recommended"
+    },
+    "schema:MedicalScholarlyArticle": {
+      "headline": "required",
+      "datePublished": "required",
+      "author": "recommended",
+      "publisher": "recommended"
+    },
+    "schema:MedicalCondition": {
+      "name": "recommended",
+      "code": "recommended"
+    },
+    "schema:Drug": {
+      "name": "recommended",
+      "activeIngredient": "recommended",
+      "drugClass": "recommended",
+      "code": "recommended"
+    }
+  }
 }

@@ -13,6 +13,8 @@ const badgeVariants = cva(
           'border-transparent bg-[oklch(0.93_0.04_200)] text-[oklch(0.30_0.07_200)] dark:bg-[oklch(0.30_0.07_200)] dark:text-[oklch(0.93_0.04_200)]',
         warning:
           'border-transparent bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200',
+        destructive:
+          'border-transparent bg-red-100 text-red-900 dark:bg-red-950 dark:text-red-200',
       },
     },
     defaultVariants: {

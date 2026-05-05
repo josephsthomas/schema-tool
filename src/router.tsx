@@ -7,6 +7,7 @@ import { PropertyDetailRoute } from './routes/PropertyDetailRoute';
 import { EnumerationMemberDetailRoute } from './routes/EnumerationMemberDetailRoute';
 import { NotFoundRoute } from './routes/NotFoundRoute';
 import { PlaceholderRoute } from './routes/PlaceholderRoute';
+import { GeneratorRoute } from './routes/GeneratorRoute';
 
 const router = createBrowserRouter(
   [
@@ -20,16 +21,7 @@ const router = createBrowserRouter(
         { path: 'Enumeration/:id', element: <TypeDetailRoute /> },
         { path: 'Enumeration/:id/:memberId', element: <EnumerationMemberDetailRoute /> },
         { path: 'Property/:id', element: <PropertyDetailRoute /> },
-        {
-          path: 'generator',
-          element: (
-            <PlaceholderRoute
-              title="Generator"
-              phase="Phase 5"
-              description="Form-driven JSON-LD generation. Pick a Type, fill required and recommended fields, get valid output. Coming in Phase 5."
-            />
-          ),
-        },
+        { path: 'generator', element: <GeneratorRoute /> },
         {
           path: 'workspace',
           element: (
