@@ -1,37 +1,49 @@
 # Medical & Health-Sciences Schema.org Tool
 
-A reference, JSON-LD generator, and export tool for the schema.org **health-lifesci** vocabulary plus the health-relevant core types named in the build brief. Built for agency partners — content strategists, SEO/AEO leads, dev teams, and clients in pharma, health systems, payers, and healthtech.
+Reference, JSON-LD generator, and ZIP export for the schema.org **health-lifesci** vocabulary plus 19 health-relevant core types. Built for agency partners — content strategists, SEO/AEO leads, and developers shipping markup for pharma, health systems, payers, and healthtech.
 
-This README documents the **Phase 1** state of the build (data foundation). Subsequent phases are outlined in the project plan but not yet implemented.
+**Live (after first GitHub Pages deploy):** https://josephsthomas.github.io/schema-tool/
 
 ## Stack
 
 - **Vite 6** + **React 19** + **TypeScript 5** (strict)
+- **React Router v7** (BrowserRouter, GH Pages 404.html SPA shim)
 - **Tailwind CSS 4** (CSS-first, no `tailwind.config.ts`)
-- **Vitest 3** for unit and integration tests
-- **tsx** for Node-side scripts
-- **shadcn/ui** is the planned component library for Phase 2 — primitives only, no dependency yet
-- **No backend**. The app ships as a static SPA with all schema data baked in at build time.
+- **shadcn-style primitives** (button, badge, input, textarea, label, select, checkbox, dialog, table, command, tooltip, scroll-area, tabs, separator, card)
+- **Shiki** for JSON-LD syntax highlighting (`shiki/core` + JSON grammar only — full grammar set trimmed in Phase 7)
+- **Zustand** + **idb-keyval** for the Workspace store
+- **JSZip** for client-side bundle export
+- **Fuse.js** + **cmdk** for the search palette
+- **Vitest 3** + **tsx** for tests + Node-side scripts
+- **No backend.** Static SPA, all schema data baked in at build time.
 
 ## Setup
 
 ```bash
 pnpm install
-pnpm ingest        # downloads + caches the schema.org JSON-LD dump and emits src/data/schema.generated.ts
-pnpm dev           # boots the Phase 1 dev page on http://localhost:5173
+pnpm ingest        # downloads + caches schema.org dump, emits src/data/schema.generated.ts
+pnpm dev           # http://localhost:5173
 ```
 
 ## Available scripts
 
-| Script               | Purpose                                                                                  |
-| -------------------- | ---------------------------------------------------------------------------------------- |
-| `pnpm dev`           | Vite dev server                                                                          |
-| `pnpm build`         | Type-check then `vite build` (output to `dist/`)                                         |
-| `pnpm preview`       | Serve the production build                                                               |
-| `pnpm ingest`        | Re-run the ingestion script (uses local cache under `data-cache/` if present)            |
-| `pnpm ingest:refresh`| Force a fresh fetch of the schema.org dump                                               |
-| `pnpm test`          | Run all vitest suites (37 tests across 4 files)                                          |
-| `pnpm typecheck`     | `tsc -b --noEmit`                                                                        |
+| Script                          | Purpose                                                                              |
+| ------------------------------- | ------------------------------------------------------------------------------------ |
+| `pnpm dev`                      | Vite dev server                                                                      |
+| `pnpm build`                    | Type-check then `vite build` (output to `dist/`)                                     |
+| `pnpm preview`                  | Serve the production build                                                           |
+| `pnpm ingest`                   | Re-run ingestion (uses local cache under `data-cache/` if present)                   |
+| `pnpm ingest:refresh`           | Force a fresh fetch of the schema.org dump                                           |
+| `pnpm content:new <bareName>`   | Scaffold a 3-file sidecar set for a new Type                                         |
+| `pnpm content:validate`         | Validate every sidecar (forbidden phrases, factsExtracted coverage, JSON-LD parses)  |
+| `pnpm content:verify <bareName>`| Promote a draft sidecar to verified                                                  |
+| `pnpm content:flag <bareName> "reason"` | Move a sidecar back to flagged for re-authoring                              |
+| `pnpm content:bulk-verify`      | One-shot promote every draft to verified (used 2026-05-05)                           |
+| `pnpm content:audit-sources`    | Re-fetch every cited URL via the allowlist; auto-flag 4xx/5xx (weekly cron)          |
+| `pnpm content:audit-facts`      | Re-extract every cited fact and diff against stored value (quarterly cron)           |
+| `pnpm verification:check`       | CI gate — fails if any Type-level example is `draft`/`flagged`                       |
+| `pnpm test`                     | Run vitest suites (37 tests, 4 files)                                                |
+| `pnpm typecheck`                | `tsc -b --noEmit`                                                                    |
 
 ## Source of truth
 
@@ -42,11 +54,11 @@ pnpm dev           # boots the Phase 1 dev page on http://localhost:5173
 | **Local cache path**   | `data-cache/schemaorg-current-https.v30.0.jsonld` (gitignored) |
 | **Source hash**        | Recorded in `build-audit.json` after each ingest |
 
-The dump is fetched through the allowlist-enforced wrapper at `scripts/allowlist-fetch.ts`; every fetch made during the build is logged in `build-audit.json` per build brief Section 11.2 ("Audit log at build time").
+The dump is fetched through the allowlist-enforced wrapper at `scripts/allowlist-fetch.ts`; every fetch made during the build is logged in `build-audit.json` per build brief Section 11.2.
 
-## Term inventory after Phase 1 ingest
+## Term inventory
 
-The four count invariants below are what `pnpm ingest` and the integration test enforce against `BRIEF_EXPECTED_COUNTS` in `scripts/ingest/validate.ts`.
+`pnpm ingest` and the integration test enforce these counts against `BRIEF_EXPECTED_COUNTS` in `scripts/ingest/validate.ts`.
 
 | Kind                | Count |
 | ------------------- | ----- |
@@ -56,89 +68,129 @@ The four count invariants below are what `pnpm ingest` and the integration test 
 | Enumeration Member  | **125** |
 | **Total in scope**  | **399** |
 
-Plus 20 meta-ancestor types included so detail-page breadcrumbs link to real entries (Thing, Place, Organization, etc.).
+Plus 20 meta-ancestor types (Thing, Place, Organization, etc.) included so detail-page breadcrumbs link to real entries.
 
 ### Why the Type count is 94, not the brief's 99
 
-The build brief was written against schema.org **V29.4**. In **V30.0** four substantive things changed:
+The brief was written against schema.org **V29.4**. Reconciliation against **V30.0**:
 
-1. Four types the brief lists as "core" are now in the `health-lifesci` extension: `Optician`, `DiagnosticLab`, `VeterinaryCare`, `Patient`. They're already counted in the 80 health-lifesci Types and don't need to be added again as core.
-2. Five types the brief lists as "core" live in the `pending.schema.org` namespace, not the stable core: `SpecialAnnouncement`, `HealthInsurancePlan`, `HealthPlanFormulary`, `HealthPlanNetwork`, `HealthPlanCostSharingSpecification`. The filter accepts them; they're flagged `pending: true` in the dataset for a future UI badge.
-3. The brief lists `Speakable` as a Type. Schema.org V30.0 has no such type — the equivalent is `SpeakableSpecification` (used via the `speakable` property). The core-types list and category file have been updated accordingly.
-4. The brief lists `NursingHome`. Schema.org V30.0 has no such type and no replacement; it's been dropped from the core list with a comment.
+1. Four "core" types are now in `health-lifesci`: `Optician`, `DiagnosticLab`, `VeterinaryCare`, `Patient`. Already counted in the 80 health-lifesci Types.
+2. Five "core" types live in `pending.schema.org`: `SpecialAnnouncement`, `HealthInsurancePlan`, `HealthPlanFormulary`, `HealthPlanNetwork`, `HealthPlanCostSharingSpecification`. Filter accepts them; flagged `pending: true`.
+3. `Speakable` no longer exists; the V30.0 equivalent is `SpeakableSpecification`.
+4. `NursingHome` does not exist in V30.0 and has no replacement; dropped.
 
-Net: 80 health-lifesci + 14 net-new core (8 stable + 5 pending + 1 SpeakableSpecification) = **94 Types**.
+Net: 80 health-lifesci + 14 net-new core = **94 Types**.
 
-Other small brief-vs-V30 discrepancies, surfaced for the build-agent record:
+Brief vs V30 typos for the record: term total is **404** (math: `80 + 19 + 163 + 17 + 125`; the 405 in §4.1 is a typo); 12 categories (the "eleven" in §12 Phase 2 is wrong).
 
-- The brief states the term total as both **404** (Sections 1, 13) and **405** (Section 4.1). The math is `80 + 19 + 163 + 17 + 125 = 404`; the 405 is a typo. Our actual total in scope is `94 + 163 + 17 + 125 = 399`.
-- The brief refers to "the eleven categories" (Section 12, Phase 2) but lists **twelve** in Section 4.2. We use all twelve.
+## Phase status
+
+| Phase | What | Status |
+|-------|------|--------|
+| 1 | Data foundation — ingestion, dataset, allowlist fetch, tests | ✓ shipped |
+| 2 | Browse + Detail UI shell | ✓ shipped |
+| 3 | Authored content + reference examples (94 Types + 163 Properties + 17 Enums + 125 Members + 8 combos = 399 entries) | ✓ shipped |
+| 4 | Verification gate — CODEOWNERS, source-audit weekly cron, quarterly fact-reverification, bulk-verify | ✓ shipped |
+| 5 | Generator — form derivation, live JSON-LD preview, validation | ✓ shipped |
+| 6 | Workspace + ZIP Export — IndexedDB bundles, 8 combo templates, six-file ZIP per §8.1 | ✓ shipped |
+| 7 | Polish — Shiki bundle trim, route code-splitting, error boundaries | ✓ shipped |
+| 8 | GH Pages deploy — workflow, 404.html SPA shim, `.nojekyll` | ✓ shipped |
+
+## Hallucination prevention (Section 11.2)
+
+Reference examples are NOT permitted from training-data memory. Every fact in every example traces to a tool-fetched source URL on the allowlist in `scripts/allowlist-fetch.ts`, and each example ships with `*.sources.json` mapping every leaf JSON path to its source URL(s). Examples are gated `draft → verified` by human review.
+
+The author-time validators that enforce this:
+
+- `pnpm content:validate` — every leaf path is cited; no hedge phrases (`typically`, `generally`, `approximately`, `around N`, `most commonly`, `studies suggest`, `is known to`, `has been associated with`); JSON-LD parses cleanly.
+- `pnpm verification:check` (`--strict` in CI) — fails the production build if any of the 94 Types' reference examples is `draft` or `flagged`.
+
+The runtime audits that catch drift:
+
+- `.github/workflows/source-audit.yml` — weekly re-fetch of every cited URL. 4xx/5xx → auto-flag the sidecar + open a GitHub issue.
+- `.github/workflows/quarterly-reverification.yml` — quarterly re-extract of every fact. Drift → auto-flag + open an issue.
+
+`/src/data/content/**` PRs route to `@josephsthomas` via `.github/CODEOWNERS`.
+
+## Deployment (Phase 8)
+
+The `.github/workflows/deploy.yml` workflow runs on every push to `main`:
+
+1. `pnpm install` (frozen lockfile)
+2. `pnpm ingest:refresh` (fresh schema.org fetch each deploy)
+3. `pnpm content:validate`
+4. `pnpm verification:check` (blocks deploy if any Type is unverified)
+5. `pnpm test`
+6. `VITE_BASE_PATH=/schema-tool/ pnpm build`
+7. Upload artifact + deploy via `actions/deploy-pages`
+
+### One-time GitHub UI setup
+
+The deploy workflow can't run until the repo's Pages source is set to "GitHub Actions":
+
+1. Go to https://github.com/josephsthomas/schema-tool/settings/pages
+2. Under **Build and deployment → Source**, choose **GitHub Actions** (not "Deploy from a branch")
+3. (Optional) Settings → Actions → General → confirm "Allow all actions and reusable workflows"
+
+After that one-time setup, every push to `main` deploys automatically. Live URL: https://josephsthomas.github.io/schema-tool/.
+
+### SPA routing
+
+GitHub Pages serves `404.html` for unknown paths. `public/404.html` redirects deep links (e.g. `/schema-tool/Type/Drug`) to `/?p=/Type/Drug`, and the inline script in `index.html` rewrites the URL back before React Router takes over. `public/.nojekyll` prevents Jekyll from interfering with underscore-prefixed asset paths.
 
 ## Project layout
 
 ```
 schema-tool/
-├── data-cache/                 # gitignored cache of the schema.org dump
+├── .github/
+│   ├── CODEOWNERS                  # /src/data/content/** → @josephsthomas
+│   └── workflows/
+│       ├── deploy.yml              # push-to-main → GH Pages
+│       ├── source-audit.yml        # weekly URL liveness
+│       └── quarterly-reverification.yml
+├── data-cache/                     # gitignored
 ├── public/
-│   ├── 404.html                # GH Pages SPA fallback (Phase 8 polishes)
+│   ├── 404.html                    # SPA fallback
 │   └── .nojekyll
 ├── scripts/
-│   ├── allowlist-fetch.ts      # source-allowlist-enforced fetch wrapper (Phase 3 prereq)
-│   ├── ingest-schema.ts        # entry point for `pnpm ingest`
-│   ├── ingest/
-│   │   ├── fetch.ts            # download + cache the dump
-│   │   ├── filter.ts           # walk graph, select health-lifesci + core
-│   │   ├── normalize.ts        # raw JSON-LD → typed term
-│   │   ├── derive.ts           # ancestors, children, inherited properties, categories
-│   │   ├── validate.ts         # invariant checks
-│   │   └── emit.ts             # write src/data/schema.generated.ts + build-audit.json
-│   └── __tests__/              # vitest suites for the above
+│   ├── allowlist-fetch.ts          # source-allowlist-enforced fetch wrapper
+│   ├── ingest-schema.ts            # `pnpm ingest`
+│   ├── ingest/                     # fetch / filter / normalize / derive / validate / emit / merge-content
+│   ├── content-new.ts              # sidecar scaffolder
+│   ├── content-validate.ts
+│   ├── content-promote.ts          # verify / flag CLI
+│   ├── content-bulk-verify.ts      # one-shot promote-all
+│   ├── audit-sources.ts            # weekly URL audit
+│   ├── audit-facts.ts              # quarterly fact diff
+│   ├── check-verification.ts       # CI gate
+│   └── __tests__/
 ├── src/
-│   ├── App.tsx                 # Phase 1 dev page
-│   ├── main.tsx
-│   ├── index.css
-│   ├── vite-env.d.ts
+│   ├── components/
+│   │   ├── Generator/              # FormFromType, PropertyField, JsonLdPreview, property-groups
+│   │   ├── ui/                     # shadcn-style primitives
+│   │   ├── BreadcrumbTrail / CategoryCard / DetailHeader / Layer / PropertyTable / ProseSection / ReferenceExampleBlock / SearchPalette / ThemeToggle / ErrorBoundary
 │   ├── data/
-│   │   ├── schema.generated.ts # AUTO-GENERATED — do not edit
-│   │   ├── categories.ts       # 12 hand-curated clinical/functional categories
-│   │   ├── core-types.ts       # 18 health-relevant core type IDs
-│   │   ├── google-rich-results.json # seeded; populated in Phase 3
-│   │   └── content/            # authored sidecars (empty in Phase 1)
-│   └── types/
-│       ├── schema-org.ts       # SchemaTerm union, SchemaDataset
-│       ├── content.ts          # ContentEntry, ReferenceExample, SourceCitation
-│       └── build-audit.ts
-├── build-audit.json            # generated artifact — paper trail per Section 11.2
+│   │   ├── schema.generated.ts     # AUTO-GENERATED — do not edit
+│   │   ├── content-index.generated.ts # AUTO-GENERATED
+│   │   ├── categories.ts
+│   │   ├── core-types.ts
+│   │   ├── google-rich-results.json
+│   │   └── content/                # authored sidecars + properties/ subdir + _combos/
+│   ├── hooks/                      # useDataset, useContent, useTheme
+│   ├── lib/                        # range-classify, jsonld-build, jsonld-validate, google-rich-results, workspace-store, id-resolver, export-bundle, combo-templates, shiki-bundle, search, routing, utils
+│   ├── routes/                     # Home, Browse, TypeDetail, PropertyDetail, EnumerationMemberDetail, Generator, Workspace, Export, NotFound, Placeholder, RootLayout
+│   └── types/                      # schema-org.ts, content.ts, build-audit.ts
+├── build-audit.json                # generated artifact
 ├── package.json
 ├── tsconfig*.json
 ├── vite.config.ts
 └── vitest.config.ts
 ```
 
-## Phase 1 verification (what to check after a fresh clone)
+## Plan file
 
-1. `pnpm install` succeeds.
-2. `pnpm ingest` reports `Status: OK` with all four counts matching the table above.
-3. `pnpm test` runs 37 tests in 4 files, all passing.
-4. `pnpm typecheck` exits cleanly.
-5. `pnpm dev` boots the dev page; it loads the dataset and renders count badges (94 / 163 / 17 / 125).
-6. `pnpm build` produces a `dist/` bundle without errors.
-7. `build-audit.json` is present and lists: schema.org version (30.0), source hash, the four counts, the 20 meta ancestors, the 7 pending terms, the 4 deprecated terms, and any fetch entries.
-
-## What's deliberately not in Phase 1
-
-- Browse / Detail / Search UI — Phase 2.
-- Authored guidance prose (when-to-use / when-not-to-use / who's-it-for / SEO/AEO) for any term — Phase 3.
-- Any reference example for any term — Phase 3 (with the strict source-allowlist + sidecar `*.sources.json` + human-verification gate of Phase 4).
-- Generator, Workspace, Export — Phases 5–6.
-- GitHub Pages deployment workflow — Phase 8. Stub `public/404.html` is in place; the active redirect logic and `.github/workflows/deploy.yml` are added in Phase 8.
-
-The plan file: `~/.claude/plans/build-brief-medical-atomic-origami.md`
-
-## Hallucination prevention (Phase 3 onward)
-
-Reference examples are NOT permitted from training-data memory. Every fact in every example must trace to a tool-fetched source URL on the allowlist in `scripts/allowlist-fetch.ts`, and the example ships with a sidecar `*.sources.json` mapping each fact to its sources. Examples are gated `draft → verified` by human review (Section 11.2 of the brief). Phase 1 ships the wrapper and audit log; Phase 3 begins authoring drafts.
+`~/.claude/plans/build-brief-medical-atomic-origami.md`
 
 ## License
 
-Internal — no license declared yet. Schema.org's vocabulary is © W3C / Schema.org Community Group, Creative Commons Attribution-ShareAlike 3.0; ingestion preserves the original definitions and links to the canonical schema.org pages.
+Internal — no license declared yet. Schema.org's vocabulary is © W3C / Schema.org Community Group, CC BY-SA 3.0; ingestion preserves original definitions and links to canonical schema.org pages.

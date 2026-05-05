@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Medical Schema Tool</title>
     <meta name="description" content="Reference, generator, and export tool for the schema.org health-lifesci vocabulary." />
+    <script>
+      // SPA fallback restorer (rafgraph/spa-github-pages pattern).
+      // 404.html redirects deep links to /?p=<path>&q=<search> so this script
+      // can rewrite history before React Router takes over.
+      (function () {
+        var l = window.location;
+        if (l.search.indexOf('?p=/') === 0 || l.search.indexOf('&p=/') > 0) {
+          var q = l.search.slice(1).split('&');
+          var parts = {};
+          for (var i = 0; i < q.length; i++) {
+            var pair = q[i].split('=');
+            parts[pair[0]] = pair.slice(1).join('=');
+          }
+          if (parts.p !== undefined) {
+            var path = parts.p.replace(/~and~/g, '&');
+            var search = parts.q ? '?' + parts.q.replace(/~and~/g, '&') : '';
+            window.history.replaceState(
+              null,
+              null,
+              l.pathname.replace(/\/$/, '') + path + search + l.hash,
+            );
+          }
+        }
+      })();
+    </script>
   </head>
   <body class="antialiased">
     <div id="root"></div>
