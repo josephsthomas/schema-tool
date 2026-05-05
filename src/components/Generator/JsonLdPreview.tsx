@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Copy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { copyToClipboard } from '@/lib/utils';
+import { highlightJson } from '@/lib/shiki-bundle';
 
 interface JsonLdPreviewProps {
   value: unknown;
@@ -16,12 +17,7 @@ export function JsonLdPreview({ value }: JsonLdPreviewProps) {
     let cancelled = false;
     void (async () => {
       try {
-        const { codeToHtml } = await import('shiki');
-        const html = await codeToHtml(json, {
-          lang: 'json',
-          themes: { light: 'github-light', dark: 'github-dark' },
-          defaultColor: false,
-        });
+        const html = await highlightJson(json);
         if (!cancelled) setHighlighted(html);
       } catch {
         if (!cancelled) setHighlighted(null);

@@ -1,3 +1,4 @@
+import { Suspense, lazy } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { RootLayout } from './routes/RootLayout';
 import { HomeRoute } from './routes/HomeRoute';
@@ -6,10 +7,27 @@ import { TypeDetailRoute } from './routes/TypeDetailRoute';
 import { PropertyDetailRoute } from './routes/PropertyDetailRoute';
 import { EnumerationMemberDetailRoute } from './routes/EnumerationMemberDetailRoute';
 import { NotFoundRoute } from './routes/NotFoundRoute';
-import { PlaceholderRoute } from './routes/PlaceholderRoute';
-import { GeneratorRoute } from './routes/GeneratorRoute';
-import { WorkspaceRoute } from './routes/WorkspaceRoute';
-import { ExportRoute } from './routes/ExportRoute';
+import { ErrorBoundary } from '@/components/ErrorBoundary';
+
+const GeneratorRoute = lazy(() => import('./routes/GeneratorRoute').then((m) => ({ default: m.GeneratorRoute })));
+const WorkspaceRoute = lazy(() => import('./routes/WorkspaceRoute').then((m) => ({ default: m.WorkspaceRoute })));
+const ExportRoute = lazy(() => import('./routes/ExportRoute').then((m) => ({ default: m.ExportRoute })));
+
+function LazyShell({ children }: { children: React.ReactNode }) {
+  return (
+    <ErrorBoundary>
+      <Suspense
+        fallback={
+          <p className="px-6 py-12 text-sm text-zinc-500" aria-busy="true">
+            Loading…
+          </p>
+        }
+      >
+        {children}
+      </Suspense>
+    </ErrorBoundary>
+  );
+}
 
 const router = createBrowserRouter(
   [
@@ -23,17 +41,28 @@ const router = createBrowserRouter(
         { path: 'Enumeration/:id', element: <TypeDetailRoute /> },
         { path: 'Enumeration/:id/:memberId', element: <EnumerationMemberDetailRoute /> },
         { path: 'Property/:id', element: <PropertyDetailRoute /> },
-        { path: 'generator', element: <GeneratorRoute /> },
-        { path: 'workspace', element: <WorkspaceRoute /> },
-        { path: 'export', element: <ExportRoute /> },
         {
-          path: '_review',
+          path: 'generator',
           element: (
-            <PlaceholderRoute
-              title="Review (dev)"
-              phase="Phase 4"
-              description="Verification gate UI. Reviews draft reference examples one at a time and promotes them to verified. Coming in Phase 4."
-            />
+            <LazyShell>
+              <GeneratorRoute />
+            </LazyShell>
+          ),
+        },
+        {
+          path: 'workspace',
+          element: (
+            <LazyShell>
+              <WorkspaceRoute />
+            </LazyShell>
+          ),
+        },
+        {
+          path: 'export',
+          element: (
+            <LazyShell>
+              <ExportRoute />
+            </LazyShell>
           ),
         },
         { path: '*', element: <NotFoundRoute /> },
