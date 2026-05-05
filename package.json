@@ -10,6 +10,11 @@
     "preview": "vite preview",
     "ingest": "tsx scripts/ingest-schema.ts",
     "ingest:refresh": "tsx scripts/ingest-schema.ts --refresh",
+    "content:new": "tsx scripts/content-new.ts",
+    "content:validate": "tsx scripts/content-validate.ts",
+    "content:verify": "tsx scripts/content-promote.ts verify",
+    "content:flag": "tsx scripts/content-promote.ts flag",
+    "verification:check": "tsx scripts/check-verification.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc -b --noEmit"

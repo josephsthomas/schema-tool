@@ -1,0 +1,38 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/diabetestype2.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "A disease in which blood glucose levels are too high."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Type 2 Diabetes",
+      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+    },
+    {
+      "jsonPath": "$.alternateName",
+      "value": "Adult-Onset Diabetes",
+      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "A disease in which blood glucose levels are too high because the body either doesn't make enough insulin or doesn't use insulin well.",
+      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+    },
+    {
+      "jsonPath": "$.code.codingSystem",
+      "value": "ICD-10-CM",
+      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+    },
+    {
+      "jsonPath": "$.code.codeValue",
+      "value": "E11",
+      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+    }
+  ]
+}

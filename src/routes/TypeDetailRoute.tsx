@@ -1,10 +1,12 @@
 import { Link, useParams } from 'react-router-dom';
 import { BreadcrumbTrail } from '@/components/BreadcrumbTrail';
 import { DetailHeader } from '@/components/DetailHeader';
-import { PlaceholderSection } from '@/components/PlaceholderSection';
+import { ProseSection } from '@/components/ProseSection';
 import { PropertyTable } from '@/components/PropertyTable';
+import { ReferenceExampleBlock } from '@/components/ReferenceExampleBlock';
 import { Button } from '@/components/ui/button';
 import { useDataset } from '@/hooks/useDataset';
+import { useContentForTerm } from '@/hooks/useContent';
 import { bareName, pathForTerm, toSchemaId } from '@/lib/routing';
 
 export function TypeDetailRoute() {
@@ -12,6 +14,7 @@ export function TypeDetailRoute() {
   const dataset = useDataset();
   const id = rawId ? toSchemaId(rawId) : undefined;
   const term = id ? dataset.termsById[id] : undefined;
+  const content = useContentForTerm(id);
 
   if (!term || (term.kind !== 'Type' && term.kind !== 'Enumeration')) {
     return <NotFound id={rawId} />;
@@ -32,38 +35,57 @@ export function TypeDetailRoute() {
         <BreadcrumbTrail term={term} />
       </div>
 
-      <PlaceholderSection
+      <ProseSection
         title="When to use it"
-        hint="Practitioner-voice guidance: which page types warrant this type, what signal it sends to crawlers and LLMs."
+        body={content?.whenToUse}
+        placeholderHint="Practitioner-voice guidance: which page types warrant this type, what signal it sends to crawlers and LLMs."
       />
 
-      <PlaceholderSection
+      <ProseSection
         title="When NOT to use it"
-        hint="Close-cousin distinctions — the close-cousin types this is commonly confused with, the criterion that distinguishes them, and the right alternative."
+        body={content?.whenNotToUse}
+        placeholderHint="Close-cousin distinctions — the close-cousin types this is commonly confused with, the criterion that distinguishes them, and the right alternative."
       />
 
-      <PlaceholderSection
+      <ProseSection
         title="Who's it for"
-        hint="The agency-side audience — pharma marketing? health-system formulary? payer? patient-education site? Helps route the type to the right project."
+        body={content?.whoItsFor}
+        placeholderHint="The agency-side audience — pharma marketing? health-system formulary? payer? patient-education site?"
       />
 
-      <PlaceholderSection
+      <ProseSection
         title="Why it matters for SEO and AEO"
-        hint="Discoverability payoff: query intents this answers, Google rich-results coverage if any, LLM entity-grounding effects."
-      />
-
-      <PlaceholderSection
-        title="Reference example"
-        hint="A complete JSON-LD block built from real public data (FDA DailyMed, NIH MedlinePlus, etc.). Cited sources, leading comment label. Authored under the Section 11.2 protocol."
+        body={content?.seoNotes}
+        placeholderHint="Discoverability payoff: query intents this answers, Google rich-results coverage if any, LLM entity-grounding effects."
       />
 
       <section className="mt-10">
-        <h2 className="font-serif text-2xl font-medium tracking-tight">
-          Property reference
-        </h2>
+        <h2 className="font-serif text-2xl font-medium tracking-tight">Reference example</h2>
+        <p className="mt-1 max-w-3xl text-sm text-zinc-600 dark:text-zinc-400">
+          A complete JSON-LD block built from real public data. <strong>Reference only</strong> —
+          generate your own markup using your content in the Generator.
+        </p>
+        <div className="mt-4">
+          {content?.example ? (
+            <ReferenceExampleBlock example={content.example} />
+          ) : (
+            <div className="rounded-md border border-dashed border-zinc-300 bg-zinc-50/50 p-5 text-sm text-zinc-600 dark:border-zinc-700 dark:bg-zinc-900/40 dark:text-zinc-400">
+              <p className="font-mono text-[11px] uppercase tracking-wider text-zinc-500">
+                authored content — Phase 3
+              </p>
+              <p className="mt-1">
+                A real-world JSON-LD example sourced from authoritative public databases will land here.
+              </p>
+            </div>
+          )}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-serif text-2xl font-medium tracking-tight">Property reference</h2>
         <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-          Direct properties first, then inherited from ancestors. Inherited core
-          properties (e.g. name, url) link out to schema.org.
+          Direct properties first, then inherited from ancestors. Inherited core properties (e.g.
+          name, url) link out to schema.org.
         </p>
         <div className="mt-4">
           <PropertyTable type={term} />
@@ -89,9 +111,7 @@ export function TypeDetailRoute() {
                   {m.name}
                 </Link>
                 {m.description && (
-                  <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-                    {m.description}
-                  </p>
+                  <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">{m.description}</p>
                 )}
               </li>
             ))}
@@ -99,9 +119,14 @@ export function TypeDetailRoute() {
         </section>
       )}
 
-      <PlaceholderSection
+      <ProseSection
         title="Common combinations"
-        hint="Other schema types this one frequently composes with — for Drug, that's MedicalCondition (treats), DoseSchedule, MedicalContraindication, FAQPage, Organization (manufacturer), MedicalAudience."
+        body={
+          content?.commonCombos && content.commonCombos.length > 0
+            ? `Common pairings: ${content.commonCombos.map(bareName).join(', ')}.`
+            : undefined
+        }
+        placeholderHint="Other schema types this one frequently composes with — e.g. for Drug: MedicalCondition (treats), DoseSchedule, MedicalContraindication, FAQPage."
       />
 
       <section className="mt-12 flex flex-wrap items-center gap-3 border-t border-zinc-200 pt-8 dark:border-zinc-800">
@@ -131,7 +156,7 @@ function NotFound({ id }: { id?: string }) {
       <h1 className="mt-2 font-serif text-3xl font-medium">Type not found</h1>
       <p className="mt-3 text-zinc-700 dark:text-zinc-300">
         No term in the dataset for{' '}
-        <span className="font-mono">{id ? bareName(toSchemaId(id)) : '(missing id)'}</span>.
+        <span className="font-mono">{id ?? '(missing id)'}</span>.
       </p>
       <Link to="/browse" className="mt-6 inline-block text-sm underline">
         Back to Browse

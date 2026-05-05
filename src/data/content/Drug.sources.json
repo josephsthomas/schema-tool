@@ -1,0 +1,53 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Ibuprofen is in a class of medications called NSAIDs."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Ibuprofen",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.alternateName",
+      "value": "Advil, Motrin, Midol",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.nonProprietaryName",
+      "value": "ibuprofen",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.drugClass.name",
+      "value": "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.mechanismOfAction",
+      "value": "Stops the body's production of a substance that causes pain, fever, and inflammation.",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.dosageForm",
+      "value": "Tablet, chewable tablet, capsule, gel capsule, suspension, drops",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.legalStatus.name",
+      "value": "Available over-the-counter and by prescription depending on strength",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    },
+    {
+      "jsonPath": "$.recognizingAuthority.name",
+      "value": "U.S. Food and Drug Administration",
+      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+// Reference example — built from public data sourced from NIH MedlinePlus
+// (https://medlineplus.gov/diabetestype2.html) on 2026-05-05.
+// Not for use in client deliverables. Generate your own markup using your
+// content in the Generator.
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalCondition",
+  "name": "Type 2 Diabetes",
+  "alternateName": "Adult-Onset Diabetes",
+  "description": "A disease in which blood glucose levels are too high because the body either doesn't make enough insulin or doesn't use insulin well.",
+  "code": {
+    "@type": "MedicalCode",
+    "codingSystem": "ICD-10-CM",
+    "codeValue": "E11"
+  }
+}

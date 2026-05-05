@@ -14,6 +14,7 @@ import { buildDataset } from './ingest/derive.ts';
 import { emitBuildAudit, emitDataset, ingestOutputPaths } from './ingest/emit.ts';
 import { fetchSchemaDump } from './ingest/fetch.ts';
 import { filterGraph, type RawNode } from './ingest/filter.ts';
+import { emitContentIndex, mergeContent } from './ingest/merge-content.ts';
 import { formatValidationReport, validateDataset } from './ingest/validate.ts';
 import type { BuildAudit } from '../src/types/build-audit.ts';
 
@@ -109,6 +110,16 @@ async function main(): Promise<void> {
   console.log('');
   console.log(`[ingest] wrote ${outputs.datasetTs}`);
   console.log(`[ingest] wrote ${outputs.buildAuditJson}`);
+
+  // ── content sidecars → content-index.generated.ts ──────────────────────
+  const contentResult = await mergeContent({ repoRoot });
+  const contentIndexPath = path.join(repoRoot, 'src/data/content-index.generated.ts');
+  await emitContentIndex(contentResult, contentIndexPath);
+  console.log(`[ingest] wrote ${contentIndexPath}`);
+  console.log(
+    `[ingest] content: ${Object.keys(contentResult.entries).length} entries (${contentResult.termsWithDraft.length} draft, ${contentResult.termsWithVerified.length} verified, ${contentResult.termsWithFlagged.length} flagged)`,
+  );
+  for (const w of contentResult.warnings) console.log(`[ingest] content warn: ${w}`);
 
   if (!validation.ok) {
     console.error('');

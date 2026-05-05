@@ -1,0 +1,38 @@
+{
+  "verification": "draft",
+  "sources": [
+    {
+      "url": "https://medlineplus.gov/ency/article/002921.htm",
+      "publisher": "NIH MedlinePlus",
+      "accessedAt": "2026-05-05T00:00:00Z",
+      "quote": "Appendectomy is surgery to remove the appendix."
+    }
+  ],
+  "factsExtracted": [
+    {
+      "jsonPath": "$.name",
+      "value": "Appendectomy",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+    },
+    {
+      "jsonPath": "$.alternateName",
+      "value": "Appendix removal, Surgery to remove the appendix",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Surgical removal of the appendix, a finger-shaped organ branching from the colon, performed to treat inflammation or infection.",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+    },
+    {
+      "jsonPath": "$.procedureType.name",
+      "value": "Surgical",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+    },
+    {
+      "jsonPath": "$.bodyLocation",
+      "value": "Vermiform appendix",
+      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+    }
+  ]
+}
