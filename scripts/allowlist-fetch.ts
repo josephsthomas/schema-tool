@@ -120,7 +120,9 @@ export async function allowlistFetch(
   let response: Response;
   try {
     response = await fetch(url, {
-      headers: { 'user-agent': 'schema-tool ingest (https://github.com/) — Phase 1 build agent' },
+      headers: {
+        'user-agent': 'schema-tool ingest (https://github.com/josephsthomas/schema-tool) build agent',
+      },
     });
   } catch (err) {
     auditEntries.push({
