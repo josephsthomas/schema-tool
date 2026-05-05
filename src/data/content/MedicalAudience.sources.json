@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/prenatalcare.html",
@@ -26,12 +26,18 @@
     {
       "jsonPath": "$.audienceType",
       "value": "Patient",
-      "sourceUrls": ["https://medlineplus.gov/prenatalcare.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/prenatalcare.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Prenatal care is the health care you get while you are pregnant.",
-      "sourceUrls": ["https://medlineplus.gov/prenatalcare.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/prenatalcare.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/caffeine.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Caffeine",
-      "sourceUrls": ["https://medlineplus.gov/caffeine.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/caffeine.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "A bitter substance that occurs naturally in more than 60 plants. Stimulates the central nervous system and is found in coffee beans, tea leaves, kola nuts, and cacao pods.",
-      "sourceUrls": ["https://medlineplus.gov/caffeine.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/caffeine.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

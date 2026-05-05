@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/heartdiseases.html",
@@ -12,17 +12,25 @@
     {
       "jsonPath": "$.name",
       "value": "Example Cardiology Practice",
-      "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
     },
     {
       "jsonPath": "$.medicalSpecialty.name",
       "value": "Cardiovascular medicine",
-      "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
     },
     {
       "jsonPath": "$.availableService.name",
       "value": "Cardiology consultation",
-      "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metformin+500+mg&pagesize=20&page=1",
@@ -26,17 +26,25 @@
     {
       "jsonPath": "$.activeIngredient",
       "value": "Metformin",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.strengthValue",
       "value": 500,
-      "sourceUrls": ["https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metformin+500+mg&pagesize=20&page=1"]
+      "sourceUrls": [
+        "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metformin+500+mg&pagesize=20&page=1"
+      ]
     },
     {
       "jsonPath": "$.strengthUnit",
       "value": "mg",
-      "sourceUrls": ["https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metformin+500+mg&pagesize=20&page=1"]
+      "sourceUrls": [
+        "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=metformin+500+mg&pagesize=20&page=1"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

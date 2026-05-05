@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/ency/article/007473.htm",
@@ -15,11 +15,49 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Coronary angioplasty with stent placement", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
-    { "jsonPath": "$.alternateName[0]", "value": "Percutaneous coronary intervention", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
-    { "jsonPath": "$.alternateName[1]", "value": "PCI", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
-    { "jsonPath": "$.procedureType", "value": "PercutaneousProcedure", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
-    { "jsonPath": "$.bodyLocation", "value": "Coronary arteries", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] },
-    { "jsonPath": "$.howPerformed", "value": "A thin catheter is threaded through a small puncture in the radial or femoral artery to the blocked coronary segment, where a balloon is inflated and a stent deployed.", "sourceUrls": ["https://medlineplus.gov/ency/article/007473.htm"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Coronary angioplasty with stent placement",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007473.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.alternateName[0]",
+      "value": "Percutaneous coronary intervention",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007473.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.alternateName[1]",
+      "value": "PCI",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007473.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.procedureType",
+      "value": "PercutaneousProcedure",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007473.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.bodyLocation",
+      "value": "Coronary arteries",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007473.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.howPerformed",
+      "value": "A thin catheter is threaded through a small puncture in the radial or femoral artery to the blocked coronary segment, where a balloon is inflated and a stent deployed.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007473.htm"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

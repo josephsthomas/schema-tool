@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/pacemakersandimplantabledefibrillators.html",
@@ -15,8 +15,28 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Implantable cardioverter defibrillator (ICD)", "sourceUrls": ["https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"] },
-    { "jsonPath": "$.purpose", "value": "Therapeutic", "sourceUrls": ["https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"] },
-    { "jsonPath": "$.indication.name", "value": "Prevention of sudden cardiac death in patients with life-threatening arrhythmias", "sourceUrls": ["https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Implantable cardioverter defibrillator (ICD)",
+      "sourceUrls": [
+        "https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"
+      ]
+    },
+    {
+      "jsonPath": "$.purpose",
+      "value": "Therapeutic",
+      "sourceUrls": [
+        "https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"
+      ]
+    },
+    {
+      "jsonPath": "$.indication.name",
+      "value": "Prevention of sudden cardiac death in patients with life-threatening arrhythmias",
+      "sourceUrls": [
+        "https://medlineplus.gov/pacemakersandimplantabledefibrillators.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

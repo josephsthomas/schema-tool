@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/ency/article/002274.htm",
@@ -18,17 +18,25 @@
     {
       "jsonPath": "$.name",
       "value": "Abdominal physical examination",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002274.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002274.htm"
+      ]
     },
     {
       "jsonPath": "$.procedureType.name",
       "value": "Abdomen",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002274.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002274.htm"
+      ]
     },
     {
       "jsonPath": "$.howPerformed",
       "value": "Inspection, palpation, auscultation, and percussion of the abdomen by a health care provider.",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002274.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002274.htm"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

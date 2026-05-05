@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/strokerehabilitation.html",
@@ -12,22 +12,32 @@
     {
       "jsonPath": "$.name",
       "value": "Post-stroke occupational therapy",
-      "sourceUrls": ["https://medlineplus.gov/strokerehabilitation.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/strokerehabilitation.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Stroke rehabilitation is a program for people who have had a stroke; occupational therapy helps improve daily living skills such as eating, drinking, bathing, and dressing.",
-      "sourceUrls": ["https://medlineplus.gov/strokerehabilitation.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/strokerehabilitation.html"
+      ]
     },
     {
       "jsonPath": "$.howPerformed",
       "value": "Therapists work with patients on daily living skills including eating, drinking, bathing, and dressing.",
-      "sourceUrls": ["https://medlineplus.gov/strokerehabilitation.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/strokerehabilitation.html"
+      ]
     },
     {
       "jsonPath": "$.indication.name",
       "value": "Stroke rehabilitation can help you relearn skills you lost because of the damage.",
-      "sourceUrls": ["https://medlineplus.gov/strokerehabilitation.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/strokerehabilitation.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

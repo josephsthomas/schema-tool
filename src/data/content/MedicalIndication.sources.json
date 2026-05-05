@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Ibuprofen for osteoarthritis",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Ibuprofen is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints).",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

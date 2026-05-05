@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     },
     {
       "jsonPath": "$.drug.name",
       "value": "Ibuprofen",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

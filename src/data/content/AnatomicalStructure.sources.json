@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/heartdiseases.html",
@@ -9,11 +9,49 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Heart", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
-    { "jsonPath": "$.partOfSystem.name", "value": "Cardiovascular system", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
-    { "jsonPath": "$.relatedCondition[0].name", "value": "Heart failure", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
-    { "jsonPath": "$.relatedCondition[0].description", "value": "When your heart can't pump enough blood to meet your body's needs.", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
-    { "jsonPath": "$.relatedCondition[1].name", "value": "Arrhythmia", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] },
-    { "jsonPath": "$.relatedCondition[1].description", "value": "A problem with the rate or rhythm of your heartbeat.", "sourceUrls": ["https://medlineplus.gov/heartdiseases.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Heart",
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.partOfSystem.name",
+      "value": "Cardiovascular system",
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[0].name",
+      "value": "Heart failure",
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[0].description",
+      "value": "When your heart can't pump enough blood to meet your body's needs.",
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[1].name",
+      "value": "Arrhythmia",
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[1].description",
+      "value": "A problem with the rate or rhythm of your heartbeat.",
+      "sourceUrls": [
+        "https://medlineplus.gov/heartdiseases.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

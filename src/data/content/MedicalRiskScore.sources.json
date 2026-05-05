@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/heart-disease/risk-factors/index.html",
@@ -18,7 +18,9 @@
     {
       "jsonPath": "$.name",
       "value": "ASCVD 10-Year Risk Score",
-      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html"
+      ]
     },
     {
       "jsonPath": "$.description",
@@ -31,22 +33,32 @@
     {
       "jsonPath": "$.estimatesRiskOf.name",
       "value": "Atherosclerotic Cardiovascular Disease",
-      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[0].name",
       "value": "High blood pressure",
-      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[1].name",
       "value": "High cholesterol",
-      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[2].name",
       "value": "Smoking",
-      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

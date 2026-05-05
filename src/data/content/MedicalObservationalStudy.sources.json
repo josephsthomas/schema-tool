@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://clinicaltrials.gov/study/NCT00005121",
@@ -12,57 +12,81 @@
     {
       "jsonPath": "$.name",
       "value": "Framingham Heart Study",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.identifier",
       "value": "NCT00005121",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.status",
       "value": "Completed",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.studyDesign",
       "value": "Observational",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[0].name",
       "value": "Cardiovascular Diseases",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[1].name",
       "value": "Heart Disease",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[2].name",
       "value": "Coronary Disease",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[3].name",
       "value": "Stroke",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[4].name",
       "value": "Hypertension",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[5].name",
       "value": "Atherosclerosis",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     },
     {
       "jsonPath": "$.sponsor.name",
       "value": "National Heart, Lung, and Blood Institute (NHLBI)",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT00005121"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT00005121"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

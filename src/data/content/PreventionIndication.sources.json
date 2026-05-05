@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a682878.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Aspirin for cardiovascular prevention",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682878.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Aspirin is used to prevent heart attacks, strokes or mini-strokes, and to reduce the risk of death in people who are experiencing or who have had a heart attack.",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682878.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

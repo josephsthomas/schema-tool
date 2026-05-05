@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/vitalsigns.html",
@@ -21,8 +21,28 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Blood Pressure", "sourceUrls": ["https://medlineplus.gov/vitalsigns.html"] },
-    { "jsonPath": "$.description", "value": "Blood pressure measures the force of your blood pushing against the walls of your arteries. Your blood pressure has two numbers. The first number is the pressure when your heart beats and is pumping the blood. The second is from when your heart is at rest, between beats.", "sourceUrls": ["https://medlineplus.gov/vitalsigns.html"] },
-    { "jsonPath": "$.normalRange", "value": "A normal blood pressure reading for adults is lower than 120/80 and higher than 90/60.", "sourceUrls": ["https://medlineplus.gov/vitalsigns.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Blood Pressure",
+      "sourceUrls": [
+        "https://medlineplus.gov/vitalsigns.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Blood pressure measures the force of your blood pushing against the walls of your arteries. Your blood pressure has two numbers. The first number is the pressure when your heart beats and is pumping the blood. The second is from when your heart is at rest, between beats.",
+      "sourceUrls": [
+        "https://medlineplus.gov/vitalsigns.html"
+      ]
+    },
+    {
+      "jsonPath": "$.normalRange",
+      "value": "A normal blood pressure reading for adults is lower than 120/80 and higher than 90/60.",
+      "sourceUrls": [
+        "https://medlineplus.gov/vitalsigns.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

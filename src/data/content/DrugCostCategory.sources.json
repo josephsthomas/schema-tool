@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
@@ -15,10 +15,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.drugUnit", "value": "Tablet (200 mg)", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
-    { "jsonPath": "$.costPerUnit", "value": "0.05", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
-    { "jsonPath": "$.costCurrency", "value": "USD", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
-    { "jsonPath": "$.costCategory", "value": "Retail", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] },
-    { "jsonPath": "$.applicableLocation.name", "value": "United States", "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"] }
-  ]
+    {
+      "jsonPath": "$.drugUnit",
+      "value": "Tablet (200 mg)",
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
+    },
+    {
+      "jsonPath": "$.costPerUnit",
+      "value": "0.05",
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
+    },
+    {
+      "jsonPath": "$.costCurrency",
+      "value": "USD",
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
+    },
+    {
+      "jsonPath": "$.costCategory",
+      "value": "Retail",
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
+    },
+    {
+      "jsonPath": "$.applicableLocation.name",
+      "value": "United States",
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

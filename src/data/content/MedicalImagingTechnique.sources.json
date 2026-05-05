@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/mriscans.html",
@@ -18,22 +18,32 @@
     {
       "jsonPath": "$.name",
       "value": "Brain MRI",
-      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/mriscans.html"
+      ]
     },
     {
       "jsonPath": "$.imagingTechnique",
       "value": "MRI",
-      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/mriscans.html"
+      ]
     },
     {
       "jsonPath": "$.bodyLocation",
       "value": "Brain",
-      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/mriscans.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Magnetic resonance imaging (MRI) is a medical imaging procedure that uses a large magnet, radio waves, and a computer to make detailed pictures of the inside of your body.",
-      "sourceUrls": ["https://medlineplus.gov/mriscans.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/mriscans.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/diabetestype2.html",
@@ -32,12 +32,18 @@
     {
       "jsonPath": "$.codingSystem",
       "value": "ICD-10-CM",
-      "sourceUrls": ["https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"
+      ]
     },
     {
       "jsonPath": "$.codeValue",
       "value": "E11.9",
-      "sourceUrls": ["https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

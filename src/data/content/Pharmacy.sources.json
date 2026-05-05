@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/overthecountermedicines.html",
@@ -15,8 +15,29 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.description", "value": "A pharmacy where pharmacists are available to clarify medication label instructions and usage guidance, and where prescription and over-the-counter medicines regulated by the Food and Drug Administration are obtained.", "sourceUrls": ["https://medlineplus.gov/overthecountermedicines.html", "https://medlineplus.gov/medicines.html"] },
-    { "jsonPath": "$.availableService[0].name", "value": "Pharmacist consultation on medication instructions", "sourceUrls": ["https://medlineplus.gov/overthecountermedicines.html"] },
-    { "jsonPath": "$.availableService[0].description", "value": "If you don't understand the instructions, ask your pharmacist or health care provider.", "sourceUrls": ["https://medlineplus.gov/overthecountermedicines.html"] }
-  ]
+    {
+      "jsonPath": "$.description",
+      "value": "A pharmacy where pharmacists are available to clarify medication label instructions and usage guidance, and where prescription and over-the-counter medicines regulated by the Food and Drug Administration are obtained.",
+      "sourceUrls": [
+        "https://medlineplus.gov/overthecountermedicines.html",
+        "https://medlineplus.gov/medicines.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].name",
+      "value": "Pharmacist consultation on medication instructions",
+      "sourceUrls": [
+        "https://medlineplus.gov/overthecountermedicines.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].description",
+      "value": "If you don't understand the instructions, ask your pharmacist or health care provider.",
+      "sourceUrls": [
+        "https://medlineplus.gov/overthecountermedicines.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

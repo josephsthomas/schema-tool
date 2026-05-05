@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/ency/article/007482.htm",
@@ -12,27 +12,39 @@
     {
       "jsonPath": "$.name",
       "value": "Home Blood Pressure Monitor",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007482.htm"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "A home blood pressure monitor is a device used to keep track of your blood pressure at home. Digital monitors feature a cuff that wraps around your arm with either manual or automatic inflation, and a screen that shows a digital readout of your systolic and diastolic blood pressure.",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007482.htm"
+      ]
     },
     {
       "jsonPath": "$.purpose.name",
       "value": "Tracking blood pressure at home",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007482.htm"
+      ]
     },
     {
       "jsonPath": "$.indication.name",
       "value": "Patients whose health care provider has asked them to keep track of their blood pressure at home",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007482.htm"
+      ]
     },
     {
       "jsonPath": "$.contraindication.name",
       "value": "A digital blood pressure monitor will not be as accurate if your body is moving when you are using it. An irregular heart rate will make the reading less accurate.",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/007482.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/007482.htm"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

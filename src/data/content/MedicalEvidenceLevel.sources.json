@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm",
@@ -15,10 +15,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Use nonpharmacologic and nonopioid pharmacologic therapies as first-line treatment for subacute and chronic pain", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
-    { "jsonPath": "$.guidelineSubject.name", "value": "Chronic pain", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
-    { "jsonPath": "$.evidenceLevel", "value": "EvidenceLevelA", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
-    { "jsonPath": "$.evidenceOrigin", "value": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain — United States, 2022", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] },
-    { "jsonPath": "$.recommendationStrength", "value": "Recommendation Category A", "sourceUrls": ["https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Use nonpharmacologic and nonopioid pharmacologic therapies as first-line treatment for subacute and chronic pain",
+      "sourceUrls": [
+        "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.guidelineSubject.name",
+      "value": "Chronic pain",
+      "sourceUrls": [
+        "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.evidenceLevel",
+      "value": "EvidenceLevelA",
+      "sourceUrls": [
+        "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.evidenceOrigin",
+      "value": "CDC Clinical Practice Guideline for Prescribing Opioids for Pain — United States, 2022",
+      "sourceUrls": [
+        "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.recommendationStrength",
+      "value": "Recommendation Category A",
+      "sourceUrls": [
+        "https://www.cdc.gov/mmwr/volumes/71/rr/rr7103a1.htm"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

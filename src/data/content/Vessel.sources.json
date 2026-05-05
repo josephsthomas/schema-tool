@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/vasculardiseases.html",
@@ -9,12 +9,56 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Blood vessel", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
-    { "jsonPath": "$.description", "value": "Your body's network of blood vessels is called the vascular system.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
-    { "jsonPath": "$.partOfSystem.name", "value": "Vascular system", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
-    { "jsonPath": "$.relatedCondition[0].name", "value": "Atherosclerosis", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
-    { "jsonPath": "$.relatedCondition[0].description", "value": "Plaque buildup.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
-    { "jsonPath": "$.relatedCondition[1].name", "value": "Vasculitis", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
-    { "jsonPath": "$.relatedCondition[1].description", "value": "Blood vessel inflammation.", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Blood vessel",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Your body's network of blood vessels is called the vascular system.",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.partOfSystem.name",
+      "value": "Vascular system",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[0].name",
+      "value": "Atherosclerosis",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[0].description",
+      "value": "Plaque buildup.",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[1].name",
+      "value": "Vasculitis",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[1].description",
+      "value": "Blood vessel inflammation.",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

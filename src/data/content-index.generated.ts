@@ -45,7 +45,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Heart disease is a general term that includes many types of heart problems. It's a type of cardiovascular disease, which means heart and blood vessel disease."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -119,7 +121,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "An aneurysm is a bulge or 'ballooning' in the wall of an artery."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -223,7 +227,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Ibuprofen is used to reduce fever and to relieve mild pain. Ibuprofen works by stopping the body's production of a substance that causes pain, fever, and inflammation."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -269,7 +275,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "The vascular system is your body's network of blood vessels."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -344,7 +352,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A complete blood count, or CBC, is a group of blood tests that measure the number and size of the different cells in your blood. It is also used to monitor a condition or treatment that may affect your blood cell counts such as infections, anemia, immune system disorders, and blood cancers."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -466,7 +476,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Your bones help you move, give you shape and support your body."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -534,7 +546,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A curved elevation of gray matter extending the entire length of the floor of the temporal horn of the lateral ventricle. The hippocampus, subiculum, and dentate gyrus constitute the hippocampal formation."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -621,7 +635,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A flu vaccine cannot give you flu illness."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.claimReviewed",
@@ -730,7 +746,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Digestive problems, such as heartburn or esophagus disorders. Sore muscles. Lung diseases, such as pneumonia, pleurisy, or pulmonary embolism. Costochondritis - an inflammation of joints in your chest. Panic attacks."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.diagnosis[0].name",
@@ -819,7 +837,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Brush your teeth twice a day with a fluoride toothpaste. Clean between your teeth every day with floss or another type of between-the-teeth cleaner."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -910,7 +930,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Laboratory tests check a sample of your blood, urine, or body tissues. A technician or your doctor analyzes the test samples to see if your results fall within the normal range."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -966,7 +988,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A colonoscopy is an exam that views the inside of the colon (large intestine) and rectum."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1065,7 +1089,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "DASH stands for Dietary Approaches to Stop Hypertension. It is an eating plan that is based on research studies sponsored by the National Heart, Lung, and Blood Institute (NHLBI)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1179,7 +1205,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "The two forms of vitamin D in supplements are D2 and D3. It helps your body absorb calcium. Calcium is one of the main building blocks of bone."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1226,7 +1254,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "The regular tablet is usually taken with meals two or three times a day. Metformin is used to treat type 2 diabetes."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1280,7 +1310,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Ibuprofen is in a class of medications called NSAIDs."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1362,7 +1394,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Ibuprofen is in a class of medications called NSAIDs (nonsteroidal anti-inflammatory drugs)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1402,7 +1436,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Metformin comes as a liquid, a tablet, and an extended-release (long-acting) tablet to take by mouth."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1470,7 +1506,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Medicare prescription drug coverage helps pay for the drugs you need. Each plan can vary in cost and the specific drugs covered."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.drugUnit",
@@ -1531,7 +1569,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Follow the directions on your prescription label carefully, and ask your doctor or pharmacist to explain any part you do not understand."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1571,7 +1611,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Isotretinoin must not be taken by patients who are pregnant or who may become pregnant during the time of treatment. Isotretinoin causes severe birth defects in babies whose mothers took the medication during pregnancy."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1625,7 +1667,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Nonprescription ibuprofen is used to reduce fever and to relieve mild pain from headaches, muscle aches, arthritis, menstrual periods, the common cold, toothaches, and backaches. Prescription ibuprofen is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis and rheumatoid arthritis."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1685,7 +1729,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Metformin comes as a liquid, a tablet, and an extended-release (long-acting) tablet to take by mouth."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1771,7 +1817,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "150 minutes of moderate-intensity physical activity a week ... or 75 minutes of vigorous-intensity ... and 2 days of muscle-strengthening activity each week."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -1876,7 +1924,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "During seasons when flu vaccine viruses are similar to circulating flu viruses, flu vaccine has been shown to reduce the risk of having to go to the doctor with flu by 40% to 60%."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2008,7 +2058,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Medicare is the U.S. government's health insurance program for people age 65 or older. Some people under age 65 can qualify for Medicare, too. They include those with disabilities, permanent kidney failure, or amyotrophic lateral sclerosis. Medicare helps with the cost of health care. It does not cover all medical expenses or the cost of most long-term care."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2048,7 +2100,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A set amount of money you have to pay before your insurance starts to pay."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2088,7 +2142,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Part D is prescription drug coverage. It helps pay for some medicines."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2128,7 +2184,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Managed care plans are a type of health insurance. They have contracts with health care providers and medical facilities to provide care for members at reduced costs. These providers make up the plan's network."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2182,7 +2240,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "In the hospital, your providers helped you breathe better. They also gave you medicine to help your body get rid of the germs that cause pneumonia. They also made sure you got enough liquids and nutrients."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -2257,7 +2317,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap. Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails. Scrub your hands for at least 20 seconds. Rinse your hands well under clean, running water. Dry your hands using a clean towel or an air dryer."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2391,7 +2453,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A chest x-ray is an x-ray of the chest, lungs, heart, large arteries, ribs, and diaphragm. You stand in front of the x-ray machine."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2509,7 +2573,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Flu viruses spread mainly by droplets made when people with flu cough, sneeze, or talk."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2575,7 +2641,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Flu viruses spread mainly by droplets made when people with flu cough, sneeze, or talk."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2647,7 +2715,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Your knee joint is made up of bone, cartilage, ligaments and fluid. Muscles and tendons help the knee joint move."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2739,7 +2809,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Tobacco use is the most common preventable cause of death ... a mixture of counseling and quit-smoking medicine has been shown to be the best method."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2802,7 +2874,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "An ACL injury is the over-stretching or tearing of the anterior cruciate ligament (ACL) in the knee. The ACL is in the middle of the knee. It prevents the shin bone from sliding out in front of the thigh bone."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2871,7 +2945,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Lymph vessels - vessels that carry lymph throughout your body. The lymphatic system clears away infection and keeps your body fluids in balance. Sometimes the lymphatic system doesn't work right. Fluid builds in your tissues and causes swelling, called lymphedema."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2936,7 +3012,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Adults and children older than 12 years of age may usually take nonprescription ibuprofen every 4 to 6 hours as needed for pain or fever, but should not take more than 6 doses in 24 hours."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -2990,7 +3068,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "During prenatal care visits your provider checks your health and carefully monitors your pregnancy until you deliver a healthy baby."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3045,7 +3125,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "MedlinePlus is the National Library of Medicine's web site for patients, families, and friends. The site separates consumer-facing content from professional-oriented resources such as PubMed and clinical practice guidelines aimed at health care providers."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3105,7 +3187,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "hospitals...nursing homes, doctors' offices, dentists' offices, outpatient clinics and laboratories."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -3145,7 +3229,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "People who smoke increase their risk of developing lung cancer by about 25 times that of people who don't smoke."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3192,7 +3278,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Health facilities are places that provide health care. They include hospitals, clinics, outpatient care centers, and specialized care centers, such as birthing centers and psychiatric care centers."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -3253,7 +3341,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Diabetes Mellitus, Type 2 — A subclass of DIABETES MELLITUS that is not INSULIN-responsive or dependent (NIDDM)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3304,7 +3394,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A disease in which blood glucose levels are too high."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3365,7 +3457,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "In stage III breast cancer, the cancer is found in the lymph nodes close to the breast, the skin of the breast, or the chest wall."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3426,7 +3520,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Aspirin may cause Reye's syndrome (a serious condition in which fat builds up on the brain, liver, and other body organs) in children and teenagers, especially if they have a virus such as chicken pox or the flu."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3469,7 +3565,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Your health care provider may ask you to keep track of your blood pressure at home. To do this, you will need to get a home blood pressure monitor. Digital monitors have a cuff that wraps around your arm. The screen will show a digital readout of your systolic and diastolic blood pressure. A digital blood pressure monitor will not be as accurate if your body is moving when you are using it. Also, an irregular heart rate will make the reading less accurate."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3537,7 +3635,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Medical devices range from simple tongue depressors and bedpans to complex programmable pacemakers and laser surgical devices. They include diagnostic devices such as MRI machines and therapeutic devices such as infusion pumps."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3598,7 +3698,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "ICD-10-CM (the International Classification of Diseases, Tenth Revision, Clinical Modification) is a standardized system used to code diseases and medical conditions (morbidity) data."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3683,7 +3785,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Structured data is a standardized format for providing information about a page and classifying the page content. Schema.org provides a shared vocabulary, and Google uses concrete subtypes — not abstract parent classes — when interpreting markup."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3744,7 +3848,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "ACIP uses the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate the certainty of evidence and the strength of recommendations."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3807,7 +3913,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Adult Immunization Schedule by Age (Addendum updated July 2, 2025)"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3876,7 +3984,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Severely immunocompromised persons should not receive live vaccines"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -3946,7 +4056,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Everyone 6 months and older should get a flu vaccine every season with rare exceptions."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4028,7 +4140,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Diagnostic imaging lets doctors look inside your body for clues about a medical condition."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4082,7 +4196,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Prescription ibuprofen is used to relieve pain, tenderness, swelling, and stiffness caused by osteoarthritis (arthritis caused by a breakdown of the lining of the joints)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4136,7 +4252,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "ICD-10-CM (the International Classification of Diseases, Tenth Revision, Clinical Modification) is a standardized system used to code diseases and medical conditions (morbidity) data."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4187,7 +4305,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Framingham Heart Study; Study Type: Observational; Lead Sponsor: National Heart, Lung, and Blood Institute (NHLBI)"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4290,7 +4410,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Framingham Heart Study (FHS). Study Type: Observational. Observational Study Model: Cohort. Time Perspective: Prospective. NCT Number: NCT00005133. Conditions: Cardiovascular Diseases."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4358,7 +4480,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Health facilities are places that provide health care. They include hospitals, clinics, outpatient care centers, and specialized care centers, such as birthing centers and psychiatric care centers."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -4393,7 +4517,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Blood pressure is a measurement of the force on the walls of your arteries as your heart pumps blood through your body."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4468,7 +4594,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Noninvasive procedures do not involve tools that break the skin or physically enter the body. Examples include x-rays, ultrasound, and electrocardiogram (ECG)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4546,7 +4674,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "High cholesterol also increases your risk for heart disease and stroke, two leading causes of death in the United States."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4600,7 +4730,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Anyone can develop prediabetes at any age, but you may have a higher risk if you: Have a family history of type 2 diabetes. Are over age 45. Have overweight or obesity. Had gestational diabetes (diabetes when pregnant). Have high blood pressure."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4694,7 +4826,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Even people who smoke fewer than five cigarettes a day can have early signs of cardiovascular disease."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4747,7 +4881,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "High cholesterol also increases your risk for heart disease and stroke, two leading causes of death in the United States."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4818,7 +4954,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "The Visible Human Project — complete, anatomically detailed, three-dimensional representations of male and female human bodies (NLM, last reviewed December 26, 2023)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4899,7 +5037,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Too much bilirubin causes jaundice."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -4966,7 +5106,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5008,7 +5150,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "cardiologist (a doctor who specializes in heart diseases)"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5057,7 +5201,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Phase II Trial of Nivolumab, an Anti-PD-1 Monoclonal Antibody, as a Novel Neoadjuvant Pre-Surgical Therapy for Locally Advanced Oral Cavity Cancer"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5146,7 +5292,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Study to Describe the Safety, Tolerability, Immunogenicity, and Efficacy of RNA Vaccine Candidates Against COVID-19 in Healthy Individuals. Status: Completed. NCT Number: NCT04368728."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5213,7 +5361,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Tension headaches, migraines, cluster headaches, and sinus headaches."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5284,7 +5434,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A blood glucose test measures the glucose levels in your blood. Glucose is a type of sugar. It is your body's main source of energy. High blood glucose levels (hyperglycemia) may be a sign of prediabetes or diabetes."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5368,7 +5520,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A comprehensive metabolic panel (CMP) is a routine blood test that measures 14 different substances in a sample of your blood. High blood glucose may be a sign of diabetes."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5514,7 +5668,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Cognitive behavioral therapy (CBT), which teaches you different ways of thinking and behaving."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5577,7 +5733,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A PHASE 1/2/3, PLACEBO-CONTROLLED, RANDOMIZED, OBSERVER-BLIND, DOSE-FINDING STUDY TO EVALUATE THE SAFETY, TOLERABILITY, IMMUNOGENICITY, AND EFFICACY OF SARS-COV-2 RNA VACCINE CANDIDATES AGAINST COVID-19 IN HEALTHY INDIVIDUALS"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5652,7 +5810,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Allocation: Randomized. Intervention Model: Parallel Assignment. Masking: Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor). Primary Purpose: Prevention. Number of locations: 152."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5727,7 +5887,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Type 2 diabetes is a disease in which your blood glucose, or blood sugar, levels are too high."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5809,7 +5971,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Complementary and integrative medicine includes a wide range of practices and treatments that are not part of standard medical care."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5868,7 +6032,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Your muscles help you move and help your body work. Muscle disorders can cause weakness, pain or even paralysis. Causes of muscle disorders include... Genetic disorders, such as muscular dystrophy... Inflammation, such as myositis."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -5941,7 +6107,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "The median nerve runs from your lower arm through the carpal tunnel and into your hand. It provides feeling to your thumb and first three fingers. It also helps you move your thumb."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6037,7 +6205,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Occupational therapy. To help improve your ability to perform daily living skills such as eating, drinking, bathing, and dressing."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6099,7 +6269,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Opticians fit or adjust glasses or contact lenses based on a prescription from your eye care specialist."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -6164,7 +6336,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Palliative care is treatment of the discomfort, symptoms, and stress of serious illness."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6224,7 +6398,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A Pap smear is a test to screen for cervical cancer. A provider collects cells from your cervix and sends them to a lab. The cells are checked under a microscope for cancer or signs that they are abnormal. A speculum widens the vagina, and a small, soft brush or swab collects cervical cells."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6292,7 +6468,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "As a patient, you have certain rights. Some are guaranteed by federal law, such as the right to get a copy of your medical records and the right to keep them private and secure. There are also state laws that protect patients. Many hospitals have patient advocates who can help you if you have problems. Examples of important patient rights include: Being treated with respect; Protection from discrimination in medical care; Authority to decline treatment; Right to informed consent."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -6339,7 +6517,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "the Food and Drug Administration is in charge of ensuring that your prescription and over-the-counter medicines are safe and effective."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -6400,7 +6580,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Brisk walking or jogging, dancing, swimming, and biking are examples of endurance, or aerobic, activities."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6470,7 +6652,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Do muscle-strengthening activities on 2 or more days a week that work all major muscle groups."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6545,7 +6729,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Inspection (looking at the body), Palpation (feeling the body with fingers or hands), Auscultation (listening to sounds, usually with a stethoscope), Percussion (producing sounds, usually by tapping on specific areas of the body)"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6594,7 +6780,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "You will need to follow a rehabilitation program for 4 to 6 months."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6669,7 +6857,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A primary care provider (PCP) is a health care practitioner who sees people that have common medical problems. This person is most often a doctor. However, a PCP may be a physician assistant or a nurse practitioner. Your PCP is your main health care provider in non-emergency situations."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -6764,7 +6954,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Prescription aspirin is used to prevent heart attacks, strokes or mini-strokes (also known as transient ischemic attacks or TIA), and to reduce the risk of death in people who are experiencing or who have had a heart attack."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6821,7 +7013,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Psychotherapy (talk therapy) under the care of a mental health provider can help you recognize and change troubling emotions, thoughts, and behaviors."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6892,7 +7086,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "External beam radiation therapy comes from a machine that aims radiation at your cancer."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -6968,7 +7164,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "The extended-release tablet is usually taken once daily with the evening meal. Metformin is used to treat type 2 diabetes."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7031,7 +7229,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Adults and children older than 12 years of age may usually take nonprescription ibuprofen every 4 to 6 hours as needed for pain or fever."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7116,7 +7316,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A total of 2,288 confirmed measles cases were reported in the United States. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7177,7 +7379,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A total of 2,288 confirmed measles cases were reported in the United States. There were 48 outbreaks reported in 2025, and 90% of confirmed cases (2,065 of 2,288) were outbreak-associated. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7253,7 +7457,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Caffeine is a bitter substance that occurs naturally in more than 60 plants. Caffeine stimulates your central nervous system, which can make you feel more awake."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7293,7 +7499,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Your skin is your body's largest organ. It covers the entire outside of your body. It... Holds body fluids in, which helps prevent you from getting dehydrated. Keeps out harmful germs, which helps prevent infections. Helps you feel things like heat, cold, and pain. Helps control your body temperature. Makes vitamin D when the sun shines on it."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7346,7 +7554,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Appendectomy is surgery to remove the appendix."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7421,7 +7631,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Chemotherapy (also called chemo) is a type of cancer treatment that uses drugs to kill cancer cells."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7508,7 +7720,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Metformin is used to treat type 2 diabetes (condition in which the body does not use insulin normally and, therefore, cannot control the amount of sugar in the blood)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7566,7 +7780,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "The vascular system is your body's network of blood vessels."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7620,7 +7836,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "Your vascular system is your body's network of blood vessels. Common problems include... atherosclerosis (plaque buildup)... vasculitis (blood vessel inflammation)."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -7701,7 +7919,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "disease detectives, laboratorians, physicians, and veterinarians"
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.description",
@@ -7779,7 +7999,9 @@ export const contentIndex: Record<string, ContentEntry> = {
           "quote": "A normal blood pressure reading for adults is lower than 120/80 and higher than 90/60."
         }
       ],
-      "verification": "draft",
+      "verification": "verified",
+      "verifiedBy": "joseph@jsthomas.org",
+      "verifiedAt": "2026-05-05T23:25:41.635Z",
       "factsExtracted": [
         {
           "jsonPath": "$.name",
@@ -9171,7 +9393,8 @@ export const contentIndex: Record<string, ContentEntry> = {
 } as const;
 
 export const contentStats = {
-  "draft": [
+  "draft": [],
+  "verified": [
     "schema:AnatomicalStructure",
     "schema:AnatomicalSystem",
     "schema:ApprovedIndication",
@@ -9284,6 +9507,5 @@ export const contentStats = {
     "schema:VeterinaryCare",
     "schema:VitalSign"
   ],
-  "verified": [],
   "flagged": []
 };

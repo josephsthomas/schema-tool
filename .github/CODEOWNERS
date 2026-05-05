@@ -1,0 +1,4 @@
+# Phase 4 verification gate (build brief §13.18, plan §4.1.2):
+# every change to authored content sidecars routes to Joe for review.
+/src/data/content/**     @josephsthomas
+/src/data/content/_combos/**    @josephsthomas

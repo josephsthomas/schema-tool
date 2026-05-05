@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/ency/article/002921.htm",
@@ -12,27 +12,39 @@
     {
       "jsonPath": "$.name",
       "value": "Appendectomy",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002921.htm"
+      ]
     },
     {
       "jsonPath": "$.alternateName",
       "value": "Appendix removal, Surgery to remove the appendix",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002921.htm"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Surgical removal of the appendix, a finger-shaped organ branching from the colon, performed to treat inflammation or infection.",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002921.htm"
+      ]
     },
     {
       "jsonPath": "$.procedureType.name",
       "value": "Surgical",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002921.htm"
+      ]
     },
     {
       "jsonPath": "$.bodyLocation",
       "value": "Vermiform appendix",
-      "sourceUrls": ["https://medlineplus.gov/ency/article/002921.htm"]
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/002921.htm"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

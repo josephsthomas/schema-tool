@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/exerciseandphysicalfitness.html",
@@ -34,17 +34,25 @@
     {
       "jsonPath": "$.category",
       "value": "Aerobic exercise (also referred to as cardio)",
-      "sourceUrls": ["https://medlineplus.gov/exerciseandphysicalfitness.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/exerciseandphysicalfitness.html"
+      ]
     },
     {
       "jsonPath": "$.pathophysiology",
       "value": "Aerobic exercises such as walking increase breathing and heart rate and keep the heart, lungs, and circulatory system healthy.",
-      "sourceUrls": ["https://medlineplus.gov/exerciseandphysicalfitness.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/exerciseandphysicalfitness.html"
+      ]
     },
     {
       "jsonPath": "$.recognizingAuthority.name",
       "value": "U.S. National Library of Medicine",
-      "sourceUrls": ["https://medlineplus.gov/exerciseandphysicalfitness.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/exerciseandphysicalfitness.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

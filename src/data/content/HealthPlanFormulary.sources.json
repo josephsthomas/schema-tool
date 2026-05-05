@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/medicare.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Medicare Part D drug coverage",
-      "sourceUrls": ["https://medlineplus.gov/medicare.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/medicare.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Part D is prescription drug coverage. It helps pay for some medicines.",
-      "sourceUrls": ["https://medlineplus.gov/medicare.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/medicare.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

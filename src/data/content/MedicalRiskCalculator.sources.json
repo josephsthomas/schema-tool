@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/heart-disease/risk-factors/index.html",
@@ -18,7 +18,9 @@
     {
       "jsonPath": "$.name",
       "value": "Cardiovascular Disease Risk Calculator",
-      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html"
+      ]
     },
     {
       "jsonPath": "$.description",
@@ -31,7 +33,11 @@
     {
       "jsonPath": "$.estimatesRiskOf.name",
       "value": "Heart Disease",
-      "sourceUrls": ["https://www.cdc.gov/heart-disease/risk-factors/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/heart-disease/risk-factors/index.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a682878.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Aspirin in children and teenagers with a viral illness",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682878.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Aspirin may cause Reye's syndrome (a serious condition in which fat builds up on the brain, liver, and other body organs) in children and teenagers, especially if they have a virus such as chicken pox or the flu.",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682878.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682878.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

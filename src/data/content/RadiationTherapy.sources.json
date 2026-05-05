@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
@@ -12,32 +12,46 @@
     {
       "jsonPath": "$.name",
       "value": "External beam radiation therapy",
-      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"]
+      "sourceUrls": [
+        "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "External beam radiation therapy comes from a machine that aims radiation at your cancer.",
-      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"]
+      "sourceUrls": [
+        "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+      ]
     },
     {
       "jsonPath": "$.howPerformed",
       "value": "Lie down on a treatment table or sit in a special chair; receive radiation for 1 to 5 minutes.",
-      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"]
+      "sourceUrls": [
+        "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+      ]
     },
     {
       "jsonPath": "$.doseSchedule.frequency",
       "value": "Most people have external beam radiation therapy once a day, five days a week, Monday through Friday.",
-      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"]
+      "sourceUrls": [
+        "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+      ]
     },
     {
       "jsonPath": "$.preparation",
       "value": "1- to 2-hour meeting with doctor or nurse; simulation session with tattoos or ink dots marking treatment areas.",
-      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"]
+      "sourceUrls": [
+        "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+      ]
     },
     {
       "jsonPath": "$.indication.name",
       "value": "External beam radiation therapy is used to treat many types of cancer.",
-      "sourceUrls": ["https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"]
+      "sourceUrls": [
+        "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

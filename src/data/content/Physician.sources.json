@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/ency/article/001939.htm",
@@ -9,12 +9,56 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.description", "value": "A health care practitioner who sees people that have common medical problems, serving as the patient's main health care provider in non-emergency situations.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
-    { "jsonPath": "$.availableService[0].name", "value": "Preventive care", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
-    { "jsonPath": "$.availableService[0].description", "value": "Delivering preventive care and promoting healthy lifestyle choices.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
-    { "jsonPath": "$.availableService[1].name", "value": "Diagnosis and treatment of routine medical conditions", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
-    { "jsonPath": "$.availableService[1].description", "value": "Diagnosing and treating routine medical conditions, and evaluating the severity of health concerns.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
-    { "jsonPath": "$.availableService[2].name", "value": "Specialist referral", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] },
-    { "jsonPath": "$.availableService[2].description", "value": "Referring patients to specialists when medical or surgical expertise is needed.", "sourceUrls": ["https://medlineplus.gov/ency/article/001939.htm"] }
-  ]
+    {
+      "jsonPath": "$.description",
+      "value": "A health care practitioner who sees people that have common medical problems, serving as the patient's main health care provider in non-emergency situations.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001939.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].name",
+      "value": "Preventive care",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001939.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].description",
+      "value": "Delivering preventive care and promoting healthy lifestyle choices.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001939.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[1].name",
+      "value": "Diagnosis and treatment of routine medical conditions",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001939.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[1].description",
+      "value": "Diagnosing and treating routine medical conditions, and evaluating the severity of health concerns.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001939.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[2].name",
+      "value": "Specialist referral",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001939.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[2].description",
+      "value": "Referring patients to specialists when medical or surgical expertise is needed.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001939.htm"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

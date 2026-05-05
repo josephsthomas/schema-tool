@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/chestpain.html",
@@ -15,14 +15,70 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.diagnosis[0].name", "value": "Heart attack", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.diagnosis[1].name", "value": "Angina", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.diagnosis[2].name", "value": "Costochondritis", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.diagnosis[3].name", "value": "Pneumonia", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.diagnosis[4].name", "value": "Pulmonary embolism", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.diagnosis[5].name", "value": "Heartburn", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.diagnosis[6].name", "value": "Panic attacks", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.distinguishingSign.name", "value": "Chest pain", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] },
-    { "jsonPath": "$.distinguishingSign.description", "value": "Chest pain does not always mean that you are having a heart attack.", "sourceUrls": ["https://medlineplus.gov/chestpain.html"] }
-  ]
+    {
+      "jsonPath": "$.diagnosis[0].name",
+      "value": "Heart attack",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.diagnosis[1].name",
+      "value": "Angina",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.diagnosis[2].name",
+      "value": "Costochondritis",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.diagnosis[3].name",
+      "value": "Pneumonia",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.diagnosis[4].name",
+      "value": "Pulmonary embolism",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.diagnosis[5].name",
+      "value": "Heartburn",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.diagnosis[6].name",
+      "value": "Panic attacks",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.distinguishingSign.name",
+      "value": "Chest pain",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    },
+    {
+      "jsonPath": "$.distinguishingSign.description",
+      "value": "Chest pain does not always mean that you are having a heart attack.",
+      "sourceUrls": [
+        "https://medlineplus.gov/chestpain.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

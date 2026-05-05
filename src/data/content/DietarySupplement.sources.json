@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/vitamind.html",
@@ -12,17 +12,25 @@
     {
       "jsonPath": "$.name",
       "value": "Vitamin D3",
-      "sourceUrls": ["https://medlineplus.gov/vitamind.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/vitamind.html"
+      ]
     },
     {
       "jsonPath": "$.activeIngredient",
       "value": "Vitamin D3",
-      "sourceUrls": ["https://medlineplus.gov/vitamind.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/vitamind.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Vitamin D supplement form. Vitamin D helps the body absorb calcium, one of the main building blocks of bone.",
-      "sourceUrls": ["https://medlineplus.gov/vitamind.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/vitamind.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

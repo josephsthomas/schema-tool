@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/depression.html",
@@ -12,27 +12,39 @@
     {
       "jsonPath": "$.name",
       "value": "Cognitive behavioral therapy for depression",
-      "sourceUrls": ["https://medlineplus.gov/depression.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/depression.html"
+      ]
     },
     {
       "jsonPath": "$.alternateName",
       "value": "CBT for depression, Talk therapy for depression",
-      "sourceUrls": ["https://medlineplus.gov/depression.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/depression.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Psychotherapy (talk therapy) under the care of a mental health provider can help you recognize and change troubling emotions, thoughts, and behaviors.",
-      "sourceUrls": ["https://medlineplus.gov/depression.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/depression.html"
+      ]
     },
     {
       "jsonPath": "$.howPerformed",
       "value": "This may be done one-on-one or in a group setting. It can give you and your family support, education, skills, and coping strategies.",
-      "sourceUrls": ["https://medlineplus.gov/depression.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/depression.html"
+      ]
     },
     {
       "jsonPath": "$.indication.name",
       "value": "Depression",
-      "sourceUrls": ["https://medlineplus.gov/depression.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/depression.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

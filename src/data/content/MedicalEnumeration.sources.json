@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/cardiacrehabilitation.html",
@@ -15,9 +15,35 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Cardiac Rehabilitation Program Overview", "sourceUrls": ["https://medlineplus.gov/cardiacrehabilitation.html"] },
-    { "jsonPath": "$.specialty.name", "value": "Cardiovascular", "sourceUrls": ["https://medlineplus.gov/cardiacrehabilitation.html"] },
-    { "jsonPath": "$.specialty.additionalType", "value": "https://schema.org/MedicalEnumeration", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"] },
-    { "jsonPath": "$.about.name", "value": "Coronary artery disease", "sourceUrls": ["https://medlineplus.gov/cardiacrehabilitation.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Cardiac Rehabilitation Program Overview",
+      "sourceUrls": [
+        "https://medlineplus.gov/cardiacrehabilitation.html"
+      ]
+    },
+    {
+      "jsonPath": "$.specialty.name",
+      "value": "Cardiovascular",
+      "sourceUrls": [
+        "https://medlineplus.gov/cardiacrehabilitation.html"
+      ]
+    },
+    {
+      "jsonPath": "$.specialty.additionalType",
+      "value": "https://schema.org/MedicalEnumeration",
+      "sourceUrls": [
+        "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+      ]
+    },
+    {
+      "jsonPath": "$.about.name",
+      "value": "Coronary artery disease",
+      "sourceUrls": [
+        "https://medlineplus.gov/cardiacrehabilitation.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/healthfacilities.html",
@@ -9,6 +9,14 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.description", "value": "A medical organization operates places that provide health care, which include hospitals, clinics, outpatient care centers, and specialized care centers.", "sourceUrls": ["https://medlineplus.gov/healthfacilities.html"] }
-  ]
+    {
+      "jsonPath": "$.description",
+      "value": "A medical organization operates places that provide health care, which include hospitals, clinics, outpatient care centers, and specialized care centers.",
+      "sourceUrls": [
+        "https://medlineplus.gov/healthfacilities.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

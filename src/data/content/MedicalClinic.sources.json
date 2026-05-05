@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/healthfacilities.html",
@@ -9,8 +9,28 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.description", "value": "A clinic is a community-based outpatient setting for patient treatment, included among the health facilities that provide health care.", "sourceUrls": ["https://medlineplus.gov/healthfacilities.html"] },
-    { "jsonPath": "$.availableService[0].name", "value": "Outpatient care", "sourceUrls": ["https://medlineplus.gov/healthfacilities.html"] },
-    { "jsonPath": "$.availableService[0].description", "value": "Services offering care without overnight hospital stays.", "sourceUrls": ["https://medlineplus.gov/healthfacilities.html"] }
-  ]
+    {
+      "jsonPath": "$.description",
+      "value": "A clinic is a community-based outpatient setting for patient treatment, included among the health facilities that provide health care.",
+      "sourceUrls": [
+        "https://medlineplus.gov/healthfacilities.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].name",
+      "value": "Outpatient care",
+      "sourceUrls": [
+        "https://medlineplus.gov/healthfacilities.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].description",
+      "value": "Services offering care without overnight hospital stays.",
+      "sourceUrls": [
+        "https://medlineplus.gov/healthfacilities.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

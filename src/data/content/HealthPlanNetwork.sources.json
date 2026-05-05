@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/managedcare.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Managed care provider network",
-      "sourceUrls": ["https://medlineplus.gov/managedcare.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/managedcare.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Managed care plans are a type of health insurance. They have contracts with health care providers and medical facilities to provide care for members at reduced costs. These providers make up the plan's network.",
-      "sourceUrls": ["https://medlineplus.gov/managedcare.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/managedcare.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

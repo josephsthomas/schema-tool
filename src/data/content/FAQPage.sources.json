@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://developers.google.com/search/docs/appearance/structured-data/faqpage",
@@ -21,12 +21,57 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Influenza Vaccine FAQ", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/keyfacts.html"] },
-    { "jsonPath": "$.mainEntity[0].name", "value": "Who should get a flu vaccine?", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/keyfacts.html", "https://developers.google.com/search/docs/appearance/structured-data/faqpage"] },
-    { "jsonPath": "$.mainEntity[0].acceptedAnswer.text", "value": "Everyone 6 months and older in the United States, with rare exception, should get a flu vaccine every season.", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/keyfacts.html"] },
-    { "jsonPath": "$.mainEntity[1].name", "value": "Can a flu vaccine give me the flu?", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/keyfacts.html"] },
-    { "jsonPath": "$.mainEntity[1].acceptedAnswer.text", "value": "A flu vaccine cannot give you flu illness.", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/keyfacts.html"] },
-    { "jsonPath": "$.mainEntity[2].name", "value": "How effective is the flu vaccine?", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"] },
-    { "jsonPath": "$.mainEntity[2].acceptedAnswer.text", "value": "During seasons when flu vaccine viruses are similar to circulating flu viruses, flu vaccine has been shown to reduce the risk of having to go to the doctor with flu by 40% to 60%.", "sourceUrls": ["https://www.cdc.gov/flu/vaccines/index.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Influenza Vaccine FAQ",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/vaccines/keyfacts.html"
+      ]
+    },
+    {
+      "jsonPath": "$.mainEntity[0].name",
+      "value": "Who should get a flu vaccine?",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+        "https://developers.google.com/search/docs/appearance/structured-data/faqpage"
+      ]
+    },
+    {
+      "jsonPath": "$.mainEntity[0].acceptedAnswer.text",
+      "value": "Everyone 6 months and older in the United States, with rare exception, should get a flu vaccine every season.",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/vaccines/keyfacts.html"
+      ]
+    },
+    {
+      "jsonPath": "$.mainEntity[1].name",
+      "value": "Can a flu vaccine give me the flu?",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/vaccines/keyfacts.html"
+      ]
+    },
+    {
+      "jsonPath": "$.mainEntity[1].acceptedAnswer.text",
+      "value": "A flu vaccine cannot give you flu illness.",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/vaccines/keyfacts.html"
+      ]
+    },
+    {
+      "jsonPath": "$.mainEntity[2].name",
+      "value": "How effective is the flu vaccine?",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/vaccines/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.mainEntity[2].acceptedAnswer.text",
+      "value": "During seasons when flu vaccine viruses are similar to circulating flu viruses, flu vaccine has been shown to reduce the risk of having to go to the doctor with flu by 40% to 60%.",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/vaccines/index.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

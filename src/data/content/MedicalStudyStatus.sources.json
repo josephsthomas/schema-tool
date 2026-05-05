@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://clinicaltrials.gov/study/NCT04368728",
@@ -9,10 +9,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Study to Describe the Safety, Tolerability, Immunogenicity, and Efficacy of RNA Vaccine Candidates Against COVID-19 in Healthy Individuals", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
-    { "jsonPath": "$.identifier", "value": "NCT04368728", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
-    { "jsonPath": "$.studySubject.name", "value": "COVID-19", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
-    { "jsonPath": "$.status", "value": "Completed", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] },
-    { "jsonPath": "$.trialDesign", "value": "RandomizedTrial", "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Study to Describe the Safety, Tolerability, Immunogenicity, and Efficacy of RNA Vaccine Candidates Against COVID-19 in Healthy Individuals",
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
+    },
+    {
+      "jsonPath": "$.identifier",
+      "value": "NCT04368728",
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
+    },
+    {
+      "jsonPath": "$.studySubject.name",
+      "value": "COVID-19",
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
+    },
+    {
+      "jsonPath": "$.status",
+      "value": "Completed",
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
+    },
+    {
+      "jsonPath": "$.trialDesign",
+      "value": "RandomizedTrial",
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/laboratorytests.html",
@@ -9,9 +9,35 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.description", "value": "A clinical laboratory that checks samples of blood, urine, or body tissues; a technician or doctor analyzes the test samples to see if results fall within the normal range.", "sourceUrls": ["https://medlineplus.gov/laboratorytests.html"] },
-    { "jsonPath": "$.availableTest[0].name", "value": "Blood test", "sourceUrls": ["https://medlineplus.gov/laboratorytests.html"] },
-    { "jsonPath": "$.availableTest[1].name", "value": "Urinalysis", "sourceUrls": ["https://medlineplus.gov/laboratorytests.html"] },
-    { "jsonPath": "$.availableTest[2].name", "value": "Pathology sample analysis", "sourceUrls": ["https://medlineplus.gov/laboratorytests.html"] }
-  ]
+    {
+      "jsonPath": "$.description",
+      "value": "A clinical laboratory that checks samples of blood, urine, or body tissues; a technician or doctor analyzes the test samples to see if results fall within the normal range.",
+      "sourceUrls": [
+        "https://medlineplus.gov/laboratorytests.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableTest[0].name",
+      "value": "Blood test",
+      "sourceUrls": [
+        "https://medlineplus.gov/laboratorytests.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableTest[1].name",
+      "value": "Urinalysis",
+      "sourceUrls": [
+        "https://medlineplus.gov/laboratorytests.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableTest[2].name",
+      "value": "Pathology sample analysis",
+      "sourceUrls": [
+        "https://medlineplus.gov/laboratorytests.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,0 +1,51 @@
+name: Quarterly fact reverification
+# Plan §4.3 — quarterly re-fetch of every cited URL, diff factsExtracted against
+# the current source. Mismatches are flagged for re-authoring.
+
+on:
+  schedule:
+    - cron: '0 6 1 */3 *' # 06:00 UTC on the 1st of every 3rd month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  reverify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Run fact reverification
+        id: facts
+        run: pnpm content:audit-facts --output facts-report.json
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: facts-audit-report
+          path: facts-report.json
+      - name: Open issues for drifted facts
+        if: ${{ steps.facts.outputs.drift_count != '0' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          while IFS=$'\t' read -r term path url; do
+            title="Fact drift: ${term} ${path}"
+            body="The cited source ${url} no longer contains the originally extracted value for ${path} on ${term}. Re-author with a current source or update the fact."
+            gh issue create --title "$title" --body "$body" --label "facts-audit"
+          done < facts-drift.tsv || true
+      - name: Commit flagged sidecars
+        if: ${{ steps.facts.outputs.drift_count != '0' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/content
+          git commit -m "Facts audit: auto-flag $(cat facts-drift.tsv | wc -l) drifted facts"
+          git push

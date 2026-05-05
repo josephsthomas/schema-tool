@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/",
@@ -12,87 +12,123 @@
     {
       "jsonPath": "$.name",
       "value": "Comprehensive Metabolic Panel (CMP)",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "A comprehensive metabolic panel (CMP) is a routine blood test that measures 14 different substances in a sample of your blood.",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[0].name",
       "value": "Glucose",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[1].name",
       "value": "Calcium",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[2].name",
       "value": "Sodium",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[3].name",
       "value": "Potassium",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[4].name",
       "value": "Bicarbonate",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[5].name",
       "value": "Chloride",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[6].name",
       "value": "Albumin",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[7].name",
       "value": "Total protein",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[8].name",
       "value": "Alkaline phosphatase (ALP)",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[9].name",
       "value": "Alanine aminotransferase (ALT)",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[10].name",
       "value": "Aspartate aminotransferase (AST)",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[11].name",
       "value": "Bilirubin",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[12].name",
       "value": "Blood urea nitrogen (BUN)",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.subTest[13].name",
       "value": "Creatinine",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     },
     {
       "jsonPath": "$.usedToDiagnose[0].name",
       "value": "Diabetes",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/comprehensive-metabolic-panel-cmp/"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

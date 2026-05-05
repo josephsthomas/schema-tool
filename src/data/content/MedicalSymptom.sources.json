@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/headache.html",
@@ -15,11 +15,49 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Headache", "sourceUrls": ["https://medlineplus.gov/headache.html"] },
-    { "jsonPath": "$.description", "value": "Headache is the most common form of pain.", "sourceUrls": ["https://medlineplus.gov/headache.html"] },
-    { "jsonPath": "$.possibleCondition[0].name", "value": "Tension headache", "sourceUrls": ["https://medlineplus.gov/headache.html"] },
-    { "jsonPath": "$.possibleCondition[1].name", "value": "Migraine", "sourceUrls": ["https://medlineplus.gov/headache.html"] },
-    { "jsonPath": "$.possibleCondition[2].name", "value": "Cluster headache", "sourceUrls": ["https://medlineplus.gov/headache.html"] },
-    { "jsonPath": "$.possibleCondition[3].name", "value": "Sinus headache", "sourceUrls": ["https://medlineplus.gov/headache.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Headache",
+      "sourceUrls": [
+        "https://medlineplus.gov/headache.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Headache is the most common form of pain.",
+      "sourceUrls": [
+        "https://medlineplus.gov/headache.html"
+      ]
+    },
+    {
+      "jsonPath": "$.possibleCondition[0].name",
+      "value": "Tension headache",
+      "sourceUrls": [
+        "https://medlineplus.gov/headache.html"
+      ]
+    },
+    {
+      "jsonPath": "$.possibleCondition[1].name",
+      "value": "Migraine",
+      "sourceUrls": [
+        "https://medlineplus.gov/headache.html"
+      ]
+    },
+    {
+      "jsonPath": "$.possibleCondition[2].name",
+      "value": "Cluster headache",
+      "sourceUrls": [
+        "https://medlineplus.gov/headache.html"
+      ]
+    },
+    {
+      "jsonPath": "$.possibleCondition[3].name",
+      "value": "Sinus headache",
+      "sourceUrls": [
+        "https://medlineplus.gov/headache.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

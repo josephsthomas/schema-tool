@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/diabetes/prevention-type-2/index.html",
@@ -18,42 +18,60 @@
     {
       "jsonPath": "$.name",
       "value": "Prediabetes Risk Test",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "A 1-minute prediabetes risk test that uses self-reported risk factors to flag people who should ask their doctor for a blood test to confirm prediabetes.",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     },
     {
       "jsonPath": "$.estimatesRiskOf.name",
       "value": "Prediabetes",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[0].name",
       "value": "Family history of type 2 diabetes",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[1].name",
       "value": "Age over 45",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[2].name",
       "value": "Overweight or obesity",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[3].name",
       "value": "History of gestational diabetes",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     },
     {
       "jsonPath": "$.includedRiskFactor[4].name",
       "value": "High blood pressure",
-      "sourceUrls": ["https://www.cdc.gov/diabetes/prevention-type-2/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/diabetes/prevention-type-2/index.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

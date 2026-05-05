@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html",
@@ -34,17 +34,25 @@
     {
       "jsonPath": "$.indication[0].name",
       "value": "Reducing risk for heart disease, cancer, lung disease, COPD, diabetes, stroke, and pregnancy complications, as documented in CDC condition-specific resources",
-      "sourceUrls": ["https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html"
+      ]
     },
     {
       "jsonPath": "$.indication[1].name",
       "value": "Tobacco use, identified by MedlinePlus as the most common preventable cause of death",
-      "sourceUrls": ["https://medlineplus.gov/quittingsmoking.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/quittingsmoking.html"
+      ]
     },
     {
       "jsonPath": "$.recognizingAuthority.name",
       "value": "U.S. Centers for Disease Control and Prevention",
-      "sourceUrls": ["https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/tobacco/campaign/tips/quit-smoking/index.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

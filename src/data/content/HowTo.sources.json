@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/clean-hands/about/index.html",
@@ -9,20 +9,112 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "How to wash your hands", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.totalTime", "value": "PT40S", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.supply[0].name", "value": "Clean, running water (warm or cold)", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.supply[1].name", "value": "Soap", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.supply[2].name", "value": "Clean towel or air dryer", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[0].name", "value": "Wet", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[0].text", "value": "Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap.", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[1].name", "value": "Lather", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[1].text", "value": "Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails.", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[2].name", "value": "Scrub", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[2].text", "value": "Scrub your hands for at least 20 seconds.", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[3].name", "value": "Rinse", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[3].text", "value": "Rinse your hands well under clean, running water.", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[4].name", "value": "Dry", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] },
-    { "jsonPath": "$.step[4].text", "value": "Dry your hands using a clean towel or an air dryer.", "sourceUrls": ["https://www.cdc.gov/clean-hands/about/index.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "How to wash your hands",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.totalTime",
+      "value": "PT40S",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.supply[0].name",
+      "value": "Clean, running water (warm or cold)",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.supply[1].name",
+      "value": "Soap",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.supply[2].name",
+      "value": "Clean towel or air dryer",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[0].name",
+      "value": "Wet",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[0].text",
+      "value": "Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap.",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[1].name",
+      "value": "Lather",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[1].text",
+      "value": "Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails.",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[2].name",
+      "value": "Scrub",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[2].text",
+      "value": "Scrub your hands for at least 20 seconds.",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[3].name",
+      "value": "Rinse",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[3].text",
+      "value": "Rinse your hands well under clean, running water.",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[4].name",
+      "value": "Dry",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.step[4].text",
+      "value": "Dry your hands using a clean towel or an air dryer.",
+      "sourceUrls": [
+        "https://www.cdc.gov/clean-hands/about/index.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

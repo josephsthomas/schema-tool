@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/choosingadoctororhealthcareservice.html",
@@ -15,6 +15,15 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.description", "value": "A family doctor practice — one of the health care providers patients select when choosing a doctor or health care service — operating in a doctor's office among the settings where health professionals work.", "sourceUrls": ["https://medlineplus.gov/choosingadoctororhealthcareservice.html", "https://medlineplus.gov/healthoccupations.html"] }
-  ]
+    {
+      "jsonPath": "$.description",
+      "value": "A family doctor practice — one of the health care providers patients select when choosing a doctor or health care service — operating in a doctor's office among the settings where health professionals work.",
+      "sourceUrls": [
+        "https://medlineplus.gov/choosingadoctororhealthcareservice.html",
+        "https://medlineplus.gov/healthoccupations.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

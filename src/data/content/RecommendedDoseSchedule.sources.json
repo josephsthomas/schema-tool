@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
@@ -12,17 +12,25 @@
     {
       "jsonPath": "$.name",
       "value": "Metformin extended-release recommended schedule",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.frequency",
       "value": "once daily with the evening meal",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.targetPopulation",
       "value": "Adults with type 2 diabetes",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

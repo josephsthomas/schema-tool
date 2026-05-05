@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/ency/article/001097.htm",
@@ -15,9 +15,35 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Superior vena cava", "sourceUrls": ["https://medlineplus.gov/ency/article/001097.htm"] },
-    { "jsonPath": "$.description", "value": "The second largest vein in the human body.", "sourceUrls": ["https://medlineplus.gov/ency/article/001097.htm"] },
-    { "jsonPath": "$.function", "value": "Moves blood from the upper parts of the body to the heart.", "sourceUrls": ["https://medlineplus.gov/ency/article/001097.htm"] },
-    { "jsonPath": "$.partOfSystem.name", "value": "Vascular system", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Superior vena cava",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001097.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "The second largest vein in the human body.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001097.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.function",
+      "value": "Moves blood from the upper parts of the body to the heart.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/article/001097.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.partOfSystem.name",
+      "value": "Vascular system",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

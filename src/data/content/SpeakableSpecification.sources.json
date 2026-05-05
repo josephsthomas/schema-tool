@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://developers.google.com/search/docs/appearance/structured-data/speakable",
@@ -15,10 +15,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "2025 U.S. Measles Outbreak Update", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] },
-    { "jsonPath": "$.text", "value": "A total of 2,288 confirmed measles cases were reported in the United States during 2025. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine.", "sourceUrls": ["https://www.cdc.gov/measles/data-research/index.html"] },
-    { "jsonPath": "$.speakable['@type']", "value": "SpeakableSpecification", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/speakable"] },
-    { "jsonPath": "$.speakable.cssSelector[0]", "value": ".announcement-headline", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/speakable"] },
-    { "jsonPath": "$.speakable.cssSelector[1]", "value": ".announcement-summary", "sourceUrls": ["https://developers.google.com/search/docs/appearance/structured-data/speakable"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "2025 U.S. Measles Outbreak Update",
+      "sourceUrls": [
+        "https://www.cdc.gov/measles/data-research/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.text",
+      "value": "A total of 2,288 confirmed measles cases were reported in the United States during 2025. The best way to protect yourself against measles is with the measles, mumps, and rubella (MMR) vaccine.",
+      "sourceUrls": [
+        "https://www.cdc.gov/measles/data-research/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.speakable['@type']",
+      "value": "SpeakableSpecification",
+      "sourceUrls": [
+        "https://developers.google.com/search/docs/appearance/structured-data/speakable"
+      ]
+    },
+    {
+      "jsonPath": "$.speakable.cssSelector[0]",
+      "value": ".announcement-headline",
+      "sourceUrls": [
+        "https://developers.google.com/search/docs/appearance/structured-data/speakable"
+      ]
+    },
+    {
+      "jsonPath": "$.speakable.cssSelector[1]",
+      "value": ".announcement-summary",
+      "sourceUrls": [
+        "https://developers.google.com/search/docs/appearance/structured-data/speakable"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Prescription only",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.applicableLocation.name",
       "value": "United States",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

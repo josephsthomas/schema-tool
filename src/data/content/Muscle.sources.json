@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/muscledisorders.html",
@@ -9,10 +9,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Skeletal muscle", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
-    { "jsonPath": "$.function", "value": "Your muscles help you move and help your body work.", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
-    { "jsonPath": "$.relatedCondition[0].name", "value": "Muscular dystrophy", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
-    { "jsonPath": "$.relatedCondition[1].name", "value": "Myositis", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] },
-    { "jsonPath": "$.relatedCondition[1].description", "value": "Inflammation of the muscles.", "sourceUrls": ["https://medlineplus.gov/muscledisorders.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Skeletal muscle",
+      "sourceUrls": [
+        "https://medlineplus.gov/muscledisorders.html"
+      ]
+    },
+    {
+      "jsonPath": "$.function",
+      "value": "Your muscles help you move and help your body work.",
+      "sourceUrls": [
+        "https://medlineplus.gov/muscledisorders.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[0].name",
+      "value": "Muscular dystrophy",
+      "sourceUrls": [
+        "https://medlineplus.gov/muscledisorders.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[1].name",
+      "value": "Myositis",
+      "sourceUrls": [
+        "https://medlineplus.gov/muscledisorders.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[1].description",
+      "value": "Inflammation of the muscles.",
+      "sourceUrls": [
+        "https://medlineplus.gov/muscledisorders.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

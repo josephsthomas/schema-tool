@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a696005.html",
@@ -12,27 +12,39 @@
     {
       "jsonPath": "$.name",
       "value": "Metformin tablet cost entry",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.applicableLocation",
       "value": "US",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.costCategory",
       "value": "Retail",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.drugUnit",
       "value": "Tablet",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     },
     {
       "jsonPath": "$.costCurrency",
       "value": "USD",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a696005.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a696005.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

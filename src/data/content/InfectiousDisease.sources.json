@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/flu/about/index.html",
@@ -21,11 +21,49 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Influenza", "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"] },
-    { "jsonPath": "$.alternateName", "value": "Flu", "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"] },
-    { "jsonPath": "$.description", "value": "Flu is a contagious respiratory illness caused by influenza viruses that infect tissues in the nose, throat, and sometimes the lungs.", "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"] },
-    { "jsonPath": "$.infectiousAgent", "value": "Influenza A and B viruses", "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"] },
-    { "jsonPath": "$.infectiousAgentClass", "value": "Virus", "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"] },
-    { "jsonPath": "$.transmissionMethod", "value": "Flu viruses spread mainly by droplets made when people with flu cough, sneeze, or talk.", "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Influenza",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.alternateName",
+      "value": "Flu",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Flu is a contagious respiratory illness caused by influenza viruses that infect tissues in the nose, throat, and sometimes the lungs.",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.infectiousAgent",
+      "value": "Influenza A and B viruses",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.infectiousAgentClass",
+      "value": "Virus",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
+    },
+    {
+      "jsonPath": "$.transmissionMethod",
+      "value": "Flu viruses spread mainly by droplets made when people with flu cough, sneeze, or talk.",
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

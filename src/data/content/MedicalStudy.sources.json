@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://clinicaltrials.gov/study/NCT03021993",
@@ -12,47 +12,67 @@
     {
       "jsonPath": "$.name",
       "value": "Phase II Trial of Nivolumab, an Anti-PD-1 Monoclonal Antibody, as a Novel Neoadjuvant Pre-Surgical Therapy for Locally Advanced Oral Cavity Cancer",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.identifier",
       "value": "NCT03021993",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.status",
       "value": "Completed",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.studySubject.name",
       "value": "Nivolumab",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.healthCondition.name",
       "value": "Oral Cavity Squamous Cell Carcinoma",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.sponsor.name",
       "value": "Medical University of South Carolina",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.studyLocation.name",
       "value": "Medical University of South Carolina",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.studyLocation.address.addressLocality",
       "value": "Charleston",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     },
     {
       "jsonPath": "$.studyLocation.address.addressRegion",
       "value": "South Carolina",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT03021993"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT03021993"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

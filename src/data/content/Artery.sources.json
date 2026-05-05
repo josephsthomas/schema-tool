@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/aorticaneurysm.html",
@@ -15,10 +15,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Aorta", "sourceUrls": ["https://medlineplus.gov/aorticaneurysm.html"] },
-    { "jsonPath": "$.description", "value": "The main artery that runs from the heart through the chest and abdomen.", "sourceUrls": ["https://medlineplus.gov/aorticaneurysm.html"] },
-    { "jsonPath": "$.partOfSystem.name", "value": "Vascular system", "sourceUrls": ["https://medlineplus.gov/vasculardiseases.html"] },
-    { "jsonPath": "$.relatedCondition[0].name", "value": "Thoracic aortic aneurysm", "sourceUrls": ["https://medlineplus.gov/aorticaneurysm.html"] },
-    { "jsonPath": "$.relatedCondition[1].name", "value": "Abdominal aortic aneurysm", "sourceUrls": ["https://medlineplus.gov/aorticaneurysm.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Aorta",
+      "sourceUrls": [
+        "https://medlineplus.gov/aorticaneurysm.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "The main artery that runs from the heart through the chest and abdomen.",
+      "sourceUrls": [
+        "https://medlineplus.gov/aorticaneurysm.html"
+      ]
+    },
+    {
+      "jsonPath": "$.partOfSystem.name",
+      "value": "Vascular system",
+      "sourceUrls": [
+        "https://medlineplus.gov/vasculardiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[0].name",
+      "value": "Thoracic aortic aneurysm",
+      "sourceUrls": [
+        "https://medlineplus.gov/aorticaneurysm.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition[1].name",
+      "value": "Abdominal aortic aneurysm",
+      "sourceUrls": [
+        "https://medlineplus.gov/aorticaneurysm.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

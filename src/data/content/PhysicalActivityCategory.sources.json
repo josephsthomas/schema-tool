@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/physical-activity-basics/about/index.html",
@@ -18,32 +18,46 @@
     {
       "jsonPath": "$.name",
       "value": "Adult aerobic activity plan",
-      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/physical-activity-basics/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.activityType",
       "value": "AerobicActivity",
-      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/physical-activity-basics/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Adults need at least 150 minutes a week of moderate-intensity aerobic physical activity.",
-      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/physical-activity-basics/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.exerciseType",
       "value": "Aerobic",
-      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/physical-activity-basics/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.intensity",
       "value": "Moderate",
-      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/physical-activity-basics/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.audience.suggestedMinAge",
       "value": 18,
-      "sourceUrls": ["https://www.cdc.gov/physical-activity-basics/adults/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/physical-activity-basics/adults/index.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

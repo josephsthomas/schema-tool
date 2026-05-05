@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/jaundice.html",
@@ -15,10 +15,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Jaundice", "sourceUrls": ["https://medlineplus.gov/jaundice.html"] },
-    { "jsonPath": "$.description", "value": "Jaundice causes your skin and the whites of your eyes to turn yellow. Too much bilirubin causes jaundice.", "sourceUrls": ["https://medlineplus.gov/jaundice.html"] },
-    { "jsonPath": "$.possibleCondition[0].name", "value": "Hepatitis", "sourceUrls": ["https://medlineplus.gov/jaundice.html"] },
-    { "jsonPath": "$.possibleCondition[1].name", "value": "Cirrhosis", "sourceUrls": ["https://medlineplus.gov/jaundice.html"] },
-    { "jsonPath": "$.possibleCondition[2].name", "value": "Bile duct blockage", "sourceUrls": ["https://medlineplus.gov/jaundice.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Jaundice",
+      "sourceUrls": [
+        "https://medlineplus.gov/jaundice.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Jaundice causes your skin and the whites of your eyes to turn yellow. Too much bilirubin causes jaundice.",
+      "sourceUrls": [
+        "https://medlineplus.gov/jaundice.html"
+      ]
+    },
+    {
+      "jsonPath": "$.possibleCondition[0].name",
+      "value": "Hepatitis",
+      "sourceUrls": [
+        "https://medlineplus.gov/jaundice.html"
+      ]
+    },
+    {
+      "jsonPath": "$.possibleCondition[1].name",
+      "value": "Cirrhosis",
+      "sourceUrls": [
+        "https://medlineplus.gov/jaundice.html"
+      ]
+    },
+    {
+      "jsonPath": "$.possibleCondition[2].name",
+      "value": "Bile duct blockage",
+      "sourceUrls": [
+        "https://medlineplus.gov/jaundice.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

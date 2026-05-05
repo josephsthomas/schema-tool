@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html",
@@ -12,32 +12,46 @@
     {
       "jsonPath": "$.name",
       "value": "Adult Immunization Schedule by Age",
-      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"
+      ]
     },
     {
       "jsonPath": "$.url",
       "value": "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html",
-      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"
+      ]
     },
     {
       "jsonPath": "$.guidelineDate",
       "value": "2025-07-02",
-      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"
+      ]
     },
     {
       "jsonPath": "$.evidenceOrigin",
       "value": "Advisory Committee on Immunization Practices (ACIP), Centers for Disease Control and Prevention",
-      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"
+      ]
     },
     {
       "jsonPath": "$.guidelineSubject.name",
       "value": "Routine vaccination of adults aged 19 years and older in the United States",
-      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"
+      ]
     },
     {
       "jsonPath": "$.publisher.name",
       "value": "Centers for Disease Control and Prevention",
-      "sourceUrls": ["https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/vaccines/hcp/imz-schedules/adult-age.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/healthfacilities.html",
@@ -15,12 +15,56 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.description", "value": "A health facility that provides health care, including inpatient and specialized care.", "sourceUrls": ["https://medlineplus.gov/healthfacilities.html"] },
-    { "jsonPath": "$.availableService[0].name", "value": "Respiratory support", "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000017.htm"] },
-    { "jsonPath": "$.availableService[0].description", "value": "In the hospital, providers help patients breathe better.", "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000017.htm"] },
-    { "jsonPath": "$.availableService[1].name", "value": "Anti-infective medication administration", "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000017.htm"] },
-    { "jsonPath": "$.availableService[1].description", "value": "Medicine to help the body get rid of the germs that cause pneumonia.", "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000017.htm"] },
-    { "jsonPath": "$.availableService[2].name", "value": "Fluid and nutrition management", "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000017.htm"] },
-    { "jsonPath": "$.availableService[2].description", "value": "Making sure patients get enough liquids and nutrients.", "sourceUrls": ["https://medlineplus.gov/ency/patientinstructions/000017.htm"] }
-  ]
+    {
+      "jsonPath": "$.description",
+      "value": "A health facility that provides health care, including inpatient and specialized care.",
+      "sourceUrls": [
+        "https://medlineplus.gov/healthfacilities.html"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].name",
+      "value": "Respiratory support",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/patientinstructions/000017.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[0].description",
+      "value": "In the hospital, providers help patients breathe better.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/patientinstructions/000017.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[1].name",
+      "value": "Anti-infective medication administration",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/patientinstructions/000017.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[1].description",
+      "value": "Medicine to help the body get rid of the germs that cause pneumonia.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/patientinstructions/000017.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[2].name",
+      "value": "Fluid and nutrition management",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/patientinstructions/000017.htm"
+      ]
+    },
+    {
+      "jsonPath": "$.availableService[2].description",
+      "value": "Making sure patients get enough liquids and nutrients.",
+      "sourceUrls": [
+        "https://medlineplus.gov/ency/patientinstructions/000017.htm"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

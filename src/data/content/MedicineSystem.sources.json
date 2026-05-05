@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/natural/patient-acupuncture.html",
@@ -18,17 +18,25 @@
     {
       "jsonPath": "$.name",
       "value": "Acupuncture",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/natural/patient-acupuncture.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/natural/patient-acupuncture.html"
+      ]
     },
     {
       "jsonPath": "$.medicineSystem",
       "value": "TraditionalChinese",
-      "sourceUrls": ["https://medlineplus.gov/complementaryandintegrativemedicine.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/complementaryandintegrativemedicine.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Acupuncture is a technique in which practitioners insert fine needles into the skin to treat health problems.",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/natural/patient-acupuncture.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/natural/patient-acupuncture.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

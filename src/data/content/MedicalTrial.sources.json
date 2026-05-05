@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://clinicaltrials.gov/study/NCT04368728",
@@ -12,37 +12,53 @@
     {
       "jsonPath": "$.name",
       "value": "A Phase 1/2/3, Placebo-Controlled, Randomized, Observer-Blind, Dose-Finding Study to Evaluate the Safety, Tolerability, Immunogenicity, and Efficacy of SARS-CoV-2 RNA Vaccine Candidates Against COVID-19 in Healthy Individuals",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
     },
     {
       "jsonPath": "$.identifier",
       "value": "NCT04368728",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
     },
     {
       "jsonPath": "$.status",
       "value": "Completed",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
     },
     {
       "jsonPath": "$.trialDesign",
       "value": "RandomizedTrial, PlaceboControlledTrial, DoubleBlindedTrial",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[0].name",
       "value": "SARS-CoV-2 Infection",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
     },
     {
       "jsonPath": "$.healthCondition[1].name",
       "value": "COVID-19",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
     },
     {
       "jsonPath": "$.sponsor.name",
       "value": "BioNTech SE",
-      "sourceUrls": ["https://clinicaltrials.gov/study/NCT04368728"]
+      "sourceUrls": [
+        "https://clinicaltrials.gov/study/NCT04368728"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

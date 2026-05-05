@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/lab-tests/pap-smear/",
@@ -12,32 +12,46 @@
     {
       "jsonPath": "$.name",
       "value": "Pap Smear",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/pap-smear/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/pap-smear/"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "A Pap smear is a test to screen for cervical cancer. A provider collects cells from your cervix and sends them to a lab where the cells are checked under a microscope for cancer or signs that they are abnormal.",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/pap-smear/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/pap-smear/"
+      ]
     },
     {
       "jsonPath": "$.usedToDiagnose[0].name",
       "value": "Cervical cancer",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/pap-smear/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/pap-smear/"
+      ]
     },
     {
       "jsonPath": "$.signDetected.name",
       "value": "Abnormal cervical cells",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/pap-smear/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/pap-smear/"
+      ]
     },
     {
       "jsonPath": "$.usesDevice[0].name",
       "value": "Speculum",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/pap-smear/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/pap-smear/"
+      ]
     },
     {
       "jsonPath": "$.usesDevice[1].name",
       "value": "Soft brush or swab",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/pap-smear/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/pap-smear/"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

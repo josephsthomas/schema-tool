@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/diabetestype2.html",
@@ -12,27 +12,39 @@
     {
       "jsonPath": "$.name",
       "value": "Type 2 Diabetes",
-      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/diabetestype2.html"
+      ]
     },
     {
       "jsonPath": "$.alternateName",
       "value": "Adult-Onset Diabetes",
-      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/diabetestype2.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "A disease in which blood glucose levels are too high because the body either doesn't make enough insulin or doesn't use insulin well.",
-      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/diabetestype2.html"
+      ]
     },
     {
       "jsonPath": "$.code.codingSystem",
       "value": "ICD-10-CM",
-      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/diabetestype2.html"
+      ]
     },
     {
       "jsonPath": "$.code.codeValue",
       "value": "E11",
-      "sourceUrls": ["https://medlineplus.gov/diabetestype2.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/diabetestype2.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

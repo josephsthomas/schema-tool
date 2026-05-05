@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/lymphaticdiseases.html",
@@ -9,10 +9,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Lymph vessel", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
-    { "jsonPath": "$.description", "value": "Vessels that carry lymph throughout your body.", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
-    { "jsonPath": "$.partOfSystem.name", "value": "Lymphatic system", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
-    { "jsonPath": "$.relatedCondition.name", "value": "Lymphedema", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] },
-    { "jsonPath": "$.relatedCondition.description", "value": "Fluid builds in your tissues and causes swelling, called lymphedema.", "sourceUrls": ["https://medlineplus.gov/lymphaticdiseases.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Lymph vessel",
+      "sourceUrls": [
+        "https://medlineplus.gov/lymphaticdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "Vessels that carry lymph throughout your body.",
+      "sourceUrls": [
+        "https://medlineplus.gov/lymphaticdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.partOfSystem.name",
+      "value": "Lymphatic system",
+      "sourceUrls": [
+        "https://medlineplus.gov/lymphaticdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition.name",
+      "value": "Lymphedema",
+      "sourceUrls": [
+        "https://medlineplus.gov/lymphaticdiseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition.description",
+      "value": "Fluid builds in your tissues and causes swelling, called lymphedema.",
+      "sourceUrls": [
+        "https://medlineplus.gov/lymphaticdiseases.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

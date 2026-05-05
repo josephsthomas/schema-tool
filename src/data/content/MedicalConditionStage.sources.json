@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cancer.gov/types/breast/stages",
@@ -9,10 +9,42 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Stage III Breast Cancer", "sourceUrls": ["https://www.cancer.gov/types/breast/stages"] },
-    { "jsonPath": "$.stageAsNumber", "value": 3, "sourceUrls": ["https://www.cancer.gov/types/breast/stages"] },
-    { "jsonPath": "$.subStageSuffix", "value": "A, B, C", "sourceUrls": ["https://www.cancer.gov/types/breast/stages"] },
-    { "jsonPath": "$.description", "value": "In stage III breast cancer, the cancer is found in the lymph nodes close to the breast, the skin of the breast, or the chest wall.", "sourceUrls": ["https://www.cancer.gov/types/breast/stages"] },
-    { "jsonPath": "$.subjectOf.name", "value": "Breast Cancer", "sourceUrls": ["https://www.cancer.gov/types/breast/stages"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Stage III Breast Cancer",
+      "sourceUrls": [
+        "https://www.cancer.gov/types/breast/stages"
+      ]
+    },
+    {
+      "jsonPath": "$.stageAsNumber",
+      "value": 3,
+      "sourceUrls": [
+        "https://www.cancer.gov/types/breast/stages"
+      ]
+    },
+    {
+      "jsonPath": "$.subStageSuffix",
+      "value": "A, B, C",
+      "sourceUrls": [
+        "https://www.cancer.gov/types/breast/stages"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "In stage III breast cancer, the cancer is found in the lymph nodes close to the breast, the skin of the breast, or the chest wall.",
+      "sourceUrls": [
+        "https://www.cancer.gov/types/breast/stages"
+      ]
+    },
+    {
+      "jsonPath": "$.subjectOf.name",
+      "value": "Breast Cancer",
+      "sourceUrls": [
+        "https://www.cancer.gov/types/breast/stages"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

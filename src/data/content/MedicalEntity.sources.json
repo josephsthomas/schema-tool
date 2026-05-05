@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/flu/about/index.html",
@@ -40,27 +40,39 @@
     {
       "jsonPath": "$.description",
       "value": "Flu is a contagious respiratory illness caused by influenza viruses that infect tissues in the nose, throat, and sometimes the lungs.",
-      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.code.codingSystem",
       "value": "ICD-10-CM",
-      "sourceUrls": ["https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"
+      ]
     },
     {
       "jsonPath": "$.code.codeValue",
       "value": "J11.1",
-      "sourceUrls": ["https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/nchs/icd/icd-10-cm/index.html"
+      ]
     },
     {
       "jsonPath": "$.recognizingAuthority.name",
       "value": "Centers for Disease Control and Prevention",
-      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.recognizingAuthority.url",
       "value": "https://www.cdc.gov/flu/about/index.html",
-      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://meshb.nlm.nih.gov/record/ui?ui=D005269",
@@ -21,11 +21,49 @@
     }
   ],
   "factsExtracted": [
-    { "jsonPath": "$.name", "value": "Femur", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D005269"] },
-    { "jsonPath": "$.description", "value": "The longest and largest bone of the skeleton.", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D005269"] },
-    { "jsonPath": "$.bodyLocation", "value": "Situated between the hip and the knee.", "sourceUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D005269"] },
-    { "jsonPath": "$.function", "value": "Bones help you move, give you shape and support your body.", "sourceUrls": ["https://medlineplus.gov/bonediseases.html"] },
-    { "jsonPath": "$.relatedCondition.name", "value": "Hip dysplasia", "sourceUrls": ["https://medlineplus.gov/hipinjuriesanddisorders.html"] },
-    { "jsonPath": "$.relatedCondition.description", "value": "A condition where the ball at the end of the femur is loose in the hip socket.", "sourceUrls": ["https://medlineplus.gov/hipinjuriesanddisorders.html"] }
-  ]
+    {
+      "jsonPath": "$.name",
+      "value": "Femur",
+      "sourceUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005269"
+      ]
+    },
+    {
+      "jsonPath": "$.description",
+      "value": "The longest and largest bone of the skeleton.",
+      "sourceUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005269"
+      ]
+    },
+    {
+      "jsonPath": "$.bodyLocation",
+      "value": "Situated between the hip and the knee.",
+      "sourceUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005269"
+      ]
+    },
+    {
+      "jsonPath": "$.function",
+      "value": "Bones help you move, give you shape and support your body.",
+      "sourceUrls": [
+        "https://medlineplus.gov/bonediseases.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition.name",
+      "value": "Hip dysplasia",
+      "sourceUrls": [
+        "https://medlineplus.gov/hipinjuriesanddisorders.html"
+      ]
+    },
+    {
+      "jsonPath": "$.relatedCondition.description",
+      "value": "A condition where the ball at the end of the femur is loose in the hip socket.",
+      "sourceUrls": [
+        "https://medlineplus.gov/hipinjuriesanddisorders.html"
+      ]
+    }
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/lab-tests/blood-glucose-test/",
@@ -12,42 +12,60 @@
     {
       "jsonPath": "$.name",
       "value": "Blood Glucose Test",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "A blood glucose test measures the glucose levels in your blood. Glucose is a type of sugar. It is your body's main source of energy.",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     },
     {
       "jsonPath": "$.usedToDiagnose[0].name",
       "value": "Prediabetes",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     },
     {
       "jsonPath": "$.usedToDiagnose[1].name",
       "value": "Diabetes",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     },
     {
       "jsonPath": "$.usedToDiagnose[2].name",
       "value": "Hypoglycemia",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     },
     {
       "jsonPath": "$.signDetected.name",
       "value": "Hyperglycemia",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     },
     {
       "jsonPath": "$.usesDevice[0].name",
       "value": "Blood glucose meter",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     },
     {
       "jsonPath": "$.usesDevice[1].name",
       "value": "Continuous glucose monitor (CGM)",
-      "sourceUrls": ["https://medlineplus.gov/lab-tests/blood-glucose-test/"]
+      "sourceUrls": [
+        "https://medlineplus.gov/lab-tests/blood-glucose-test/"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

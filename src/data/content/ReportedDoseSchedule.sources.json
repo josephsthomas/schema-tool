@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
@@ -12,17 +12,25 @@
     {
       "jsonPath": "$.name",
       "value": "Ibuprofen self-administered schedule for pain or fever",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     },
     {
       "jsonPath": "$.frequency",
       "value": "every 4 to 6 hours as needed",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     },
     {
       "jsonPath": "$.targetPopulation",
       "value": "Adults and children older than 12 years of age",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

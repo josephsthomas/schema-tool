@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://www.cdc.gov/flu/about/index.html",
@@ -18,22 +18,32 @@
     {
       "jsonPath": "$.name",
       "value": "Seasonal influenza",
-      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.infectiousAgent",
       "value": "Influenza virus",
-      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.infectiousAgentClass",
       "value": "Virus",
-      "sourceUrls": ["https://www.cdc.gov/flu/about/index.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/index.html"
+      ]
     },
     {
       "jsonPath": "$.transmissionMethod",
       "value": "Spread mainly by droplets made when people with flu cough, sneeze, or talk.",
-      "sourceUrls": ["https://www.cdc.gov/flu/about/how-flu-spreads.html"]
+      "sourceUrls": [
+        "https://www.cdc.gov/flu/about/how-flu-spreads.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }

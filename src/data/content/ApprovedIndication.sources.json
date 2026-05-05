@@ -1,5 +1,5 @@
 {
-  "verification": "draft",
+  "verification": "verified",
   "sources": [
     {
       "url": "https://medlineplus.gov/druginfo/meds/a682159.html",
@@ -12,12 +12,18 @@
     {
       "jsonPath": "$.name",
       "value": "Ibuprofen for fever",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     },
     {
       "jsonPath": "$.description",
       "value": "Ibuprofen is used to reduce fever. It works by stopping the body's production of a substance that causes pain, fever, and inflammation.",
-      "sourceUrls": ["https://medlineplus.gov/druginfo/meds/a682159.html"]
+      "sourceUrls": [
+        "https://medlineplus.gov/druginfo/meds/a682159.html"
+      ]
     }
-  ]
+  ],
+  "verifiedBy": "joseph@jsthomas.org",
+  "verifiedAt": "2026-05-05T23:25:41.635Z"
 }
