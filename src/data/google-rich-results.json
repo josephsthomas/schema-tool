@@ -1,0 +1,6 @@
+{
+  "$schema": "./google-rich-results.schema.json",
+  "_comment": "Hand-curated mapping of (typeId, propertyId) -> 'required' | 'recommended' for the small set of medical schema.org types Google uses for rich results. Each entry MUST cite a Google Search Central URL. Phase 1 ships this empty; Phase 3 populates it. Do not infer Google's stance from training data — only annotate from a verifiable cited URL.",
+  "_lastReviewed": null,
+  "annotations": []
+}

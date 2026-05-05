@@ -1,0 +1,12 @@
+node_modules
+dist
+data-cache
+*.local
+*.log
+.DS_Store
+.vite
+.tmp
+.cache
+coverage
+.env
+.env.local

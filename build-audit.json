@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-05-05T22:22:52.038Z",
+  "schemaOrg": {
+    "version": "30.0",
+    "sourceUrl": "https://schema.org/version/30.0/schemaorg-current-https.jsonld",
+    "sourceHash": "4467fa19edcb1d7fb3c46c0adf3591b7f870c4a60b7838bdb61694fd02864cf6",
+    "sourceSize": 1550791
+  },
+  "counts": {
+    "Type": 94,
+    "Property": 163,
+    "Enumeration": 17,
+    "EnumerationMember": 125
+  },
+  "metaAncestors": [
+    "schema:Article",
+    "schema:Audience",
+    "schema:CategoryCode",
+    "schema:CivicStructure",
+    "schema:CreativeWork",
+    "schema:DefinedTerm",
+    "schema:EmergencyService",
+    "schema:Enumeration",
+    "schema:Intangible",
+    "schema:LocalBusiness",
+    "schema:Organization",
+    "schema:PeopleAudience",
+    "schema:Person",
+    "schema:Place",
+    "schema:Product",
+    "schema:Review",
+    "schema:ScholarlyArticle",
+    "schema:Specialty",
+    "schema:Thing",
+    "schema:WebPage"
+  ],
+  "pendingTerms": [
+    "schema:CategoryCode",
+    "schema:DefinedTerm",
+    "schema:HealthInsurancePlan",
+    "schema:HealthPlanCostSharingSpecification",
+    "schema:HealthPlanFormulary",
+    "schema:HealthPlanNetwork",
+    "schema:SpecialAnnouncement"
+  ],
+  "deprecatedTerms": [
+    "schema:Dermatologic",
+    "schema:aspect",
+    "schema:branch",
+    "schema:clincalPharmacology"
+  ],
+  "warnings": [],
+  "fetches": []
+}
