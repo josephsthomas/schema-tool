@@ -4,6 +4,7 @@ import { DetailHeader } from '@/components/DetailHeader';
 import { ProseSection } from '@/components/ProseSection';
 import { PropertyTable } from '@/components/PropertyTable';
 import { ReferenceExampleBlock } from '@/components/ReferenceExampleBlock';
+import { GenerateDialog } from '@/components/Generator/GenerateDialog';
 import { Button } from '@/components/ui/button';
 import { useDataset } from '@/hooks/useDataset';
 import { useContentForTerm } from '@/hooks/useContent';
@@ -130,8 +131,15 @@ export function TypeDetailRoute() {
       />
 
       <section className="mt-12 flex flex-wrap items-center gap-3 border-t border-zinc-200 pt-8 dark:border-zinc-800">
-        <Link to={`/generator?type=${bareName(term.id)}`}>
-          <Button variant="accent">Generate this type</Button>
+        <GenerateDialog
+          type={term}
+          trigger={<Button variant="accent">Generate this type</Button>}
+        />
+        <Link
+          to={`/generator?type=${bareName(term.id)}`}
+          className="text-sm text-zinc-700 underline hover:text-zinc-900 dark:text-zinc-300"
+        >
+          Open in full Generator
         </Link>
         <a
           href={term.iri}
