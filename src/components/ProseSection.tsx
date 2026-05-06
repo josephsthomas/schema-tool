@@ -17,9 +17,9 @@ export function ProseSection({
 }) {
   return (
     <section className={cn(className)}>
-      <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">{title}</h2>
+      <h2 className="text-xl font-semibold tracking-tight md:text-2xl">{title}</h2>
       {body ? (
-        <div className="mt-4 max-w-3xl space-y-4 text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+        <div className="mt-3 max-w-3xl space-y-3 text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
           {body
             .split(/\n{2,}/)
             .map((paragraph, idx) => (

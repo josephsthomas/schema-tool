@@ -66,11 +66,11 @@ export function GeneratorRoute() {
   }
 
   return (
-    <div className="mx-auto max-w-[1240px] px-6 py-12 md:py-16">
-      <header className="mb-10 flex flex-wrap items-end justify-between gap-6">
+    <div className="py-10 md:py-14">
+      <header className="mb-8 flex flex-wrap items-end justify-between gap-6">
         <div>
           <p className="text-sm font-medium text-[var(--color-accent)]">Generator</p>
-          <h1 className="mt-2 text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
+          <h1 className="mt-1.5 text-3xl font-semibold leading-tight tracking-tight md:text-4xl">
             Build valid JSON-LD
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">

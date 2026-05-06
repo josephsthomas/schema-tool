@@ -38,7 +38,7 @@ export function WorkspaceRoute() {
   }
 
   return (
-    <div className="mx-auto grid max-w-[1240px] gap-10 px-6 py-12 md:py-16 lg:grid-cols-[260px_minmax(0,1fr)]">
+    <div className="grid gap-8 py-10 md:py-14 lg:grid-cols-[240px_minmax(0,1fr)]">
       <aside className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-xs font-medium text-zinc-500">Bundles</h2>
@@ -119,7 +119,7 @@ export function WorkspaceRoute() {
                   </form>
                 ) : (
                   <h1
-                    className="cursor-text text-4xl font-semibold leading-tight tracking-tight md:text-5xl"
+                    className="cursor-text text-3xl font-semibold leading-tight tracking-tight md:text-4xl"
                     onDoubleClick={() => {
                       setTempName(bundle.name);
                       setRenaming(true);

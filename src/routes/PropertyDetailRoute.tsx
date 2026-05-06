@@ -32,10 +32,10 @@ export function PropertyDetailRoute() {
   const ranges = term.rangeIncludes.map((id) => ({ id, term: dataset.termsById[id] }));
 
   return (
-    <article className="mx-auto max-w-[1240px] px-6 py-16 md:py-24">
+    <article className="py-10 md:py-14">
       <DetailHeader term={term} kindLabel="Property" />
 
-      <section className="mt-16 grid gap-5 md:grid-cols-2">
+      <section className="mt-10 grid gap-4 md:grid-cols-2">
         <div className="rounded-xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-950">
           <h2 className="text-base font-semibold tracking-tight">Used on (domain)</h2>
           <div className="mt-4">
@@ -89,7 +89,7 @@ export function PropertyDetailRoute() {
         </div>
       </section>
 
-      <div className="mt-16">
+      <div className="mt-10">
         <PlaceholderSection
           title="Example in context"
           hint="A short JSON-LD snippet showing this property in use within its primary parent type's example."

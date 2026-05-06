@@ -27,7 +27,7 @@ export function EnumerationMemberDetailRoute() {
   }
 
   return (
-    <article className="mx-auto max-w-[1240px] px-6 py-16 md:py-24">
+    <article className="py-10 md:py-14">
       <DetailHeader term={member} kindLabel="Enumeration member" />
 
       {enumeration && enumeration.kind === 'Enumeration' && (

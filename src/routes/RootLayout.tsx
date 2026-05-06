@@ -1,9 +1,10 @@
-import { ChevronDown, Search } from 'lucide-react';
-import { useEffect, useRef, useState } from 'react';
+import { BookOpen, Boxes, Download, FileEdit, Library, Search } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import { SearchPalette } from '@/components/SearchPalette';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { Button } from '@/components/ui/button';
+import { Separator } from '@/components/ui/separator';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { useDataset } from '@/hooks/useDataset';
 import { cn } from '@/lib/utils';
@@ -30,169 +31,119 @@ export function RootLayout() {
       </a>
 
       <div className="flex min-h-screen flex-col bg-[var(--color-surface)] text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
-        <TopNav onSearchOpen={() => setSearchOpen(true)} />
-        <main id="main-content" className="flex-1">
-          <Outlet />
-        </main>
-        <Footer version={dataset.version} />
+        {/* Sticky top bar — brand + search + theme toggle */}
+        <header className="sticky top-0 z-30 border-b border-zinc-200 bg-white/85 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/85">
+          <div className="mx-auto flex h-14 max-w-[1240px] items-center justify-between gap-6 px-6">
+            <Link to="/" className="flex items-center gap-3">
+              <span className="font-semibold tracking-tight">schema-tool</span>
+              <span className="hidden text-xs text-zinc-500 sm:inline">Medical &amp; Health-Sci</span>
+            </Link>
+            <div className="flex items-center gap-1.5">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setSearchOpen(true)}
+                className="gap-2 font-normal"
+              >
+                <Search className="h-3.5 w-3.5" />
+                <span>Search</span>
+                <kbd className="ml-1 hidden rounded border border-zinc-300 bg-zinc-100 px-1.5 py-0.5 text-[10px] font-mono text-zinc-600 sm:inline dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
+                  ⌘K
+                </kbd>
+              </Button>
+              <ThemeToggle />
+            </div>
+          </div>
+        </header>
+
+        {/* Main shell — left rail + content */}
+        <div className="mx-auto flex w-full max-w-[1240px] flex-1 px-6">
+          <aside className="sticky top-14 hidden h-[calc(100vh-3.5rem)] w-52 shrink-0 flex-col border-r border-zinc-100 py-8 pr-6 md:flex dark:border-zinc-900">
+            <p className="mb-3 text-xs font-medium text-zinc-500">Navigate</p>
+            <nav className="flex flex-col gap-0.5 text-sm" aria-label="Primary">
+              <RailLink to="/browse" icon={<Library className="h-4 w-4" />}>
+                Browse
+              </RailLink>
+              <RailLink to="/generator" icon={<FileEdit className="h-4 w-4" />}>
+                Generator
+              </RailLink>
+              <RailLink to="/workspace" icon={<Boxes className="h-4 w-4" />}>
+                Workspace
+              </RailLink>
+              <RailLink to="/export" icon={<Download className="h-4 w-4" />}>
+                Export
+              </RailLink>
+            </nav>
+
+            <Separator className="my-4" />
+            <p className="mb-3 text-xs font-medium text-zinc-500">Quick types</p>
+            <nav className="flex flex-col gap-0.5 text-sm" aria-label="Quick types">
+              <QuickLink to="/Type/Drug">Drug</QuickLink>
+              <QuickLink to="/Type/MedicalCondition">MedicalCondition</QuickLink>
+              <QuickLink to="/Type/Hospital">Hospital</QuickLink>
+              <QuickLink to="/Type/Physician">Physician</QuickLink>
+              <QuickLink to="/Type/MedicalProcedure">MedicalProcedure</QuickLink>
+              <QuickLink to="/Type/MedicalTrial">MedicalTrial</QuickLink>
+            </nav>
+
+            <div className="mt-auto pt-6">
+              <Separator className="mb-3" />
+              <div className="flex items-center gap-2 text-xs text-zinc-500">
+                <BookOpen className="h-3.5 w-3.5" />
+                schema.org v{dataset.version}
+              </div>
+            </div>
+          </aside>
+
+          <main id="main-content" className="min-w-0 flex-1">
+            <Outlet />
+          </main>
+        </div>
+
         <SearchPalette open={searchOpen} onOpenChange={setSearchOpen} />
       </div>
     </TooltipProvider>
   );
 }
 
-function TopNav({ onSearchOpen }: { onSearchOpen: () => void }) {
-  return (
-    <header className="sticky top-0 z-30 border-b border-zinc-200 bg-white/85 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/85">
-      <div className="mx-auto flex h-16 max-w-[1240px] items-center justify-between gap-6 px-6">
-        <Link to="/" className="flex items-center gap-3">
-          <span className="font-semibold tracking-tight">schema-tool</span>
-          <span className="hidden text-xs text-zinc-500 sm:inline">Medical & Health-Sci</span>
-        </Link>
-
-        <nav aria-label="Primary" className="hidden items-center gap-1 md:flex">
-          <NavDropdown
-            label="Reference"
-            items={[
-              { to: '/browse', label: 'Browse all 399 terms' },
-              { to: '/Type/Drug', label: 'Drug' },
-              { to: '/Type/MedicalCondition', label: 'MedicalCondition' },
-              { to: '/Type/Hospital', label: 'Hospital' },
-            ]}
-          />
-          <NavDropdown
-            label="Tools"
-            items={[
-              { to: '/generator', label: 'Generator' },
-              { to: '/workspace', label: 'Workspace' },
-              { to: '/export', label: 'Export ZIP' },
-            ]}
-          />
-          <NavLink
-            to="/browse"
-            className={({ isActive }) =>
-              cn(
-                'rounded-full px-3 py-1.5 text-sm text-zinc-700 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-100',
-                isActive && 'bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100',
-              )
-            }
-          >
-            Browse
-          </NavLink>
-        </nav>
-
-        <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" onClick={onSearchOpen} aria-label="Open search (⌘K)">
-            <Search className="h-4 w-4" />
-          </Button>
-          <ThemeToggle />
-          <a
-            href="mailto:joseph@jsthomas.org?subject=schema-tool"
-            className="hidden md:inline-flex"
-          >
-            <Button variant="pill" size="default">
-              Let's talk
-            </Button>
-          </a>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-function NavDropdown({
-  label,
-  items,
+function RailLink({
+  to,
+  icon,
+  children,
 }: {
-  label: string;
-  items: { to: string; label: string }[];
+  to: string;
+  icon: React.ReactNode;
+  children: React.ReactNode;
 }) {
-  const [open, setOpen] = useState(false);
-  const wrapRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function onDocClick(e: MouseEvent) {
-      if (wrapRef.current && !wrapRef.current.contains(e.target as Node)) setOpen(false);
-    }
-    function onKey(e: KeyboardEvent) {
-      if (e.key === 'Escape') setOpen(false);
-    }
-    document.addEventListener('mousedown', onDocClick);
-    document.addEventListener('keydown', onKey);
-    return () => {
-      document.removeEventListener('mousedown', onDocClick);
-      document.removeEventListener('keydown', onKey);
-    };
-  }, []);
-
   return (
-    <div ref={wrapRef} className="relative">
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        aria-haspopup="menu"
-        className={cn(
-          'inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-sm text-zinc-700 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-100',
-          open && 'bg-zinc-100 text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100',
-        )}
-      >
-        {label}
-        <ChevronDown className={cn('h-3.5 w-3.5 transition-transform', open && 'rotate-180')} />
-      </button>
-      {open && (
-        <div
-          role="menu"
-          className="absolute left-0 top-full z-40 mt-2 w-60 rounded-lg border border-zinc-200 bg-white p-1.5 shadow-lg dark:border-zinc-800 dark:bg-zinc-950"
-        >
-          {items.map((item) => (
-            <Link
-              key={item.to}
-              to={item.to}
-              role="menuitem"
-              onClick={() => setOpen(false)}
-              className="block rounded-md px-3 py-2 text-sm text-zinc-700 hover:bg-zinc-50 dark:text-zinc-300 dark:hover:bg-zinc-900"
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
-      )}
-    </div>
+    <NavLink
+      to={to}
+      end={false}
+      className={({ isActive }) =>
+        cn(
+          'flex items-center gap-2 rounded-md px-2 py-1.5 text-zinc-700 transition-colors hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-900',
+          isActive && 'bg-zinc-100 font-medium text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100',
+        )
+      }
+    >
+      {icon}
+      <span>{children}</span>
+    </NavLink>
   );
 }
 
-function Footer({ version }: { version: string }) {
+function QuickLink({ to, children }: { to: string; children: React.ReactNode }) {
   return (
-    <footer className="mt-32 border-t border-zinc-200 bg-white py-12 dark:border-zinc-800 dark:bg-zinc-950">
-      <div className="mx-auto max-w-[1240px] px-6">
-        <div className="flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
-          <div>
-            <p className="text-sm font-semibold tracking-tight">schema-tool</p>
-            <p className="mt-1 max-w-xl text-sm text-zinc-600 dark:text-zinc-400">
-              Reference, JSON-LD generator, and ZIP export for the schema.org health-lifesci
-              vocabulary — built for content strategists and developers shipping medical markup.
-            </p>
-          </div>
-          <div className="flex items-center gap-6 text-sm text-zinc-600 dark:text-zinc-400">
-            <span>schema.org v{version}</span>
-            <a
-              href="https://github.com/josephsthomas/schema-tool"
-              target="_blank"
-              rel="noreferrer noopener"
-              className="hover:text-zinc-900 dark:hover:text-zinc-100"
-            >
-              GitHub
-            </a>
-            <a
-              href="mailto:joseph@jsthomas.org?subject=schema-tool"
-              className="hover:text-zinc-900 dark:hover:text-zinc-100"
-            >
-              Contact
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <NavLink
+      to={to}
+      className={({ isActive }) =>
+        cn(
+          'rounded-md px-2 py-1 text-[13px] text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-900 dark:hover:text-zinc-100',
+          isActive && 'bg-zinc-100 font-medium text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100',
+        )
+      }
+    >
+      {children}
+    </NavLink>
   );
 }

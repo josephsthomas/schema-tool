@@ -41,14 +41,14 @@ export function TypeDetailRoute() {
 
   return (
     <>
-      <article className="mx-auto max-w-[1240px] px-6 py-16 md:py-24">
+      <article className="py-10 md:py-14">
         <DetailHeader term={term} kindLabel={term.kind === 'Enumeration' ? 'Enumeration' : 'Type'} />
 
-        <div className="mt-8">
+        <div className="mt-6">
           <BreadcrumbTrail term={term} />
         </div>
 
-        <div className="mt-12 grid gap-y-20 md:gap-y-28">
+        <div className="mt-10 grid gap-y-12 md:gap-y-16">
           <ProseSection
             title="When to use it"
             body={content?.whenToUse}
@@ -74,8 +74,8 @@ export function TypeDetailRoute() {
           />
 
           <section>
-            <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">Reference example</h2>
-            <p className="mt-3 max-w-3xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+            <h2 className="text-xl font-semibold tracking-tight md:text-2xl">Reference example</h2>
+            <p className="mt-2 max-w-3xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
               A complete JSON-LD block built from real public data. Reference only —
               generate your own markup using your content in the Generator.
             </p>
@@ -91,8 +91,8 @@ export function TypeDetailRoute() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">Property reference</h2>
-            <p className="mt-3 max-w-3xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+            <h2 className="text-xl font-semibold tracking-tight md:text-2xl">Property reference</h2>
+            <p className="mt-2 max-w-3xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
               Direct properties first, then inherited from ancestors. Inherited core properties
               like name and url link out to schema.org.
             </p>
@@ -103,7 +103,7 @@ export function TypeDetailRoute() {
 
           {enumerationMembers.length > 0 && (
             <section>
-              <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">Members</h2>
+              <h2 className="text-xl font-semibold tracking-tight md:text-2xl">Members</h2>
               <p className="mt-3 text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
                 Values you can select for properties whose range is this enumeration.
               </p>
@@ -139,7 +139,7 @@ export function TypeDetailRoute() {
           />
         </div>
 
-        <section className="mt-24 flex flex-wrap items-center gap-4 border-t border-zinc-200 pt-10 dark:border-zinc-800">
+        <section className="mt-16 flex flex-wrap items-center gap-4 border-t border-zinc-200 pt-8 dark:border-zinc-800">
           <GenerateDialog
             type={term}
             trigger={<Button variant="pill" size="default">Generate this type</Button>}
