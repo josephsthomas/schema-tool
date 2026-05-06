@@ -35,7 +35,7 @@ export function RootLayout() {
         <header className="sticky top-0 z-30 border-b border-zinc-200 bg-white/85 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/85">
           <div className="mx-auto flex h-14 max-w-[1240px] items-center justify-between gap-6 px-6">
             <Link to="/" className="flex items-center gap-3">
-              <span className="font-semibold tracking-tight">schema-tool</span>
+              <span className="font-semibold tracking-tight">Schema Tool</span>
               <span className="hidden text-xs text-zinc-500 sm:inline">Medical &amp; Health-Sci</span>
             </Link>
             <div className="flex items-center gap-1.5">
