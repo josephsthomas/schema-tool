@@ -19,12 +19,12 @@ export function DetailHeader({ term, kindLabel }: DetailHeaderProps) {
       : [];
 
   return (
-    <header className="border-b border-zinc-200 pb-6 dark:border-zinc-800">
-      <p className="font-mono text-xs uppercase tracking-widest text-zinc-500">{kindLabel}</p>
-      <h1 className="mt-1 font-serif text-4xl font-medium leading-tight tracking-tight">
+    <header className="border-b border-zinc-200 pb-8 dark:border-zinc-800">
+      <p className="text-sm font-medium text-[var(--color-accent)]">{kindLabel}</p>
+      <h1 className="mt-2 text-5xl font-semibold leading-[1.05] tracking-tight md:text-6xl">
         {term.name}
       </h1>
-      <div className="mt-3 flex flex-wrap items-center gap-2">
+      <div className="mt-5 flex flex-wrap items-center gap-2">
         <a
           href={term.iri}
           target="_blank"
@@ -36,7 +36,7 @@ export function DetailHeader({ term, kindLabel }: DetailHeaderProps) {
         </a>
         <CopyButton value={term.iri} label="Copy URL" />
       </div>
-      <div className="mt-4 flex flex-wrap items-center gap-1.5">
+      <div className="mt-5 flex flex-wrap items-center gap-1.5">
         <LayerBadges term={term} />
         {categoryLabels.map((label) => (
           <Badge key={label} variant="outline">
@@ -45,7 +45,7 @@ export function DetailHeader({ term, kindLabel }: DetailHeaderProps) {
         ))}
       </div>
       {term.description && (
-        <p className="mt-4 max-w-3xl text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+        <p className="mt-6 max-w-3xl text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
           {term.description}
         </p>
       )}

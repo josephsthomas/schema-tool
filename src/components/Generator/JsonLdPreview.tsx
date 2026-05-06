@@ -31,9 +31,7 @@ export function JsonLdPreview({ value }: JsonLdPreviewProps) {
   return (
     <div className="rounded-md border border-zinc-200 dark:border-zinc-800">
       <div className="flex items-center justify-between border-b border-zinc-200 px-3 py-2 dark:border-zinc-800">
-        <span className="font-mono text-[11px] uppercase tracking-wider text-zinc-500">
-          JSON-LD preview
-        </span>
+        <span className="text-xs font-medium text-zinc-500">JSON-LD preview</span>
         <Button
           size="sm"
           variant="outline"

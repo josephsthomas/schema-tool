@@ -10,7 +10,7 @@ const badgeVariants = cva(
         default: 'border-transparent bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100',
         outline: 'border-zinc-300 text-zinc-700 dark:border-zinc-700 dark:text-zinc-300',
         accent:
-          'border-transparent bg-[oklch(0.93_0.04_200)] text-[oklch(0.30_0.07_200)] dark:bg-[oklch(0.30_0.07_200)] dark:text-[oklch(0.93_0.04_200)]',
+          'border-transparent bg-[oklch(0.95_0.04_28)] text-[oklch(0.42_0.13_28)] dark:bg-[oklch(0.36_0.10_28)] dark:text-[oklch(0.94_0.04_28)]',
         warning:
           'border-transparent bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200',
         destructive:

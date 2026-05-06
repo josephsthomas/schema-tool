@@ -1,12 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  /* Humanist sans for everything; no display serif. */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-  --color-accent: oklch(0.45 0.07 200);
-  --color-accent-fg: oklch(0.99 0.01 200);
+  /* Coral / salmon primary accent. Used sparingly — primary CTAs and selected states only. */
+  --color-accent: oklch(0.71 0.17 28);
+  --color-accent-hover: oklch(0.65 0.18 28);
+  --color-accent-fg: oklch(0.99 0.01 28);
+
+  /* Off-white surface, charcoal body type. */
+  --color-surface: oklch(0.99 0.003 80);
+  --color-ink: oklch(0.20 0.005 80);
+  --color-ink-muted: oklch(0.42 0.005 80);
 }
 
 html,
@@ -16,6 +23,41 @@ body {
 
 body {
   font-family: var(--font-sans);
-  background: oklch(0.99 0 0);
-  color: oklch(0.2 0 0);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Visible focus rings — WCAG 2.2 AA: focus indicator at least 2px and 3:1 against background. */
+:where(a, button, [role="button"], input, textarea, select, summary, [tabindex]:not([tabindex="-1"])):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Skip-to-content link. Visually hidden until focused. */
+.skip-to-content {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 100;
+  padding: 8px 14px;
+  background: var(--color-ink);
+  color: var(--color-accent-fg);
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transform: translateY(-200%);
+  transition: transform 0.15s ease-out;
+}
+.skip-to-content:focus {
+  transform: translateY(0);
+}
+
+/* Heading rhythm — large, confident, generous line-height. Title-case via author convention. */
+h1, h2, h3, h4 {
+  font-family: var(--font-sans);
+  letter-spacing: -0.011em;
 }

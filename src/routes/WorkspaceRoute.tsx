@@ -38,10 +38,10 @@ export function WorkspaceRoute() {
   }
 
   return (
-    <div className="mx-auto grid max-w-7xl gap-8 px-6 py-8 lg:grid-cols-[260px_minmax(0,1fr)]">
+    <div className="mx-auto grid max-w-[1240px] gap-10 px-6 py-12 md:py-16 lg:grid-cols-[260px_minmax(0,1fr)]">
       <aside className="space-y-3">
         <div className="flex items-center justify-between">
-          <h2 className="font-mono text-[11px] uppercase tracking-wider text-zinc-500">Bundles</h2>
+          <h2 className="text-xs font-medium text-zinc-500">Bundles</h2>
           <Button size="sm" variant="outline" className="h-7 px-2" onClick={() => void createBundle('Untitled')}>
             <Plus className="h-3 w-3" />
           </Button>
@@ -67,9 +67,7 @@ export function WorkspaceRoute() {
           ))}
         </ul>
         <div className="pt-4">
-          <h3 className="mb-2 font-mono text-[11px] uppercase tracking-wider text-zinc-500">
-            Combo templates
-          </h3>
+          <h3 className="mb-2 text-xs font-medium text-zinc-500">Combo templates</h3>
           <ul className="space-y-1">
             {COMBO_TEMPLATES.map((c) => (
               <li key={c.id}>
@@ -121,7 +119,7 @@ export function WorkspaceRoute() {
                   </form>
                 ) : (
                   <h1
-                    className="cursor-text font-serif text-3xl font-medium tracking-tight"
+                    className="cursor-text text-4xl font-semibold leading-tight tracking-tight md:text-5xl"
                     onDoubleClick={() => {
                       setTempName(bundle.name);
                       setRenaming(true);
@@ -130,8 +128,8 @@ export function WorkspaceRoute() {
                     {bundle.name}
                   </h1>
                 )}
-                <p className="mt-1 text-xs text-zinc-500 dark:text-zinc-400">
-                  {bundle.entities.length} entit{bundle.entities.length === 1 ? 'y' : 'ies'} • slug{' '}
+                <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
+                  {bundle.entities.length} entit{bundle.entities.length === 1 ? 'y' : 'ies'} · slug{' '}
                   <code>{bundle.slug}</code>
                 </p>
               </div>
@@ -172,10 +170,8 @@ export function WorkspaceRoute() {
               </div>
             </header>
 
-            <div className="mb-8 rounded-md border border-zinc-200 p-4 dark:border-zinc-800">
-              <h3 className="mb-3 font-mono text-[11px] uppercase tracking-wider text-zinc-500">
-                Bundle settings
-              </h3>
+            <div className="mb-10 rounded-xl border border-zinc-200 p-5 dark:border-zinc-800">
+              <h3 className="mb-3 text-xs font-medium text-zinc-500">Bundle settings</h3>
               <div className="grid gap-3 md:grid-cols-2">
                 <div>
                   <Label className="text-xs">Production URL prefix</Label>
@@ -193,9 +189,7 @@ export function WorkspaceRoute() {
               </div>
             </div>
 
-            <h3 className="mb-3 font-mono text-[11px] uppercase tracking-wider text-zinc-500">
-              Entities
-            </h3>
+            <h3 className="mb-3 text-xs font-medium text-zinc-500">Entities</h3>
             {bundle.entities.length === 0 ? (
               <div className="rounded-md border border-dashed border-zinc-300 p-6 text-sm text-zinc-600 dark:border-zinc-700 dark:text-zinc-400">
                 <p>No entities yet. Build one in the Generator and click "Save to Workspace", or

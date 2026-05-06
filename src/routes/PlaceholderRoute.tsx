@@ -1,4 +1,3 @@
-/** Used for Generator/Workspace/Export routes until those phases land. */
 export function PlaceholderRoute({
   title,
   phase,
@@ -9,12 +8,14 @@ export function PlaceholderRoute({
   description: string;
 }) {
   return (
-    <div className="mx-auto max-w-2xl px-8 py-24">
-      <p className="font-mono text-xs uppercase tracking-widest text-zinc-500">{phase}</p>
-      <h1 className="mt-1 font-serif text-4xl font-medium leading-tight tracking-tight">
+    <div className="mx-auto max-w-2xl px-6 py-32">
+      <p className="text-sm font-medium text-[var(--color-accent)]">{phase}</p>
+      <h1 className="mt-2 text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
         {title}
       </h1>
-      <p className="mt-4 text-zinc-700 dark:text-zinc-300">{description}</p>
+      <p className="mt-5 text-base leading-relaxed text-zinc-700 dark:text-zinc-300">
+        {description}
+      </p>
     </div>
   );
 }

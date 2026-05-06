@@ -1,7 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { DetailHeader } from '@/components/DetailHeader';
 import { PlaceholderSection } from '@/components/PlaceholderSection';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useDataset } from '@/hooks/useDataset';
 import { bareName, pathForTerm, toSchemaId } from '@/lib/routing';
 
@@ -13,9 +12,9 @@ export function PropertyDetailRoute() {
 
   if (!term || term.kind !== 'Property') {
     return (
-      <div className="mx-auto max-w-2xl px-8 py-24 text-center">
-        <p className="font-mono text-xs uppercase tracking-widest text-zinc-500">404</p>
-        <h1 className="mt-2 font-serif text-3xl font-medium">Property not found</h1>
+      <div className="mx-auto max-w-2xl px-6 py-32 text-center">
+        <p className="text-sm font-medium text-zinc-500">404</p>
+        <h1 className="mt-2 text-3xl font-semibold tracking-tight">Property not found</h1>
         <p className="mt-3 text-zinc-700 dark:text-zinc-300">
           No property in the dataset for{' '}
           <span className="font-mono">{rawId ?? '(missing id)'}</span>.
@@ -30,19 +29,16 @@ export function PropertyDetailRoute() {
   const domains = term.domainIncludes
     .map((id) => dataset.termsById[id])
     .filter((t): t is import('@/types/schema-org').SchemaType => t?.kind === 'Type' || t?.kind === 'Enumeration');
-  const ranges = term.rangeIncludes
-    .map((id) => ({ id, term: dataset.termsById[id] }));
+  const ranges = term.rangeIncludes.map((id) => ({ id, term: dataset.termsById[id] }));
 
   return (
-    <article className="mx-auto max-w-4xl px-8 py-12">
+    <article className="mx-auto max-w-[1240px] px-6 py-16 md:py-24">
       <DetailHeader term={term} kindLabel="Property" />
 
-      <section className="mt-10 grid gap-4 md:grid-cols-2">
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-base font-medium">Used on (domain)</CardTitle>
-          </CardHeader>
-          <CardContent>
+      <section className="mt-16 grid gap-5 md:grid-cols-2">
+        <div className="rounded-xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-950">
+          <h2 className="text-base font-semibold tracking-tight">Used on (domain)</h2>
+          <div className="mt-4">
             {domains.length === 0 ? (
               <p className="text-sm text-zinc-600 dark:text-zinc-400">
                 No in-scope domain types — likely inherited from a core type.
@@ -53,7 +49,7 @@ export function PropertyDetailRoute() {
                   <li key={t.id}>
                     <Link
                       to={pathForTerm(t.id, t.kind)}
-                      className="inline-block rounded-md border border-zinc-200 bg-white px-2 py-0.5 text-xs text-zinc-800 hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-200"
+                      className="inline-block rounded-md border border-zinc-200 bg-white px-2 py-1 text-xs text-zinc-800 hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-200"
                     >
                       {bareName(t.id)}
                     </Link>
@@ -61,46 +57,44 @@ export function PropertyDetailRoute() {
                 ))}
               </ul>
             )}
-          </CardContent>
-        </Card>
+          </div>
+        </div>
 
-        <Card>
-          <CardHeader className="pb-2">
-            <CardTitle className="text-base font-medium">Expected values (range)</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <ul className="flex flex-wrap gap-1.5">
-              {ranges.map(({ id: rId, term: r }) => {
-                const name = bareName(rId);
-                if (r && (r.kind === 'Type' || r.kind === 'Enumeration')) {
-                  return (
-                    <li key={rId}>
-                      <Link
-                        to={pathForTerm(r.id, r.kind)}
-                        className="inline-block rounded-md border border-zinc-200 bg-white px-2 py-0.5 text-xs text-zinc-800 hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-200"
-                      >
-                        {name}
-                      </Link>
-                    </li>
-                  );
-                }
+        <div className="rounded-xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-950">
+          <h2 className="text-base font-semibold tracking-tight">Expected values (range)</h2>
+          <ul className="mt-4 flex flex-wrap gap-1.5">
+            {ranges.map(({ id: rId, term: r }) => {
+              const name = bareName(rId);
+              if (r && (r.kind === 'Type' || r.kind === 'Enumeration')) {
                 return (
                   <li key={rId}>
-                    <span className="inline-block rounded-md border border-dashed border-zinc-300 px-2 py-0.5 text-xs text-zinc-600 dark:border-zinc-700 dark:text-zinc-400">
+                    <Link
+                      to={pathForTerm(r.id, r.kind)}
+                      className="inline-block rounded-md border border-zinc-200 bg-white px-2 py-1 text-xs text-zinc-800 hover:border-zinc-400 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-200"
+                    >
                       {name}
-                    </span>
+                    </Link>
                   </li>
                 );
-              })}
-            </ul>
-          </CardContent>
-        </Card>
+              }
+              return (
+                <li key={rId}>
+                  <span className="inline-block rounded-md border border-dashed border-zinc-300 px-2 py-1 text-xs text-zinc-600 dark:border-zinc-700 dark:text-zinc-400">
+                    {name}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </section>
 
-      <PlaceholderSection
-        title="Example in context"
-        hint="A short JSON-LD snippet showing this property in use within its primary parent type's example. Phase 3 generates from the parent's reference example."
-      />
+      <div className="mt-16">
+        <PlaceholderSection
+          title="Example in context"
+          hint="A short JSON-LD snippet showing this property in use within its primary parent type's example."
+        />
+      </div>
     </article>
   );
 }

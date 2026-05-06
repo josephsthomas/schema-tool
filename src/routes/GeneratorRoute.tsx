@@ -66,51 +66,53 @@ export function GeneratorRoute() {
   }
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-8">
-      <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
+    <div className="mx-auto max-w-[1240px] px-6 py-12 md:py-16">
+      <header className="mb-10 flex flex-wrap items-end justify-between gap-6">
         <div>
-          <h1 className="font-serif text-3xl font-medium tracking-tight">Generator</h1>
-          <p className="mt-1 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400">
-            Pick a Type, fill its required + recommended fields, copy valid JSON-LD. The Generator
-            does not analyze or sanitize your content — editorial and MLR review remain your job.
+          <p className="text-sm font-medium text-[var(--color-accent)]">Generator</p>
+          <h1 className="mt-2 text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
+            Build valid JSON-LD
+          </h1>
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+            Pick a type, fill its required and optional fields, copy or download valid JSON-LD.
+            The Generator does not analyze or sanitize your content — editorial and MLR review
+            remain your job.
           </p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-2">
           {currentType && (
             <Link
               to={pathForTerm(currentType.id, currentType.kind)}
-              className="text-sm text-zinc-700 underline hover:text-zinc-900 dark:text-zinc-300"
+              className="text-sm text-zinc-700 underline-offset-4 hover:underline dark:text-zinc-300"
             >
               View {bareName(currentType.id)} reference
             </Link>
           )}
-          <Button variant="outline" size="sm" onClick={() => setState((s) => ({ ...s, entries: {} }))}>
+          <Button variant="outline" size="default" onClick={() => setState((s) => ({ ...s, entries: {} }))}>
             Clear fields
           </Button>
           <Button
-            variant="accent"
-            size="sm"
+            variant="pill"
+            size="default"
             onClick={() => void saveToWorkspace()}
             disabled={!bundle}
             title={bundle ? undefined : 'Open Workspace to create a bundle first'}
           >
-            <Save className="mr-1 h-3 w-3" />
+            <Save className="mr-1.5 h-3.5 w-3.5" />
             Save to Workspace
           </Button>
         </div>
       </header>
       {savedToast && (
-        <div className="mb-4 rounded-md border border-zinc-300 bg-zinc-50 px-3 py-2 text-xs text-zinc-700 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200">
+        <div className="mb-6 rounded-md border border-zinc-300 bg-zinc-50 px-4 py-2 text-sm text-zinc-700 dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200">
           {savedToast}
         </div>
       )}
 
-      <div className="grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
+      <div className="grid gap-10 lg:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
         <section>
-          <div className="mb-4">
-            <label className="mb-1 block text-xs font-medium uppercase tracking-wider text-zinc-500">
-              Type
-            </label>
+          <div className="mb-6">
+            <label className="mb-1.5 block text-sm font-medium">Type</label>
             <Select
               className="w-full max-w-md"
               value={state.rootTypeId}
@@ -127,17 +129,15 @@ export function GeneratorRoute() {
           {currentType ? (
             <FormFromType type={currentType} state={state} onChange={setState} />
           ) : (
-            <p className="text-sm text-zinc-600 dark:text-zinc-400">Pick a Type to begin.</p>
+            <p className="text-sm text-zinc-600 dark:text-zinc-400">Pick a type to begin.</p>
           )}
         </section>
 
-        <aside className="space-y-4 lg:sticky lg:top-6 lg:self-start">
+        <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
           <JsonLdPreview value={jsonld} />
-          <div className="rounded-md border border-zinc-200 p-3 text-xs dark:border-zinc-800">
+          <div className="rounded-lg border border-zinc-200 p-4 text-xs dark:border-zinc-800">
             <div className="flex items-center gap-2">
-              <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-500">
-                Validation
-              </span>
+              <span className="text-xs font-medium text-zinc-500">Validation</span>
               {errors.length === 0 && warnings.length === 0 ? (
                 <Badge variant="outline" className="text-[10px]">
                   OK
@@ -150,7 +150,7 @@ export function GeneratorRoute() {
                     </Badge>
                   )}
                   {warnings.length > 0 && (
-                    <Badge variant="outline" className="text-[10px]">
+                    <Badge variant="warning" className="text-[10px]">
                       {warnings.length} warning{warnings.length === 1 ? '' : 's'}
                     </Badge>
                   )}
@@ -158,7 +158,7 @@ export function GeneratorRoute() {
               )}
             </div>
             {issues.length > 0 && (
-              <ul className="mt-2 space-y-1">
+              <ul className="mt-3 space-y-1.5">
                 {issues.map((iss, i) => (
                   <li
                     key={i}

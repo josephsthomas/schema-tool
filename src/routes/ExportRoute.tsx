@@ -65,20 +65,21 @@ export function ExportRoute() {
   }
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-8">
-      <header className="mb-6">
-        <h1 className="font-serif text-3xl font-medium tracking-tight">Export</h1>
-        <p className="mt-1 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400">
-          Download a ZIP for bundle <strong>{bundle.name}</strong>. Contains combined JSON-LD,
-          per-entity files, an inline-snippet HTML, canonical references, validation report, and a
-          README with placement guidance.
+    <div className="mx-auto max-w-[1240px] px-6 py-12 md:py-16">
+      <header className="mb-12">
+        <p className="text-sm font-medium text-[var(--color-accent)]">Export</p>
+        <h1 className="mt-2 text-4xl font-semibold leading-tight tracking-tight md:text-5xl">
+          Download a deploy-ready ZIP
+        </h1>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+          For bundle <strong>{bundle.name}</strong>. Contains combined JSON-LD, per-entity files,
+          an inline-snippet HTML, canonical references, validation report, and a README with
+          placement guidance.
         </p>
       </header>
 
-      <div className="mb-6 rounded-md border border-zinc-200 p-4 dark:border-zinc-800">
-        <h3 className="mb-3 font-mono text-[11px] uppercase tracking-wider text-zinc-500">
-          Export settings
-        </h3>
+      <div className="mb-8 rounded-xl border border-zinc-200 p-6 dark:border-zinc-800">
+        <h3 className="mb-4 text-xs font-medium text-zinc-500">Export settings</h3>
         <div className="grid gap-4 md:grid-cols-2">
           <div>
             <Label className="text-xs">Production URL prefix</Label>
@@ -107,11 +108,9 @@ export function ExportRoute() {
         </div>
       </div>
 
-      <div className="mb-6 rounded-md border border-zinc-200 p-4 dark:border-zinc-800">
+      <div className="mb-8 rounded-xl border border-zinc-200 p-6 dark:border-zinc-800">
         <div className="mb-3 flex items-center justify-between">
-          <h3 className="font-mono text-[11px] uppercase tracking-wider text-zinc-500">
-            Validation
-          </h3>
+          <h3 className="text-xs font-medium text-zinc-500">Validation</h3>
           {totalErrors === 0 && totalWarnings === 0 ? (
             <Badge variant="outline" className="text-[10px]">
               <CheckCircle2 className="mr-1 inline h-3 w-3" /> OK
@@ -149,8 +148,8 @@ export function ExportRoute() {
       </div>
 
       <div className="flex items-center gap-3">
-        <Button onClick={onExport} disabled={busy || bundle.entities.length === 0} variant="accent">
-          <FileDown className="mr-1 h-3 w-3" />
+        <Button onClick={onExport} disabled={busy || bundle.entities.length === 0} variant="pill" size="default">
+          <FileDown className="mr-1.5 h-3.5 w-3.5" />
           {busy ? 'Building ZIP…' : `Download ${bundle.slug || 'bundle'}-schema-bundle.zip`}
         </Button>
         {lastFile && (

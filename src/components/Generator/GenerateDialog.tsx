@@ -80,7 +80,7 @@ export function GenerateDialog({ type, trigger }: GenerateDialogProps) {
       <DialogTrigger asChild>{trigger}</DialogTrigger>
       <DialogContent className="grid w-[min(96vw,1200px)] max-w-none grid-rows-[auto_minmax(0,1fr)_auto] gap-0 p-0 sm:rounded-lg max-h-[92vh]">
         <DialogHeader className="border-b border-zinc-200 px-6 py-4 dark:border-zinc-800">
-          <DialogTitle className="font-serif text-xl">
+          <DialogTitle className="text-xl font-semibold tracking-tight">
             Generate {bareName(type.id)}
           </DialogTitle>
           <DialogDescription>
@@ -98,9 +98,7 @@ export function GenerateDialog({ type, trigger }: GenerateDialogProps) {
               <JsonLdPreview value={jsonld} />
               <div className="rounded-md border border-zinc-200 bg-white p-3 text-xs dark:border-zinc-800 dark:bg-zinc-950">
                 <div className="flex items-center gap-2">
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-500">
-                    Validation
-                  </span>
+                  <span className="text-xs font-medium text-zinc-500">Validation</span>
                   {errors.length === 0 && warnings.length === 0 ? (
                     <Badge variant="outline" className="text-[10px]">
                       <CheckCircle2 className="mr-1 inline h-3 w-3" /> OK

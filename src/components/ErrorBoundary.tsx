@@ -29,10 +29,8 @@ export class ErrorBoundary extends Component<Props, State> {
     if (this.props.fallback) return this.props.fallback;
     return (
       <div className="mx-auto max-w-2xl px-6 py-16 text-center">
-        <p className="font-mono text-xs uppercase tracking-widest text-red-700 dark:text-red-400">
-          Error
-        </p>
-        <h1 className="mt-2 font-serif text-2xl font-medium">Something went wrong rendering this view.</h1>
+        <p className="text-sm font-medium text-red-700 dark:text-red-400">Error</p>
+        <h1 className="mt-2 text-2xl font-semibold tracking-tight">Something went wrong rendering this view.</h1>
         {this.state.message && (
           <p className="mt-3 font-mono text-xs text-zinc-600 dark:text-zinc-400">
             {this.state.message}

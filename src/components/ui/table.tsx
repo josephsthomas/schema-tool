@@ -51,7 +51,7 @@ export const TableHead = forwardRef<HTMLTableCellElement, ThHTMLAttributes<HTMLT
     <th
       ref={ref}
       className={cn(
-        'h-10 px-3 text-left align-middle text-xs font-medium uppercase tracking-wider text-zinc-500 [&:has([role=checkbox])]:pr-0 dark:text-zinc-400',
+        'h-10 px-3 text-left align-middle text-xs font-semibold text-zinc-600 [&:has([role=checkbox])]:pr-0 dark:text-zinc-400',
         className,
       )}
       {...props}

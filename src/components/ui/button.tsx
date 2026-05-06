@@ -12,12 +12,15 @@ const buttonVariants = cva(
         outline: 'border border-zinc-200 bg-white hover:bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-900',
         ghost: 'hover:bg-zinc-100 dark:hover:bg-zinc-900',
         link: 'text-zinc-900 underline-offset-4 hover:underline dark:text-zinc-100',
-        accent: 'bg-[oklch(0.45_0.07_200)] text-white hover:bg-[oklch(0.40_0.07_200)]',
+        accent:
+          'bg-[var(--color-accent)] text-[var(--color-accent-fg)] hover:bg-[var(--color-accent-hover)]',
+        pill:
+          'h-10 rounded-full px-5 bg-[var(--color-accent)] text-[var(--color-accent-fg)] hover:bg-[var(--color-accent-hover)] font-semibold',
       },
       size: {
-        default: 'h-9 px-4 py-2',
+        default: 'h-10 px-5 py-2',
         sm: 'h-8 rounded-md px-3 text-xs',
-        lg: 'h-10 px-8',
+        lg: 'h-11 px-8',
         icon: 'h-9 w-9',
       },
     },
