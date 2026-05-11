@@ -1,5 +1,5 @@
 {
-  "verification": "verified",
+  "verification": "flagged",
   "sources": [
     {
       "url": "https://www.cdc.gov/physical-activity-basics/about/index.html",
@@ -58,6 +58,5 @@
       ]
     }
   ],
-  "verifiedBy": "joseph@jsthomas.org",
-  "verifiedAt": "2026-05-05T23:25:41.635Z"
+  "flaggedReason": "Source audit: https://www.cdc.gov/physical-activity-basics/adults/index.html unreachable"
 }
